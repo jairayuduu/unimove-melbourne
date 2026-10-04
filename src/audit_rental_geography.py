@@ -136,3 +136,37 @@ print(
     "Boundary-verified rental areas:",
     audit["boundary_equivalence_verified"].sum(),
 )
+
+unresolved = audit.loc[
+    audit["match_status"].eq("unmatched_name"),
+    ["source_region", "source_area"],
+].copy()
+
+unresolved["review_type"] = unresolved["source_area"].map(
+    lambda name: (
+        "hyphenated_label_review"
+        if "-" in name
+        else "broader_area_review"
+    )
+)
+unresolved["review_status"] = "pending"
+unresolved["evidence_reference"] = ""
+unresolved["review_notes"] = ""
+
+unresolved = unresolved.sort_values(
+    ["review_type", "source_region", "source_area"]
+)
+
+review_path = (
+    PROJECT_ROOT / "docs" / "rental_area_review_queue.csv"
+)
+
+# Preserve manual notes on subsequent runs.
+if not review_path.exists():
+    unresolved.to_csv(review_path, index=False)
+    print("\nReview queue created:", review_path)
+else:
+    print("\nExisting review queue retained:", review_path)
+
+print("\nUnresolved label types:")
+print(unresolved["review_type"].value_counts().to_string())

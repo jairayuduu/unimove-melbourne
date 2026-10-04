@@ -106,3 +106,25 @@ Source boundaries and pooled-area membership require further
 
 verification before claiming geographic equivalence.
 
+
+
+\## Unresolved-area review queue
+
+
+
+docs/rental\_area\_review\_queue.csv tracks 49 unresolved areas:
+
+48 hyphenated labels and one broader-area label, Yarra Ranges.
+
+
+
+Hyphenated labels are not automatically split into component
+
+suburbs. Membership requires supporting source evidence.
+
+
+
+The audit script preserves an existing queue so subsequent
+
+runs do not overwrite manual review notes.
+
