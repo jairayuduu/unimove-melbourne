@@ -150,3 +150,51 @@ The audit does not yet establish identical geographic definitions
 
 across sheets or explain why individual values are unpublished.
 
+
+
+\## All properties transformation
+
+
+
+Script: src/clean\_rent.py
+
+Output: data/interim/rent\_all\_properties.csv
+
+
+
+\- Converted the wide worksheet into 15,038 detail observations.
+
+\- Observation key: source region, source area, dwelling category
+
+&#x20; and moving annual period end.
+
+\- Filled region labels downward.
+
+\- Excluded regional totals from the detail output.
+
+\- Preserved original count and median values in raw-value columns.
+
+\- Converted dash markers to missing numeric values.
+
+\- Recorded rolling annual period start and end dates.
+
+\- Validated key uniqueness, geographic labels and output row count.
+
+
+
+Results:
+
+\- 146 rental areas across 103 reporting periods.
+
+\- Seven unavailable lease counts and seven unavailable medians.
+
+
+
+Remaining checks:
+
+\- Confirm whether missing counts and medians occur together.
+
+\- Check numeric ranges and compare selected observations directly
+
+&#x20; against the source workbook.
+
