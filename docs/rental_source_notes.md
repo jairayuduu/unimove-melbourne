@@ -312,3 +312,43 @@ counts alongside the individual dwelling-category counts.
 
 Matching area labels do not establish equivalence with ABS boundaries.
 
+
+
+
+
+
+
+\## Latest-period coverage
+
+
+
+Latest endpoint: 30 September 2025.
+
+
+
+Across all 146 workbook rental areas:
+
+\- One-bedroom flats have the lowest publication coverage:
+
+&#x20; 131 published medians, or 89.7%.
+
+\- All properties has published medians for all 146 areas.
+
+\- Missing counts and medians align across all categories
+
+&#x20; throughout the complete history.
+
+
+
+The source-region breakdown identifies 110 areas in nine
+
+Melbourne-labelled regions and 36 in regional Victoria.
+
+Publisher regions are not yet verified against ABS boundaries.
+
+
+
+Publication coverage measures available statistics, not
+
+properties currently available to rent.
+

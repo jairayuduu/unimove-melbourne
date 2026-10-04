@@ -48,9 +48,21 @@ Use machine learning only where it addresses a justified analytical question.
 
 
 
-Local Python and Git installations verified.
+\- Python environment and dependencies configured.
 
-Repository initialised. Data processing and application development
+\- Official rental workbook inspected and audited.
 
-have not yet been implemented in this repository.
+\- Reproducible cleaning pipeline implemented for seven categories.
+
+\- 105,266 detail observations generated.
+
+\- Selected observations validated against original Excel cells.
+
+\- Latest-period publication coverage analysed.
+
+
+
+Melbourne filtering, geographic joins, SQL modelling,
+
+recommendations, Tableau and Streamlit remain planned.
 

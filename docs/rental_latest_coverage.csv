@@ -1,0 +1,8 @@
+dwelling_category,area_rows,published_medians,unavailable_medians,published_pct,unpaired_missing_all_periods,period_end,scope
+1 bedroom flat,146,131,15,89.7,0,2025-09-30,All workbook rental areas
+2 bedroom flat,146,145,1,99.3,0,2025-09-30,All workbook rental areas
+3 bedroom flat,146,136,10,93.2,0,2025-09-30,All workbook rental areas
+2 bedroom house,146,141,5,96.6,0,2025-09-30,All workbook rental areas
+3 bedroom house,146,143,3,97.9,0,2025-09-30,All workbook rental areas
+4 bedroom house,146,140,6,95.9,0,2025-09-30,All workbook rental areas
+All properties,146,146,0,100.0,0,2025-09-30,All workbook rental areas
