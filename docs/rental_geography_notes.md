@@ -68,3 +68,41 @@ No rental-to-suburb analytical join has been approved by
 
 this audit alone.
 
+
+
+\## Publisher methodology review
+
+
+
+Reviewed: Homes Victoria Rental Report, September quarter 2025.
+
+
+
+Explanatory note 5 states that rental suburbs and towns derive
+
+from Victorian gazetted localities. Adjacent suburbs with
+
+similar housing-market characteristics may be aggregated
+
+into synthetic suburbs to support regular median reporting.
+
+
+
+The report explicitly classifies Mornington Peninsula as
+
+metropolitan, supporting its inclusion in our rental scope.
+
+
+
+The report does not supply a complete correspondence between
+
+rental areas and ABS 2021 SAL codes. Existing name and alias
+
+links therefore remain candidates.
+
+
+
+Source boundaries and pooled-area membership require further
+
+verification before claiming geographic equivalence.
+

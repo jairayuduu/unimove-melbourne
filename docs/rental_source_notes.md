@@ -390,3 +390,33 @@ Region inclusion decisions are maintained in
 
 config/rental\_region\_scope.csv.
 
+
+
+\## Missing-value methodology
+
+
+
+Explanatory note 10 of the September quarter 2025 report
+
+limits published medians to cells with at least 10 cases.
+
+
+
+Unavailable values can represent no lettings or fewer than
+
+10 lettings in the relevant reporting period. The exact
+
+underlying count cannot be recovered from an unavailable cell.
+
+
+
+The workbook uses dashes for unavailable values. These remain
+
+missing in the cleaned data and are never converted to zero.
+
+
+
+The report's note describes cells with no data; it does not
+
+separately define the workbook dash symbol.
+
