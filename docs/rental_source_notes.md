@@ -56,11 +56,45 @@ Pooled rental areas must retain their original geographic meaning.
 
 
 
+\## All properties audit results
+
+
+
+\- Worksheet dimensions: 162 rows and 208 columns.
+
+\- 103 reporting endpoints, from March 2000 to September 2025.
+
+\- Each endpoint has matching Count and Median headers.
+
+\- 146 rental-area rows and 13 regional total rows.
+
+\- No repeated detail-area labels within this sheet.
+
+\- No blank metric cells; 14 cells contain a dash.
+
+\- The dash is the only text marker found in the metric cells.
+
+
+
+\## Transformation decisions
+
+
+
+\- Keep regional totals separate from rental-area observations.
+
+\- Preserve dash markers as unavailable values, not zero.
+
+\- Retain pooled rental-area names.
+
+\- Preserve dwelling category and moving annual period definitions.
+
+
+
 \## Checks still required
 
 
 
-Verify the full date range, missing-value markers, duplicate area
+Audit the other six worksheets and confirm the publisher's
 
-labels and regional total rows before transforming the data.
+meaning of dash markers and rental-area geographic definitions..
 
