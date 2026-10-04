@@ -248,3 +248,67 @@ Historical summaries mix reporting periods and rental areas.
 
 The average of their medians is not a current market rent estimate.
 
+
+
+
+
+
+
+\## Cleaning pipeline extended to all categories
+
+
+
+Refactored the cleaner into a reusable clean\_sheet function.
+
+
+
+Output: data/interim/rent\_all\_categories.csv
+
+
+
+\- Seven categories, each containing 15,038 detail observations.
+
+\- Combined output contains 105,266 observations.
+
+\- Region/area label sets are identical across categories.
+
+\- No duplicate observation keys.
+
+\- Geographic labels are populated.
+
+\- Published counts are nonnegative and medians are positive.
+
+\- Existing All properties source comparisons still pass.
+
+
+
+Unavailable counts and medians per category:
+
+\- 1 bedroom flat: 1,239 each
+
+\- 2 bedroom flat: 141 each
+
+\- 3 bedroom flat: 786 each
+
+\- 2 bedroom house: 666 each
+
+\- 3 bedroom house: 325 each
+
+\- 4 bedroom house: 703 each
+
+\- All properties: 7 each
+
+
+
+Equal missing-value totals do not establish row-level alignment.
+
+That alignment remains to be checked for the other six categories.
+
+
+
+All properties is an aggregate category. Do not sum its lease
+
+counts alongside the individual dwelling-category counts.
+
+Matching area labels do not establish equivalence with ABS boundaries.
+
