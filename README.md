@@ -72,3 +72,13 @@ recommendations, Tableau and Streamlit remain planned.
 
 \- Latest rental snapshot filtered and publication coverage assessed.
 
+
+
+
+
+
+
+\- 2021 suburb geography foundation generated: 572 unique SAL codes.
+
+\- Melbourne scope rule documented and substantial boundary crossings flagged.
+
