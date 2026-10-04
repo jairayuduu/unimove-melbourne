@@ -198,3 +198,53 @@ Remaining checks:
 
 &#x20; against the source workbook.
 
+
+
+
+
+
+
+
+
+\## All properties validation
+
+
+
+\- Seven observations have both count and median unavailable.
+
+\- All seven belong to Docklands, at early reporting endpoints
+
+&#x20; between March 2000 and December 2001.
+
+\- No observation has only one of those values missing.
+
+\- All published lease counts are nonnegative.
+
+\- All published rental medians are positive.
+
+\- Published lease counts range from 10 to 17,354.
+
+\- Published weekly rental medians range from AUD 90 to AUD 868.
+
+
+
+Direct workbook comparisons passed for:
+
+\- Armadale, March 2000.
+
+\- Clayton, September 2025.
+
+\- Docklands, March 2000, including missing-value handling.
+
+
+
+These spot checks support the selected observations; they do not
+
+verify every source cell or establish geographic equivalence.
+
+
+
+Historical summaries mix reporting periods and rental areas.
+
+The average of their medians is not a current market rent estimate.
+
