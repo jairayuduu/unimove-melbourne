@@ -1,0 +1,8 @@
+sheet,rows,columns,periods,first_period,last_period,rental_areas,regional_totals,repeated_detail_labels,blank_cells,dash_cells,dates_paired,metrics_alternate,unexpected_markers
+1 bedroom flat,162,208,103,Mar 2000,Sep 2025,146,13,0,0,2478,True,True,
+2 bedroom flat,162,208,103,Mar 2000,Sep 2025,146,13,0,0,282,True,True,
+3 bedroom flat,162,208,103,Mar 2000,Sep 2025,146,13,0,0,1572,True,True,
+2 bedroom house,162,208,103,Mar 2000,Sep 2025,146,13,0,0,1332,True,True,
+3 bedroom house,162,208,103,Mar 2000,Sep 2025,146,13,0,0,650,True,True,
+4 bedroom house,162,208,103,Mar 2000,Sep 2025,146,13,0,0,1406,True,True,
+All properties,162,208,103,Mar 2000,Sep 2025,146,13,0,0,14,True,True,

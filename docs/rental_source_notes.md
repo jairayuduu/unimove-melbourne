@@ -98,3 +98,55 @@ Audit the other six worksheets and confirm the publisher's
 
 meaning of dash markers and rental-area geographic definitions..
 
+
+
+
+
+\## Full workbook audit
+
+
+
+All seven worksheets contain:
+
+\- 103 identical reporting endpoints: March 2000–September 2025.
+
+\- 146 rental-area rows and 13 regional total rows.
+
+\- Correctly paired Count/Median headers.
+
+\- No repeated detail labels within each worksheet.
+
+\- No blank metric cells or unexpected text markers.
+
+
+
+Dash-cell counts:
+
+\- 1 bedroom flat: 2,478
+
+\- 2 bedroom flat: 282
+
+\- 3 bedroom flat: 1,572
+
+\- 2 bedroom house: 1,332
+
+\- 3 bedroom house: 650
+
+\- 4 bedroom house: 1,406
+
+\- All properties: 14
+
+
+
+Missingness varies by dwelling category. These counts include
+
+regional totals and all reporting periods; they do not measure
+
+latest-period suburb coverage.
+
+
+
+The audit does not yet establish identical geographic definitions
+
+across sheets or explain why individual values are unpublished.
+
