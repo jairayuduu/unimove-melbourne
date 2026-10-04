@@ -1,0 +1,111 @@
+source_region,source_area,name_key,sal_code,suburb_name,match_status,boundary_equivalence_verified
+Inner Melbourne,Albert Park-Middle Park-West St Kilda,albert park middle park west st kilda,,,unmatched_name,False
+Inner Melbourne,Armadale,armadale,20066,Armadale (Vic.),name_match_candidate,False
+Inner Melbourne,Carlton North,carlton north,20496,Carlton North,name_match_candidate,False
+Inner Melbourne,Carlton-Parkville,carlton parkville,,,unmatched_name,False
+Inner Melbourne,CBD-St Kilda Rd,cbd st kilda rd,,,unmatched_name,False
+Inner Melbourne,Collingwood-Abbotsford,collingwood abbotsford,,,unmatched_name,False
+Inner Melbourne,Docklands,docklands,20766,Docklands,name_match_candidate,False
+Inner Melbourne,East Melbourne,east melbourne,20830,East Melbourne,name_match_candidate,False
+Inner Melbourne,East St Kilda,east st kilda,22344,St Kilda East,alias_match_candidate,False
+Inner Melbourne,Elwood,elwood,20867,Elwood,name_match_candidate,False
+Inner Melbourne,Fitzroy,fitzroy,20924,Fitzroy (Vic.),name_match_candidate,False
+Inner Melbourne,Fitzroy North-Clifton Hill,fitzroy north clifton hill,,,unmatched_name,False
+Inner Melbourne,Flemington-Kensington,flemington kensington,,,unmatched_name,False
+Inner Melbourne,North Melbourne-West Melbourne,north melbourne west melbourne,,,unmatched_name,False
+Inner Melbourne,Port Melbourne,port melbourne,22107,Port Melbourne,name_match_candidate,False
+Inner Melbourne,Prahran-Windsor,prahran windsor,,,unmatched_name,False
+Inner Melbourne,Richmond-Burnley,richmond burnley,,,unmatched_name,False
+Inner Melbourne,South Melbourne,south melbourne,22310,South Melbourne,name_match_candidate,False
+Inner Melbourne,South Yarra,south yarra,22314,South Yarra,name_match_candidate,False
+Inner Melbourne,Southbank,southbank,22315,Southbank,name_match_candidate,False
+Inner Melbourne,St Kilda,st kilda,22343,St Kilda (Vic.),name_match_candidate,False
+Inner Melbourne,Toorak,toorak,22547,Toorak,name_match_candidate,False
+Inner Eastern Melbourne,Balwyn,balwyn,20123,Balwyn,name_match_candidate,False
+Inner Eastern Melbourne,Blackburn,blackburn,20252,Blackburn,name_match_candidate,False
+Inner Eastern Melbourne,Box Hill,box hill,20314,Box Hill (Vic.),name_match_candidate,False
+Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,bulleen templestowe doncaster,,,unmatched_name,False
+Inner Eastern Melbourne,Burwood-Ashburton,burwood ashburton,,,unmatched_name,False
+Inner Eastern Melbourne,Camberwell-Glen Iris,camberwell glen iris,,,unmatched_name,False
+Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,canterbury surrey hills mont albert,,,unmatched_name,False
+Inner Eastern Melbourne,Chadstone-Oakleigh,chadstone oakleigh,,,unmatched_name,False
+Inner Eastern Melbourne,Clayton,clayton,20569,Clayton,name_match_candidate,False
+Inner Eastern Melbourne,Doncaster East-Donvale,doncaster east donvale,,,unmatched_name,False
+Inner Eastern Melbourne,East Hawthorn,east hawthorn,21153,Hawthorn East,alias_match_candidate,False
+Inner Eastern Melbourne,Glen Waverley-Mulgrave,glen waverley mulgrave,,,unmatched_name,False
+Inner Eastern Melbourne,Hawthorn,hawthorn,21152,Hawthorn (Vic.),name_match_candidate,False
+Inner Eastern Melbourne,Kew,kew,21336,Kew (Vic.),name_match_candidate,False
+Inner Eastern Melbourne,Mount Waverley,mount waverley,21816,Mount Waverley,name_match_candidate,False
+Inner Eastern Melbourne,Nunawading-Mitcham,nunawading mitcham,,,unmatched_name,False
+Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,vermont forest hill burwood east,,,unmatched_name,False
+Southern Melbourne,Aspendale-Chelsea-Carrum,aspendale chelsea carrum,,,unmatched_name,False
+Southern Melbourne,Bentleigh,bentleigh,20214,Bentleigh,name_match_candidate,False
+Southern Melbourne,Brighton,brighton,20337,Brighton (Vic.),name_match_candidate,False
+Southern Melbourne,Brighton East,brighton east,20338,Brighton East,name_match_candidate,False
+Southern Melbourne,Carnegie,carnegie,20498,Carnegie,name_match_candidate,False
+Southern Melbourne,Caulfield,caulfield,20521,Caulfield,name_match_candidate,False
+Southern Melbourne,Cheltenham,cheltenham,20539,Cheltenham (Vic.),name_match_candidate,False
+Southern Melbourne,Elsternwick,elsternwick,20864,Elsternwick,name_match_candidate,False
+Southern Melbourne,Hampton-Beaumaris,hampton beaumaris,,,unmatched_name,False
+Southern Melbourne,Malvern,malvern,21586,Malvern (Vic.),name_match_candidate,False
+Southern Melbourne,Malvern East,malvern east,21587,Malvern East,name_match_candidate,False
+Southern Melbourne,Mentone-Parkdale-Mordialloc,mentone parkdale mordialloc,,,unmatched_name,False
+Southern Melbourne,Murrumbeena-Hughesdale,murrumbeena hughesdale,,,unmatched_name,False
+Outer Western Melbourne,Altona,altona,20035,Altona (Vic.),name_match_candidate,False
+Outer Western Melbourne,Footscray,footscray,20935,Footscray,name_match_candidate,False
+Outer Western Melbourne,Keilor East-Avondale Heights,keilor east avondale heights,,,unmatched_name,False
+Outer Western Melbourne,Melton,melton,21642,Melton (Vic.),name_match_candidate,False
+Outer Western Melbourne,Newport-Spotswood,newport spotswood,,,unmatched_name,False
+Outer Western Melbourne,St Albans-Deer Park,st albans deer park,,,unmatched_name,False
+Outer Western Melbourne,Sunshine,sunshine,22395,Sunshine (Vic.),name_match_candidate,False
+Outer Western Melbourne,Sydenham,sydenham,22414,Sydenham (Vic.),name_match_candidate,False
+Outer Western Melbourne,Werribee-Hoppers Crossing,werribee hoppers crossing,,,unmatched_name,False
+Outer Western Melbourne,West Footscray,west footscray,22756,West Footscray,name_match_candidate,False
+Outer Western Melbourne,Williamstown,williamstown,22792,Williamstown (Vic.),name_match_candidate,False
+Outer Western Melbourne,Yarraville-Seddon,yarraville seddon,,,unmatched_name,False
+North Western Melbourne,Broadmeadows-Roxburgh Park,broadmeadows roxburgh park,,,unmatched_name,False
+North Western Melbourne,Brunswick,brunswick,20361,Brunswick (Vic.),name_match_candidate,False
+North Western Melbourne,Coburg-Pascoe Vale South,coburg pascoe vale south,,,unmatched_name,False
+North Western Melbourne,Craigieburn,craigieburn,20661,Craigieburn,name_match_candidate,False
+North Western Melbourne,East Brunswick,east brunswick,20362,Brunswick East,alias_match_candidate,False
+North Western Melbourne,Essendon,essendon,20885,Essendon,name_match_candidate,False
+North Western Melbourne,Gladstone Park-Tullamarine,gladstone park tullamarine,,,unmatched_name,False
+North Western Melbourne,Keilor,keilor,21314,Keilor,name_match_candidate,False
+North Western Melbourne,Moonee Ponds-Ascot Vale,moonee ponds ascot vale,,,unmatched_name,False
+North Western Melbourne,Oak Park-Glenroy-Fawkner,oak park glenroy fawkner,,,unmatched_name,False
+North Western Melbourne,Pascoe Vale-Coburg North,pascoe vale coburg north,,,unmatched_name,False
+North Western Melbourne,Sunbury,sunbury,22391,Sunbury,name_match_candidate,False
+North Western Melbourne,West Brunswick,west brunswick,20363,Brunswick West,alias_match_candidate,False
+North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,bundoora greensborough hurstbridge,,,unmatched_name,False
+North Eastern Melbourne,Eltham-Research-Montmorency,eltham research montmorency,,,unmatched_name,False
+North Eastern Melbourne,Fairfield-Alphington,fairfield alphington,,,unmatched_name,False
+North Eastern Melbourne,Heidelberg-Heidelberg West,heidelberg heidelberg west,,,unmatched_name,False
+North Eastern Melbourne,Ivanhoe-Ivanhoe East,ivanhoe ivanhoe east,,,unmatched_name,False
+North Eastern Melbourne,Mill Park-Epping,mill park epping,,,unmatched_name,False
+North Eastern Melbourne,Northcote,northcote,21971,Northcote,name_match_candidate,False
+North Eastern Melbourne,Preston,preston,22121,Preston (Vic.),name_match_candidate,False
+North Eastern Melbourne,Reservoir,reservoir,22161,Reservoir (Vic.),name_match_candidate,False
+North Eastern Melbourne,Thomastown-Lalor,thomastown lalor,,,unmatched_name,False
+North Eastern Melbourne,Thornbury,thornbury,22508,Thornbury,name_match_candidate,False
+North Eastern Melbourne,Whittlesea,whittlesea,22775,Whittlesea,name_match_candidate,False
+Outer Eastern Melbourne,Bayswater,bayswater,20173,Bayswater (Vic.),name_match_candidate,False
+Outer Eastern Melbourne,Boronia,boronia,20304,Boronia,name_match_candidate,False
+Outer Eastern Melbourne,Croydon-Lilydale,croydon lilydale,,,unmatched_name,False
+Outer Eastern Melbourne,Ferntree Gully,ferntree gully,20917,Ferntree Gully,name_match_candidate,False
+Outer Eastern Melbourne,Ringwood,ringwood,22174,Ringwood (Vic.),name_match_candidate,False
+Outer Eastern Melbourne,Rowville,rowville,22207,Rowville,name_match_candidate,False
+Outer Eastern Melbourne,Wantirna-Scoresby,wantirna scoresby,,,unmatched_name,False
+Outer Eastern Melbourne,Yarra Ranges,yarra ranges,,,unmatched_name,False
+South Eastern Melbourne,Berwick,berwick,20224,Berwick,name_match_candidate,False
+South Eastern Melbourne,Cranbourne,cranbourne,20662,Cranbourne,name_match_candidate,False
+South Eastern Melbourne,Dandenong,dandenong,20707,Dandenong,name_match_candidate,False
+South Eastern Melbourne,Dandenong North-Endeavour Hills,dandenong north endeavour hills,,,unmatched_name,False
+South Eastern Melbourne,Narre Warren-Hampton Park,narre warren hampton park,,,unmatched_name,False
+South Eastern Melbourne,Noble Park,noble park,21952,Noble Park,name_match_candidate,False
+South Eastern Melbourne,Pakenham,pakenham,22027,Pakenham,name_match_candidate,False
+South Eastern Melbourne,Springvale,springvale,22328,Springvale (Vic.),name_match_candidate,False
+Mornington Peninsula,Dromana-Portsea,dromana portsea,,,unmatched_name,False
+Mornington Peninsula,Frankston,frankston,20947,Frankston,name_match_candidate,False
+Mornington Peninsula,Hastings-Flinders,hastings flinders,,,unmatched_name,False
+Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,mt eliza mornington mt martha,,,unmatched_name,False
+Mornington Peninsula,Seaford-Carrum Downs,seaford carrum downs,,,unmatched_name,False

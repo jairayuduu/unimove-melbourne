@@ -82,3 +82,11 @@ recommendations, Tableau and Streamlit remain planned.
 
 \- Melbourne scope rule documented and substantial boundary crossings flagged.
 
+
+
+\- 2021 Census population and derived 18–24 age profiles joined to all 572 suburbs.
+
+\- Rental geography audited: 61 candidate name links and 49 unresolved areas.
+
+\- Rental-to-ABS boundary equivalence remains unverified.
+
