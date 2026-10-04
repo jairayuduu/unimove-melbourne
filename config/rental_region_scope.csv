@@ -1,0 +1,14 @@
+source_region,include_in_melbourne_scope
+Ballarat,False
+Bendigo,False
+Geelong,False
+Inner Eastern Melbourne,True
+Inner Melbourne,True
+Mornington Peninsula,True
+North Eastern Melbourne,True
+North Western Melbourne,True
+Other Regional Centres,False
+Outer Eastern Melbourne,True
+Outer Western Melbourne,True
+South Eastern Melbourne,True
+Southern Melbourne,True

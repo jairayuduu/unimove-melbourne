@@ -66,3 +66,9 @@ Melbourne filtering, geographic joins, SQL modelling,
 
 recommendations, Tableau and Streamlit remain planned.
 
+
+
+\- Initial Melbourne rental scope configured: 110 publisher rental areas.
+
+\- Latest rental snapshot filtered and publication coverage assessed.
+

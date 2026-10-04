@@ -352,3 +352,41 @@ Publication coverage measures available statistics, not
 
 properties currently available to rent.
 
+
+
+
+
+\## Melbourne rental scope
+
+
+
+The initial project scope includes nine publisher rental regions,
+
+including Mornington Peninsula. Ballarat, Bendigo, Geelong and
+
+Other Regional Centres are excluded.
+
+
+
+The September 2025 snapshot contains 110 included rental areas
+
+and 770 area-category observations. These are publisher rental
+
+areas, which may pool multiple suburbs; this selection does not
+
+establish equivalence with ABS suburb boundaries.
+
+
+
+Published median coverage ranges from 90.0% for one-bedroom
+
+flats to 100.0% for All properties. Missing medians remain
+
+unavailable and are not replaced with zero.
+
+
+
+Region inclusion decisions are maintained in
+
+config/rental\_region\_scope.csv.
+
