@@ -1,12 +1,51 @@
 import pandas as pd
 import psycopg
 import streamlit as st
-
+from pathlib import Path
 st.set_page_config(page_title="UniMove Melbourne", layout="wide")
 
 st.title("UniMove Melbourne")
-st.write("Explore Melbourne rental areas within your weekly budget.")
+st.write("Choose your campus, then explore housing options.")
 
+PROJECT_ROOT = Path(__file__).resolve().parent
+campuses = pd.read_csv(PROJECT_ROOT / "config" / "campuses.csv")
+
+university = st.selectbox(
+    "University",
+    options=sorted(campuses["university_name"].unique()),
+    index=None,
+    placeholder="Select your university",
+)
+
+if university is None:
+    st.info("Select your university to get started.")
+    st.stop()
+
+university_campuses = campuses.loc[
+    campuses["university_name"].eq(university)
+]
+
+campus_name = st.selectbox(
+    "Campus",
+    options=university_campuses["campus_name"].tolist(),
+    index=None,
+    placeholder="Select your campus",
+)
+
+if campus_name is None:
+    st.info("Select the campus where you will study.")
+    st.stop()
+
+selected_campus = university_campuses.loc[
+    university_campuses["campus_name"].eq(campus_name)
+].iloc[0]
+
+st.caption(f"Selected campus: {university} — {campus_name}")
+st.info(
+    "Campus distance filtering is being added. "
+    "The rental results below currently cover your selected "
+    "Melbourne rental regions."
+)
 
 @st.cache_data(ttl=300)
 def load_rent():

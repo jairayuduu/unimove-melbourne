@@ -102,6 +102,28 @@ handling and CSV agreement with the displayed results.
 
 
 
+\## Campus selection
+
+
+
+The app starts with university and campus selection.
+
+Initial coverage includes Monash Clayton, University of
+
+Melbourne Parkville and RMIT Melbourne City.
+
+
+
+Campus selection currently controls the entry flow.
+
+Distance-based housing filtering is not yet implemented.
+
+Campus records and official source links are maintained
+
+in config/campuses.csv.
+
+
+
 \## Current status
 
 
