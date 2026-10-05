@@ -67,7 +67,22 @@ budget = st.slider(
     step=10,
 )
 
-selected = rent.loc[rent["dwelling_category"].eq(category)].copy()
+regions = sorted(rent["source_region"].unique().tolist())
+
+selected_regions = st.multiselect(
+    "Rental regions",
+    options=regions,
+    default=regions,
+)
+
+selected = rent.loc[
+    rent["dwelling_category"].eq(category)
+    & rent["source_region"].isin(selected_regions)
+].copy()
+
+if not selected_regions:
+    st.info("Select at least one rental region to see results.")
+    st.stop()
 published = selected["median_weekly_rent_aud"].notna()
 qualifying = selected.loc[
     published & selected["median_weekly_rent_aud"].le(budget)
@@ -98,6 +113,26 @@ else:
         qualifying[list(display_columns)].rename(columns=display_columns),
         hide_index=True,
         width="stretch",
+    )
+
+    export_columns = [
+        "source_region",
+        "source_area",
+        "dwelling_category",
+        "period_start",
+        "period_end",
+        "median_weekly_rent_aud",
+        "lease_count",
+    ]
+
+    st.download_button(
+        label="Download qualifying areas as CSV",
+        data=qualifying[export_columns].to_csv(index=False).encode("utf-8"),
+        file_name=(
+            f"unimove_rental_areas_{endpoint:%Y%m%d}"
+            f"_budget_{budget}.csv"
+        ),
+        mime="text/csv",
     )
 
 with st.expander("Areas with unavailable medians"):

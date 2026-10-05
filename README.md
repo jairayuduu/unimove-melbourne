@@ -82,6 +82,26 @@ Manual checks matched SQL results:
 
 
 
+
+
+Users can filter by publisher rental region and download
+
+qualifying results as CSV, including dwelling category and
+
+reporting dates. Clearing all regions prompts users to select
+
+at least one region.
+
+
+
+Manual checks confirmed region filtering, empty-selection
+
+handling and CSV agreement with the displayed results.
+
+
+
+
+
 \## Current status
 
 
