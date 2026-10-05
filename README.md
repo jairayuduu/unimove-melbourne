@@ -96,3 +96,9 @@ recommendations, Tableau and Streamlit remain planned.
 
 \- 572 suburb boundaries and population records loaded and checked with SQL.
 
+
+
+\- Full rental history loaded into PostgreSQL: 146 areas and 105,266 observations.
+
+\- SQL rental coverage summaries checked against Python outputs.
+

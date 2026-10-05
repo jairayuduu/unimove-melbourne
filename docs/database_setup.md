@@ -83,3 +83,38 @@ Verified results:
 - Five sample age percentages match the Python output.
 Age percentages are derived from counts. NULLIF prevents
 division by zero and returns NULL for zero-population suburbs.
+
+## Rental tables and loading
+
+Execute sql/003_create_rental_tables.sql as unimove_dev,
+then run python src/load_rent.py.
+
+Inputs:
+- data/interim/rent_all_categories.csv
+- config/rental_region_scope.csv
+
+The initial loader requires empty rental tables. It loads
+publisher areas and observations in one transaction, using
+COPY for the observation history.
+
+Rental areas remain separate from ABS suburbs. No geographic
+equivalence is assumed.
+
+Unavailable counts and medians are stored as SQL NULL.
+Constraints enforce unique observation keys, supported
+categories, moving-annual periods and paired missing values.
+
+## Rental validation
+
+Execute sql/004_validate_rental_load.sql.
+
+Verified results:
+- 146 publisher rental areas, including 110 in Melbourne scope.
+- 105,266 observations across seven dwelling categories.
+- Each category contains 15,038 observations and 103 endpoints,
+  from March 2000 through September 2025.
+- Historical missing-value counts match the Python summaries.
+- Latest Melbourne publication coverage matches the CSV report.
+
+Reporting endpoints are quarterly, but rental observations
+represent moving annual periods.
