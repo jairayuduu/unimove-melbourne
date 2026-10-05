@@ -44,6 +44,44 @@ Use machine learning only where it addresses a justified analytical question.
 
 
 
+\## Run the local app
+
+
+
+With the virtual environment activated and PostgreSQL running:
+
+
+
+1\. Follow docs/database\_setup.md to create and load the database.
+
+2\. Create .streamlit/secrets.toml with your local database credentials.
+
+&#x20;  This file is ignored by Git.
+
+3\. Run:
+
+
+
+&#x20;   python -m streamlit run app.py
+
+
+
+The initial rental explorer supports dwelling-category selection,
+
+a weekly whole-dwelling budget, qualifying rental-area results,
+
+and separate reporting of unavailable medians.
+
+
+
+Manual checks matched SQL results:
+
+\- One-bedroom flat at $400: 34 qualifying areas.
+
+\- Two-bedroom flat at $500: 35 qualifying areas.
+
+
+
 \## Current status
 
 
@@ -101,4 +139,8 @@ recommendations, Tableau and Streamlit remain planned.
 \- Full rental history loaded into PostgreSQL: 146 areas and 105,266 observations.
 
 \- SQL rental coverage summaries checked against Python outputs.
+
+
+
+\- Local Streamlit rental explorer implemented and checked against SQL results.
 
