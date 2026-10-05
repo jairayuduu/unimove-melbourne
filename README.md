@@ -90,3 +90,9 @@ recommendations, Tableau and Streamlit remain planned.
 
 \- Rental-to-ABS boundary equivalence remains unverified.
 
+
+
+\- PostgreSQL/PostGIS configured with a dedicated project login.
+
+\- 572 suburb boundaries and population records loaded and checked with SQL.
+
