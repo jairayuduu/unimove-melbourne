@@ -118,3 +118,33 @@ The broader regional rental explorer remains separate.
 
 
 
+\## Campus map
+
+
+
+The map displays the selected campus and nearby suburb reference
+
+points. Marker colours indicate candidate rental budget status:
+
+blue for campus, green for within budget, red for above budget,
+
+and grey for unknown rent.
+
+
+
+Manual checks passed for Monash Clayton, 5 km, one-bedroom flats
+
+and a $400 budget: one campus marker, two green suburb markers,
+
+one red and eleven grey.
+
+
+
+Hover labels display names and distances. Switching campuses
+
+recentres the map. Markers represent reference points, not
+
+available properties.
+
+
+

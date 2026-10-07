@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import pydeck as pdk
 import pandas as pd
 import psycopg
 import streamlit as st
@@ -69,6 +69,27 @@ def load_rent():
         frame["median_weekly_rent_aud"]
     )
     return frame
+
+
+
+
+
+@st.cache_data(ttl=300)
+def load_map_points(campus_id):
+    with psycopg.connect(**dict(st.secrets["database"])) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT sal_code, suburb_name, straight_line_km,
+                       latitude, longitude,
+                       campus_latitude, campus_longitude
+                FROM unimove.campus_suburb_map_points
+                WHERE campus_id = %s
+                ORDER BY sal_code
+            """, (campus_id,))
+            rows = cursor.fetchall()
+            columns = [column.name for column in cursor.description]
+
+    return pd.DataFrame(rows, columns=columns)
 
 
 st.title("UniMove Melbourne")
@@ -263,6 +284,111 @@ else:
         ),
         mime="text/csv",
         key="download_campus_comparison",
+    )
+
+
+# Retain broader regional rental exploration separately.
+st.subheader("Nearby suburb map")
+
+try:
+    map_points = load_map_points(campus_id)
+except Exception:
+    st.error("Could not load map coordinates.")
+    st.stop()
+
+if map_points.empty:
+    st.info("Map coordinates are unavailable for this campus.")
+else:
+    nearby_points = map_points.loc[
+        map_points["straight_line_km"].le(radius)
+    ].copy()
+
+    nearby_points = nearby_points.merge(
+        campus_rent[["sal_code", "budget_status"]],
+        on="sal_code",
+        how="left",
+        validate="one_to_one",
+    )
+    nearby_points["budget_status"] = (
+        nearby_points["budget_status"].fillna("Unknown")
+    )
+
+    colours = {
+        "At or below budget": [46, 160, 90, 210],
+        "Above budget": [220, 80, 70, 210],
+        "Unknown": [140, 140, 140, 210],
+    }
+    nearby_points["colour"] = nearby_points["budget_status"].map(colours)
+    nearby_points["map_label"] = nearby_points["suburb_name"]
+    nearby_points["distance_label"] = nearby_points[
+        "straight_line_km"
+    ].map(lambda value: f"{value:.2f} km")
+
+    campus_latitude = float(map_points.iloc[0]["campus_latitude"])
+    campus_longitude = float(map_points.iloc[0]["campus_longitude"])
+
+    campus_marker = pd.DataFrame([{
+        "latitude": campus_latitude,
+        "longitude": campus_longitude,
+        "map_label": f"{university} — {campus_name}",
+        "budget_status": "Selected campus",
+        "distance_label": "Campus reference point",
+    }])
+
+    suburb_layer = pdk.Layer(
+        "ScatterplotLayer",
+        data=nearby_points,
+        get_position="[longitude, latitude]",
+        get_fill_color="colour",
+        get_radius=100,
+        radius_min_pixels=5,
+        radius_max_pixels=12,
+        pickable=True,
+    )
+
+    campus_layer = pdk.Layer(
+        "ScatterplotLayer",
+        data=campus_marker,
+        get_position="[longitude, latitude]",
+        get_fill_color=[40, 110, 240, 255],
+        get_radius=150,
+        radius_min_pixels=10,
+        radius_max_pixels=18,
+        stroked=True,
+        get_line_color=[255, 255, 255],
+        line_width_min_pixels=2,
+        pickable=True,
+    )
+
+    zoom = 12 if radius <= 5 else 11 if radius <= 15 else 10
+
+    st.pydeck_chart(
+        pdk.Deck(
+            layers=[suburb_layer, campus_layer],
+            initial_view_state=pdk.ViewState(
+                latitude=campus_latitude,
+                longitude=campus_longitude,
+                zoom=zoom,
+                pitch=0,
+            ),
+            map_style=(
+                "https://basemaps.cartocdn.com/gl/"
+                "positron-gl-style/style.json"
+            ),
+            tooltip={
+                "text": (
+                    "{map_label}\n"
+                    "{budget_status}\n"
+                    "{distance_label}"
+                )
+            },
+        )
+    )
+
+    st.caption(
+        "Blue: campus · Green: candidate median within budget · "
+        "Red: candidate median above budget · Grey: unknown rent. "
+        "Markers represent suburb reference points, not properties."
     )
 
 # Retain broader regional rental exploration separately.
