@@ -80,3 +80,41 @@ Rental budget results remain separate and use selected publisher
 
 regions. Campus-based rental filtering is not yet implemented.
 
+
+
+\## Campus and rental comparison
+
+
+
+Candidate rental links are stored separately from suburb geometry.
+
+There are 57 normalised-name candidates and four alias candidates;
+
+all remain boundary-unverified.
+
+
+
+The campus rental view preserves nearby suburbs without rental
+
+links. Missing rental coverage produces an Unknown budget status.
+
+
+
+For Monash Clayton, a 5 km radius, one-bedroom flats and a
+
+$400 weekly budget, SQL returned:
+
+\- 2 candidate-linked suburbs at or below budget.
+
+\- 1 candidate-linked suburb above budget.
+
+\- 11 suburbs with unknown rental coverage.
+
+
+
+The app supports a campus-specific comparison and CSV export.
+
+The broader regional rental explorer remains separate.
+
+
+

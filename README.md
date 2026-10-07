@@ -194,3 +194,9 @@ recommendations, Tableau and Streamlit remain planned.
 
 \- Campus proximity and rental budget results remain separate pending geographic linking.
 
+
+
+\- Campus proximity and rental budgets combined using explicitly unverified candidate links.
+
+\- Nearby suburbs without rental coverage remain visible.
+

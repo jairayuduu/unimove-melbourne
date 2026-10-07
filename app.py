@@ -26,6 +26,32 @@ def load_campus_distances(campus_id):
 
 
 @st.cache_data(ttl=300)
+def load_campus_rent(campus_id, dwelling_category, radius_km):
+    with psycopg.connect(**dict(st.secrets["database"])) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT sal_code, suburb_name, straight_line_km,
+                       source_area, median_weekly_rent_aud,
+                       rental_coverage_status, match_method,
+                       boundary_equivalence_verified,
+                       period_start, period_end, lease_count
+                FROM unimove.campus_rental_candidates
+                WHERE campus_id = %s
+                  AND dwelling_category = %s
+                  AND straight_line_km <= %s
+                ORDER BY straight_line_km, sal_code, rental_area_id
+            """, (campus_id, dwelling_category, radius_km))
+            rows = cursor.fetchall()
+            columns = [column.name for column in cursor.description]
+
+    frame = pd.DataFrame(rows, columns=columns)
+    frame["median_weekly_rent_aud"] = pd.to_numeric(
+        frame["median_weekly_rent_aud"]
+    )
+    return frame
+
+
+@st.cache_data(ttl=300)
 def load_rent():
     with psycopg.connect(**dict(st.secrets["database"])) as connection:
         with connection.cursor() as cursor:
@@ -81,27 +107,26 @@ selected_campus = university_campuses.loc[
     university_campuses["campus_name"].eq(campus_name)
 ].iloc[0]
 
+campus_id = selected_campus["campus_id"]
 st.caption(f"Selected campus: {university} — {campus_name}")
 
-# Campus-driven suburb exploration.
-st.subheader(f"Suburbs near {campus_name}")
-st.caption(
-    "Approximate straight-line distance from the campus pin "
-    "to a reference point inside each suburb."
-)
-
 try:
-    distances = load_campus_distances(selected_campus["campus_id"])
+    rent = load_rent()
+    distances = load_campus_distances(campus_id)
 except Exception:
     st.error(
-        "Could not load campus distances. Check that PostgreSQL "
-        "is running and the campus distance view exists."
+        "Could not load project data. Check that PostgreSQL is running, "
+        "your database configuration is correct, and the SQL views exist."
     )
     st.stop()
 
-if distances.empty:
-    st.info("No suburb distances are available for this campus.")
+if rent.empty or distances.empty:
+    st.info("Rental data or campus distances are unavailable.")
     st.stop()
+
+endpoint = pd.Timestamp(rent["period_end"].max())
+
+st.subheader("Your housing preferences")
 
 radius = st.slider(
     "Approximate straight-line radius (km)",
@@ -109,62 +134,6 @@ radius = st.slider(
     max_value=30,
     value=5,
     step=1,
-)
-
-nearby = distances.loc[
-    distances["straight_line_km"].le(radius)
-].copy()
-
-st.metric("Suburb reference points within radius", len(nearby))
-
-if nearby.empty:
-    st.info("No suburb reference points fall within this radius.")
-else:
-    st.dataframe(
-        nearby.rename(columns={
-            "suburb_name": "Suburb",
-            "straight_line_km": "Approximate distance (km)",
-        })[["Suburb", "Approximate distance (km)"]],
-        hide_index=True,
-        width="stretch",
-        column_config={
-            "Approximate distance (km)": st.column_config.NumberColumn(
-                format="%.2f"
-            ),
-        },
-    )
-
-st.caption(
-    "These distances are not walking, driving or public-transport "
-    "times. Distance from an individual property will vary."
-)
-
-st.divider()
-
-# Rental exploration remains separate until geographic links are reviewed.
-st.header("Rental budget explorer")
-st.info(
-    "Rental results currently cover your selected Melbourne rental "
-    "regions. They are not yet filtered by campus or nearby suburbs."
-)
-
-try:
-    rent = load_rent()
-except Exception:
-    st.error(
-        "Could not load rental data. Check that PostgreSQL is running "
-        "and your local database configuration is correct."
-    )
-    st.stop()
-
-if rent.empty:
-    st.info("No rental data has been loaded yet.")
-    st.stop()
-
-endpoint = pd.Timestamp(rent["period_end"].max())
-st.caption(
-    f"Moving annual rental medians ending {endpoint:%d %B %Y}. "
-    "Whole-dwelling rents, not room rents or current listings."
 )
 
 category = st.selectbox(
@@ -188,6 +157,122 @@ budget = st.slider(
     step=10,
 )
 
+st.caption(
+    f"Moving annual rental medians ending {endpoint:%d %B %Y}. "
+    "Whole-dwelling rents, not room rents or current listings."
+)
+
+# Combined campus proximity and candidate rental information.
+st.header(f"Nearby suburbs for {campus_name}")
+
+try:
+    campus_rent = load_campus_rent(campus_id, category, radius)
+except Exception:
+    st.error(
+        "Could not load combined campus and rental results. "
+        "Check that the campus_rental_candidates view exists."
+    )
+    st.stop()
+
+# Current links should yield at most one rental candidate per suburb.
+if campus_rent["sal_code"].duplicated().any():
+    st.error(
+        "A suburb has multiple rental candidates. "
+        "The geographic links need review before displaying a shortlist."
+    )
+    st.stop()
+
+campus_rent["budget_status"] = "Unknown"
+has_median = campus_rent["median_weekly_rent_aud"].notna()
+
+campus_rent.loc[
+    has_median & campus_rent["median_weekly_rent_aud"].le(budget),
+    "budget_status",
+] = "At or below budget"
+
+campus_rent.loc[
+    has_median & campus_rent["median_weekly_rent_aud"].gt(budget),
+    "budget_status",
+] = "Above budget"
+
+within_budget, above_budget, unknown = st.columns(3)
+
+within_budget.metric(
+    "Nearby candidates within budget",
+    int(campus_rent["budget_status"].eq("At or below budget").sum()),
+)
+above_budget.metric(
+    "Nearby candidates above budget",
+    int(campus_rent["budget_status"].eq("Above budget").sum()),
+)
+unknown.metric(
+    "Nearby suburbs with unknown rent",
+    int(campus_rent["budget_status"].eq("Unknown").sum()),
+)
+
+st.caption(
+    "Distances are measured from the campus pin to a reference point "
+    "inside each suburb. They are not travel times or distances from "
+    "individual properties."
+)
+
+st.caption(
+    "Rental associations use candidate name links; boundary equivalence "
+    "is unverified. Unknown rent does not mean an area is above budget."
+)
+
+campus_display_columns = {
+    "suburb_name": "Suburb",
+    "straight_line_km": "Approximate distance (km)",
+    "source_area": "Publisher rental area",
+    "median_weekly_rent_aud": "Median weekly rent (AUD)",
+    "budget_status": "Budget status",
+}
+
+if campus_rent.empty:
+    st.info("No suburb reference points fall within this radius.")
+else:
+    st.dataframe(
+        campus_rent[list(campus_display_columns)].rename(
+            columns=campus_display_columns
+        ),
+        hide_index=True,
+        width="stretch",
+        column_config={
+            "Approximate distance (km)": st.column_config.NumberColumn(
+                format="%.2f"
+            ),
+            "Median weekly rent (AUD)": st.column_config.NumberColumn(
+                format="$%.2f"
+            ),
+        },
+    )
+
+    campus_export = campus_rent.copy()
+    campus_export.insert(0, "campus_id", campus_id)
+    campus_export.insert(1, "dwelling_category", category)
+    campus_export["weekly_budget_aud"] = budget
+    campus_export["radius_km"] = radius
+
+    st.download_button(
+        label="Download nearby suburb comparison",
+        data=campus_export.to_csv(index=False).encode("utf-8"),
+        file_name=(
+            f"unimove_{campus_id}_{endpoint:%Y%m%d}"
+            f"_radius_{radius}_budget_{budget}.csv"
+        ),
+        mime="text/csv",
+        key="download_campus_comparison",
+    )
+
+# Retain broader regional rental exploration separately.
+st.divider()
+st.header("Compare broader Melbourne rental regions")
+st.caption(
+    "This regional comparison uses your dwelling category and budget, "
+    "but is independent of the selected campus radius."
+)
+
 regions = sorted(rent["source_region"].unique().tolist())
 
 selected_regions = st.multiselect(
@@ -197,7 +282,7 @@ selected_regions = st.multiselect(
 )
 
 if not selected_regions:
-    st.info("Select at least one rental region to see results.")
+    st.info("Select at least one rental region to see regional results.")
     st.stop()
 
 selected = rent.loc[
@@ -248,13 +333,14 @@ else:
     ]
 
     st.download_button(
-        label="Download qualifying areas as CSV",
+        label="Download qualifying rental areas as CSV",
         data=qualifying[export_columns].to_csv(index=False).encode("utf-8"),
         file_name=(
             f"unimove_rental_areas_{endpoint:%Y%m%d}"
             f"_budget_{budget}.csv"
         ),
         mime="text/csv",
+        key="download_regional_results",
     )
 
 with st.expander("Areas with unavailable medians"):
