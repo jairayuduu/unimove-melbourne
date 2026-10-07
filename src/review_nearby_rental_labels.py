@@ -26,10 +26,9 @@ with psycopg.connect(
 ) as connection:
     with connection.cursor() as cursor:
         cursor.execute("""
-            SELECT sal_code, suburb_name
+            SELECT DISTINCT sal_code, suburb_name
             FROM unimove.campus_rental_candidates
-            WHERE campus_id = 'monash_clayton'
-              AND dwelling_category = '1 bedroom flat'
+            WHERE dwelling_category = '1 bedroom flat'
               AND straight_line_km <= 5
               AND rental_coverage_status = 'no_candidate_link'
             ORDER BY suburb_name
@@ -56,22 +55,16 @@ for sal_code, suburb_name in nearby:
         }
     ]
 
-    if matches:
-        for region, area in matches:
-            rows.append({
-                "sal_code": sal_code,
-                "suburb_name": suburb_name,
-                "source_region": region,
-                "source_area": area,
-                "review_status": "explicit_label_component_candidate",
-            })
-    else:
+    for region, area in matches or [("", "")]:
         rows.append({
             "sal_code": sal_code,
             "suburb_name": suburb_name,
-            "source_region": "",
-            "source_area": "",
-            "review_status": "no_explicit_label_match",
+            "source_region": region,
+            "source_area": area,
+            "review_status": (
+                "explicit_label_component_candidate"
+                if area else "no_explicit_label_match"
+            ),
         })
 
 report = pd.DataFrame(rows, columns=[
@@ -80,9 +73,11 @@ report = pd.DataFrame(rows, columns=[
 ])
 
 print(report.to_string(index=False))
+print("\nReview summary:")
+print(report["review_status"].value_counts().to_string())
 
 report.to_csv(
-    PROJECT_ROOT / "docs" / "clayton_rental_label_review.csv",
+    PROJECT_ROOT / "docs" / "campus_rental_label_review.csv",
     index=False,
 )
-print("\nReview report saved.")
+print("\nAll-campus review report saved.")

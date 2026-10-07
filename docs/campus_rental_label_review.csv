@@ -1,0 +1,28 @@
+sal_code,suburb_name,source_region,source_area,review_status
+20002,Abbotsford (Vic.),Inner Melbourne,Collingwood-Abbotsford,explicit_label_component_candidate
+20018,Albert Park (Vic.),Inner Melbourne,Albert Park-Middle Park-West St Kilda,explicit_label_component_candidate
+20495,Carlton (Vic.),Inner Melbourne,Carlton-Parkville,explicit_label_component_candidate
+20566,Clarinda,,,no_explicit_label_match
+20570,Clayton South,,,no_explicit_label_match
+20574,Clifton Hill,Inner Melbourne,Fitzroy North-Clifton Hill,explicit_label_component_candidate
+20616,Collingwood (Vic.),Inner Melbourne,Collingwood-Abbotsford,explicit_label_component_candidate
+20670,Cremorne (Vic.),,,no_explicit_label_match
+20901,Fairfield (Vic.),North Eastern Melbourne,Fairfield-Alphington,explicit_label_component_candidate
+20925,Fitzroy North,Inner Melbourne,Fitzroy North-Clifton Hill,explicit_label_component_candidate
+20929,Flemington,Inner Melbourne,Flemington-Kensington,explicit_label_component_candidate
+21218,Huntingdale (Vic.),,,no_explicit_label_match
+21327,Kensington (Vic.),Inner Melbourne,Flemington-Kensington,explicit_label_component_candidate
+21640,Melbourne,,,no_explicit_label_match
+21677,Middle Park (Vic.),Inner Melbourne,Albert Park-Middle Park-West St Kilda,explicit_label_component_candidate
+21742,Moonee Ponds,North Western Melbourne,Moonee Ponds-Ascot Vale,explicit_label_component_candidate
+21966,North Melbourne,Inner Melbourne,North Melbourne-West Melbourne,explicit_label_component_candidate
+21974,Notting Hill,,,no_explicit_label_match
+22001,Oakleigh East,,,no_explicit_label_match
+22002,Oakleigh South,,,no_explicit_label_match
+22038,Parkville (Vic.),Inner Melbourne,Carlton-Parkville,explicit_label_component_candidate
+22122,Princes Hill,,,no_explicit_label_match
+22170,Richmond (Vic.),Inner Melbourne,Richmond-Burnley,explicit_label_component_candidate
+22313,South Wharf,,,no_explicit_label_match
+22572,Travancore,,,no_explicit_label_match
+22757,West Melbourne,Inner Melbourne,North Melbourne-West Melbourne,explicit_label_component_candidate
+22766,Wheelers Hill,,,no_explicit_label_match

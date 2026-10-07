@@ -194,3 +194,39 @@ Reproduction:
 
 
 
+\## Rental coverage across the initial campuses
+
+
+
+For one-bedroom flats within a 5 km straight-line radius:
+
+
+
+| Campus | Nearby suburbs | Published candidate medians | Missing rental coverage |
+
+|---|---:|---:|---:|
+
+| Monash Clayton | 14 | 7 | 7 |
+
+| RMIT Melbourne City | 28 | 23 | 5 |
+
+| University of Melbourne Parkville | 28 | 23 | 5 |
+
+
+
+No suburb has multiple candidate rental-area links.
+
+
+
+The table and map were checked for all three campuses.
+
+Rental links remain unverified geographic candidates.
+
+Pooled-area medians describe the publisher's combined rental area,
+
+rather than an individual suburb. Suburbs without rental coverage
+
+remain visible with an unknown budget status.
+
+
+

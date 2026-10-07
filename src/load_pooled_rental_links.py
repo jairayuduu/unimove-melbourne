@@ -7,7 +7,7 @@ import psycopg
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 review = pd.read_csv(
-    PROJECT_ROOT / "docs" / "clayton_rental_label_review.csv",
+    PROJECT_ROOT / "docs" / "campus_rental_label_review.csv",
     dtype={"sal_code": "string"},
 )
 
@@ -61,7 +61,7 @@ with psycopg.connect(
                 area_ids[area_key],
                 str(row.sal_code),
                 "explicit_label_component_candidate",
-                "docs/clayton_rental_label_review.csv",
+                "docs/campus_rental_label_review.csv",
             ))
             inserted += cursor.rowcount
 
