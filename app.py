@@ -133,6 +133,26 @@ def load_transport_access():
 
 
 @st.cache_data(ttl=300)
+def load_direct_services(campus_id):
+    with psycopg.connect(**dict(st.secrets["database"])) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT sal_code, suburb_name, service_date, feed_id, trip_id,
+                       transport_mode, route_short_name, route_long_name,
+                       boarding_stop_name, arrival_stop_name,
+                       suburb_distance_metres, campus_distance_metres,
+                       departure_seconds, arrival_seconds, in_vehicle_seconds
+                FROM unimove.direct_campus_services
+                WHERE campus_id = %s
+                ORDER BY service_date, suburb_name, departure_seconds,
+                         feed_id, trip_id
+            """, (campus_id,))
+            rows = cursor.fetchall()
+            columns = [column.name for column in cursor.description]
+    return pd.DataFrame(rows, columns=columns)
+
+
+@st.cache_data(ttl=300)
 def load_map_points(campus_id):
     with psycopg.connect(**dict(st.secrets["database"])) as connection:
         with connection.cursor() as cursor:
@@ -435,6 +455,131 @@ else:
 
 
 # Retain broader regional rental exploration separately.
+st.subheader("Direct morning services towards campus")
+st.caption(
+    "Scheduled departures from 7–9 am (Melbourne time). Boarding stops "
+    "are within 800 m of suburb reference points; arrival stops are within "
+    "800 m of the campus pin. Boarding inside the campus arrival zone is "
+    "excluded. This analysis covers suburbs within 5 km of campus."
+)
+
+try:
+    direct_services = load_direct_services(campus_id)
+except Exception:
+    st.error(
+        "Could not load direct-service results. Check that the "
+        "direct_campus_services materialized view has been created."
+    )
+    direct_services = None
+
+if direct_services is not None:
+    if direct_services.empty:
+        st.info("No direct-service candidates are available for this campus.")
+    else:
+        service_dates = sorted(direct_services["service_date"].unique())
+        service_date = st.selectbox(
+            "Timetable analysis date",
+            service_dates,
+            format_func=lambda value: value.strftime("%d %B %Y"),
+            key="direct_service_date",
+        )
+        assessed = campus_rent.loc[
+            campus_rent["straight_line_km"].le(5),
+            ["sal_code", "suburb_name"],
+        ].copy()
+        services = direct_services.loc[
+            direct_services["service_date"].eq(service_date)
+            & direct_services["sal_code"].isin(assessed["sal_code"])
+        ].copy()
+        services["in_vehicle_minutes"] = services["in_vehicle_seconds"] / 60
+        summary = services.groupby("sal_code", as_index=False).agg(
+            direct_trip_candidates=("trip_id", "size"),
+            median_in_vehicle_minutes=("in_vehicle_minutes", "median"),
+        )
+        comparison = assessed.merge(
+            summary, on="sal_code", how="left", validate="one_to_one"
+        )
+        comparison["direct_trip_candidates"] = comparison[
+            "direct_trip_candidates"
+        ].fillna(0).astype(int)
+        comparison["service_result"] = comparison[
+            "direct_trip_candidates"
+        ].map(lambda count: "Direct candidates found" if count else
+              "None found under these rules")
+        st.dataframe(
+            comparison.rename(columns={
+                "suburb_name": "Suburb",
+                "direct_trip_candidates": "Trip candidates, 7–9 am",
+                "median_in_vehicle_minutes": "Median in-vehicle minutes",
+                "service_result": "Analysis result",
+            }).drop(columns="sal_code"),
+            hide_index=True,
+            width="stretch",
+            column_config={
+                "Median in-vehicle minutes": st.column_config.NumberColumn(
+                    format="%.1f"
+                ),
+            },
+        )
+        if radius > 5:
+            st.info(
+                "Suburbs beyond 5 km are not assessed in this service analysis."
+            )
+        st.caption(
+            "Minutes cover only time on the vehicle, excluding walking and "
+            "waiting. Counts are distinct trips per suburb, not evenly spaced "
+            "departures or live service frequency. No candidate does not mean "
+            "no public transport: transfers and walking-only options are not "
+            "assessed. One boarding/alighting pair is retained per trip, "
+            "prioritising shorter combined straight-line access distances."
+        )
+        if not services.empty:
+            with st.expander("View scheduled trip candidates"):
+                service_suburb = st.selectbox(
+                    "Suburb for timetable details",
+                    sorted(services["suburb_name"].unique()),
+                    key="service_suburb",
+                )
+                details = services.loc[
+                    services["suburb_name"].eq(service_suburb)
+                ].copy()
+                for field, label in (
+                    ("departure_seconds", "Departure"),
+                    ("arrival_seconds", "Arrival"),
+                ):
+                    details[label] = details[field].map(
+                        lambda value: f"{int(value) // 3600:02d}:"
+                        f"{(int(value) % 3600) // 60:02d}"
+                    )
+                st.dataframe(
+                    details[[
+                        "transport_mode", "route_short_name", "Departure",
+                        "Arrival", "boarding_stop_name", "arrival_stop_name",
+                        "in_vehicle_minutes", "suburb_distance_metres",
+                        "campus_distance_metres",
+                    ]].rename(columns={
+                        "transport_mode": "Mode",
+                        "route_short_name": "Route",
+                        "boarding_stop_name": "Boarding stop",
+                        "arrival_stop_name": "Arrival stop",
+                        "in_vehicle_minutes": "In-vehicle minutes",
+                        "suburb_distance_metres": "Suburb-to-stop distance (m)",
+                        "campus_distance_metres": "Stop-to-campus distance (m)",
+                    }),
+                    hide_index=True,
+                    width="stretch",
+                )
+            service_export = services.copy()
+            service_export.insert(0, "campus_id", campus_id)
+            st.download_button(
+                "Download scheduled direct-service candidates",
+                data=service_export.to_csv(index=False).encode("utf-8"),
+                file_name=f"unimove_{campus_id}_services_{service_date:%Y%m%d}.csv",
+                mime="text/csv",
+                key="download_direct_services",
+            )
+
+
 st.subheader("Nearby suburb map")
 
 try:
