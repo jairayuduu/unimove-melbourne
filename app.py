@@ -95,6 +95,44 @@ def load_population_profiles(campus_id):
 
 
 @st.cache_data(ttl=300)
+def load_transport_access():
+    with psycopg.connect(**dict(st.secrets["database"])) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT sal_code, transport_mode, stop_name, distance_metres
+                FROM unimove.suburb_transport_access_cached
+                ORDER BY sal_code, transport_mode
+            """)
+            rows = cursor.fetchall()
+            columns = [column.name for column in cursor.description]
+
+    frame = pd.DataFrame(rows, columns=columns)
+    if frame.empty:
+        raise ValueError("Cached transport results are empty.")
+    if frame.duplicated(["sal_code", "transport_mode"]).any():
+        raise ValueError("Duplicate suburb/transport mode keys.")
+    frame["distance_metres"] = pd.to_numeric(frame["distance_metres"])
+
+    result = pd.DataFrame({"sal_code": frame["sal_code"].unique()})
+    for mode, prefix in (
+        ("bus", "bus"),
+        ("metropolitan_train", "train"),
+        ("tram", "tram"),
+    ):
+        subset = frame.loc[
+            frame["transport_mode"].eq(mode),
+            ["sal_code", "stop_name", "distance_metres"],
+        ].rename(columns={
+            "stop_name": f"nearest_{prefix}_stop",
+            "distance_metres": f"nearest_{prefix}_distance_metres",
+        })
+        result = result.merge(
+            subset, on="sal_code", how="left", validate="one_to_one"
+        )
+    return result
+
+
+@st.cache_data(ttl=300)
 def load_map_points(campus_id):
     with psycopg.connect(**dict(st.secrets["database"])) as connection:
         with connection.cursor() as cursor:
@@ -243,6 +281,19 @@ campus_rent = campus_rent.merge(
     validate="one_to_one",
 )
 
+try:
+    transport = load_transport_access()
+except Exception:
+    st.error(
+        "Could not load transport access. Check that PostgreSQL is "
+        "running and the cached transport results have been created."
+    )
+    st.stop()
+
+campus_rent = campus_rent.merge(
+    transport, on="sal_code", how="left", validate="one_to_one"
+)
+
 campus_rent["budget_status"] = "Unknown"
 has_median = campus_rent["median_weekly_rent_aud"].notna()
 
@@ -299,6 +350,9 @@ campus_display_columns = {
     "population_total": "Population (2021)",
     "population_18_24": "Residents aged 18–24 (2021)",
     "share_18_24_pct": "Residents aged 18–24 (%)",
+    "nearest_bus_distance_metres": "Nearest bus stop (m)",
+    "nearest_train_distance_metres": "Nearest train platform (m)",
+    "nearest_tram_distance_metres": "Nearest tram stop (m)",
 }
 
 if campus_rent.empty:
@@ -317,6 +371,11 @@ else:
             "Median weekly rent (AUD)": st.column_config.NumberColumn(
                 format="$%.2f"
             ),
+            "Nearest bus stop (m)": st.column_config.NumberColumn(format="%.0f"),
+            "Nearest train platform (m)": st.column_config.NumberColumn(
+                format="%.0f"
+            ),
+            "Nearest tram stop (m)": st.column_config.NumberColumn(format="%.0f"),
             "Population (2021)": st.column_config.NumberColumn(format="%d"),
             "Residents aged 18–24 (2021)": st.column_config.NumberColumn(
                 format="%d"
@@ -333,6 +392,29 @@ else:
         "numbers or opportunities to socialise. Percentages are "
         "unavailable for suburbs with zero population."
     )
+
+    st.caption(
+        "Transport distances are straight-line distances from the suburb "
+        "reference point to the nearest served boarding stop/platform in "
+        "the selected feeds. They are not walking distances, service "
+        "frequency or campus commute times. Train replacement-bus routes "
+        "are excluded; service on a particular date has not been checked."
+    )
+
+    with st.expander("Nearest transport stop names"):
+        st.dataframe(
+            campus_rent[[
+                "suburb_name", "nearest_bus_stop",
+                "nearest_train_stop", "nearest_tram_stop",
+            ]].rename(columns={
+                "suburb_name": "Suburb",
+                "nearest_bus_stop": "Bus stop",
+                "nearest_train_stop": "Train platform",
+                "nearest_tram_stop": "Tram stop",
+            }),
+            hide_index=True,
+            width="stretch",
+        )
 
     campus_export = campus_rent.copy()
     campus_export.insert(0, "campus_id", campus_id)
