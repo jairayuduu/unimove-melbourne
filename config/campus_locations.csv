@@ -1,0 +1,4 @@
+campus_id,latitude,longitude,coordinate_source_url,location_method
+monash_clayton,-37.91064,145.13647,https://mapcarta.com/W10585250,published_campus_reference_point
+unimelb_parkville,-37.79468,144.96250,"https://mapcarta.com/The_University_of_Melbourne,_Parkville_Campus_R15629064",published_campus_reference_point
+rmit_city,-37.80825,144.96239,https://mapcarta.com/W772558888,published_campus_reference_point

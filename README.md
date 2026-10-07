@@ -186,3 +186,11 @@ recommendations, Tableau and Streamlit remain planned.
 
 \- Local Streamlit rental explorer implemented and checked against SQL results.
 
+
+
+\- Three campus reference points loaded into PostGIS.
+
+\- Campus-driven nearby-suburb exploration implemented and checked.
+
+\- Campus proximity and rental budget results remain separate pending geographic linking.
+
