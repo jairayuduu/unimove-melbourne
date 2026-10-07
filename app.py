@@ -238,9 +238,16 @@ st.caption(
 )
 
 st.caption(
-    "Rental associations use candidate name links; boundary equivalence "
-    "is unverified. Unknown rent does not mean an area is above budget."
+    "Rental links are unverified candidates. Pooled-area proxies "
+    "reuse the publisher's combined-area median, not a separately "
+    "measured suburb rent. Unknown rent does not mean above budget."
 )
+
+campus_rent["rental_basis"] = campus_rent["match_method"].map({
+    "name_match_candidate": "Name candidate",
+    "alias_match_candidate": "Alias candidate",
+    "explicit_label_component_candidate": "Pooled-area proxy",
+}).fillna("No candidate link")
 
 campus_display_columns = {
     "suburb_name": "Suburb",
@@ -248,6 +255,7 @@ campus_display_columns = {
     "source_area": "Publisher rental area",
     "median_weekly_rent_aud": "Median weekly rent (AUD)",
     "budget_status": "Budget status",
+    "rental_basis": "Rental association",
 }
 
 if campus_rent.empty:

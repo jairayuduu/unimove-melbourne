@@ -1,0 +1,12 @@
+sal_code,suburb_name,source_region,source_area,review_status
+20528,Chadstone,Inner Eastern Melbourne,Chadstone-Oakleigh,explicit_label_component_candidate
+20566,Clarinda,,,no_explicit_label_match
+20570,Clayton South,,,no_explicit_label_match
+21013,Glen Waverley,Inner Eastern Melbourne,Glen Waverley-Mulgrave,explicit_label_component_candidate
+21218,Huntingdale (Vic.),,,no_explicit_label_match
+21827,Mulgrave (Vic.),Inner Eastern Melbourne,Glen Waverley-Mulgrave,explicit_label_component_candidate
+21974,Notting Hill,,,no_explicit_label_match
+22000,Oakleigh,Inner Eastern Melbourne,Chadstone-Oakleigh,explicit_label_component_candidate
+22001,Oakleigh East,,,no_explicit_label_match
+22002,Oakleigh South,,,no_explicit_label_match
+22766,Wheelers Hill,,,no_explicit_label_match

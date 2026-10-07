@@ -148,3 +148,49 @@ available properties.
 
 
 
+\## Pooled rental label candidates
+
+
+
+Four explicit label-component candidates were added:
+
+\- Chadstone and Oakleigh → Chadstone-Oakleigh.
+
+\- Glen Waverley and Mulgrave → Glen Waverley-Mulgrave.
+
+
+
+These remain boundary-unverified and are displayed as
+
+Pooled-area proxy. Each pair shares one published pooled
+
+median; these are not separate suburb rental measurements.
+
+
+
+For Monash Clayton, 5 km, one-bedroom flats and $400:
+
+\- 2 suburb candidates are within budget.
+
+\- 5 are above budget.
+
+\- 7 have unknown rental coverage.
+
+
+
+SQL, app labels and map colours were checked.
+
+No suburb currently has multiple candidate rental links.
+
+
+
+Reproduction:
+
+1\. Run src/review\_nearby\_rental\_labels.py.
+
+2\. Execute sql/012\_allow\_pooled\_label\_candidates.sql.
+
+3\. Run src/load\_pooled\_rental\_links.py.
+
+
+
