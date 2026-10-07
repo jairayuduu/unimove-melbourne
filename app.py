@@ -9,6 +9,8 @@ st.set_page_config(page_title="UniMove Melbourne", layout="wide")
 PROJECT_ROOT = Path(__file__).resolve().parent
 
 
+
+
 @st.cache_data(ttl=300)
 def load_campus_distances(campus_id):
     with psycopg.connect(**dict(st.secrets["database"])) as connection:
@@ -72,6 +74,24 @@ def load_rent():
 
 
 
+
+
+@st.cache_data(ttl=300)
+def load_population_profiles(campus_id):
+    with psycopg.connect(**dict(st.secrets["database"])) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT sal_code, census_year, population_total,
+                       population_18_24, share_18_24_pct
+                FROM unimove.campus_population_profiles
+                WHERE campus_id = %s
+            """, (campus_id,))
+            rows = cursor.fetchall()
+            columns = [column.name for column in cursor.description]
+
+    frame = pd.DataFrame(rows, columns=columns)
+    frame["share_18_24_pct"] = pd.to_numeric(frame["share_18_24_pct"])
+    return frame
 
 
 @st.cache_data(ttl=300)
@@ -203,6 +223,26 @@ if campus_rent["sal_code"].duplicated().any():
     )
     st.stop()
 
+try:
+    population = load_population_profiles(campus_id)
+except Exception:
+    st.error(
+        "Could not load population profiles. Check that PostgreSQL "
+        "is running and the campus_population_profiles view exists."
+    )
+    st.stop()
+
+if population["sal_code"].duplicated().any():
+    st.error("Population profiles contain duplicate suburb codes.")
+    st.stop()
+
+campus_rent = campus_rent.merge(
+    population,
+    on="sal_code",
+    how="left",
+    validate="one_to_one",
+)
+
 campus_rent["budget_status"] = "Unknown"
 has_median = campus_rent["median_weekly_rent_aud"].notna()
 
@@ -256,6 +296,9 @@ campus_display_columns = {
     "median_weekly_rent_aud": "Median weekly rent (AUD)",
     "budget_status": "Budget status",
     "rental_basis": "Rental association",
+    "population_total": "Population (2021)",
+    "population_18_24": "Residents aged 18–24 (2021)",
+    "share_18_24_pct": "Residents aged 18–24 (%)",
 }
 
 if campus_rent.empty:
@@ -274,7 +317,21 @@ else:
             "Median weekly rent (AUD)": st.column_config.NumberColumn(
                 format="$%.2f"
             ),
+            "Population (2021)": st.column_config.NumberColumn(format="%d"),
+            "Residents aged 18–24 (2021)": st.column_config.NumberColumn(
+                format="%d"
+            ),
+            "Residents aged 18–24 (%)": st.column_config.NumberColumn(
+                format="%.2f"
+            ),
         },
+    )
+
+    st.caption(
+        "Demographics are from the 2021 Census. The age percentage "
+        "describes residents aged 18–24; it does not measure student "
+        "numbers or opportunities to socialise. Percentages are "
+        "unavailable for suburbs with zero population."
     )
 
     campus_export = campus_rent.copy()
