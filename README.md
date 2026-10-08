@@ -1,3 +1,27 @@
+\## Live demo
+
+
+
+\[Launch UniMove Melbourne](https://unimove-melbourne.streamlit.app/)
+
+
+
+Choose a university campus and compare nearby suburbs using rental
+
+medians, campus proximity, scheduled direct transport services,
+
+age demographics and recorded-offence context.
+
+
+
+The demo uses saved data snapshots. Rental and crime geographic
+
+associations are candidates, and transport results cover an example
+
+service date.
+
+
+
 \# UniMove Melbourne
 
 
@@ -199,4 +223,8 @@ recommendations, Tableau and Streamlit remain planned.
 \- Campus proximity and rental budgets combined using explicitly unverified candidate links.
 
 \- Nearby suburbs without rental coverage remain visible.
+
+
+
+\- Interactive campus map added with nearby suburb budget-status markers.
 
