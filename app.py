@@ -153,6 +153,32 @@ def load_direct_services(campus_id):
 
 
 @st.cache_data(ttl=300)
+def load_crime_candidates():
+    with psycopg.connect(**dict(st.secrets["database"])) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT sal_code, period_start, period_end, source_area_count,
+                       recorded_offences, crimes_against_person,
+                       property_and_deception_offences, crime_coverage_status
+                FROM unimove.suburb_crime_candidates
+                ORDER BY sal_code
+            """)
+            rows = cursor.fetchall()
+            columns = [column.name for column in cursor.description]
+    frame = pd.DataFrame(rows, columns=columns)
+    if frame.empty:
+        raise ValueError("Crime candidate view is empty.")
+    if frame["sal_code"].duplicated().any():
+        raise ValueError("Duplicate crime candidate suburb codes.")
+    for column in [
+        "source_area_count", "recorded_offences", "crimes_against_person",
+        "property_and_deception_offences",
+    ]:
+        frame[column] = pd.to_numeric(frame[column]).astype("Int64")
+    return frame
+
+
+@st.cache_data(ttl=300)
 def load_map_points(campus_id):
     with psycopg.connect(**dict(st.secrets["database"])) as connection:
         with connection.cursor() as cursor:
@@ -578,6 +604,88 @@ if direct_services is not None:
                 mime="text/csv",
                 key="download_direct_services",
             )
+
+
+st.subheader("Recorded offences near your campus")
+st.caption(
+    "Counts describe offences recorded in candidate publisher areas. "
+    "They are not a safety ranking or a measure of your personal risk. "
+    "Area size, visitors, reporting and policing can affect comparisons."
+)
+
+try:
+    crime_candidates = load_crime_candidates()
+except Exception:
+    st.error(
+        "Could not load recorded-offence data. Check that PostgreSQL is "
+        "running and the suburb_crime_candidates view exists."
+    )
+    crime_candidates = None
+
+if crime_candidates is not None:
+    crime_comparison = campus_rent[["sal_code", "suburb_name"]].merge(
+        crime_candidates, on="sal_code", how="left", validate="one_to_one"
+    )
+    crime_endpoint = pd.Timestamp(crime_candidates["period_end"].max())
+    starts = crime_candidates["period_start"].dropna()
+    if not starts.empty:
+        crime_start = pd.Timestamp(starts.min())
+        st.caption(
+            f"Reporting period: {crime_start:%d %B %Y} to "
+            f"{crime_endpoint:%d %B %Y}."
+        )
+    crime_comparison["coverage_label"] = crime_comparison[
+        "crime_coverage_status"
+    ].map({
+        "unverified_area_candidate": "Unverified area candidate",
+        "no_candidate_coverage": "No candidate coverage",
+    }).fillna("No candidate coverage")
+
+    if crime_comparison.empty:
+        st.info("No nearby suburbs are selected for this radius.")
+    else:
+        crime_columns = {
+            "suburb_name": "Suburb",
+            "recorded_offences": "Recorded offences",
+            "crimes_against_person": "Crimes against the person",
+            "property_and_deception_offences": "Property and deception offences",
+            "source_area_count": "Contributing source areas",
+            "coverage_label": "Geographic coverage",
+        }
+        st.dataframe(
+            crime_comparison[list(crime_columns)].rename(columns=crime_columns),
+            hide_index=True,
+            width="stretch",
+            column_config={
+                label: st.column_config.NumberColumn(format="%d")
+                for field, label in crime_columns.items()
+                if field not in {"suburb_name", "coverage_label"}
+            },
+        )
+        st.caption(
+            "Name and configured alias links have not been verified against "
+            "publisher boundaries. Counts sum linked LGA/postcode/suburb "
+            "combinations; contributing areas are shown explicitly. "
+            "Missing records remain unknown. The two category columns are "
+            "parts of the total; other offence divisions are also included "
+            "in the total. Source exclusions include justice institutions, "
+            "immigration facilities, Unincorporated Victoria and unknown "
+            "geographic locations. No population rate is calculated."
+        )
+        crime_export = crime_comparison.copy()
+        crime_export.insert(0, "campus_id", campus_id)
+        crime_export["radius_km"] = radius
+        crime_export["boundary_equivalence_verified"] = False
+        st.download_button(
+            "Download nearby recorded-offence comparison",
+            data=crime_export.to_csv(index=False).encode("utf-8"),
+            file_name=(
+                f"unimove_{campus_id}_crime_{crime_endpoint:%Y%m%d}"
+                f"_radius_{radius}.csv"
+            ),
+            mime="text/csv",
+            key="download_crime_comparison",
+        )
 
 
 st.subheader("Nearby suburb map")

@@ -1,0 +1,647 @@
+source_lga,source_postcode,source_suburb,name_key,sal_code,suburb_name,match_status,source_combinations_per_sal,boundary_equivalence_verified
+Yarra,3067,Abbotsford,abbotsford,20002,Abbotsford (Vic.),name_match_candidate,1,False
+Moonee Valley,3040,Aberfeldie,aberfeldie,20003,Aberfeldie,name_match_candidate,1,False
+Melton,3336,Aintree,aintree,20011,Aintree,name_match_candidate,1,False
+Moonee Valley,3042,Airport West,airport west,20015,Airport West,name_match_candidate,1,False
+Brimbank,3021,Albanvale,albanvale,20017,Albanvale,name_match_candidate,1,False
+Port Phillip,3206,Albert Park,albert park,20018,Albert Park (Vic.),name_match_candidate,1,False
+Brimbank,3020,Albion,albion,20021,Albion (Vic.),name_match_candidate,1,False
+Darebin,3078,Alphington,alphington,20034,Alphington,name_match_candidate,2,False
+Yarra,3078,Alphington,alphington,20034,Alphington,name_match_candidate,2,False
+Hobsons Bay,3018,Altona,altona,20035,Altona (Vic.),name_match_candidate,1,False
+Hobsons Bay,3028,Altona Meadows,altona meadows,20036,Altona Meadows,name_match_candidate,1,False
+Hobsons Bay,3025,Altona North,altona north,20037,Altona North,name_match_candidate,1,False
+Brimbank,3022,Ardeer,ardeer,20062,Ardeer,name_match_candidate,1,False
+Stonnington,3143,Armadale,armadale,20066,Armadale (Vic.),name_match_candidate,1,False
+Nillumbik,3099,Arthurs Creek,arthurs creek,20071,Arthurs Creek,name_match_candidate,1,False
+Mornington Peninsula,3936,Arthurs Seat,arthurs seat,20072,Arthurs Seat,name_match_candidate,1,False
+Moonee Valley,3032,Ascot Vale,ascot vale,20075,Ascot Vale,name_match_candidate,1,False
+Boroondara,3147,Ashburton,ashburton,20077,Ashburton,name_match_candidate,1,False
+Monash,3147,Ashwood,ashwood,20078,Ashwood,name_match_candidate,1,False
+Kingston,3195,Aspendale,aspendale,20079,Aspendale,name_match_candidate,1,False
+Kingston,3195,Aspendale Gardens,aspendale gardens,20080,Aspendale Gardens,name_match_candidate,1,False
+Hume,3049,Attwood,attwood,20082,Attwood,name_match_candidate,1,False
+Moonee Valley,3034,Avondale Heights,avondale heights,20089,Avondale Heights,name_match_candidate,1,False
+Cardinia,3782,Avonsleigh,avonsleigh,20091,Avonsleigh,name_match_candidate,1,False
+Moorabool,3340,Bacchus Marsh,bacchus marsh,20095,Bacchus Marsh,name_match_candidate,1,False
+Yarra Ranges,3777,Badger Creek,badger creek,20097,Badger Creek,name_match_candidate,1,False
+Port Phillip,3183,Balaclava,balaclava,20105,Balaclava (Vic.),name_match_candidate,1,False
+Mornington Peninsula,3926,Balnarring,balnarring,20120,Balnarring,name_match_candidate,1,False
+Mornington Peninsula,3926,Balnarring Beach,balnarring beach,20121,Balnarring Beach,name_match_candidate,1,False
+Boroondara,3103,Balwyn,balwyn,20123,Balwyn,name_match_candidate,1,False
+Boroondara,3104,Balwyn North,balwyn north,20124,Balwyn North,name_match_candidate,2,False
+Whitehorse,3104,Balwyn North,balwyn north,20124,Balwyn North,name_match_candidate,2,False
+Greater Dandenong,3175,Bangholme,bangholme,20131,Bangholme,name_match_candidate,1,False
+Mornington Peninsula,3911,Baxter,baxter,20169,Baxter,name_match_candidate,1,False
+Cardinia,3981,Bayles,bayles,20171,Bayles,name_match_candidate,1,False
+Knox,3153,Bayswater,bayswater,20173,Bayswater (Vic.),name_match_candidate,1,False
+Maroondah,3153,Bayswater North,bayswater north,20174,Bayswater North,name_match_candidate,1,False
+Cardinia,3807,Beaconsfield,beaconsfield,20175,Beaconsfield (Vic.),name_match_candidate,2,False
+Casey,3807,Beaconsfield,beaconsfield,20175,Beaconsfield (Vic.),name_match_candidate,2,False
+Cardinia,3808,Beaconsfield Upper,beaconsfield upper,20176,Beaconsfield Upper,name_match_candidate,1,False
+Bayside,3192,Beaumaris,beaumaris,20182,Beaumaris (Vic.),name_match_candidate,2,False
+Bayside,3193,Beaumaris,beaumaris,20182,Beaumaris (Vic.),name_match_candidate,2,False
+Yarra Ranges,3139,Beenak,beenak,20187,Beenak,name_match_candidate,1,False
+Yarra Ranges,3160,Belgrave,belgrave,20188,Belgrave,name_match_candidate,1,False
+Yarra Ranges,3160,Belgrave Heights,belgrave heights,20189,Belgrave Heights,name_match_candidate,1,False
+Yarra Ranges,3160,Belgrave South,belgrave south,20190,Belgrave South,name_match_candidate,1,False
+Banyule,3081,Bellfield,bellfield,20198,Bellfield (Banyule - Vic.),alias_match_candidate,1,False
+Macedon Ranges,3435,Benloch,benloch,20212,Benloch,name_match_candidate,1,False
+Glen Eira,3204,Bentleigh,bentleigh,20214,Bentleigh,name_match_candidate,1,False
+Glen Eira,3165,Bentleigh East,bentleigh east,20215,Bentleigh East,name_match_candidate,1,False
+Casey,3806,Berwick,berwick,20224,Berwick,name_match_candidate,1,False
+Mitchell,3753,Beveridge,beveridge,20233,Beveridge,name_match_candidate,2,False
+Whittlesea,3753,Beveridge,beveridge,20233,Beveridge,name_match_candidate,2,False
+Yarra Ranges,3799,Big Pats Creek,big pats creek,20237,Big Pats Creek,name_match_candidate,1,False
+Mornington Peninsula,3918,Bittern,bittern,20248,Bittern,name_match_candidate,1,False
+Bayside,3193,Black Rock,black rock,20251,Black Rock (Vic.),name_match_candidate,1,False
+Whitehorse,3130,Blackburn,blackburn,20252,Blackburn,name_match_candidate,1,False
+Whitehorse,3130,Blackburn North,blackburn north,20253,Blackburn North,name_match_candidate,1,False
+Whitehorse,3130,Blackburn South,blackburn south,20254,Blackburn South,name_match_candidate,1,False
+Mornington Peninsula,3942,Blairgowrie,blairgowrie,20257,Blairgowrie,name_match_candidate,1,False
+Casey,3980,Blind Bight,blind bight,20260,Blind Bight,name_match_candidate,1,False
+Macedon Ranges,3432,Bolinda,bolinda,20272,Bolinda,name_match_candidate,1,False
+Kingston,3196,Bonbeach,bonbeach,20278,Bonbeach,name_match_candidate,1,False
+Mornington Peninsula,3939,Boneo,boneo,20280,Boneo,name_match_candidate,1,False
+Melton,3335,Bonnie Brook,bonnie brook,20282,Bonnie Brook,name_match_candidate,1,False
+Knox,3155,Boronia,boronia,20304,Boronia,name_match_candidate,1,False
+Casey,3977,Botanic Ridge,botanic ridge,20307,Botanic Ridge,name_match_candidate,1,False
+Whitehorse,3128,Box Hill,box hill,20314,Box Hill (Vic.),name_match_candidate,1,False
+Whitehorse,3129,Box Hill North,box hill north,20315,Box Hill North,name_match_candidate,1,False
+Whitehorse,3128,Box Hill South,box hill south,20316,Box Hill South,name_match_candidate,1,False
+Kingston,3195,Braeside,braeside,20320,Braeside,name_match_candidate,1,False
+Maribyrnong,3019,Braybrook,braybrook,20324,Braybrook,name_match_candidate,1,False
+Banyule,3088,Briar Hill,briar hill,20331,Briar Hill,name_match_candidate,1,False
+Bayside,3186,Brighton,brighton,20337,Brighton (Vic.),name_match_candidate,1,False
+Bayside,3187,Brighton East,brighton east,20338,Brighton East,name_match_candidate,3,False
+Bayside,3188,Brighton East,brighton east,20338,Brighton East,name_match_candidate,3,False
+Glen Eira,3187,Brighton East,brighton east,20338,Brighton East,name_match_candidate,3,False
+Hume,3047,Broadmeadows,broadmeadows,20346,Broadmeadows (Vic.),name_match_candidate,1,False
+Melton,3338,Brookfield,brookfield,20351,Brookfield (Vic.),name_match_candidate,1,False
+Brimbank,3012,Brooklyn,brooklyn,20352,Brooklyn (Vic.),name_match_candidate,2,False
+Hobsons Bay,3012,Brooklyn,brooklyn,20352,Brooklyn (Vic.),name_match_candidate,2,False
+Merri-bek,3056,Brunswick,brunswick,20361,Brunswick (Vic.),name_match_candidate,1,False
+Merri-bek,3056,Brunswick East,brunswick east,20362,Brunswick East,name_match_candidate,2,False
+Merri-bek,3057,Brunswick East,brunswick east,20362,Brunswick East,name_match_candidate,2,False
+Merri-bek,3055,Brunswick West,brunswick west,20363,Brunswick West,name_match_candidate,1,False
+Hume,3428,Bulla,bulla,20381,Bulla (Vic.),name_match_candidate,1,False
+Manningham,3105,Bulleen,bulleen,20386,Bulleen,name_match_candidate,2,False
+Manningham,3108,Bulleen,bulleen,20386,Bulleen,name_match_candidate,2,False
+Macedon Ranges,3437,Bullengarook,bullengarook,20387,Bullengarook,name_match_candidate,1,False
+Banyule,3083,Bundoora,bundoora,20399,Bundoora (Vic.),name_match_candidate,3,False
+Darebin,3083,Bundoora,bundoora,20399,Bundoora (Vic.),name_match_candidate,3,False
+Whittlesea,3083,Bundoora,bundoora,20399,Bundoora (Vic.),name_match_candidate,3,False
+Cardinia,3815,Bunyip,bunyip,20411,Bunyip,name_match_candidate,1,False
+Cardinia,3815,Bunyip North,bunyip north,20412,Bunyip North,name_match_candidate,1,False
+Yarra,3121,Burnley,burnley,20418,Burnley,name_match_candidate,1,False
+Melton,3023,Burnside,burnside,20419,Burnside (Vic.),name_match_candidate,1,False
+Melton,3023,Burnside Heights,burnside heights,20420,Burnside Heights,name_match_candidate,1,False
+Monash,3125,Burwood,burwood,20426,Burwood (Vic.),name_match_candidate,2,False
+Whitehorse,3125,Burwood,burwood,20426,Burwood (Vic.),name_match_candidate,2,False
+Whitehorse,3151,Burwood East,burwood east,20427,Burwood East,name_match_candidate,1,False
+Mitchell,3762,Bylands,bylands,20435,Bylands,name_match_candidate,1,False
+Brimbank,3023,Cairnlea,cairnlea,20441,Cairnlea,name_match_candidate,1,False
+Brimbank,3037,Calder Park,calder park,20442,Calder Park,name_match_candidate,1,False
+Cardinia,3984,Caldermeade,caldermeade,20443,Caldermeade,name_match_candidate,1,False
+Boroondara,3124,Camberwell,camberwell,20453,Camberwell (Vic.),name_match_candidate,1,False
+Hume,3061,Campbellfield,campbellfield,20455,Campbellfield,name_match_candidate,1,False
+Casey,3977,Cannons Creek,cannons creek,20466,Cannons Creek,name_match_candidate,1,False
+Boroondara,3103,Canterbury,canterbury,20468,Canterbury (Vic.),name_match_candidate,2,False
+Boroondara,3126,Canterbury,canterbury,20468,Canterbury (Vic.),name_match_candidate,2,False
+Mornington Peninsula,3939,Cape Schanck,cape schanck,20474,Cape Schanck,name_match_candidate,1,False
+Mornington Peninsula,3940,Capel Sound,capel sound,20476,Capel Sound,name_match_candidate,1,False
+Cardinia,3978,Cardinia,cardinia,20487,Cardinia,name_match_candidate,1,False
+Melbourne,3000,Carlton,carlton,20495,Carlton (Vic.),name_match_candidate,2,False
+Melbourne,3053,Carlton,carlton,20495,Carlton (Vic.),name_match_candidate,2,False
+Melbourne,3054,Carlton North,carlton north,20496,Carlton North,name_match_candidate,2,False
+Yarra,3054,Carlton North,carlton north,20496,Carlton North,name_match_candidate,2,False
+Glen Eira,3163,Carnegie,carnegie,20498,Carnegie,name_match_candidate,1,False
+Melton,3023,Caroline Springs,caroline springs,20500,Caroline Springs,name_match_candidate,1,False
+Kingston,3197,Carrum,carrum,20507,Carrum,name_match_candidate,1,False
+Frankston,3201,Carrum Downs,carrum downs,20508,Carrum Downs,name_match_candidate,1,False
+Murrindindi,3777,Castella,castella,20512,Castella,name_match_candidate,1,False
+Cardinia,3981,Catani,catani,20517,Catani,name_match_candidate,1,False
+Glen Eira,3162,Caulfield,caulfield,20521,Caulfield,name_match_candidate,1,False
+Glen Eira,3145,Caulfield East,caulfield east,20522,Caulfield East,name_match_candidate,1,False
+Glen Eira,3161,Caulfield North,caulfield north,20523,Caulfield North,name_match_candidate,1,False
+Glen Eira,3162,Caulfield South,caulfield south,20524,Caulfield South,name_match_candidate,1,False
+Monash,3148,Chadstone,chadstone,20528,Chadstone,name_match_candidate,1,False
+Kingston,3196,Chelsea,chelsea,20537,Chelsea,name_match_candidate,1,False
+Kingston,3196,Chelsea Heights,chelsea heights,20538,Chelsea Heights,name_match_candidate,1,False
+Bayside,3192,Cheltenham,cheltenham,20539,Cheltenham (Vic.),name_match_candidate,2,False
+Kingston,3192,Cheltenham,cheltenham,20539,Cheltenham (Vic.),name_match_candidate,2,False
+Macedon Ranges,3434,Cherokee,cherokee,20541,Cherokee,name_match_candidate,1,False
+Macedon Ranges,3756,Chintin,chintin,20555,Chintin,name_match_candidate,1,False
+Yarra Ranges,3116,Chirnside Park,chirnside park,20556,Chirnside Park,name_match_candidate,1,False
+Nillumbik,3775,Christmas Hills,christmas hills,20559,Christmas Hills (Vic.),name_match_candidate,1,False
+Yarra Ranges,3777,Chum Creek,chum creek,20560,Chum Creek,name_match_candidate,1,False
+Kingston,3169,Clarinda,clarinda,20566,Clarinda,name_match_candidate,1,False
+Hume,3430,Clarkefield,clarkefield,20567,Clarkefield,name_match_candidate,2,False
+Macedon Ranges,3430,Clarkefield,clarkefield,20567,Clarkefield,name_match_candidate,2,False
+Monash,3168,Clayton,clayton,20569,Clayton,name_match_candidate,1,False
+Kingston,3169,Clayton South,clayton south,20570,Clayton South,name_match_candidate,1,False
+Cardinia,3782,Clematis,clematis,20572,Clematis,name_match_candidate,1,False
+Yarra,3066,Clifton Hill,clifton hill,20574,Clifton Hill,name_match_candidate,3,False
+Yarra,3067,Clifton Hill,clifton hill,20574,Clifton Hill,name_match_candidate,3,False
+Yarra,3068,Clifton Hill,clifton hill,20574,Clifton Hill,name_match_candidate,3,False
+Mitchell,3658,Clonbinane,clonbinane,20576,Clonbinane,name_match_candidate,1,False
+Casey,3978,Clyde,clyde,20581,Clyde (Vic.),name_match_candidate,1,False
+Casey,3978,Clyde North,clyde north,20582,Clyde North,name_match_candidate,1,False
+Macedon Ranges,3442,Cobaw,cobaw,20587,Cobaw,name_match_candidate,1,False
+Melton,3338,Cobblebank,cobblebank,20590,Cobblebank,name_match_candidate,1,False
+Merri-bek,3058,Coburg,coburg,20596,Coburg,name_match_candidate,1,False
+Merri-bek,3058,Coburg North,coburg north,20597,Coburg North,name_match_candidate,1,False
+Cardinia,3781,Cockatoo,cockatoo,20600,Cockatoo (Vic.),name_match_candidate,1,False
+Wyndham,3030,Cocoroc,cocoroc,20601,Cocoroc,name_match_candidate,1,False
+Moorabool,3340,Coimadai,coimadai,20605,Coimadai,name_match_candidate,1,False
+Yarra Ranges,3770,Coldstream,coldstream,20613,Coldstream (Vic.),name_match_candidate,1,False
+Yarra,3066,Collingwood,collingwood,20616,Collingwood (Vic.),name_match_candidate,1,False
+Hume,3048,Coolaroo,coolaroo,20624,Coolaroo,name_match_candidate,1,False
+Cardinia,3814,Cora Lynn,cora lynn,20633,Cora Lynn,name_match_candidate,1,False
+Nillumbik,3099,Cottles Bridge,cottles bridge,20654,Cottles Bridge,name_match_candidate,1,False
+Hume,3064,Craigieburn,craigieburn,20661,Craigieburn,name_match_candidate,1,False
+Casey,3977,Cranbourne,cranbourne,20662,Cranbourne,name_match_candidate,1,False
+Casey,3977,Cranbourne East,cranbourne east,20663,Cranbourne East,name_match_candidate,1,False
+Casey,3977,Cranbourne North,cranbourne north,20664,Cranbourne North,name_match_candidate,1,False
+Casey,3977,Cranbourne South,cranbourne south,20665,Cranbourne South,name_match_candidate,1,False
+Casey,3977,Cranbourne West,cranbourne west,20666,Cranbourne West,name_match_candidate,1,False
+Yarra,3121,Cremorne,cremorne,20670,Cremorne (Vic.),name_match_candidate,1,False
+Mornington Peninsula,3919,Crib Point,crib point,20674,Crib Point,name_match_candidate,1,False
+Maroondah,3136,Croydon,croydon,20682,Croydon (Vic.),name_match_candidate,1,False
+Maroondah,3136,Croydon Hills,croydon hills,20683,Croydon Hills,name_match_candidate,1,False
+Maroondah,3136,Croydon North,croydon north,20684,Croydon North,name_match_candidate,1,False
+Maroondah,3136,Croydon South,croydon south,20685,Croydon South,name_match_candidate,1,False
+Hume,3047,Dallas,dallas,20702,Dallas,name_match_candidate,1,False
+Cardinia,3981,Dalmore,dalmore,20703,Dalmore,name_match_candidate,1,False
+Greater Dandenong,3175,Dandenong,dandenong,20707,Dandenong,name_match_candidate,1,False
+Greater Dandenong,3175,Dandenong North,dandenong north,20708,Dandenong North,name_match_candidate,1,False
+Greater Dandenong,3175,Dandenong South,dandenong south,20709,Dandenong South,name_match_candidate,1,False
+Moorabool,3340,Darley,darley,20712,Darley,name_match_candidate,1,False
+Macedon Ranges,3756,Darraweit Guim,darraweit guim,20716,Darraweit Guim,name_match_candidate,1,False
+Melton,3336,Deanside,deanside,20724,Deanside,name_match_candidate,1,False
+Boroondara,3103,Deepdene,deepdene,20728,Deepdene (Vic.),name_match_candidate,1,False
+Brimbank,3023,Deer Park,deer park,20729,Deer Park,name_match_candidate,1,False
+Brimbank,3037,Delahey,delahey,20731,Delahey,name_match_candidate,1,False
+Brimbank,3026,Derrimut,derrimut,20743,Derrimut,name_match_candidate,1,False
+Casey,3977,Devon Meadows,devon meadows,20748,Devon Meadows,name_match_candidate,1,False
+Cardinia,3808,Dewhurst,dewhurst,20750,Dewhurst,name_match_candidate,1,False
+Nillumbik,3089,Diamond Creek,diamond creek,20752,Diamond Creek,name_match_candidate,1,False
+Hume,3427,Diggers Rest,diggers rest,20754,Diggers Rest,name_match_candidate,2,False
+Melton,3427,Diggers Rest,diggers rest,20754,Diggers Rest,name_match_candidate,2,False
+Kingston,3172,Dingley Village,dingley village,20758,Dingley Village,name_match_candidate,1,False
+Yarra Ranges,3775,Dixons Creek,dixons creek,20762,Dixons Creek,name_match_candidate,1,False
+Melbourne,3008,Docklands,docklands,20766,Docklands,name_match_candidate,1,False
+Yarra Ranges,3139,Don Valley,don valley,20769,Don Valley,name_match_candidate,1,False
+Manningham,3107,Doncaster,doncaster,20771,Doncaster,name_match_candidate,2,False
+Manningham,3108,Doncaster,doncaster,20771,Doncaster,name_match_candidate,2,False
+Manningham,3109,Doncaster East,doncaster east,20772,Doncaster East,name_match_candidate,1,False
+Whittlesea,3064,Donnybrook,donnybrook,20773,Donnybrook (Vic.),name_match_candidate,1,False
+Manningham,3111,Donvale,donvale,20774,Donvale,name_match_candidate,1,False
+Nillumbik,3754,Doreen,doreen,20779,Doreen,name_match_candidate,2,False
+Whittlesea,3754,Doreen,doreen,20779,Doreen,name_match_candidate,2,False
+Casey,3177,Doveton,doveton,20783,Doveton,name_match_candidate,1,False
+Mornington Peninsula,3936,Dromana,dromana,20788,Dromana,name_match_candidate,1,False
+Banyule,3084,Eaglemont,eaglemont,20825,Eaglemont,name_match_candidate,1,False
+Melbourne,3002,East Melbourne,east melbourne,20830,East Melbourne,name_match_candidate,1,False
+Yarra Ranges,3799,East Warburton,east warburton,20833,East Warburton,name_match_candidate,1,False
+Whittlesea,3757,Eden Park,eden park,20843,Eden Park,name_match_candidate,1,False
+Kingston,3196,Edithvale,edithvale,20848,Edithvale,name_match_candidate,1,False
+Glen Eira,3185,Elsternwick,elsternwick,20864,Elsternwick,name_match_candidate,1,False
+Banyule,3095,Eltham,eltham,20865,Eltham (Vic.),name_match_candidate,2,False
+Nillumbik,3095,Eltham,eltham,20865,Eltham (Vic.),name_match_candidate,2,False
+Banyule,3095,Eltham North,eltham north,20866,Eltham North,name_match_candidate,2,False
+Nillumbik,3095,Eltham North,eltham north,20866,Eltham North,name_match_candidate,2,False
+Port Phillip,3184,Elwood,elwood,20867,Elwood,name_match_candidate,1,False
+Cardinia,3782,Emerald,emerald,20868,Emerald (Vic.),name_match_candidate,2,False
+Yarra Ranges,3782,Emerald,emerald,20868,Emerald (Vic.),name_match_candidate,2,False
+Casey,3802,Endeavour Hills,endeavour hills,20871,Endeavour Hills,name_match_candidate,1,False
+Whittlesea,3076,Epping,epping,20878,Epping (Vic.),name_match_candidate,1,False
+Moonee Valley,3040,Essendon,essendon,20885,Essendon,name_match_candidate,1,False
+Moonee Valley,3041,Essendon Fields,essendon fields,20886,Essendon Fields,name_match_candidate,1,False
+Moonee Valley,3041,Essendon North,essendon north,20887,Essendon North,name_match_candidate,1,False
+Moonee Valley,3040,Essendon West,essendon west,20888,Essendon West,name_match_candidate,1,False
+Casey,3177,Eumemmerring,eumemmerring,20889,Eumemmerring,name_match_candidate,1,False
+Melton,3338,Exford,exford,20898,Exford,name_match_candidate,1,False
+Melton,3338,Eynesbury,eynesbury,20899,Eynesbury,name_match_candidate,2,False
+Wyndham,3338,Eynesbury,eynesbury,20899,Eynesbury,name_match_candidate,2,False
+Darebin,3078,Fairfield,fairfield,20901,Fairfield (Vic.),name_match_candidate,2,False
+Yarra,3078,Fairfield,fairfield,20901,Fairfield (Vic.),name_match_candidate,2,False
+Hume,3060,Fawkner,fawkner,20909,Fawkner,name_match_candidate,2,False
+Merri-bek,3060,Fawkner,fawkner,20909,Fawkner,name_match_candidate,2,False
+Yarra Ranges,3778,Fernshaw,fernshaw,20916,Fernshaw,name_match_candidate,1,False
+Knox,3156,Ferntree Gully,ferntree gully,20917,Ferntree Gully,name_match_candidate,1,False
+Yarra Ranges,3786,Ferny Creek,ferny creek,20918,Ferny Creek,name_match_candidate,1,False
+Mornington Peninsula,3939,Fingal,fingal,20920,Fingal (Vic.),name_match_candidate,1,False
+Yarra,3065,Fitzroy,fitzroy,20924,Fitzroy (Vic.),name_match_candidate,1,False
+Merri-bek,3068,Fitzroy North,fitzroy north,20925,Fitzroy North,name_match_candidate,2,False
+Yarra,3068,Fitzroy North,fitzroy north,20925,Fitzroy North,name_match_candidate,2,False
+Melbourne,3031,Flemington,flemington,20929,Flemington,name_match_candidate,2,False
+Moonee Valley,3031,Flemington,flemington,20929,Flemington,name_match_candidate,2,False
+Mornington Peninsula,3929,Flinders,flinders,20930,Flinders (Vic.),name_match_candidate,1,False
+Maribyrnong,3011,Footscray,footscray,20935,Footscray,name_match_candidate,1,False
+Whitehorse,3131,Forest Hill,forest hill,20937,Forest Hill (Vic.),name_match_candidate,1,False
+Frankston,3199,Frankston,frankston,20947,Frankston,name_match_candidate,1,False
+Frankston,3200,Frankston North,frankston north,20948,Frankston North,name_match_candidate,1,False
+Frankston,3199,Frankston South,frankston south,20949,Frankston South,name_match_candidate,1,False
+Melton,3336,Fraser Rise,fraser rise,20950,Fraser Rise,name_match_candidate,1,False
+Glen Eira,3185,Gardenvale,gardenvale,20965,Gardenvale,name_match_candidate,1,False
+Cardinia,3814,Garfield,garfield,20966,Garfield,name_match_candidate,1,False
+Cardinia,3814,Garfield North,garfield north,20967,Garfield North,name_match_candidate,1,False
+Cardinia,3783,Gembrook,gembrook,20979,Gembrook,name_match_candidate,1,False
+Macedon Ranges,3437,Gisborne,gisborne,21001,Gisborne,name_match_candidate,1,False
+Macedon Ranges,3437,Gisborne South,gisborne south,21002,Gisborne South,name_match_candidate,1,False
+Hume,3043,Gladstone Park,gladstone park,21004,Gladstone Park,name_match_candidate,1,False
+Yarra Ranges,3797,Gladysdale,gladysdale,21005,Gladysdale,name_match_candidate,1,False
+Glen Eira,3163,Glen Huntly,glen huntly,21009,Glen Huntly,name_match_candidate,1,False
+Boroondara,3146,Glen Iris,glen iris,21010,Glen Iris (Vic.),name_match_candidate,2,False
+Stonnington,3146,Glen Iris,glen iris,21010,Glen Iris (Vic.),name_match_candidate,2,False
+Monash,3150,Glen Waverley,glen waverley,21013,Glen Waverley,name_match_candidate,1,False
+Merri-bek,3046,Glenroy,glenroy,21047,Glenroy (Vic.),name_match_candidate,1,False
+Macedon Ranges,3435,Goldie,goldie,21059,Goldie,name_match_candidate,1,False
+Merri-bek,3043,Gowanbrae,gowanbrae,21079,Gowanbrae,name_match_candidate,1,False
+Melton,3335,Grangefields,grangefields,21087,Grangefields,name_match_candidate,1,False
+Banyule,3088,Greensborough,greensborough,21104,Greensborough,name_match_candidate,2,False
+Nillumbik,3088,Greensborough,greensborough,21104,Greensborough,name_match_candidate,2,False
+Hume,3059,Greenvale,greenvale,21105,Greenvale (Vic.),name_match_candidate,1,False
+Yarra Ranges,3770,Gruyere,gruyere,21115,Gruyere,name_match_candidate,1,False
+Cardinia,3807,Guys Hill,guys hill,21121,Guys Hill,name_match_candidate,1,False
+Merri-bek,3046,Hadfield,hadfield,21124,Hadfield,name_match_candidate,1,False
+Casey,3803,Hallam,hallam,21125,Hallam,name_match_candidate,1,False
+Bayside,3188,Hampton,hampton,21131,Hampton (Vic.),name_match_candidate,1,False
+Bayside,3188,Hampton East,hampton east,21132,Hampton East,name_match_candidate,1,False
+Casey,3976,Hampton Park,hampton park,21133,Hampton Park,name_match_candidate,1,False
+Casey,3806,Harkaway,harkaway,21139,Harkaway,name_match_candidate,1,False
+Melton,3337,Harkness,harkness,21140,Harkness,name_match_candidate,1,False
+Mornington Peninsula,3915,Hastings,hastings,21145,Hastings (Vic.),name_match_candidate,1,False
+Boroondara,3122,Hawthorn,hawthorn,21152,Hawthorn (Vic.),name_match_candidate,1,False
+Boroondara,3123,Hawthorn East,hawthorn east,21153,Hawthorn East,name_match_candidate,1,False
+Yarra Ranges,3777,Healesville,healesville,21158,Healesville,name_match_candidate,1,False
+Baw Baw,3981,Heath Hill,heath hill,21159,Heath Hill,name_match_candidate,2,False
+Cardinia,3981,Heath Hill,heath hill,21159,Heath Hill,name_match_candidate,2,False
+Mitchell,3758,Heathcote Junction,heathcote junction,21161,Heathcote Junction,name_match_candidate,1,False
+Kingston,3202,Heatherton,heatherton,21163,Heatherton,name_match_candidate,1,False
+Maroondah,3135,Heathmont,heathmont,21165,Heathmont,name_match_candidate,1,False
+Banyule,3084,Heidelberg,heidelberg,21167,Heidelberg,name_match_candidate,1,False
+Banyule,3081,Heidelberg Heights,heidelberg heights,21168,Heidelberg Heights,name_match_candidate,1,False
+Banyule,3081,Heidelberg West,heidelberg west,21169,Heidelberg West,name_match_candidate,1,False
+Macedon Ranges,3442,Hesket,hesket,21176,Hesket,name_match_candidate,1,False
+Bayside,3190,Highett,highett,21185,Highett,name_match_candidate,3,False
+Bayside,3192,Highett,highett,21185,Highett,name_match_candidate,3,False
+Kingston,3190,Highett,highett,21185,Highett,name_match_candidate,3,False
+Brimbank,3037,Hillside,hillside,21193,Hillside (Melton - Vic.),alias_match_candidate,2,False
+Melton,3037,Hillside,hillside,21193,Hillside (Melton - Vic.),alias_match_candidate,2,False
+Mornington Peninsula,3920,Hmas Cerberus,hmas cerberus,21195,Hmas Cerberus,name_match_candidate,1,False
+Yarra Ranges,3139,Hoddles Creek,hoddles creek,21196,Hoddles Creek,name_match_candidate,1,False
+Moorabool,3340,Hopetoun Park,hopetoun park,21202,Hopetoun Park,name_match_candidate,1,False
+Wyndham,3029,Hoppers Crossing,hoppers crossing,21203,Hoppers Crossing,name_match_candidate,1,False
+Monash,3166,Hughesdale,hughesdale,21214,Hughesdale,name_match_candidate,1,False
+Whittlesea,3757,Humevale,humevale,21215,Humevale,name_match_candidate,1,False
+Monash,3166,Huntingdale,huntingdale,21218,Huntingdale (Vic.),name_match_candidate,1,False
+Nillumbik,3099,Hurstbridge,hurstbridge,21223,Hurstbridge,name_match_candidate,1,False
+Cardinia,3815,Iona,iona,21238,Iona,name_match_candidate,1,False
+Banyule,3079,Ivanhoe,ivanhoe,21246,Ivanhoe (Vic.),name_match_candidate,1,False
+Banyule,3079,Ivanhoe East,ivanhoe east,21247,Ivanhoe East,name_match_candidate,2,False
+Banyule,3084,Ivanhoe East,ivanhoe east,21247,Ivanhoe East,name_match_candidate,2,False
+Hume,3047,Jacana,jacana,21248,Jacana,name_match_candidate,1,False
+Casey,3977,Junction Village,junction village,21277,Junction Village,name_match_candidate,1,False
+Hume,3064,Kalkallo,kalkallo,21284,Kalkallo,name_match_candidate,1,False
+Yarra Ranges,3791,Kallista,kallista,21286,Kallista,name_match_candidate,1,False
+Yarra Ranges,3766,Kalorama,kalorama,21287,Kalorama,name_match_candidate,1,False
+Nillumbik,3097,Kangaroo Ground,kangaroo ground,21294,Kangaroo Ground,name_match_candidate,1,False
+Brimbank,3021,Kealba,kealba,21312,Kealba,name_match_candidate,1,False
+Brimbank,3036,Keilor,keilor,21314,Keilor,name_match_candidate,2,False
+Hume,3036,Keilor,keilor,21314,Keilor,name_match_candidate,2,False
+Brimbank,3038,Keilor Downs,keilor downs,21315,Keilor Downs,name_match_candidate,1,False
+Brimbank,3033,Keilor East,keilor east,21316,Keilor East,name_match_candidate,2,False
+Moonee Valley,3033,Keilor East,keilor east,21316,Keilor East,name_match_candidate,2,False
+Brimbank,3038,Keilor Lodge,keilor lodge,21317,Keilor Lodge,name_match_candidate,1,False
+Brimbank,3036,Keilor North,keilor north,21318,Keilor North,name_match_candidate,1,False
+Brimbank,3042,Keilor Park,keilor park,21319,Keilor Park,name_match_candidate,1,False
+Melbourne,3031,Kensington,kensington,21327,Kensington (Vic.),name_match_candidate,2,False
+Moonee Valley,3031,Kensington,kensington,21327,Kensington (Vic.),name_match_candidate,2,False
+Macedon Ranges,3434,Kerrie,kerrie,21333,Kerrie,name_match_candidate,1,False
+Boroondara,3101,Kew,kew,21336,Kew (Vic.),name_match_candidate,1,False
+Boroondara,3102,Kew East,kew east,21337,Kew East,name_match_candidate,1,False
+Greater Dandenong,3173,Keysborough,keysborough,21339,Keysborough,name_match_candidate,1,False
+Maroondah,3137,Kilsyth,kilsyth,21354,Kilsyth,name_match_candidate,2,False
+Yarra Ranges,3137,Kilsyth,kilsyth,21354,Kilsyth,name_match_candidate,2,False
+Maroondah,3137,Kilsyth South,kilsyth south,21355,Kilsyth South,name_match_candidate,1,False
+Murrindindi,3763,Kinglake,kinglake,21358,Kinglake,name_match_candidate,2,False
+Nillumbik,3763,Kinglake,kinglake,21358,Kinglake,name_match_candidate,2,False
+Murrindindi,3757,Kinglake Central,kinglake central,21359,Kinglake Central,name_match_candidate,1,False
+Murrindindi,3757,Kinglake West,kinglake west,21360,Kinglake West,name_match_candidate,3,False
+Nillumbik,3757,Kinglake West,kinglake west,21360,Kinglake West,name_match_candidate,3,False
+Whittlesea,3757,Kinglake West,kinglake west,21360,Kinglake West,name_match_candidate,3,False
+Brimbank,3021,Kings Park,kings park,21362,Kings Park (Vic.),name_match_candidate,1,False
+Darebin,3083,Kingsbury,kingsbury,21363,Kingsbury,name_match_candidate,1,False
+Maribyrnong,3012,Kingsville,kingsville,21365,Kingsville,name_match_candidate,1,False
+Knox,3180,Knoxfield,knoxfield,21374,Knoxfield,name_match_candidate,1,False
+Cardinia,3981,Koo Wee Rup,koo wee rup,21380,Koo Wee Rup,name_match_candidate,1,False
+Cardinia,3981,Koo Wee Rup North,koo wee rup north,21381,Koo Wee Rup North,name_match_candidate,1,False
+Stonnington,3144,Kooyong,kooyong,21393,Kooyong,name_match_candidate,1,False
+Melton,3337,Kurunjang,kurunjang,21411,Kurunjang,name_match_candidate,1,False
+Whittlesea,3075,Lalor,lalor,21452,Lalor,name_match_candidate,1,False
+Macedon Ranges,3435,Lancefield,lancefield,21456,Lancefield,name_match_candidate,1,False
+Bass Coast,3984,Lang Lang,lang lang,21459,Lang Lang,name_match_candidate,3,False
+Cardinia,3984,Lang Lang,lang lang,21459,Lang Lang,name_match_candidate,3,False
+South Gippsland,3984,Lang Lang,lang lang,21459,Lang Lang,name_match_candidate,3,False
+Cardinia,3984,Lang Lang East,lang lang east,21460,Lang Lang East,name_match_candidate,1,False
+Frankston,3910,Langwarrin,langwarrin,21467,Langwarrin,name_match_candidate,1,False
+Frankston,3911,Langwarrin South,langwarrin south,21468,Langwarrin South,name_match_candidate,1,False
+Yarra Ranges,3139,Launching Place,launching place,21473,Launching Place,name_match_candidate,1,False
+Hobsons Bay,3028,Laverton,laverton,21476,Laverton (Vic.),name_match_candidate,2,False
+Wyndham,3028,Laverton,laverton,21476,Laverton (Vic.),name_match_candidate,2,False
+Wyndham,3026,Laverton North,laverton north,21477,Laverton North,name_match_candidate,1,False
+Yarra Ranges,3140,Lilydale,lilydale,21504,Lilydale (Vic.),name_match_candidate,1,False
+Moorabool,3340,Long Forest,long forest,21533,Long Forest,name_match_candidate,1,False
+Banyule,3093,Lower Plenty,lower plenty,21547,Lower Plenty,name_match_candidate,1,False
+Casey,3975,Lynbrook,lynbrook,21554,Lynbrook,name_match_candidate,1,False
+Casey,3975,Lyndhurst,lyndhurst,21555,Lyndhurst (Vic.),name_match_candidate,2,False
+Greater Dandenong,3975,Lyndhurst,lyndhurst,21555,Lyndhurst (Vic.),name_match_candidate,2,False
+Knox,3156,Lysterfield,lysterfield,21558,Lysterfield,name_match_candidate,2,False
+Yarra Ranges,3156,Lysterfield,lysterfield,21558,Lysterfield,name_match_candidate,2,False
+Casey,3156,Lysterfield South,lysterfield south,21559,Lysterfield South,name_match_candidate,1,False
+Yarra Ranges,3782,Macclesfield,macclesfield,21561,Macclesfield (Vic.),name_match_candidate,1,False
+Macedon Ranges,3440,Macedon,macedon,21562,Macedon,name_match_candidate,1,False
+Banyule,3085,Macleod,macleod,21564,Macleod (Vic.),name_match_candidate,2,False
+Darebin,3085,Macleod,macleod,21564,Macleod (Vic.),name_match_candidate,2,False
+Moorabool,3340,Maddingley,maddingley,21569,Maddingley,name_match_candidate,1,False
+Maribyrnong,3012,Maidstone,maidstone,21575,Maidstone,name_match_candidate,1,False
+Mornington Peninsula,3928,Main Ridge,main ridge,21578,Main Ridge,name_match_candidate,1,False
+Stonnington,3143,Malvern,malvern,21586,Malvern (Vic.),name_match_candidate,2,False
+Stonnington,3144,Malvern,malvern,21586,Malvern (Vic.),name_match_candidate,2,False
+Stonnington,3145,Malvern East,malvern east,21587,Malvern East,name_match_candidate,1,False
+Wyndham,3024,Mambourin,mambourin,21588,Mambourin,name_match_candidate,1,False
+Wyndham,3024,Manor Lakes,manor lakes,21597,Manor Lakes,name_match_candidate,1,False
+Maribyrnong,3032,Maribyrnong,maribyrnong,21604,Maribyrnong,name_match_candidate,1,False
+Cardinia,3812,Maryknoll,maryknoll,21619,Maryknoll,name_match_candidate,1,False
+Mornington Peninsula,3938,McCrae,mccrae,21625,McCrae,name_match_candidate,1,False
+Glen Eira,3204,McKinnon,mckinnon,21629,McKinnon,name_match_candidate,1,False
+Hume,3048,Meadow Heights,meadow heights,21635,Meadow Heights,name_match_candidate,1,False
+Melbourne,3000,Melbourne,melbourne,21640,Melbourne,name_match_candidate,5,False
+Melbourne,3004,Melbourne,melbourne,21640,Melbourne,name_match_candidate,5,False
+Melbourne,3052,Melbourne,melbourne,21640,Melbourne,name_match_candidate,5,False
+Port Phillip,3004,Melbourne,melbourne,21640,Melbourne,name_match_candidate,5,False
+Port Phillip,3181,Melbourne,melbourne,21640,Melbourne,name_match_candidate,5,False
+Hume,3045,Melbourne Airport,melbourne airport,21641,Melbourne Airport,name_match_candidate,1,False
+Melton,3337,Melton,melton,21642,Melton (Vic.),name_match_candidate,1,False
+Melton,3338,Melton South,melton south,21643,Melton South,name_match_candidate,1,False
+Melton,3337,Melton West,melton west,21644,Melton West,name_match_candidate,1,False
+Kingston,3194,Mentone,mentone,21648,Mentone,name_match_candidate,1,False
+Cardinia,3159,Menzies Creek,menzies creek,21649,Menzies Creek,name_match_candidate,2,False
+Yarra Ranges,3159,Menzies Creek,menzies creek,21649,Menzies Creek,name_match_candidate,2,False
+Whittlesea,3754,Mernda,mernda,21659,Mernda,name_match_candidate,1,False
+Mornington Peninsula,3916,Merricks,merricks,21662,Merricks,name_match_candidate,1,False
+Mornington Peninsula,3926,Merricks Beach,merricks beach,21663,Merricks Beach,name_match_candidate,1,False
+Mornington Peninsula,3926,Merricks North,merricks north,21664,Merricks North,name_match_candidate,1,False
+Moorabool,3340,Merrimu,merrimu,21668,Merrimu,name_match_candidate,1,False
+Hume,3064,Mickleham,mickleham,21675,Mickleham,name_match_candidate,1,False
+Port Phillip,3206,Middle Park,middle park,21677,Middle Park (Vic.),name_match_candidate,1,False
+Whittlesea,3082,Mill Park,mill park,21683,Mill Park,name_match_candidate,1,False
+Yarra Ranges,3799,Millgrove,millgrove,21685,Millgrove,name_match_candidate,1,False
+Whitehorse,3132,Mitcham,mitcham,21706,Mitcham (Vic.),name_match_candidate,1,False
+Yarra Ranges,3793,Monbulk,monbulk,21727,Monbulk,name_match_candidate,1,False
+Macedon Ranges,3433,Monegeetta,monegeetta,21728,Monegeetta,name_match_candidate,1,False
+Cardinia,3984,Monomeith,monomeith,21731,Monomeith,name_match_candidate,1,False
+Boroondara,3127,Mont Albert,mont albert,21732,Mont Albert,name_match_candidate,2,False
+Whitehorse,3127,Mont Albert,mont albert,21732,Mont Albert,name_match_candidate,2,False
+Whitehorse,3129,Mont Albert North,mont albert north,21733,Mont Albert North,name_match_candidate,1,False
+Banyule,3094,Montmorency,montmorency,21735,Montmorency,name_match_candidate,1,False
+Yarra Ranges,3765,Montrose,montrose,21736,Montrose (Vic.),name_match_candidate,1,False
+Moonee Valley,3039,Moonee Ponds,moonee ponds,21742,Moonee Ponds,name_match_candidate,1,False
+Kingston,3189,Moorabbin,moorabbin,21746,Moorabbin,name_match_candidate,1,False
+Kingston,3194,Moorabbin Airport,moorabbin airport,21747,Moorabbin Airport,name_match_candidate,1,False
+Mornington Peninsula,3933,Moorooduc,moorooduc,21754,Moorooduc,name_match_candidate,1,False
+Yarra Ranges,3138,Mooroolbark,mooroolbark,21755,Mooroolbark,name_match_candidate,1,False
+Kingston,3195,Mordialloc,mordialloc,21760,Mordialloc,name_match_candidate,1,False
+Mornington Peninsula,3931,Mornington,mornington,21763,Mornington (Vic.),name_match_candidate,1,False
+Cardinia,3781,Mount Burnett,mount burnett,21779,Mount Burnett,name_match_candidate,1,False
+Melton,3024,Mount Cottrell,mount cottrell,21786,Mount Cottrell,name_match_candidate,2,False
+Wyndham,3024,Mount Cottrell,mount cottrell,21786,Mount Cottrell,name_match_candidate,2,False
+Yarra Ranges,3767,Mount Dandenong,mount dandenong,21787,Mount Dandenong,name_match_candidate,1,False
+Mornington Peninsula,3930,Mount Eliza,mount eliza,21793,Mount Eliza,name_match_candidate,1,False
+Yarra Ranges,3796,Mount Evelyn,mount evelyn,21795,Mount Evelyn,name_match_candidate,1,False
+Macedon Ranges,3441,Mount Macedon,mount macedon,21801,Mount Macedon,name_match_candidate,1,False
+Mornington Peninsula,3934,Mount Martha,mount martha,21803,Mount Martha,name_match_candidate,1,False
+Yarra Ranges,3777,Mount Toolebewong,mount toolebewong,21814,Mount Toolebewong,name_match_candidate,1,False
+Monash,3149,Mount Waverley,mount waverley,21816,Mount Waverley,name_match_candidate,1,False
+Monash,3170,Mulgrave,mulgrave,21827,Mulgrave (Vic.),name_match_candidate,1,False
+Glen Eira,3163,Murrumbeena,murrumbeena,21849,Murrumbeena,name_match_candidate,1,False
+Cardinia,3781,Nangana,nangana,21872,Nangana,name_match_candidate,1,False
+Cardinia,3812,Nar Nar Goon,nar nar goon,21878,Nar Nar Goon,name_match_candidate,1,False
+Cardinia,3812,Nar Nar Goon North,nar nar goon north,21879,Nar Nar Goon North,name_match_candidate,1,False
+Casey,3805,Narre Warren,narre warren,21893,Narre Warren,name_match_candidate,1,False
+Yarra Ranges,3804,Narre Warren East,narre warren east,21894,Narre Warren East,name_match_candidate,1,False
+Casey,3804,Narre Warren North,narre warren north,21895,Narre Warren North,name_match_candidate,1,False
+Casey,3805,Narre Warren South,narre warren south,21896,Narre Warren South,name_match_candidate,1,False
+Macedon Ranges,3438,New Gisborne,new gisborne,21921,New Gisborne,name_match_candidate,1,False
+Hobsons Bay,3015,Newport,newport,21934,Newport (Vic.),name_match_candidate,1,False
+Moonee Valley,3042,Niddrie,niddrie,21942,Niddrie,name_match_candidate,1,False
+Greater Dandenong,3174,Noble Park,noble park,21952,Noble Park,name_match_candidate,1,False
+Greater Dandenong,3174,Noble Park North,noble park north,21953,Noble Park North,name_match_candidate,1,False
+Melbourne,3051,North Melbourne,north melbourne,21966,North Melbourne,name_match_candidate,1,False
+Nillumbik,3113,North Warrandyte,north warrandyte,21969,North Warrandyte,name_match_candidate,1,False
+Darebin,3070,Northcote,northcote,21971,Northcote,name_match_candidate,1,False
+Monash,3168,Notting Hill,notting hill,21974,Notting Hill,name_match_candidate,1,False
+Manningham,3131,Nunawading,nunawading,21985,Nunawading,name_match_candidate,2,False
+Whitehorse,3131,Nunawading,nunawading,21985,Nunawading,name_match_candidate,2,False
+Nillumbik,3099,Nutfield,nutfield,21991,Nutfield,name_match_candidate,1,False
+Merri-bek,3046,Oak Park,oak park,21998,Oak Park,name_match_candidate,1,False
+Hume,3063,Oaklands Junction,oaklands junction,21999,Oaklands Junction,name_match_candidate,1,False
+Monash,3166,Oakleigh,oakleigh,22000,Oakleigh,name_match_candidate,1,False
+Monash,3166,Oakleigh East,oakleigh east,22001,Oakleigh East,name_match_candidate,1,False
+Kingston,3167,Oakleigh South,oakleigh south,22002,Oakleigh South,name_match_candidate,2,False
+Monash,3167,Oakleigh South,oakleigh south,22002,Oakleigh South,name_match_candidate,2,False
+Cardinia,3809,Officer,officer,22006,Officer,name_match_candidate,1,False
+Cardinia,3809,Officer South,officer south,22007,Officer South,name_match_candidate,1,False
+Yarra Ranges,3788,Olinda,olinda,22009,Olinda (Vic.),name_match_candidate,1,False
+Glen Eira,3204,Ormond,ormond,22016,Ormond,name_match_candidate,1,False
+Cardinia,3810,Pakenham,pakenham,22027,Pakenham,name_match_candidate,1,False
+Cardinia,3810,Pakenham South,pakenham south,22028,Pakenham South,name_match_candidate,1,False
+Cardinia,3810,Pakenham Upper,pakenham upper,22029,Pakenham Upper,name_match_candidate,1,False
+Nillumbik,3759,Panton Hill,panton hill,22032,Panton Hill,name_match_candidate,1,False
+Manningham,3114,Park Orchards,park orchards,22036,Park Orchards,name_match_candidate,1,False
+Kingston,3195,Parkdale,parkdale,22037,Parkdale,name_match_candidate,1,False
+Melbourne,3052,Parkville,parkville,22038,Parkville (Vic.),name_match_candidate,1,False
+Merri-bek,3044,Pascoe Vale,pascoe vale,22041,Pascoe Vale,name_match_candidate,1,False
+Merri-bek,3044,Pascoe Vale South,pascoe vale south,22042,Pascoe Vale South,name_match_candidate,1,False
+Kingston,3197,Patterson Lakes,patterson lakes,22047,Patterson Lakes,name_match_candidate,1,False
+Casey,3912,Pearcedale,pearcedale,22050,Pearcedale,name_match_candidate,2,False
+Mornington Peninsula,3912,Pearcedale,pearcedale,22050,Pearcedale,name_match_candidate,2,False
+Moorabool,3341,Pentland Hills,pentland hills,22058,Pentland Hills,name_match_candidate,1,False
+Murrindindi,3757,Pheasant Creek,pheasant creek,22064,Pheasant Creek (Vic.),name_match_candidate,1,False
+Nillumbik,3090,Plenty,plenty,22084,Plenty (Vic.),name_match_candidate,1,False
+Melton,3335,Plumpton,plumpton,22085,Plumpton (Vic.),name_match_candidate,1,False
+Wyndham,3030,Point Cook,point cook,22086,Point Cook,name_match_candidate,1,False
+Mornington Peninsula,3916,Point Leo,point leo,22087,Point Leo,name_match_candidate,1,False
+Melbourne,3207,Port Melbourne,port melbourne,22107,Port Melbourne,name_match_candidate,2,False
+Port Phillip,3207,Port Melbourne,port melbourne,22107,Port Melbourne,name_match_candidate,2,False
+Mornington Peninsula,3944,Portsea,portsea,22113,Portsea,name_match_candidate,1,False
+Yarra Ranges,3797,Powelltown,powelltown,22115,Powelltown,name_match_candidate,1,False
+Stonnington,3181,Prahran,prahran,22118,Prahran,name_match_candidate,1,False
+Darebin,3072,Preston,preston,22121,Preston (Vic.),name_match_candidate,1,False
+Yarra,3054,Princes Hill,princes hill,22122,Princes Hill,name_match_candidate,1,False
+Wyndham,3030,Quandong,quandong,22132,Quandong,name_match_candidate,1,False
+Melton,3023,Ravenhall,ravenhall,22141,Ravenhall,name_match_candidate,1,False
+Mornington Peninsula,3937,Red Hill,red hill,22148,Red Hill (Vic.),name_match_candidate,1,False
+Mornington Peninsula,3937,Red Hill South,red hill south,22149,Red Hill South,name_match_candidate,1,False
+Nillumbik,3095,Research,research,22160,Research,name_match_candidate,1,False
+Darebin,3073,Reservoir,reservoir,22161,Reservoir (Vic.),name_match_candidate,1,False
+Yarra,3121,Richmond,richmond,22170,Richmond (Vic.),name_match_candidate,1,False
+Macedon Ranges,3431,Riddells Creek,riddells creek,22172,Riddells Creek,name_match_candidate,1,False
+Maroondah,3134,Ringwood,ringwood,22174,Ringwood (Vic.),name_match_candidate,1,False
+Maroondah,3135,Ringwood East,ringwood east,22175,Ringwood East,name_match_candidate,1,False
+Manningham,3134,Ringwood North,ringwood north,22176,Ringwood North,name_match_candidate,2,False
+Maroondah,3134,Ringwood North,ringwood north,22176,Ringwood North,name_match_candidate,2,False
+Port Phillip,3185,Ripponlea,ripponlea,22179,Ripponlea,name_match_candidate,1,False
+Macedon Ranges,3442,Rochford,rochford,22185,Rochford,name_match_candidate,1,False
+Melton,3335,Rockbank,rockbank,22186,Rockbank,name_match_candidate,1,False
+Macedon Ranges,3434,Romsey,romsey,22193,Romsey,name_match_candidate,1,False
+Banyule,3084,Rosanna,rosanna,22194,Rosanna,name_match_candidate,1,False
+Mornington Peninsula,3939,Rosebud,rosebud,22198,Rosebud,name_match_candidate,1,False
+Knox,3178,Rowville,rowville,22207,Rowville,name_match_candidate,1,False
+Hume,3064,Roxburgh Park,roxburgh park,22208,Roxburgh Park,name_match_candidate,1,False
+Mornington Peninsula,3941,Rye,rye,22220,Rye,name_match_candidate,1,False
+Cardinia,3810,Rythdale,rythdale,22221,Rythdale,name_match_candidate,1,False
+Mornington Peninsula,3936,Safety Beach,safety beach,22222,Safety Beach (Vic.),name_match_candidate,1,False
+Frankston,3977,Sandhurst,sandhurst,22232,Sandhurst,name_match_candidate,1,False
+Bayside,3191,Sandringham,sandringham,22234,Sandringham (Vic.),name_match_candidate,1,False
+Yarra Ranges,3787,Sassafras,sassafras,22239,Sassafras (Vic.),name_match_candidate,1,False
+Knox,3179,Scoresby,scoresby,22242,Scoresby,name_match_candidate,1,False
+Hobsons Bay,3028,Seabrook,seabrook,22247,Seabrook,name_match_candidate,1,False
+Frankston,3198,Seaford,seaford,22249,Seaford (Vic.),name_match_candidate,1,False
+Hobsons Bay,3018,Seaholme,seaholme,22250,Seaholme,name_match_candidate,1,False
+Maribyrnong,3011,Seddon,seddon,22256,Seddon (Vic.),name_match_candidate,1,False
+Yarra Ranges,3159,Selby,selby,22258,Selby,name_match_candidate,1,False
+Yarra Ranges,3139,Seville,seville,22263,Seville,name_match_candidate,1,False
+Yarra Ranges,3139,Seville East,seville east,22264,Seville East,name_match_candidate,1,False
+Yarra Ranges,3789,Sherbrooke,sherbrooke,22278,Sherbrooke,name_match_candidate,1,False
+Mornington Peninsula,3916,Shoreham,shoreham,22279,Shoreham,name_match_candidate,1,False
+Yarra Ranges,3795,Silvan,silvan,22281,Silvan,name_match_candidate,1,False
+Frankston,3977,Skye,skye,22291,Skye (Vic.),name_match_candidate,1,False
+Nillumbik,3760,Smiths Gully,smiths gully,22295,Smiths Gully,name_match_candidate,1,False
+Mornington Peninsula,3927,Somers,somers,22303,Somers,name_match_candidate,1,False
+Hume,3062,Somerton,somerton,22304,Somerton (Vic.),name_match_candidate,1,False
+Mornington Peninsula,3912,Somerville,somerville,22305,Somerville (Vic.),name_match_candidate,1,False
+Mornington Peninsula,3943,Sorrento,sorrento,22306,Sorrento (Vic.),name_match_candidate,1,False
+Hobsons Bay,3015,South Kingsville,south kingsville,22309,South Kingsville,name_match_candidate,1,False
+Port Phillip,3205,South Melbourne,south melbourne,22310,South Melbourne,name_match_candidate,1,False
+Whittlesea,3752,South Morang,south morang,22311,South Morang,name_match_candidate,1,False
+Melbourne,3006,South Wharf,south wharf,22313,South Wharf,name_match_candidate,1,False
+Melbourne,3141,South Yarra,south yarra,22314,South Yarra,name_match_candidate,2,False
+Stonnington,3141,South Yarra,south yarra,22314,South Yarra,name_match_candidate,2,False
+Melbourne,3006,Southbank,southbank,22315,Southbank,name_match_candidate,2,False
+Port Phillip,3006,Southbank,southbank,22315,Southbank,name_match_candidate,2,False
+Hobsons Bay,3015,Spotswood,spotswood,22319,Spotswood,name_match_candidate,1,False
+Macedon Ranges,3434,Springfield,springfield,22325,Springfield (Macedon Ranges - Vic.),alias_match_candidate,1,False
+Greater Dandenong,3171,Springvale,springvale,22328,Springvale (Vic.),name_match_candidate,1,False
+Greater Dandenong,3172,Springvale South,springvale south,22329,Springvale South,name_match_candidate,1,False
+Brimbank,3020,St Albans,st albans,22330,St Albans (Vic.),name_match_candidate,2,False
+Brimbank,3021,St Albans,st albans,22330,St Albans (Vic.),name_match_candidate,2,False
+Nillumbik,3761,St Andrews,st andrews,22332,St Andrews (Vic.),name_match_candidate,1,False
+Mornington Peninsula,3941,St Andrews Beach,st andrews beach,22333,St Andrews Beach,name_match_candidate,1,False
+Banyule,3088,St Helena,st helena,22339,St Helena,name_match_candidate,1,False
+Port Phillip,3182,St Kilda,st kilda,22343,St Kilda (Vic.),name_match_candidate,1,False
+Glen Eira,3183,St Kilda East,st kilda east,22344,St Kilda East,name_match_candidate,2,False
+Port Phillip,3183,St Kilda East,st kilda east,22344,St Kilda East,name_match_candidate,2,False
+Port Phillip,3182,St Kilda West,st kilda west,22345,St Kilda West,name_match_candidate,1,False
+Yarra Ranges,3775,Steels Creek,steels creek,22355,Steels Creek,name_match_candidate,1,False
+Nillumbik,3099,Strathewen,strathewen,22375,Strathewen,name_match_candidate,1,False
+Moonee Valley,3041,Strathmore,strathmore,22380,Strathmore (Vic.),name_match_candidate,1,False
+Moonee Valley,3041,Strathmore Heights,strathmore heights,22381,Strathmore Heights,name_match_candidate,1,False
+Melton,3338,Strathtulloh,strathtulloh,22382,Strathtulloh,name_match_candidate,1,False
+Hume,3429,Sunbury,sunbury,22391,Sunbury,name_match_candidate,1,False
+Brimbank,3020,Sunshine,sunshine,22395,Sunshine (Vic.),name_match_candidate,1,False
+Brimbank,3020,Sunshine North,sunshine north,22396,Sunshine North,name_match_candidate,1,False
+Brimbank,3020,Sunshine West,sunshine west,22397,Sunshine West,name_match_candidate,1,False
+Boroondara,3127,Surrey Hills,surrey hills,22399,Surrey Hills,name_match_candidate,2,False
+Whitehorse,3127,Surrey Hills,surrey hills,22399,Surrey Hills,name_match_candidate,2,False
+Brimbank,3037,Sydenham,sydenham,22414,Sydenham (Vic.),name_match_candidate,1,False
+Wyndham,3029,Tarneit,tarneit,22451,Tarneit,name_match_candidate,1,False
+Yarra Ranges,3775,Tarrawarra,tarrawarra,22457,Tarrawarra,name_match_candidate,1,False
+Melton,3037,Taylors Hill,taylors hill,22473,Taylors Hill,name_match_candidate,1,False
+Brimbank,3038,Taylors Lakes,taylors lakes,22474,Taylors Lakes,name_match_candidate,1,False
+Yarra Ranges,3160,Tecoma,tecoma,22476,Tecoma,name_match_candidate,1,False
+Manningham,3106,Templestowe,templestowe,22483,Templestowe,name_match_candidate,1,False
+Manningham,3107,Templestowe Lower,templestowe lower,22484,Templestowe Lower,name_match_candidate,1,False
+Knox,3154,The Basin,the basin,22496,The Basin (Vic.),name_match_candidate,1,False
+Yarra Ranges,3792,The Patch,the patch,22501,The Patch,name_match_candidate,1,False
+Whittlesea,3074,Thomastown,thomastown,22504,Thomastown,name_match_candidate,1,False
+Darebin,3071,Thornbury,thornbury,22508,Thornbury,name_match_candidate,1,False
+Melton,3335,Thornhill Park,thornhill park,22509,Thornhill Park,name_match_candidate,1,False
+Yarra Ranges,3797,Three Bridges,three bridges,22514,Three Bridges,name_match_candidate,1,False
+Murrindindi,3777,Toolangi,toolangi,22536,Toolangi,name_match_candidate,2,False
+Yarra Ranges,3777,Toolangi,toolangi,22536,Toolangi,name_match_candidate,2,False
+Melton,3337,Toolern Vale,toolern vale,22537,Toolern Vale,name_match_candidate,1,False
+Casey,3980,Tooradin,tooradin,22546,Tooradin,name_match_candidate,1,False
+Stonnington,3142,Toorak,toorak,22547,Toorak,name_match_candidate,1,False
+Mornington Peninsula,3941,Tootgarook,tootgarook,22550,Tootgarook,name_match_candidate,1,False
+Maribyrnong,3012,Tottenham,tottenham,22556,Tottenham (Vic.),name_match_candidate,1,False
+Moonee Valley,3032,Travancore,travancore,22572,Travancore,name_match_candidate,1,False
+Yarra Ranges,3785,Tremont,tremont,22576,Tremont,name_match_candidate,1,False
+Melton,3029,Truganina,truganina,22582,Truganina,name_match_candidate,2,False
+Wyndham,3029,Truganina,truganina,22582,Truganina,name_match_candidate,2,False
+Mornington Peninsula,3915,Tuerong,tuerong,22584,Tuerong,name_match_candidate,1,False
+Brimbank,3043,Tullamarine,tullamarine,22586,Tullamarine,name_match_candidate,3,False
+Hume,3043,Tullamarine,tullamarine,22586,Tullamarine,name_match_candidate,3,False
+Merri-bek,3043,Tullamarine,tullamarine,22586,Tullamarine,name_match_candidate,3,False
+Mornington Peninsula,3913,Tyabb,tyabb,22594,Tyabb,name_match_candidate,1,False
+Cardinia,3813,Tynong,tynong,22598,Tynong,name_match_candidate,1,False
+Cardinia,3813,Tynong North,tynong north,22599,Tynong North,name_match_candidate,1,False
+Knox,3156,Upper Ferntree Gully,upper ferntree gully,22614,Upper Ferntree Gully,name_match_candidate,2,False
+Yarra Ranges,3156,Upper Ferntree Gully,upper ferntree gully,22614,Upper Ferntree Gully,name_match_candidate,2,False
+Mitchell,3756,Upper Plenty,upper plenty,22617,Upper Plenty,name_match_candidate,1,False
+Yarra Ranges,3158,Upwey,upwey,22620,Upwey,name_match_candidate,1,False
+Maroondah,3133,Vermont,vermont,22627,Vermont,name_match_candidate,2,False
+Whitehorse,3133,Vermont,vermont,22627,Vermont,name_match_candidate,2,False
+Whitehorse,3133,Vermont South,vermont south,22628,Vermont South,name_match_candidate,1,False
+Cardinia,3814,Vervale,vervale,22629,Vervale,name_match_candidate,1,False
+Banyule,3084,Viewbank,viewbank,22633,Viewbank,name_match_candidate,1,False
+Mitchell,3756,Wallan,wallan,22661,Wallan,name_match_candidate,1,False
+Yarra Ranges,3139,Wandin East,wandin east,22672,Wandin East,name_match_candidate,1,False
+Yarra Ranges,3139,Wandin North,wandin north,22673,Wandin North,name_match_candidate,1,False
+Mitchell,3758,Wandong,wandong,22676,Wandong,name_match_candidate,1,False
+Knox,3152,Wantirna,wantirna,22685,Wantirna,name_match_candidate,1,False
+Knox,3152,Wantirna South,wantirna south,22686,Wantirna South,name_match_candidate,2,False
+Knox,3155,Wantirna South,wantirna south,22686,Wantirna South,name_match_candidate,2,False
+Yarra Ranges,3799,Warburton,warburton,22689,Warburton (Vic.),name_match_candidate,1,False
+Casey,3980,Warneet,warneet,22695,Warneet,name_match_candidate,1,False
+Manningham,3113,Warrandyte,warrandyte,22702,Warrandyte,name_match_candidate,1,False
+Manningham,3134,Warrandyte South,warrandyte south,22703,Warrandyte South,name_match_candidate,1,False
+Maroondah,3134,Warranwood,warranwood,22704,Warranwood,name_match_candidate,1,False
+Mitchell,3658,Waterford Park,waterford park,22717,Waterford Park,name_match_candidate,1,False
+Kingston,3195,Waterways,waterways,22720,Waterways,name_match_candidate,1,False
+Banyule,3087,Watsonia,watsonia,22721,Watsonia,name_match_candidate,1,False
+Banyule,3087,Watsonia North,watsonia north,22722,Watsonia North,name_match_candidate,1,False
+Nillumbik,3097,Watsons Creek,watsons creek,22723,Watsons Creek (Vic.),name_match_candidate,1,False
+Nillumbik,3096,Wattle Glen,wattle glen,22727,Wattle Glen,name_match_candidate,1,False
+Melton,3338,Weir Views,weir views,22740,Weir Views,name_match_candidate,1,False
+Wyndham,3030,Werribee,werribee,22750,Werribee,name_match_candidate,1,False
+Wyndham,3030,Werribee South,werribee south,22751,Werribee South,name_match_candidate,1,False
+Yarra Ranges,3799,Wesburn,wesburn,22753,Wesburn,name_match_candidate,1,False
+Maribyrnong,3012,West Footscray,west footscray,22756,West Footscray,name_match_candidate,1,False
+Melbourne,3003,West Melbourne,west melbourne,22757,West Melbourne,name_match_candidate,1,False
+Hume,3049,Westmeadows,westmeadows,22761,Westmeadows,name_match_candidate,1,False
+Monash,3150,Wheelers Hill,wheelers hill,22766,Wheelers Hill,name_match_candidate,1,False
+Whittlesea,3757,Whittlesea,whittlesea,22775,Whittlesea,name_match_candidate,1,False
+Hume,3429,Wildwood,wildwood,22784,Wildwood,name_match_candidate,1,False
+Wyndham,3027,Williams Landing,williams landing,22791,Williams Landing,name_match_candidate,1,False
+Hobsons Bay,3016,Williamstown,williamstown,22792,Williamstown (Vic.),name_match_candidate,1,False
+Hobsons Bay,3016,Williamstown North,williamstown north,22793,Williamstown North,name_match_candidate,1,False
+Port Phillip,3181,Windsor,windsor,22805,Windsor (Vic.),name_match_candidate,2,False
+Stonnington,3181,Windsor,windsor,22805,Windsor (Vic.),name_match_candidate,2,False
+Whittlesea,3750,Wollert,wollert,22820,Wollert,name_match_candidate,1,False
+Manningham,3115,Wonga Park,wonga park,22825,Wonga Park,name_match_candidate,1,False
+Whittlesea,3751,Woodstock,woodstock,22843,Woodstock (Vic.),name_match_candidate,1,False
+Yarra Ranges,3139,Woori Yallock,woori yallock,22857,Woori Yallock,name_match_candidate,1,False
+Wyndham,3024,Wyndham Vale,wyndham vale,22883,Wyndham Vale,name_match_candidate,1,False
+Banyule,3085,Yallambie,yallambie,22892,Yallambie,name_match_candidate,1,False
+Whittlesea,3755,Yan Yean,yan yean,22898,Yan Yean,name_match_candidate,1,False
+Cardinia,3981,Yannathan,yannathan,22906,Yannathan,name_match_candidate,1,False
+Yarra Ranges,3775,Yarra Glen,yarra glen,22910,Yarra Glen,name_match_candidate,1,False
+Yarra Ranges,3797,Yarra Junction,yarra junction,22911,Yarra Junction,name_match_candidate,1,False
+Nillumbik,3091,Yarrambat,yarrambat,22916,Yarrambat,name_match_candidate,1,False
+Maribyrnong,3013,Yarraville,yarraville,22917,Yarraville,name_match_candidate,1,False
+Yarra Ranges,3139,Yellingbo,yellingbo,22925,Yellingbo,name_match_candidate,1,False
+Yarra Ranges,3770,Yering,yering,22930,Yering,name_match_candidate,1,False
+Hume,3063,Yuroke,yuroke,22941,Yuroke,name_match_candidate,1,False
