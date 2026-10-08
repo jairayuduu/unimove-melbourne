@@ -293,128 +293,11 @@ campus_rent.loc[
     has_median & campus_rent["median_weekly_rent_aud"].gt(budget),
     "budget_status",
 ] = "Above budget"
-within_budget, above_budget, unknown = st.columns(3)
-within_budget.metric(
-    "Nearby candidates within budget",
-    int(campus_rent["budget_status"].eq("At or below budget").sum()),
-)
-above_budget.metric(
-    "Nearby candidates above budget",
-    int(campus_rent["budget_status"].eq("Above budget").sum()),
-)
-unknown.metric(
-    "Nearby suburbs with unknown rent",
-    int(campus_rent["budget_status"].eq("Unknown").sum()),
-)
-st.caption(
-    "Distances are measured from the campus pin to a reference point "
-    "inside each suburb. They are not travel times or distances from "
-    "individual properties."
-)
-st.caption(
-    "Rental links are unverified candidates. Pooled-area proxies "
-    "reuse the publisher's combined-area median, not a separately "
-    "measured suburb rent. Unknown rent does not mean above budget."
-)
 campus_rent["rental_basis"] = campus_rent["match_method"].map({
     "name_match_candidate": "Name candidate",
     "alias_match_candidate": "Alias candidate",
     "explicit_label_component_candidate": "Pooled-area proxy",
 }).fillna("No candidate link")
-campus_display_columns = {
-    "suburb_name": "Suburb",
-    "straight_line_km": "Approximate distance (km)",
-    "source_area": "Publisher rental area",
-    "median_weekly_rent_aud": "Median weekly rent (AUD)",
-    "budget_status": "Budget status",
-    "rental_basis": "Rental association",
-    "population_total": "Population (2021)",
-    "population_18_24": "Residents aged 18–24 (2021)",
-    "share_18_24_pct": "Residents aged 18–24 (%)",
-    "nearest_bus_distance_metres": "Nearest bus stop (m)",
-    "nearest_train_distance_metres": "Nearest train platform (m)",
-    "nearest_tram_distance_metres": "Nearest tram stop (m)",
-}
-if campus_rent.empty:
-    st.info("No suburb reference points fall within this radius.")
-else:
-    st.dataframe(
-        campus_rent[list(campus_display_columns)].rename(
-            columns=campus_display_columns
-        ),
-        hide_index=True,
-        width="stretch",
-        column_config={
-            "Approximate distance (km)": st.column_config.NumberColumn(
-                format="%.2f"
-            ),
-            "Median weekly rent (AUD)": st.column_config.NumberColumn(
-                format="$%.2f"
-            ),
-            "Nearest bus stop (m)": st.column_config.NumberColumn(format="%.0f"),
-            "Nearest train platform (m)": st.column_config.NumberColumn(
-                format="%.0f"
-            ),
-            "Nearest tram stop (m)": st.column_config.NumberColumn(format="%.0f"),
-            "Population (2021)": st.column_config.NumberColumn(format="%d"),
-            "Residents aged 18–24 (2021)": st.column_config.NumberColumn(
-                format="%d"
-            ),
-            "Residents aged 18–24 (%)": st.column_config.NumberColumn(
-                format="%.2f"
-            ),
-        },
-    )
-    st.caption(
-        "Demographics are from the 2021 Census. The age percentage "
-        "describes residents aged 18–24; it does not measure student "
-        "numbers or opportunities to socialise. Percentages are "
-        "unavailable for suburbs with zero population."
-    )
-    st.caption(
-        "Transport distances are straight-line distances from the suburb "
-        "reference point to the nearest served boarding stop/platform in "
-        "the selected feeds. They are not walking distances, service "
-        "frequency or campus commute times. Train replacement-bus routes "
-        "are excluded; service on a particular date has not been checked."
-    )
-    with st.expander("Nearest transport stop names"):
-        st.dataframe(
-            campus_rent[[
-                "suburb_name", "nearest_bus_stop",
-                "nearest_train_stop", "nearest_tram_stop",
-            ]].rename(columns={
-                "suburb_name": "Suburb",
-                "nearest_bus_stop": "Bus stop",
-                "nearest_train_stop": "Train platform",
-                "nearest_tram_stop": "Tram stop",
-            }),
-            hide_index=True,
-            width="stretch",
-        )
-    campus_export = campus_rent.copy()
-    campus_export.insert(0, "campus_id", campus_id)
-    campus_export.insert(1, "dwelling_category", category)
-    campus_export["weekly_budget_aud"] = budget
-    campus_export["radius_km"] = radius
-    st.download_button(
-        label="Download nearby suburb comparison",
-        data=campus_export.to_csv(index=False).encode("utf-8"),
-        file_name=(
-            f"unimove_{campus_id}_{endpoint:%Y%m%d}"
-            f"_radius_{radius}_budget_{budget}.csv"
-        ),
-        mime="text/csv",
-        key="download_campus_comparison",
-    )
-# Retain broader regional rental exploration separately.
-st.subheader("Direct morning services towards campus")
-st.caption(
-    "Scheduled departures from 7–9 am (Melbourne time). Boarding stops "
-    "are within 800 m of suburb reference points; arrival stops are within "
-    "800 m of the campus pin. Boarding inside the campus arrival zone is "
-    "excluded. This analysis covers suburbs within 5 km of campus."
-)
 try:
     direct_services = load_direct_services(campus_id)
 except Exception:
@@ -423,118 +306,6 @@ except Exception:
         "direct_campus_services materialized view has been created."
     )
     direct_services = None
-if direct_services is not None:
-    if direct_services.empty:
-        st.info("No direct-service candidates are available for this campus.")
-    else:
-        service_dates = sorted(direct_services["service_date"].unique())
-        service_date = st.selectbox(
-            "Timetable analysis date",
-            service_dates,
-            format_func=lambda value: value.strftime("%d %B %Y"),
-            key="direct_service_date",
-        )
-        assessed = campus_rent.loc[
-            campus_rent["straight_line_km"].le(5),
-            ["sal_code", "suburb_name"],
-        ].copy()
-        services = direct_services.loc[
-            direct_services["service_date"].eq(service_date)
-            & direct_services["sal_code"].isin(assessed["sal_code"])
-        ].copy()
-        services["in_vehicle_minutes"] = services["in_vehicle_seconds"] / 60
-        summary = services.groupby("sal_code", as_index=False).agg(
-            direct_trip_candidates=("trip_id", "size"),
-            median_in_vehicle_minutes=("in_vehicle_minutes", "median"),
-        )
-        comparison = assessed.merge(
-            summary, on="sal_code", how="left", validate="one_to_one"
-        )
-        comparison["direct_trip_candidates"] = comparison[
-            "direct_trip_candidates"
-        ].fillna(0).astype(int)
-        comparison["service_result"] = comparison[
-            "direct_trip_candidates"
-        ].map(lambda count: "Direct candidates found" if count else
-              "None found under these rules")
-        st.dataframe(
-            comparison.rename(columns={
-                "suburb_name": "Suburb",
-                "direct_trip_candidates": "Trip candidates, 7–9 am",
-                "median_in_vehicle_minutes": "Median in-vehicle minutes",
-                "service_result": "Analysis result",
-            }).drop(columns="sal_code"),
-            hide_index=True,
-            width="stretch",
-            column_config={
-                "Median in-vehicle minutes": st.column_config.NumberColumn(
-                    format="%.1f"
-                ),
-            },
-        )
-        if radius > 5:
-            st.info(
-                "Suburbs beyond 5 km are not assessed in this service analysis."
-            )
-        st.caption(
-            "Minutes cover only time on the vehicle, excluding walking and "
-            "waiting. Counts are distinct trips per suburb, not evenly spaced "
-            "departures or live service frequency. No candidate does not mean "
-            "no public transport: transfers and walking-only options are not "
-            "assessed. One boarding/alighting pair is retained per trip, "
-            "prioritising shorter combined straight-line access distances."
-        )
-        if not services.empty:
-            with st.expander("View scheduled trip candidates"):
-                service_suburb = st.selectbox(
-                    "Suburb for timetable details",
-                    sorted(services["suburb_name"].unique()),
-                    key="service_suburb",
-                )
-                details = services.loc[
-                    services["suburb_name"].eq(service_suburb)
-                ].copy()
-                for field, label in (
-                    ("departure_seconds", "Departure"),
-                    ("arrival_seconds", "Arrival"),
-                ):
-                    details[label] = details[field].map(
-                        lambda value: f"{int(value) // 3600:02d}:"
-                        f"{(int(value) % 3600) // 60:02d}"
-                    )
-                st.dataframe(
-                    details[[
-                        "transport_mode", "route_short_name", "Departure",
-                        "Arrival", "boarding_stop_name", "arrival_stop_name",
-                        "in_vehicle_minutes", "suburb_distance_metres",
-                        "campus_distance_metres",
-                    ]].rename(columns={
-                        "transport_mode": "Mode",
-                        "route_short_name": "Route",
-                        "boarding_stop_name": "Boarding stop",
-                        "arrival_stop_name": "Arrival stop",
-                        "in_vehicle_minutes": "In-vehicle minutes",
-                        "suburb_distance_metres": "Suburb-to-stop distance (m)",
-                        "campus_distance_metres": "Stop-to-campus distance (m)",
-                    }),
-                    hide_index=True,
-                    width="stretch",
-                )
-            service_export = services.copy()
-            service_export.insert(0, "campus_id", campus_id)
-            st.download_button(
-                "Download scheduled direct-service candidates",
-                data=service_export.to_csv(index=False).encode("utf-8"),
-                file_name=f"unimove_{campus_id}_services_{service_date:%Y%m%d}.csv",
-                mime="text/csv",
-                key="download_direct_services",
-            )
-st.subheader("Recorded offences near your campus")
-st.caption(
-    "Counts describe offences recorded in candidate publisher areas. "
-    "They are not a safety ranking or a measure of your personal risk. "
-    "Area size, visitors, reporting and policing can affect comparisons."
-)
 try:
     crime_candidates = load_crime_candidates()
 except Exception:
@@ -543,70 +314,14 @@ except Exception:
         "running and the suburb_crime_candidates view exists."
     )
     crime_candidates = None
-if crime_candidates is not None:
-    crime_comparison = campus_rent[["sal_code", "suburb_name"]].merge(
-        crime_candidates, on="sal_code", how="left", validate="one_to_one"
+if direct_services is not None and not direct_services.empty:
+    service_dates = sorted(direct_services["service_date"].unique())
+    service_date = st.selectbox(
+        "Timetable analysis date",
+        service_dates,
+        format_func=lambda value: value.strftime("%d %B %Y"),
+        key="direct_service_date",
     )
-    crime_endpoint = pd.Timestamp(crime_candidates["period_end"].max())
-    starts = crime_candidates["period_start"].dropna()
-    if not starts.empty:
-        crime_start = pd.Timestamp(starts.min())
-        st.caption(
-            f"Reporting period: {crime_start:%d %B %Y} to "
-            f"{crime_endpoint:%d %B %Y}."
-        )
-    crime_comparison["coverage_label"] = crime_comparison[
-        "crime_coverage_status"
-    ].map({
-        "unverified_area_candidate": "Unverified area candidate",
-        "no_candidate_coverage": "No candidate coverage",
-    }).fillna("No candidate coverage")
-    if crime_comparison.empty:
-        st.info("No nearby suburbs are selected for this radius.")
-    else:
-        crime_columns = {
-            "suburb_name": "Suburb",
-            "recorded_offences": "Recorded offences",
-            "crimes_against_person": "Crimes against the person",
-            "property_and_deception_offences": "Property and deception offences",
-            "source_area_count": "Contributing source areas",
-            "coverage_label": "Geographic coverage",
-        }
-        st.dataframe(
-            crime_comparison[list(crime_columns)].rename(columns=crime_columns),
-            hide_index=True,
-            width="stretch",
-            column_config={
-                label: st.column_config.NumberColumn(format="%d")
-                for field, label in crime_columns.items()
-                if field not in {"suburb_name", "coverage_label"}
-            },
-        )
-        st.caption(
-            "Name and configured alias links have not been verified against "
-            "publisher boundaries. Counts sum linked LGA/postcode/suburb "
-            "combinations; contributing areas are shown explicitly. "
-            "Missing records remain unknown. The two category columns are "
-            "parts of the total; other offence divisions are also included "
-            "in the total. Source exclusions include justice institutions, "
-            "immigration facilities, Unincorporated Victoria and unknown "
-            "geographic locations. No population rate is calculated."
-        )
-        crime_export = crime_comparison.copy()
-        crime_export.insert(0, "campus_id", campus_id)
-        crime_export["radius_km"] = radius
-        crime_export["boundary_equivalence_verified"] = False
-        st.download_button(
-            "Download nearby recorded-offence comparison",
-            data=crime_export.to_csv(index=False).encode("utf-8"),
-            file_name=(
-                f"unimove_{campus_id}_crime_{crime_endpoint:%Y%m%d}"
-                f"_radius_{radius}.csv"
-            ),
-            mime="text/csv",
-            key="download_crime_comparison",
-        )
-
 st.subheader("Your student shortlist")
 st.caption("Combine your rent preference with campus proximity, demographics and dated direct-service results.")
 shortlist = campus_rent.copy()
@@ -695,7 +410,9 @@ else:
         file_name=f"unimove_{campus_id}_shortlist.csv", mime="text/csv", key="download_shortlist")
 st.caption("Unknown rent is not confirmed affordability. Vehicle minutes exclude walking and waiting. Age shares use the 2021 Census; recorded offences use their separate reporting period and unverified area links. Crime counts are context, not a safety ranking. See the detailed sections above for sources and limitations.")
 
-st.subheader("Nearby suburb map")
+st.subheader("Suburb map")
+map_scope = st.radio("Show on map", ["Your shortlist", "All nearby suburbs"],
+                     horizontal=True, key="map_scope")
 try:
     map_points = load_map_points(campus_id)
 except Exception:
@@ -707,6 +424,13 @@ else:
     nearby_points = map_points.loc[
         map_points["straight_line_km"].le(radius)
     ].copy()
+    if map_scope == "Your shortlist":
+        nearby_points = nearby_points.loc[
+            nearby_points["sal_code"].isin(shortlist["sal_code"])
+        ].copy()
+    if nearby_points.empty:
+        st.info("No suburb markers match the current map selection; the campus remains visible.")
+
     nearby_points = nearby_points.merge(
         campus_rent[["sal_code", "budget_status"]],
         on="sal_code",
@@ -788,75 +512,370 @@ else:
     )
 # Retain broader regional rental exploration separately.
 st.divider()
-st.header("Compare broader Melbourne rental regions")
-st.caption(
-    "This regional comparison uses your dwelling category and budget, "
-    "but is independent of the selected campus radius."
-)
-regions = sorted(rent["source_region"].unique().tolist())
-selected_regions = st.multiselect(
-    "Rental regions",
-    options=regions,
-    default=regions,
-)
-if not selected_regions:
-    st.info("Select at least one rental region to see regional results.")
-    st.stop()
-selected = rent.loc[
-    rent["dwelling_category"].eq(category)
-    & rent["source_region"].isin(selected_regions)
-].copy()
-published = selected["median_weekly_rent_aud"].notna()
-qualifying = selected.loc[
-    published & selected["median_weekly_rent_aud"].le(budget)
-].sort_values(["median_weekly_rent_aud", "source_area"])
-first, second, third = st.columns(3)
-first.metric("Areas at or below budget", len(qualifying))
-second.metric("Areas with published medians", int(published.sum()))
-third.metric("Areas with unavailable medians", int((~published).sum()))
-st.subheader("Rental areas whose median meets your budget")
-st.caption(
-    "Publisher areas can combine several suburbs. "
-    "A qualifying median does not guarantee an available property."
-)
-display_columns = {
-    "source_region": "Region",
-    "source_area": "Rental area",
-    "median_weekly_rent_aud": "Median weekly rent (AUD)",
-    "lease_count": "Leases in reporting year",
-}
-if qualifying.empty:
-    st.info("No published area medians meet this budget.")
-else:
-    st.dataframe(
-        qualifying[list(display_columns)].rename(columns=display_columns),
-        hide_index=True,
-        width="stretch",
+
+st.header("Explore the supporting data")
+
+with st.expander('Rental, population and nearest-stop details'):
+    within_budget, above_budget, unknown = st.columns(3)
+    within_budget.metric(
+        "Nearby candidates within budget",
+        int(campus_rent["budget_status"].eq("At or below budget").sum()),
     )
-    export_columns = [
-        "source_region",
-        "source_area",
-        "dwelling_category",
-        "period_start",
-        "period_end",
-        "median_weekly_rent_aud",
-        "lease_count",
-    ]
-    st.download_button(
-        label="Download qualifying rental areas as CSV",
-        data=qualifying[export_columns].to_csv(index=False).encode("utf-8"),
-        file_name=(
-            f"unimove_rental_areas_{endpoint:%Y%m%d}"
-            f"_budget_{budget}.csv"
-        ),
-        mime="text/csv",
-        key="download_regional_results",
+    above_budget.metric(
+        "Nearby candidates above budget",
+        int(campus_rent["budget_status"].eq("Above budget").sum()),
     )
-with st.expander("Areas with unavailable medians"):
-    st.dataframe(
-        selected.loc[
-            ~published, ["source_region", "source_area"]
-        ].rename(columns=display_columns),
-        hide_index=True,
-        width="stretch",
+    unknown.metric(
+        "Nearby suburbs with unknown rent",
+        int(campus_rent["budget_status"].eq("Unknown").sum()),
     )
+    st.caption(
+        "Distances are measured from the campus pin to a reference point "
+        "inside each suburb. They are not travel times or distances from "
+        "individual properties."
+    )
+    st.caption(
+        "Rental links are unverified candidates. Pooled-area proxies "
+        "reuse the publisher's combined-area median, not a separately "
+        "measured suburb rent. Unknown rent does not mean above budget."
+    )
+    campus_display_columns = {
+        "suburb_name": "Suburb",
+        "straight_line_km": "Approximate distance (km)",
+        "source_area": "Publisher rental area",
+        "median_weekly_rent_aud": "Median weekly rent (AUD)",
+        "budget_status": "Budget status",
+        "rental_basis": "Rental association",
+        "population_total": "Population (2021)",
+        "population_18_24": "Residents aged 18–24 (2021)",
+        "share_18_24_pct": "Residents aged 18–24 (%)",
+        "nearest_bus_distance_metres": "Nearest bus stop (m)",
+        "nearest_train_distance_metres": "Nearest train platform (m)",
+        "nearest_tram_distance_metres": "Nearest tram stop (m)",
+    }
+    if campus_rent.empty:
+        st.info("No suburb reference points fall within this radius.")
+    else:
+        st.dataframe(
+            campus_rent[list(campus_display_columns)].rename(
+                columns=campus_display_columns
+            ),
+            hide_index=True,
+            width="stretch",
+            column_config={
+                "Approximate distance (km)": st.column_config.NumberColumn(
+                    format="%.2f"
+                ),
+                "Median weekly rent (AUD)": st.column_config.NumberColumn(
+                    format="$%.2f"
+                ),
+                "Nearest bus stop (m)": st.column_config.NumberColumn(format="%.0f"),
+                "Nearest train platform (m)": st.column_config.NumberColumn(
+                    format="%.0f"
+                ),
+                "Nearest tram stop (m)": st.column_config.NumberColumn(format="%.0f"),
+                "Population (2021)": st.column_config.NumberColumn(format="%d"),
+                "Residents aged 18–24 (2021)": st.column_config.NumberColumn(
+                    format="%d"
+                ),
+                "Residents aged 18–24 (%)": st.column_config.NumberColumn(
+                    format="%.2f"
+                ),
+            },
+        )
+        st.caption(
+            "Demographics are from the 2021 Census. The age percentage "
+            "describes residents aged 18–24; it does not measure student "
+            "numbers or opportunities to socialise. Percentages are "
+            "unavailable for suburbs with zero population."
+        )
+        st.caption(
+            "Transport distances are straight-line distances from the suburb "
+            "reference point to the nearest served boarding stop/platform in "
+            "the selected feeds. They are not walking distances, service "
+            "frequency or campus commute times. Train replacement-bus routes "
+            "are excluded; service on a particular date has not been checked."
+        )
+        with st.container():
+            st.dataframe(
+                campus_rent[[
+                    "suburb_name", "nearest_bus_stop",
+                    "nearest_train_stop", "nearest_tram_stop",
+                ]].rename(columns={
+                    "suburb_name": "Suburb",
+                    "nearest_bus_stop": "Bus stop",
+                    "nearest_train_stop": "Train platform",
+                    "nearest_tram_stop": "Tram stop",
+                }),
+                hide_index=True,
+                width="stretch",
+            )
+        campus_export = campus_rent.copy()
+        campus_export.insert(0, "campus_id", campus_id)
+        campus_export.insert(1, "dwelling_category", category)
+        campus_export["weekly_budget_aud"] = budget
+        campus_export["radius_km"] = radius
+        st.download_button(
+            label="Download nearby suburb comparison",
+            data=campus_export.to_csv(index=False).encode("utf-8"),
+            file_name=(
+                f"unimove_{campus_id}_{endpoint:%Y%m%d}"
+                f"_radius_{radius}_budget_{budget}.csv"
+            ),
+            mime="text/csv",
+            key="download_campus_comparison",
+        )
+    # Retain broader regional rental exploration separately.
+
+with st.expander('Scheduled direct-service details'):
+    st.subheader("Direct morning services towards campus")
+    st.caption(
+        "Scheduled departures from 7–9 am (Melbourne time). Boarding stops "
+        "are within 800 m of suburb reference points; arrival stops are within "
+        "800 m of the campus pin. Boarding inside the campus arrival zone is "
+        "excluded. This analysis covers suburbs within 5 km of campus."
+    )
+    if direct_services is not None:
+        if direct_services.empty:
+            st.info("No direct-service candidates are available for this campus.")
+        else:
+            assessed = campus_rent.loc[
+                campus_rent["straight_line_km"].le(5),
+                ["sal_code", "suburb_name"],
+            ].copy()
+            services = direct_services.loc[
+                direct_services["service_date"].eq(service_date)
+                & direct_services["sal_code"].isin(assessed["sal_code"])
+            ].copy()
+            services["in_vehicle_minutes"] = services["in_vehicle_seconds"] / 60
+            summary = services.groupby("sal_code", as_index=False).agg(
+                direct_trip_candidates=("trip_id", "size"),
+                median_in_vehicle_minutes=("in_vehicle_minutes", "median"),
+            )
+            comparison = assessed.merge(
+                summary, on="sal_code", how="left", validate="one_to_one"
+            )
+            comparison["direct_trip_candidates"] = comparison[
+                "direct_trip_candidates"
+            ].fillna(0).astype(int)
+            comparison["service_result"] = comparison[
+                "direct_trip_candidates"
+            ].map(lambda count: "Direct candidates found" if count else
+                  "None found under these rules")
+            st.dataframe(
+                comparison.rename(columns={
+                    "suburb_name": "Suburb",
+                    "direct_trip_candidates": "Trip candidates, 7–9 am",
+                    "median_in_vehicle_minutes": "Median in-vehicle minutes",
+                    "service_result": "Analysis result",
+                }).drop(columns="sal_code"),
+                hide_index=True,
+                width="stretch",
+                column_config={
+                    "Median in-vehicle minutes": st.column_config.NumberColumn(
+                        format="%.1f"
+                    ),
+                },
+            )
+            if radius > 5:
+                st.info(
+                    "Suburbs beyond 5 km are not assessed in this service analysis."
+                )
+            st.caption(
+                "Minutes cover only time on the vehicle, excluding walking and "
+                "waiting. Counts are distinct trips per suburb, not evenly spaced "
+                "departures or live service frequency. No candidate does not mean "
+                "no public transport: transfers and walking-only options are not "
+                "assessed. One boarding/alighting pair is retained per trip, "
+                "prioritising shorter combined straight-line access distances."
+            )
+            if not services.empty:
+                with st.container():
+                    service_suburb = st.selectbox(
+                        "Suburb for timetable details",
+                        sorted(services["suburb_name"].unique()),
+                        key="service_suburb",
+                    )
+                    details = services.loc[
+                        services["suburb_name"].eq(service_suburb)
+                    ].copy()
+                    for field, label in (
+                        ("departure_seconds", "Departure"),
+                        ("arrival_seconds", "Arrival"),
+                    ):
+                        details[label] = details[field].map(
+                            lambda value: f"{int(value) // 3600:02d}:"
+                            f"{(int(value) % 3600) // 60:02d}"
+                        )
+                    st.dataframe(
+                        details[[
+                            "transport_mode", "route_short_name", "Departure",
+                            "Arrival", "boarding_stop_name", "arrival_stop_name",
+                            "in_vehicle_minutes", "suburb_distance_metres",
+                            "campus_distance_metres",
+                        ]].rename(columns={
+                            "transport_mode": "Mode",
+                            "route_short_name": "Route",
+                            "boarding_stop_name": "Boarding stop",
+                            "arrival_stop_name": "Arrival stop",
+                            "in_vehicle_minutes": "In-vehicle minutes",
+                            "suburb_distance_metres": "Suburb-to-stop distance (m)",
+                            "campus_distance_metres": "Stop-to-campus distance (m)",
+                        }),
+                        hide_index=True,
+                        width="stretch",
+                    )
+                service_export = services.copy()
+                service_export.insert(0, "campus_id", campus_id)
+                st.download_button(
+                    "Download scheduled direct-service candidates",
+                    data=service_export.to_csv(index=False).encode("utf-8"),
+                    file_name=f"unimove_{campus_id}_services_{service_date:%Y%m%d}.csv",
+                    mime="text/csv",
+                    key="download_direct_services",
+                )
+
+with st.expander('Recorded-offence context'):
+    st.subheader("Recorded offences near your campus")
+    st.caption(
+        "Counts describe offences recorded in candidate publisher areas. "
+        "They are not a safety ranking or a measure of your personal risk. "
+        "Area size, visitors, reporting and policing can affect comparisons."
+    )
+    if crime_candidates is not None:
+        crime_comparison = campus_rent[["sal_code", "suburb_name"]].merge(
+            crime_candidates, on="sal_code", how="left", validate="one_to_one"
+        )
+        crime_endpoint = pd.Timestamp(crime_candidates["period_end"].max())
+        starts = crime_candidates["period_start"].dropna()
+        if not starts.empty:
+            crime_start = pd.Timestamp(starts.min())
+            st.caption(
+                f"Reporting period: {crime_start:%d %B %Y} to "
+                f"{crime_endpoint:%d %B %Y}."
+            )
+        crime_comparison["coverage_label"] = crime_comparison[
+            "crime_coverage_status"
+        ].map({
+            "unverified_area_candidate": "Unverified area candidate",
+            "no_candidate_coverage": "No candidate coverage",
+        }).fillna("No candidate coverage")
+        if crime_comparison.empty:
+            st.info("No nearby suburbs are selected for this radius.")
+        else:
+            crime_columns = {
+                "suburb_name": "Suburb",
+                "recorded_offences": "Recorded offences",
+                "crimes_against_person": "Crimes against the person",
+                "property_and_deception_offences": "Property and deception offences",
+                "source_area_count": "Contributing source areas",
+                "coverage_label": "Geographic coverage",
+            }
+            st.dataframe(
+                crime_comparison[list(crime_columns)].rename(columns=crime_columns),
+                hide_index=True,
+                width="stretch",
+                column_config={
+                    label: st.column_config.NumberColumn(format="%d")
+                    for field, label in crime_columns.items()
+                    if field not in {"suburb_name", "coverage_label"}
+                },
+            )
+            st.caption(
+                "Name and configured alias links have not been verified against "
+                "publisher boundaries. Counts sum linked LGA/postcode/suburb "
+                "combinations; contributing areas are shown explicitly. "
+                "Missing records remain unknown. The two category columns are "
+                "parts of the total; other offence divisions are also included "
+                "in the total. Source exclusions include justice institutions, "
+                "immigration facilities, Unincorporated Victoria and unknown "
+                "geographic locations. No population rate is calculated."
+            )
+            crime_export = crime_comparison.copy()
+            crime_export.insert(0, "campus_id", campus_id)
+            crime_export["radius_km"] = radius
+            crime_export["boundary_equivalence_verified"] = False
+            st.download_button(
+                "Download nearby recorded-offence comparison",
+                data=crime_export.to_csv(index=False).encode("utf-8"),
+                file_name=(
+                    f"unimove_{campus_id}_crime_{crime_endpoint:%Y%m%d}"
+                    f"_radius_{radius}.csv"
+                ),
+                mime="text/csv",
+                key="download_crime_comparison",
+            )
+
+with st.expander('Broader Melbourne rental comparison'):
+    st.header("Compare broader Melbourne rental regions")
+    st.caption(
+        "This regional comparison uses your dwelling category and budget, "
+        "but is independent of the selected campus radius."
+    )
+    regions = sorted(rent["source_region"].unique().tolist())
+    selected_regions = st.multiselect(
+        "Rental regions",
+        options=regions,
+        default=regions,
+    )
+    if not selected_regions:
+        st.info("Select at least one rental region to see regional results.")
+        st.stop()
+    selected = rent.loc[
+        rent["dwelling_category"].eq(category)
+        & rent["source_region"].isin(selected_regions)
+    ].copy()
+    published = selected["median_weekly_rent_aud"].notna()
+    qualifying = selected.loc[
+        published & selected["median_weekly_rent_aud"].le(budget)
+    ].sort_values(["median_weekly_rent_aud", "source_area"])
+    first, second, third = st.columns(3)
+    first.metric("Areas at or below budget", len(qualifying))
+    second.metric("Areas with published medians", int(published.sum()))
+    third.metric("Areas with unavailable medians", int((~published).sum()))
+    st.subheader("Rental areas whose median meets your budget")
+    st.caption(
+        "Publisher areas can combine several suburbs. "
+        "A qualifying median does not guarantee an available property."
+    )
+    display_columns = {
+        "source_region": "Region",
+        "source_area": "Rental area",
+        "median_weekly_rent_aud": "Median weekly rent (AUD)",
+        "lease_count": "Leases in reporting year",
+    }
+    if qualifying.empty:
+        st.info("No published area medians meet this budget.")
+    else:
+        st.dataframe(
+            qualifying[list(display_columns)].rename(columns=display_columns),
+            hide_index=True,
+            width="stretch",
+        )
+        export_columns = [
+            "source_region",
+            "source_area",
+            "dwelling_category",
+            "period_start",
+            "period_end",
+            "median_weekly_rent_aud",
+            "lease_count",
+        ]
+        st.download_button(
+            label="Download qualifying rental areas as CSV",
+            data=qualifying[export_columns].to_csv(index=False).encode("utf-8"),
+            file_name=(
+                f"unimove_rental_areas_{endpoint:%Y%m%d}"
+                f"_budget_{budget}.csv"
+            ),
+            mime="text/csv",
+            key="download_regional_results",
+        )
+    with st.container():
+        st.dataframe(
+            selected.loc[
+                ~published, ["source_region", "source_area"]
+            ].rename(columns=display_columns),
+            hide_index=True,
+            width="stretch",
+        )
