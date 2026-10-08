@@ -1,230 +1,360 @@
-\## Live demo
-
-
-
-\[Launch UniMove Melbourne](https://unimove-melbourne.streamlit.app/)
-
-
-
-Choose a university campus and compare nearby suburbs using rental
-
-medians, campus proximity, scheduled direct transport services,
-
-age demographics and recorded-offence context.
-
-
-
-The demo uses saved data snapshots. Rental and crime geographic
-
-associations are candidates, and transport results cover an example
-
-service date.
-
-
-
 \# UniMove Melbourne
 
 
 
-A student housing decision-support project comparing Melbourne
+A campus-centred web app helping students compare Melbourne suburbs using rental medians, campus proximity, scheduled direct transport services, age demographics and recorded-offence context.
 
-suburbs based on university campus, rental affordability,
 
-commuting accessibility, amenities and community preferences.
 
+\*\*\[Launch the live demo](https://unimove-melbourne.streamlit.app/)\*\*
 
 
-\## Project objectives
 
+\## What the app does
 
 
-\- Integrate public housing, geography, transport and Census data.
 
-\- Explore suburb-level patterns using Python and SQL.
+Start by choosing a university and campus, then set a dwelling category, weekly whole-dwelling budget and approximate distance radius.
 
-\- Develop transparent, preference-based suburb recommendations.
 
-\- Present analysis in Tableau and a student-facing Streamlit app.
 
+The app provides:
 
 
-\## Planned technology
 
+\- A suburb shortlist with budget and rental-coverage status.
 
+\- An interactive map showing the campus and suburb reference points.
 
-Python, PostgreSQL/PostGIS, Tableau, Streamlit and Git.
+\- Candidate rental medians, including pooled publisher areas.
 
+\- Scheduled direct morning transport options towards the campus.
 
+\- Nearest bus, train and tram boarding-stop distances.
 
-\## Methodology
+\- Census population and the share of residents aged 18–24.
 
+\- Recorded-offence counts with geographic coverage information.
 
+\- CSV downloads for further comparison.
 
-Preserve original datasets, document cleaning and geographic joins,
 
-validate derived metrics, and explain the limitations of recommendations.
 
-Use machine learning only where it addresses a justified analytical question.
+Suburbs with unknown rental coverage can remain in the shortlist. Missing data is not treated as evidence that a suburb meets the budget.
 
 
 
-\## Run the local app
+\### Supported campuses
 
 
 
-With the virtual environment activated and PostgreSQL running:
+| University | Campus |
 
+|---|---|
 
+| Monash University | Clayton |
 
-1\. Follow docs/database\_setup.md to create and load the database.
+| University of Melbourne | Parkville |
 
-2\. Create .streamlit/secrets.toml with your local database credentials.
+| RMIT University | Melbourne City |
 
-&#x20;  This file is ignored by Git.
 
-3\. Run:
 
+\## Data coverage
 
 
-&#x20;   python -m streamlit run app.py
 
+| Dataset | Coverage used |
 
+|---|---|
 
-The initial rental explorer supports dwelling-category selection,
+| Rental history | 105,266 observations across seven dwelling categories and 146 publisher rental areas |
 
-a weekly whole-dwelling budget, qualifying rental-area results,
+| Rental reporting periods | 103 quarterly endpoints, March 2000 to September 2025 |
 
-and separate reporting of unavailable medians.
+| Latest Melbourne rental snapshot | 110 publisher rental areas across seven categories |
 
+| Suburb geography | 572 selected ABS 2021 Suburbs and Localities |
 
+| Population and age | 2021 Census profiles matched to all 572 selected suburbs |
 
-Manual checks matched SQL results:
+| Transport boarding stops | 24,735 records across metropolitan train, tram and bus feeds |
 
-\- One-bedroom flat at $400: 34 qualifying areas.
+| Direct transport services | Example service date: 8 October 2026; departures from 7:00 am to before 9:00 am |
 
-\- Two-bedroom flat at $500: 35 qualifying areas.
+| Recorded offences | Year ending 30 June 2026; candidate geographic coverage for 569 of 572 suburbs |
 
 
 
+Rental values are moving annual medians for whole dwellings. They are not room rents, current listings or estimates of an individual property's price.
 
 
-Users can filter by publisher rental region and download
 
-qualifying results as CSV, including dwelling category and
+\## Technical implementation
 
-reporting dates. Clearing all regions prompts users to select
 
-at least one region.
 
+\*\*Python · pandas · GeoPandas · PostgreSQL · PostGIS · Streamlit · PyDeck · Git\*\*
 
 
-Manual checks confirmed region filtering, empty-selection
 
-handling and CSV agreement with the displayed results.
+The project combines a reproducible data pipeline with an interactive app:
 
 
 
+1\. Inspect source workbooks, geographic archives and nested GTFS feeds.
 
+2\. Clean rental observations, Census profiles, boarding stops and offence records.
 
-\## Campus selection
+3\. Audit geographic name matches and record explicit alias and pooled-area candidates.
 
+4\. Load structured data and suburb geometries into PostgreSQL/PostGIS.
 
+5\. Build SQL views for campus proximity, rental coverage and contextual indicators.
 
-The app starts with university and campus selection.
+6\. Cache spatial transport results in materialized views.
 
-Initial coverage includes Monash Clayton, University of
+7\. Export compact snapshots for a public demo that runs independently of the local database.
 
-Melbourne Parkville and RMIT Melbourne City.
 
 
+The public app reads saved CSV snapshots by default. Database mode supports local work against the PostgreSQL pipeline.
 
-Campus selection currently controls the entry flow.
 
-Distance-based housing filtering is not yet implemented.
 
-Campus records and official source links are maintained
+\## Validation and example findings
 
-in config/campuses.csv.
 
 
+Validation includes source-cell comparisons, duplicate-key checks, missing-value checks, geometry checks, geographic-link audits and reconciliation of source and database totals.
 
-\## Current status
 
 
+Selected results:
 
-\- Python environment and dependencies configured.
 
-\- Official rental workbook inspected and audited.
 
-\- Reproducible cleaning pipeline implemented for seven categories.
+\- All seven rental categories contain 15,038 historical observations.
 
-\- 105,266 detail observations generated.
+\- All 572 selected suburbs have Census population matches.
 
-\- Selected observations validated against original Excel cells.
+\- Loaded recorded-offence observations total 620,140, matching the cleaned source.
 
-\- Latest-period publication coverage analysed.
+\- Direct-service checks found no departures outside the selected window, nonpositive journey times or stops outside the configured distance thresholds.
 
+\- Across the selected Melbourne rental areas, 34 of 99 published one-bedroom-flat medians were at or below $400 per week at the September 2025 endpoint. Eleven areas had unavailable medians.
 
 
-Melbourne filtering, geographic joins, SQL modelling,
 
-recommendations, Tableau and Streamlit remain planned.
+The last finding describes publisher rental areas across Melbourne, rather than campus-specific suburb availability.
 
 
 
-\- Initial Melbourne rental scope configured: 110 publisher rental areas.
+\## Interpretation and limitations
 
-\- Latest rental snapshot filtered and publication coverage assessed.
 
 
+\### Geographic associations
 
 
 
+Rental publisher areas and crime source areas do not have verified boundary equivalence with ABS suburbs. Associations use documented name, alias or explicit label-component candidates.
 
 
-\- 2021 suburb geography foundation generated: 572 unique SAL codes.
 
-\- Melbourne scope rule documented and substantial boundary crossings flagged.
+A pooled rental median can apply to several linked suburbs. It should not be interpreted as a separately measured median for each suburb.
 
 
 
-\- 2021 Census population and derived 18–24 age profiles joined to all 572 suburbs.
+\### Distance and transport
 
-\- Rental geography audited: 61 candidate name links and 49 unresolved areas.
 
-\- Rental-to-ABS boundary equivalence remains unverified.
 
+Campus proximity and stop-access distances are straight-line distances from reference points. They are not walking distances or door-to-door commute times.
 
 
-\- PostgreSQL/PostGIS configured with a dedicated project login.
 
-\- 572 suburb boundaries and population records loaded and checked with SQL.
+Direct-service results use a single example timetable date, nearby suburb reference points within 5 km of each campus, and boarding and arrival stops within configured 800-metre thresholds.
 
 
 
-\- Full rental history loaded into PostgreSQL: 146 areas and 105,266 observations.
+Displayed in-vehicle times exclude walking, waiting and transfers. No qualifying direct service means none was found under these rules; it does not establish that public transport is unavailable.
 
-\- SQL rental coverage summaries checked against Python outputs.
 
 
+\### Population and recorded offences
 
-\- Local Streamlit rental explorer implemented and checked against SQL results.
 
 
+Age profiles describe residents counted in the 2021 Census. They do not identify university students.
 
-\- Three campus reference points loaded into PostGIS.
 
-\- Campus-driven nearby-suburb exploration implemented and checked.
 
-\- Campus proximity and rental budget results remain separate pending geographic linking.
+Recorded-offence counts are contextual information, not personal-risk estimates or safety rankings. Counts are affected by activity levels, visitors, reporting and policing. The app does not calculate crime rates using the older Census population.
 
 
 
-\- Campus proximity and rental budgets combined using explicitly unverified candidate links.
+\### Snapshot dates
 
-\- Nearby suburbs without rental coverage remain visible.
 
 
+The demo combines sources from different reporting periods. It does not provide live property listings, real-time transport or automatic source updates.
 
-\- Interactive campus map added with nearby suburb budget-status markers.
+
+
+\## Run the demo locally
+
+
+
+Python 3.11 was used for local validation.
+
+
+
+```powershell
+
+git clone https://github.com/jairayuduu/unimove-melbourne.git
+
+cd unimove-melbourne
+
+python -m venv .venv
+
+.\\.venv\\Scripts\\Activate.ps1
+
+python -m pip install -r requirements.txt
+
+python -m streamlit run app.py
+
+```
+
+
+
+Demo mode is the default and reads the committed `demo\_data/` snapshots. It does not require PostgreSQL or database secrets.
+
+
+
+\## Run with PostgreSQL
+
+
+
+Install the full pipeline dependencies:
+
+
+
+```powershell
+
+python -m pip install -r requirements-pipeline.txt
+
+```
+
+
+
+Follow \[database setup](docs/database\_setup.md) and the relevant source notes and SQL scripts to prepare the database.
+
+
+
+Create `.streamlit/secrets.toml` with your local database configuration. This file is excluded from Git.
+
+
+
+Then run:
+
+
+
+```powershell
+
+$env:UNIMOVE\_DATA\_MODE = "database"
+
+python -m streamlit run app.py
+
+```
+
+
+
+To return to snapshot mode:
+
+
+
+```powershell
+
+$env:UNIMOVE\_DATA\_MODE = "demo"
+
+python -m streamlit run app.py
+
+```
+
+
+
+After updating and validating the database, regenerate demo snapshots with:
+
+
+
+```powershell
+
+python .\\src\\export\_demo\_data.py
+
+```
+
+
+
+\## Repository structure
+
+
+
+| Path | Purpose |
+
+|---|---|
+
+| `app.py` | Streamlit application |
+
+| `config/` | Campus configuration and geographic aliases |
+
+| `src/` | Inspection, cleaning, auditing, loading and export scripts |
+
+| `sql/` | Database tables, analytical views and validation queries |
+
+| `docs/` | Source notes, geographic reviews and findings |
+
+| `demo\_data/` | Compact snapshots used by the public app |
+
+| `requirements.txt` | Demo application dependencies |
+
+| `requirements-pipeline.txt` | Full data-processing and database dependencies |
+
+
+
+Raw and intermediate datasets are excluded from Git.
+
+
+
+\## Sources
+
+
+
+\- Homes Victoria rental reporting.
+
+\- Australian Bureau of Statistics 2021 geography and Census data.
+
+\- Victorian public transport GTFS feeds.
+
+\- Crime Statistics Agency Victoria recorded-offence tables.
+
+
+
+Source details, transformation methods and geographic limitations are documented in `docs/`.
+
+
+
+\## Future improvements
+
+
+
+\- Expand campus coverage.
+
+\- Review unresolved geographic associations.
+
+\- Support additional transport dates and transfer journeys.
+
+\- Improve source-refresh automation.
+
+\- Conduct usability testing with students.
 
