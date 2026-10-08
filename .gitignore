@@ -17,3 +17,4 @@ data/processed/
 
 # Local Streamlit credentials
 .streamlit/secrets.toml
+.venv-demo/
