@@ -1,0 +1,771 @@
+rental_area_id,source_region,source_area,dwelling_category,period_start,period_end,period_basis,lease_count,median_weekly_rent_aud
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,176.0,450.00
+2,Inner Melbourne,Armadale,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,188.0,450.00
+3,Inner Melbourne,Carlton North,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,37.0,430.00
+4,Inner Melbourne,Carlton-Parkville,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,1023.0,500.00
+5,Inner Melbourne,CBD-St Kilda Rd,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,6274.0,560.00
+6,Inner Melbourne,Collingwood-Abbotsford,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,631.0,520.00
+7,Inner Melbourne,Docklands,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,1240.0,600.00
+8,Inner Melbourne,East Melbourne,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,165.0,520.00
+9,Inner Melbourne,East St Kilda,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,433.0,425.00
+10,Inner Melbourne,Elwood,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,331.0,450.00
+11,Inner Melbourne,Fitzroy,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,204.0,528.00
+12,Inner Melbourne,Fitzroy North-Clifton Hill,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,239.0,500.00
+13,Inner Melbourne,Flemington-Kensington,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,500.0,470.00
+14,Inner Melbourne,North Melbourne-West Melbourne,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,1239.0,525.00
+15,Inner Melbourne,Port Melbourne,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,218.0,550.00
+16,Inner Melbourne,Prahran-Windsor,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,803.0,460.00
+17,Inner Melbourne,Richmond-Burnley,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,871.0,510.00
+18,Inner Melbourne,South Melbourne,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,408.0,548.00
+19,Inner Melbourne,South Yarra,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,1378.0,500.00
+20,Inner Melbourne,Southbank,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,1593.0,570.00
+21,Inner Melbourne,St Kilda,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,1287.0,465.00
+22,Inner Melbourne,Toorak,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,157.0,445.00
+23,Inner Eastern Melbourne,Balwyn,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,40.0,500.00
+24,Inner Eastern Melbourne,Blackburn,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,93.0,460.00
+25,Inner Eastern Melbourne,Box Hill,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,428.0,490.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,133.0,480.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,74.0,450.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,207.0,440.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,20.0,450.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,104.0,500.00
+31,Inner Eastern Melbourne,Clayton,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,406.0,490.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,29.0,470.00
+33,Inner Eastern Melbourne,East Hawthorn,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,236.0,490.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,55.0,550.00
+35,Inner Eastern Melbourne,Hawthorn,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,509.0,450.00
+36,Inner Eastern Melbourne,Kew,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,53.0,470.00
+37,Inner Eastern Melbourne,Mount Waverley,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,41.0,280.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,59.0,435.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,40.0,530.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,31.0,435.00
+41,Southern Melbourne,Bentleigh,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,177.0,405.00
+42,Southern Melbourne,Brighton,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,80.0,498.00
+43,Southern Melbourne,Brighton East,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,82.0,265.00
+44,Southern Melbourne,Carnegie,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,303.0,420.00
+45,Southern Melbourne,Caulfield,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,613.0,500.00
+46,Southern Melbourne,Cheltenham,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,111.0,450.00
+47,Southern Melbourne,Elsternwick,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,161.0,440.00
+48,Southern Melbourne,Hampton-Beaumaris,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,105.0,480.00
+49,Southern Melbourne,Malvern,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,101.0,450.00
+50,Southern Melbourne,Malvern East,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,194.0,480.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,193.0,405.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,197.0,405.00
+53,Outer Western Melbourne,Altona,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,78.0,385.00
+54,Outer Western Melbourne,Footscray,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,536.0,450.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,166.0,450.00
+56,Outer Western Melbourne,Melton,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,36.0,350.00
+57,Outer Western Melbourne,Newport-Spotswood,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,136.0,455.00
+58,Outer Western Melbourne,St Albans-Deer Park,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,46.0,330.00
+59,Outer Western Melbourne,Sunshine,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,137.0,330.00
+60,Outer Western Melbourne,Sydenham,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,69.0,350.00
+62,Outer Western Melbourne,West Footscray,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,131.0,365.00
+63,Outer Western Melbourne,Williamstown,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,56.0,420.00
+64,Outer Western Melbourne,Yarraville-Seddon,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,106.0,393.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,147.0,325.00
+66,North Western Melbourne,Brunswick,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,485.0,460.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,195.0,425.00
+68,North Western Melbourne,Craigieburn,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+69,North Western Melbourne,East Brunswick,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,348.0,500.00
+70,North Western Melbourne,Essendon,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,298.0,430.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+72,North Western Melbourne,Keilor,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,345.0,450.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,65.0,385.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,75.0,280.00
+76,North Western Melbourne,Sunbury,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+77,North Western Melbourne,West Brunswick,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,428.0,400.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,143.0,420.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,34.0,360.00
+80,North Eastern Melbourne,Fairfield-Alphington,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,248.0,400.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,143.0,450.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,179.0,490.00
+83,North Eastern Melbourne,Mill Park-Epping,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,33.0,400.00
+84,North Eastern Melbourne,Northcote,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,253.0,420.00
+85,North Eastern Melbourne,Preston,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,236.0,440.00
+86,North Eastern Melbourne,Reservoir,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,139.0,400.00
+87,North Eastern Melbourne,Thomastown-Lalor,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,19.0,375.00
+88,North Eastern Melbourne,Thornbury,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,263.0,400.00
+89,North Eastern Melbourne,Whittlesea,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+90,Outer Eastern Melbourne,Bayswater,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,14.0,393.00
+91,Outer Eastern Melbourne,Boronia,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,16.0,400.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,54.0,363.00
+93,Outer Eastern Melbourne,Ferntree Gully,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+94,Outer Eastern Melbourne,Ringwood,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,55.0,440.00
+95,Outer Eastern Melbourne,Rowville,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+96,Outer Eastern Melbourne,Wantirna-Scoresby,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,51.0,287.00
+97,Outer Eastern Melbourne,Yarra Ranges,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,41.0,350.00
+98,South Eastern Melbourne,Berwick,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+99,South Eastern Melbourne,Cranbourne,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,34.0,400.00
+100,South Eastern Melbourne,Dandenong,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,100.0,375.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,32.0,350.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,24.0,323.00
+103,South Eastern Melbourne,Noble Park,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,144.0,370.00
+104,South Eastern Melbourne,Pakenham,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+105,South Eastern Melbourne,Springvale,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,137.0,370.00
+106,Mornington Peninsula,Dromana-Portsea,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,22.0,393.00
+107,Mornington Peninsula,Frankston,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,176.0,350.00
+108,Mornington Peninsula,Hastings-Flinders,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,43.0,360.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+110,Mornington Peninsula,Seaford-Carrum Downs,1 bedroom flat,2024-10-01,2025-09-30,moving_annual,59.0,380.00
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,144.0,643.00
+2,Inner Melbourne,Armadale,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,282.0,650.00
+3,Inner Melbourne,Carlton North,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,69.0,600.00
+4,Inner Melbourne,Carlton-Parkville,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1235.0,670.00
+5,Inner Melbourne,CBD-St Kilda Rd,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,6605.0,735.00
+6,Inner Melbourne,Collingwood-Abbotsford,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,702.0,695.00
+7,Inner Melbourne,Docklands,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1512.0,763.00
+8,Inner Melbourne,East Melbourne,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,177.0,690.00
+9,Inner Melbourne,East St Kilda,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,712.0,575.00
+10,Inner Melbourne,Elwood,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,610.0,608.00
+11,Inner Melbourne,Fitzroy,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,223.0,750.00
+12,Inner Melbourne,Fitzroy North-Clifton Hill,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,267.0,690.00
+13,Inner Melbourne,Flemington-Kensington,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,657.0,560.00
+14,Inner Melbourne,North Melbourne-West Melbourne,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1239.0,660.00
+15,Inner Melbourne,Port Melbourne,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,370.0,745.00
+16,Inner Melbourne,Prahran-Windsor,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,679.0,650.00
+17,Inner Melbourne,Richmond-Burnley,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,881.0,700.00
+18,Inner Melbourne,South Melbourne,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,485.0,700.00
+19,Inner Melbourne,South Yarra,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1288.0,700.00
+20,Inner Melbourne,Southbank,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,2385.0,720.00
+21,Inner Melbourne,St Kilda,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1040.0,630.00
+22,Inner Melbourne,Toorak,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,253.0,650.00
+23,Inner Eastern Melbourne,Balwyn,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,254.0,588.00
+24,Inner Eastern Melbourne,Blackburn,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,189.0,550.00
+25,Inner Eastern Melbourne,Box Hill,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1158.0,610.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,451.0,595.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,181.0,570.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,539.0,600.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,210.0,570.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,350.0,580.00
+31,Inner Eastern Melbourne,Clayton,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,769.0,590.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,184.0,575.00
+33,Inner Eastern Melbourne,East Hawthorn,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,422.0,610.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,297.0,640.00
+35,Inner Eastern Melbourne,Hawthorn,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,735.0,600.00
+36,Inner Eastern Melbourne,Kew,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,358.0,575.00
+37,Inner Eastern Melbourne,Mount Waverley,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,131.0,540.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,223.0,520.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,166.0,578.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,368.0,545.00
+41,Southern Melbourne,Bentleigh,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,602.0,590.00
+42,Southern Melbourne,Brighton,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,275.0,680.00
+43,Southern Melbourne,Brighton East,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,62.0,630.00
+44,Southern Melbourne,Carnegie,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,487.0,595.00
+45,Southern Melbourne,Caulfield,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,1021.0,630.00
+46,Southern Melbourne,Cheltenham,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,627.0,550.00
+47,Southern Melbourne,Elsternwick,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,284.0,600.00
+48,Southern Melbourne,Hampton-Beaumaris,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,362.0,650.00
+49,Southern Melbourne,Malvern,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,150.0,600.00
+50,Southern Melbourne,Malvern East,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,357.0,600.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,411.0,550.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,248.0,570.00
+53,Outer Western Melbourne,Altona,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,442.0,475.00
+54,Outer Western Melbourne,Footscray,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,763.0,560.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,356.0,520.00
+56,Outer Western Melbourne,Melton,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,85.0,365.00
+57,Outer Western Melbourne,Newport-Spotswood,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,275.0,575.00
+58,Outer Western Melbourne,St Albans-Deer Park,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,272.0,420.00
+59,Outer Western Melbourne,Sunshine,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,328.0,410.00
+60,Outer Western Melbourne,Sydenham,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,112.0,450.00
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,485.0,405.00
+62,Outer Western Melbourne,West Footscray,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,317.0,475.00
+63,Outer Western Melbourne,Williamstown,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,130.0,523.00
+64,Outer Western Melbourne,Yarraville-Seddon,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,231.0,520.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,212.0,470.00
+66,North Western Melbourne,Brunswick,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,600.0,600.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,372.0,550.00
+68,North Western Melbourne,Craigieburn,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,116.0,440.00
+69,North Western Melbourne,East Brunswick,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,408.0,625.00
+70,North Western Melbourne,Essendon,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,672.0,510.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,83.0,450.00
+72,North Western Melbourne,Keilor,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,461.0,550.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,530.0,490.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,352.0,500.00
+76,North Western Melbourne,Sunbury,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,94.0,440.00
+77,North Western Melbourne,West Brunswick,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,379.0,500.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,404.0,490.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,90.0,500.00
+80,North Eastern Melbourne,Fairfield-Alphington,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,227.0,575.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,418.0,530.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,347.0,600.00
+83,North Eastern Melbourne,Mill Park-Epping,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,197.0,450.00
+84,North Eastern Melbourne,Northcote,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,266.0,600.00
+85,North Eastern Melbourne,Preston,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,521.0,550.00
+86,North Eastern Melbourne,Reservoir,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,646.0,500.00
+87,North Eastern Melbourne,Thomastown-Lalor,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,196.0,450.00
+88,North Eastern Melbourne,Thornbury,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,276.0,520.00
+89,North Eastern Melbourne,Whittlesea,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,48.0,440.00
+90,Outer Eastern Melbourne,Bayswater,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,132.0,493.00
+91,Outer Eastern Melbourne,Boronia,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,112.0,500.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,333.0,500.00
+93,Outer Eastern Melbourne,Ferntree Gully,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,65.0,520.00
+94,Outer Eastern Melbourne,Ringwood,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,428.0,520.00
+95,Outer Eastern Melbourne,Rowville,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,23.0,530.00
+96,Outer Eastern Melbourne,Wantirna-Scoresby,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,113.0,510.00
+97,Outer Eastern Melbourne,Yarra Ranges,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,46.0,488.00
+98,South Eastern Melbourne,Berwick,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,63.0,500.00
+99,South Eastern Melbourne,Cranbourne,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,100.0,460.00
+100,South Eastern Melbourne,Dandenong,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,598.0,450.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,154.0,468.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,120.0,470.00
+103,South Eastern Melbourne,Noble Park,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,385.0,495.00
+104,South Eastern Melbourne,Pakenham,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,92.0,450.00
+105,South Eastern Melbourne,Springvale,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,456.0,520.00
+106,Mornington Peninsula,Dromana-Portsea,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,164.0,478.00
+107,Mornington Peninsula,Frankston,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,427.0,475.00
+108,Mornington Peninsula,Hastings-Flinders,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,87.0,470.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,173.0,535.00
+110,Mornington Peninsula,Seaford-Carrum Downs,2 bedroom flat,2024-10-01,2025-09-30,moving_annual,215.0,470.00
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,21.0,825.00
+2,Inner Melbourne,Armadale,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,55.0,1000.00
+3,Inner Melbourne,Carlton North,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,16.0,778.00
+4,Inner Melbourne,Carlton-Parkville,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,100.0,855.00
+5,Inner Melbourne,CBD-St Kilda Rd,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,737.0,1050.00
+6,Inner Melbourne,Collingwood-Abbotsford,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,76.0,1000.00
+7,Inner Melbourne,Docklands,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,169.0,1200.00
+8,Inner Melbourne,East Melbourne,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,36.0,1175.00
+9,Inner Melbourne,East St Kilda,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,149.0,840.00
+10,Inner Melbourne,Elwood,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,89.0,875.00
+11,Inner Melbourne,Fitzroy,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,32.0,1175.00
+12,Inner Melbourne,Fitzroy North-Clifton Hill,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,39.0,1050.00
+13,Inner Melbourne,Flemington-Kensington,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,53.0,850.00
+14,Inner Melbourne,North Melbourne-West Melbourne,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,160.0,882.00
+15,Inner Melbourne,Port Melbourne,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,111.0,1175.00
+16,Inner Melbourne,Prahran-Windsor,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,94.0,950.00
+17,Inner Melbourne,Richmond-Burnley,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,132.0,1000.00
+18,Inner Melbourne,South Melbourne,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,71.0,950.00
+19,Inner Melbourne,South Yarra,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,140.0,1100.00
+20,Inner Melbourne,Southbank,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,355.0,1010.00
+21,Inner Melbourne,St Kilda,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,115.0,890.00
+22,Inner Melbourne,Toorak,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,90.0,1000.00
+23,Inner Eastern Melbourne,Balwyn,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,86.0,798.00
+24,Inner Eastern Melbourne,Blackburn,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,74.0,644.00
+25,Inner Eastern Melbourne,Box Hill,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,228.0,710.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,191.0,720.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,104.0,720.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,175.0,815.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,69.0,740.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,176.0,680.00
+31,Inner Eastern Melbourne,Clayton,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,287.0,650.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,137.0,695.00
+33,Inner Eastern Melbourne,East Hawthorn,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,63.0,890.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,221.0,660.00
+35,Inner Eastern Melbourne,Hawthorn,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,93.0,850.00
+36,Inner Eastern Melbourne,Kew,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,135.0,850.00
+37,Inner Eastern Melbourne,Mount Waverley,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,121.0,700.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,100.0,650.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,73.0,650.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,163.0,675.00
+41,Southern Melbourne,Bentleigh,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,202.0,750.00
+42,Southern Melbourne,Brighton,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,105.0,1000.00
+43,Southern Melbourne,Brighton East,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,24.0,738.00
+44,Southern Melbourne,Carnegie,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,81.0,775.00
+45,Southern Melbourne,Caulfield,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,220.0,810.00
+46,Southern Melbourne,Cheltenham,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,106.0,693.00
+47,Southern Melbourne,Elsternwick,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,61.0,800.00
+48,Southern Melbourne,Hampton-Beaumaris,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,98.0,900.00
+49,Southern Melbourne,Malvern,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,42.0,908.00
+50,Southern Melbourne,Malvern East,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,73.0,800.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,95.0,720.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,59.0,750.00
+53,Outer Western Melbourne,Altona,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,198.0,550.00
+54,Outer Western Melbourne,Footscray,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,116.0,698.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,122.0,623.00
+56,Outer Western Melbourne,Melton,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,97.0,400.00
+57,Outer Western Melbourne,Newport-Spotswood,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,79.0,725.00
+58,Outer Western Melbourne,St Albans-Deer Park,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,169.0,482.00
+59,Outer Western Melbourne,Sunshine,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,131.0,530.00
+60,Outer Western Melbourne,Sydenham,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,170.0,460.00
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,330.0,450.00
+62,Outer Western Melbourne,West Footscray,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,95.0,620.00
+63,Outer Western Melbourne,Williamstown,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,29.0,670.00
+64,Outer Western Melbourne,Yarraville-Seddon,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,29.0,730.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,131.0,520.00
+66,North Western Melbourne,Brunswick,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,67.0,840.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,55.0,700.00
+68,North Western Melbourne,Craigieburn,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,81.0,485.00
+69,North Western Melbourne,East Brunswick,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,52.0,880.00
+70,North Western Melbourne,Essendon,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,174.0,650.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,50.0,553.00
+72,North Western Melbourne,Keilor,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,,
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,88.0,730.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,242.0,600.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,96.0,628.00
+76,North Western Melbourne,Sunbury,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,64.0,480.00
+77,North Western Melbourne,West Brunswick,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,50.0,725.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,164.0,580.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,45.0,620.00
+80,North Eastern Melbourne,Fairfield-Alphington,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,40.0,815.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,155.0,650.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,66.0,750.00
+83,North Eastern Melbourne,Mill Park-Epping,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,126.0,520.00
+84,North Eastern Melbourne,Northcote,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,46.0,850.00
+85,North Eastern Melbourne,Preston,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,89.0,695.00
+86,North Eastern Melbourne,Reservoir,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,223.0,620.00
+87,North Eastern Melbourne,Thomastown-Lalor,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,74.0,501.00
+88,North Eastern Melbourne,Thornbury,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,44.0,748.00
+89,North Eastern Melbourne,Whittlesea,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,38.0,500.00
+90,Outer Eastern Melbourne,Bayswater,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,64.0,590.00
+91,Outer Eastern Melbourne,Boronia,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,76.0,600.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,266.0,620.00
+93,Outer Eastern Melbourne,Ferntree Gully,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,53.0,580.00
+94,Outer Eastern Melbourne,Ringwood,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,109.0,620.00
+95,Outer Eastern Melbourne,Rowville,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,42.0,628.00
+96,Outer Eastern Melbourne,Wantirna-Scoresby,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,119.0,610.00
+97,Outer Eastern Melbourne,Yarra Ranges,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,22.0,550.00
+98,South Eastern Melbourne,Berwick,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,69.0,550.00
+99,South Eastern Melbourne,Cranbourne,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,96.0,530.00
+100,South Eastern Melbourne,Dandenong,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,180.0,570.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,96.0,550.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,106.0,545.00
+103,South Eastern Melbourne,Noble Park,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,157.0,580.00
+104,South Eastern Melbourne,Pakenham,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,101.0,500.00
+105,South Eastern Melbourne,Springvale,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,208.0,650.00
+106,Mornington Peninsula,Dromana-Portsea,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,156.0,600.00
+107,Mornington Peninsula,Frankston,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,149.0,560.00
+108,Mornington Peninsula,Hastings-Flinders,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,59.0,550.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,94.0,650.00
+110,Mornington Peninsula,Seaford-Carrum Downs,3 bedroom flat,2024-10-01,2025-09-30,moving_annual,125.0,560.00
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,2 bedroom house,2024-10-01,2025-09-30,moving_annual,84.0,760.00
+2,Inner Melbourne,Armadale,2 bedroom house,2024-10-01,2025-09-30,moving_annual,31.0,830.00
+3,Inner Melbourne,Carlton North,2 bedroom house,2024-10-01,2025-09-30,moving_annual,106.0,755.00
+4,Inner Melbourne,Carlton-Parkville,2 bedroom house,2024-10-01,2025-09-30,moving_annual,57.0,670.00
+5,Inner Melbourne,CBD-St Kilda Rd,2 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+6,Inner Melbourne,Collingwood-Abbotsford,2 bedroom house,2024-10-01,2025-09-30,moving_annual,92.0,720.00
+7,Inner Melbourne,Docklands,2 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+8,Inner Melbourne,East Melbourne,2 bedroom house,2024-10-01,2025-09-30,moving_annual,18.0,875.00
+9,Inner Melbourne,East St Kilda,2 bedroom house,2024-10-01,2025-09-30,moving_annual,46.0,763.00
+10,Inner Melbourne,Elwood,2 bedroom house,2024-10-01,2025-09-30,moving_annual,33.0,795.00
+11,Inner Melbourne,Fitzroy,2 bedroom house,2024-10-01,2025-09-30,moving_annual,52.0,848.00
+12,Inner Melbourne,Fitzroy North-Clifton Hill,2 bedroom house,2024-10-01,2025-09-30,moving_annual,138.0,740.00
+13,Inner Melbourne,Flemington-Kensington,2 bedroom house,2024-10-01,2025-09-30,moving_annual,166.0,620.00
+14,Inner Melbourne,North Melbourne-West Melbourne,2 bedroom house,2024-10-01,2025-09-30,moving_annual,59.0,650.00
+15,Inner Melbourne,Port Melbourne,2 bedroom house,2024-10-01,2025-09-30,moving_annual,91.0,740.00
+16,Inner Melbourne,Prahran-Windsor,2 bedroom house,2024-10-01,2025-09-30,moving_annual,179.0,775.00
+17,Inner Melbourne,Richmond-Burnley,2 bedroom house,2024-10-01,2025-09-30,moving_annual,258.0,750.00
+18,Inner Melbourne,South Melbourne,2 bedroom house,2024-10-01,2025-09-30,moving_annual,73.0,750.00
+19,Inner Melbourne,South Yarra,2 bedroom house,2024-10-01,2025-09-30,moving_annual,105.0,780.00
+20,Inner Melbourne,Southbank,2 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+21,Inner Melbourne,St Kilda,2 bedroom house,2024-10-01,2025-09-30,moving_annual,36.0,728.00
+22,Inner Melbourne,Toorak,2 bedroom house,2024-10-01,2025-09-30,moving_annual,16.0,695.00
+23,Inner Eastern Melbourne,Balwyn,2 bedroom house,2024-10-01,2025-09-30,moving_annual,21.0,570.00
+24,Inner Eastern Melbourne,Blackburn,2 bedroom house,2024-10-01,2025-09-30,moving_annual,30.0,550.00
+25,Inner Eastern Melbourne,Box Hill,2 bedroom house,2024-10-01,2025-09-30,moving_annual,65.0,540.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,2 bedroom house,2024-10-01,2025-09-30,moving_annual,35.0,570.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,2 bedroom house,2024-10-01,2025-09-30,moving_annual,47.0,580.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,2 bedroom house,2024-10-01,2025-09-30,moving_annual,60.0,660.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,2 bedroom house,2024-10-01,2025-09-30,moving_annual,24.0,620.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,2 bedroom house,2024-10-01,2025-09-30,moving_annual,30.0,570.00
+31,Inner Eastern Melbourne,Clayton,2 bedroom house,2024-10-01,2025-09-30,moving_annual,47.0,550.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,2 bedroom house,2024-10-01,2025-09-30,moving_annual,21.0,530.00
+33,Inner Eastern Melbourne,East Hawthorn,2 bedroom house,2024-10-01,2025-09-30,moving_annual,28.0,698.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,2 bedroom house,2024-10-01,2025-09-30,moving_annual,29.0,590.00
+35,Inner Eastern Melbourne,Hawthorn,2 bedroom house,2024-10-01,2025-09-30,moving_annual,54.0,710.00
+36,Inner Eastern Melbourne,Kew,2 bedroom house,2024-10-01,2025-09-30,moving_annual,40.0,663.00
+37,Inner Eastern Melbourne,Mount Waverley,2 bedroom house,2024-10-01,2025-09-30,moving_annual,31.0,570.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,2 bedroom house,2024-10-01,2025-09-30,moving_annual,51.0,525.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,2 bedroom house,2024-10-01,2025-09-30,moving_annual,25.0,540.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,2 bedroom house,2024-10-01,2025-09-30,moving_annual,45.0,550.00
+41,Southern Melbourne,Bentleigh,2 bedroom house,2024-10-01,2025-09-30,moving_annual,59.0,600.00
+42,Southern Melbourne,Brighton,2 bedroom house,2024-10-01,2025-09-30,moving_annual,19.0,760.00
+43,Southern Melbourne,Brighton East,2 bedroom house,2024-10-01,2025-09-30,moving_annual,23.0,690.00
+44,Southern Melbourne,Carnegie,2 bedroom house,2024-10-01,2025-09-30,moving_annual,30.0,600.00
+45,Southern Melbourne,Caulfield,2 bedroom house,2024-10-01,2025-09-30,moving_annual,68.0,633.00
+46,Southern Melbourne,Cheltenham,2 bedroom house,2024-10-01,2025-09-30,moving_annual,71.0,585.00
+47,Southern Melbourne,Elsternwick,2 bedroom house,2024-10-01,2025-09-30,moving_annual,20.0,718.00
+48,Southern Melbourne,Hampton-Beaumaris,2 bedroom house,2024-10-01,2025-09-30,moving_annual,39.0,650.00
+49,Southern Melbourne,Malvern,2 bedroom house,2024-10-01,2025-09-30,moving_annual,17.0,790.00
+50,Southern Melbourne,Malvern East,2 bedroom house,2024-10-01,2025-09-30,moving_annual,36.0,650.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,2 bedroom house,2024-10-01,2025-09-30,moving_annual,47.0,600.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,2 bedroom house,2024-10-01,2025-09-30,moving_annual,23.0,590.00
+53,Outer Western Melbourne,Altona,2 bedroom house,2024-10-01,2025-09-30,moving_annual,208.0,490.00
+54,Outer Western Melbourne,Footscray,2 bedroom house,2024-10-01,2025-09-30,moving_annual,118.0,573.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,2 bedroom house,2024-10-01,2025-09-30,moving_annual,38.0,520.00
+56,Outer Western Melbourne,Melton,2 bedroom house,2024-10-01,2025-09-30,moving_annual,65.0,375.00
+57,Outer Western Melbourne,Newport-Spotswood,2 bedroom house,2024-10-01,2025-09-30,moving_annual,61.0,580.00
+58,Outer Western Melbourne,St Albans-Deer Park,2 bedroom house,2024-10-01,2025-09-30,moving_annual,61.0,420.00
+59,Outer Western Melbourne,Sunshine,2 bedroom house,2024-10-01,2025-09-30,moving_annual,101.0,460.00
+60,Outer Western Melbourne,Sydenham,2 bedroom house,2024-10-01,2025-09-30,moving_annual,68.0,440.00
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,2 bedroom house,2024-10-01,2025-09-30,moving_annual,210.0,420.00
+62,Outer Western Melbourne,West Footscray,2 bedroom house,2024-10-01,2025-09-30,moving_annual,110.0,500.00
+63,Outer Western Melbourne,Williamstown,2 bedroom house,2024-10-01,2025-09-30,moving_annual,43.0,600.00
+64,Outer Western Melbourne,Yarraville-Seddon,2 bedroom house,2024-10-01,2025-09-30,moving_annual,198.0,600.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,2 bedroom house,2024-10-01,2025-09-30,moving_annual,95.0,460.00
+66,North Western Melbourne,Brunswick,2 bedroom house,2024-10-01,2025-09-30,moving_annual,187.0,660.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,2 bedroom house,2024-10-01,2025-09-30,moving_annual,155.0,580.00
+68,North Western Melbourne,Craigieburn,2 bedroom house,2024-10-01,2025-09-30,moving_annual,91.0,450.00
+69,North Western Melbourne,East Brunswick,2 bedroom house,2024-10-01,2025-09-30,moving_annual,67.0,710.00
+70,North Western Melbourne,Essendon,2 bedroom house,2024-10-01,2025-09-30,moving_annual,80.0,550.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,2 bedroom house,2024-10-01,2025-09-30,moving_annual,18.0,500.00
+72,North Western Melbourne,Keilor,2 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,2 bedroom house,2024-10-01,2025-09-30,moving_annual,118.0,620.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,2 bedroom house,2024-10-01,2025-09-30,moving_annual,133.0,500.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,2 bedroom house,2024-10-01,2025-09-30,moving_annual,76.0,540.00
+76,North Western Melbourne,Sunbury,2 bedroom house,2024-10-01,2025-09-30,moving_annual,24.0,440.00
+77,North Western Melbourne,West Brunswick,2 bedroom house,2024-10-01,2025-09-30,moving_annual,49.0,590.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,2 bedroom house,2024-10-01,2025-09-30,moving_annual,105.0,500.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,2 bedroom house,2024-10-01,2025-09-30,moving_annual,22.0,500.00
+80,North Eastern Melbourne,Fairfield-Alphington,2 bedroom house,2024-10-01,2025-09-30,moving_annual,25.0,650.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,2 bedroom house,2024-10-01,2025-09-30,moving_annual,80.0,510.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,2 bedroom house,2024-10-01,2025-09-30,moving_annual,19.0,600.00
+83,North Eastern Melbourne,Mill Park-Epping,2 bedroom house,2024-10-01,2025-09-30,moving_annual,116.0,480.00
+84,North Eastern Melbourne,Northcote,2 bedroom house,2024-10-01,2025-09-30,moving_annual,128.0,700.00
+85,North Eastern Melbourne,Preston,2 bedroom house,2024-10-01,2025-09-30,moving_annual,112.0,588.00
+86,North Eastern Melbourne,Reservoir,2 bedroom house,2024-10-01,2025-09-30,moving_annual,180.0,500.00
+87,North Eastern Melbourne,Thomastown-Lalor,2 bedroom house,2024-10-01,2025-09-30,moving_annual,43.0,470.00
+88,North Eastern Melbourne,Thornbury,2 bedroom house,2024-10-01,2025-09-30,moving_annual,74.0,650.00
+89,North Eastern Melbourne,Whittlesea,2 bedroom house,2024-10-01,2025-09-30,moving_annual,50.0,450.00
+90,Outer Eastern Melbourne,Bayswater,2 bedroom house,2024-10-01,2025-09-30,moving_annual,35.0,500.00
+91,Outer Eastern Melbourne,Boronia,2 bedroom house,2024-10-01,2025-09-30,moving_annual,50.0,520.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,2 bedroom house,2024-10-01,2025-09-30,moving_annual,118.0,525.00
+93,Outer Eastern Melbourne,Ferntree Gully,2 bedroom house,2024-10-01,2025-09-30,moving_annual,20.0,518.00
+94,Outer Eastern Melbourne,Ringwood,2 bedroom house,2024-10-01,2025-09-30,moving_annual,92.0,520.00
+95,Outer Eastern Melbourne,Rowville,2 bedroom house,2024-10-01,2025-09-30,moving_annual,15.0,550.00
+96,Outer Eastern Melbourne,Wantirna-Scoresby,2 bedroom house,2024-10-01,2025-09-30,moving_annual,32.0,550.00
+97,Outer Eastern Melbourne,Yarra Ranges,2 bedroom house,2024-10-01,2025-09-30,moving_annual,91.0,500.00
+98,South Eastern Melbourne,Berwick,2 bedroom house,2024-10-01,2025-09-30,moving_annual,61.0,490.00
+99,South Eastern Melbourne,Cranbourne,2 bedroom house,2024-10-01,2025-09-30,moving_annual,129.0,490.00
+100,South Eastern Melbourne,Dandenong,2 bedroom house,2024-10-01,2025-09-30,moving_annual,57.0,490.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,2 bedroom house,2024-10-01,2025-09-30,moving_annual,38.0,475.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,2 bedroom house,2024-10-01,2025-09-30,moving_annual,84.0,475.00
+103,South Eastern Melbourne,Noble Park,2 bedroom house,2024-10-01,2025-09-30,moving_annual,42.0,480.00
+104,South Eastern Melbourne,Pakenham,2 bedroom house,2024-10-01,2025-09-30,moving_annual,87.0,460.00
+105,South Eastern Melbourne,Springvale,2 bedroom house,2024-10-01,2025-09-30,moving_annual,43.0,510.00
+106,Mornington Peninsula,Dromana-Portsea,2 bedroom house,2024-10-01,2025-09-30,moving_annual,153.0,490.00
+107,Mornington Peninsula,Frankston,2 bedroom house,2024-10-01,2025-09-30,moving_annual,97.0,490.00
+108,Mornington Peninsula,Hastings-Flinders,2 bedroom house,2024-10-01,2025-09-30,moving_annual,26.0,498.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,2 bedroom house,2024-10-01,2025-09-30,moving_annual,28.0,533.00
+110,Mornington Peninsula,Seaford-Carrum Downs,2 bedroom house,2024-10-01,2025-09-30,moving_annual,49.0,490.00
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,3 bedroom house,2024-10-01,2025-09-30,moving_annual,80.0,1150.00
+2,Inner Melbourne,Armadale,3 bedroom house,2024-10-01,2025-09-30,moving_annual,51.0,1100.00
+3,Inner Melbourne,Carlton North,3 bedroom house,2024-10-01,2025-09-30,moving_annual,77.0,950.00
+4,Inner Melbourne,Carlton-Parkville,3 bedroom house,2024-10-01,2025-09-30,moving_annual,51.0,950.00
+5,Inner Melbourne,CBD-St Kilda Rd,3 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+6,Inner Melbourne,Collingwood-Abbotsford,3 bedroom house,2024-10-01,2025-09-30,moving_annual,60.0,950.00
+7,Inner Melbourne,Docklands,3 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+8,Inner Melbourne,East Melbourne,3 bedroom house,2024-10-01,2025-09-30,moving_annual,17.0,1100.00
+9,Inner Melbourne,East St Kilda,3 bedroom house,2024-10-01,2025-09-30,moving_annual,73.0,900.00
+10,Inner Melbourne,Elwood,3 bedroom house,2024-10-01,2025-09-30,moving_annual,66.0,1095.00
+11,Inner Melbourne,Fitzroy,3 bedroom house,2024-10-01,2025-09-30,moving_annual,48.0,1100.00
+12,Inner Melbourne,Fitzroy North-Clifton Hill,3 bedroom house,2024-10-01,2025-09-30,moving_annual,88.0,998.00
+13,Inner Melbourne,Flemington-Kensington,3 bedroom house,2024-10-01,2025-09-30,moving_annual,125.0,760.00
+14,Inner Melbourne,North Melbourne-West Melbourne,3 bedroom house,2024-10-01,2025-09-30,moving_annual,62.0,853.00
+15,Inner Melbourne,Port Melbourne,3 bedroom house,2024-10-01,2025-09-30,moving_annual,140.0,980.00
+16,Inner Melbourne,Prahran-Windsor,3 bedroom house,2024-10-01,2025-09-30,moving_annual,150.0,975.00
+17,Inner Melbourne,Richmond-Burnley,3 bedroom house,2024-10-01,2025-09-30,moving_annual,214.0,990.00
+18,Inner Melbourne,South Melbourne,3 bedroom house,2024-10-01,2025-09-30,moving_annual,66.0,950.00
+19,Inner Melbourne,South Yarra,3 bedroom house,2024-10-01,2025-09-30,moving_annual,91.0,1100.00
+20,Inner Melbourne,Southbank,3 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+21,Inner Melbourne,St Kilda,3 bedroom house,2024-10-01,2025-09-30,moving_annual,55.0,950.00
+22,Inner Melbourne,Toorak,3 bedroom house,2024-10-01,2025-09-30,moving_annual,46.0,1250.00
+23,Inner Eastern Melbourne,Balwyn,3 bedroom house,2024-10-01,2025-09-30,moving_annual,138.0,750.00
+24,Inner Eastern Melbourne,Blackburn,3 bedroom house,2024-10-01,2025-09-30,moving_annual,182.0,620.00
+25,Inner Eastern Melbourne,Box Hill,3 bedroom house,2024-10-01,2025-09-30,moving_annual,234.0,650.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,3 bedroom house,2024-10-01,2025-09-30,moving_annual,259.0,660.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,3 bedroom house,2024-10-01,2025-09-30,moving_annual,191.0,650.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,3 bedroom house,2024-10-01,2025-09-30,moving_annual,158.0,838.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,3 bedroom house,2024-10-01,2025-09-30,moving_annual,79.0,800.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,3 bedroom house,2024-10-01,2025-09-30,moving_annual,175.0,630.00
+31,Inner Eastern Melbourne,Clayton,3 bedroom house,2024-10-01,2025-09-30,moving_annual,202.0,603.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,3 bedroom house,2024-10-01,2025-09-30,moving_annual,194.0,680.00
+33,Inner Eastern Melbourne,East Hawthorn,3 bedroom house,2024-10-01,2025-09-30,moving_annual,48.0,898.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,3 bedroom house,2024-10-01,2025-09-30,moving_annual,520.0,640.00
+35,Inner Eastern Melbourne,Hawthorn,3 bedroom house,2024-10-01,2025-09-30,moving_annual,69.0,950.00
+36,Inner Eastern Melbourne,Kew,3 bedroom house,2024-10-01,2025-09-30,moving_annual,111.0,850.00
+37,Inner Eastern Melbourne,Mount Waverley,3 bedroom house,2024-10-01,2025-09-30,moving_annual,219.0,660.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,3 bedroom house,2024-10-01,2025-09-30,moving_annual,203.0,625.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,3 bedroom house,2024-10-01,2025-09-30,moving_annual,287.0,630.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,3 bedroom house,2024-10-01,2025-09-30,moving_annual,223.0,680.00
+41,Southern Melbourne,Bentleigh,3 bedroom house,2024-10-01,2025-09-30,moving_annual,346.0,735.00
+42,Southern Melbourne,Brighton,3 bedroom house,2024-10-01,2025-09-30,moving_annual,81.0,1150.00
+43,Southern Melbourne,Brighton East,3 bedroom house,2024-10-01,2025-09-30,moving_annual,74.0,940.00
+44,Southern Melbourne,Carnegie,3 bedroom house,2024-10-01,2025-09-30,moving_annual,49.0,750.00
+45,Southern Melbourne,Caulfield,3 bedroom house,2024-10-01,2025-09-30,moving_annual,147.0,850.00
+46,Southern Melbourne,Cheltenham,3 bedroom house,2024-10-01,2025-09-30,moving_annual,354.0,720.00
+47,Southern Melbourne,Elsternwick,3 bedroom house,2024-10-01,2025-09-30,moving_annual,36.0,900.00
+48,Southern Melbourne,Hampton-Beaumaris,3 bedroom house,2024-10-01,2025-09-30,moving_annual,156.0,895.00
+49,Southern Melbourne,Malvern,3 bedroom house,2024-10-01,2025-09-30,moving_annual,49.0,1000.00
+50,Southern Melbourne,Malvern East,3 bedroom house,2024-10-01,2025-09-30,moving_annual,119.0,750.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,3 bedroom house,2024-10-01,2025-09-30,moving_annual,160.0,750.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,3 bedroom house,2024-10-01,2025-09-30,moving_annual,85.0,730.00
+53,Outer Western Melbourne,Altona,3 bedroom house,2024-10-01,2025-09-30,moving_annual,1296.0,530.00
+54,Outer Western Melbourne,Footscray,3 bedroom house,2024-10-01,2025-09-30,moving_annual,141.0,640.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,3 bedroom house,2024-10-01,2025-09-30,moving_annual,282.0,580.00
+56,Outer Western Melbourne,Melton,3 bedroom house,2024-10-01,2025-09-30,moving_annual,1319.0,420.00
+57,Outer Western Melbourne,Newport-Spotswood,3 bedroom house,2024-10-01,2025-09-30,moving_annual,154.0,700.00
+58,Outer Western Melbourne,St Albans-Deer Park,3 bedroom house,2024-10-01,2025-09-30,moving_annual,679.0,470.00
+59,Outer Western Melbourne,Sunshine,3 bedroom house,2024-10-01,2025-09-30,moving_annual,509.0,495.00
+60,Outer Western Melbourne,Sydenham,3 bedroom house,2024-10-01,2025-09-30,moving_annual,1391.0,480.00
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,3 bedroom house,2024-10-01,2025-09-30,moving_annual,3643.0,460.00
+62,Outer Western Melbourne,West Footscray,3 bedroom house,2024-10-01,2025-09-30,moving_annual,263.0,600.00
+63,Outer Western Melbourne,Williamstown,3 bedroom house,2024-10-01,2025-09-30,moving_annual,116.0,800.00
+64,Outer Western Melbourne,Yarraville-Seddon,3 bedroom house,2024-10-01,2025-09-30,moving_annual,321.0,720.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,3 bedroom house,2024-10-01,2025-09-30,moving_annual,705.0,506.00
+66,North Western Melbourne,Brunswick,3 bedroom house,2024-10-01,2025-09-30,moving_annual,177.0,850.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,3 bedroom house,2024-10-01,2025-09-30,moving_annual,260.0,710.00
+68,North Western Melbourne,Craigieburn,3 bedroom house,2024-10-01,2025-09-30,moving_annual,1059.0,500.00
+69,North Western Melbourne,East Brunswick,3 bedroom house,2024-10-01,2025-09-30,moving_annual,76.0,880.00
+70,North Western Melbourne,Essendon,3 bedroom house,2024-10-01,2025-09-30,moving_annual,282.0,650.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,3 bedroom house,2024-10-01,2025-09-30,moving_annual,197.0,530.00
+72,North Western Melbourne,Keilor,3 bedroom house,2024-10-01,2025-09-30,moving_annual,11.0,630.00
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,3 bedroom house,2024-10-01,2025-09-30,moving_annual,185.0,750.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,3 bedroom house,2024-10-01,2025-09-30,moving_annual,368.0,551.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,3 bedroom house,2024-10-01,2025-09-30,moving_annual,163.0,620.00
+76,North Western Melbourne,Sunbury,3 bedroom house,2024-10-01,2025-09-30,moving_annual,310.0,490.00
+77,North Western Melbourne,West Brunswick,3 bedroom house,2024-10-01,2025-09-30,moving_annual,70.0,755.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,3 bedroom house,2024-10-01,2025-09-30,moving_annual,718.0,570.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,3 bedroom house,2024-10-01,2025-09-30,moving_annual,157.0,650.00
+80,North Eastern Melbourne,Fairfield-Alphington,3 bedroom house,2024-10-01,2025-09-30,moving_annual,69.0,850.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,3 bedroom house,2024-10-01,2025-09-30,moving_annual,236.0,600.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,3 bedroom house,2024-10-01,2025-09-30,moving_annual,71.0,750.00
+83,North Eastern Melbourne,Mill Park-Epping,3 bedroom house,2024-10-01,2025-09-30,moving_annual,795.0,530.00
+84,North Eastern Melbourne,Northcote,3 bedroom house,2024-10-01,2025-09-30,moving_annual,143.0,850.00
+85,North Eastern Melbourne,Preston,3 bedroom house,2024-10-01,2025-09-30,moving_annual,237.0,675.00
+86,North Eastern Melbourne,Reservoir,3 bedroom house,2024-10-01,2025-09-30,moving_annual,369.0,560.00
+87,North Eastern Melbourne,Thomastown-Lalor,3 bedroom house,2024-10-01,2025-09-30,moving_annual,510.0,510.00
+88,North Eastern Melbourne,Thornbury,3 bedroom house,2024-10-01,2025-09-30,moving_annual,102.0,798.00
+89,North Eastern Melbourne,Whittlesea,3 bedroom house,2024-10-01,2025-09-30,moving_annual,662.0,510.00
+90,Outer Eastern Melbourne,Bayswater,3 bedroom house,2024-10-01,2025-09-30,moving_annual,159.0,590.00
+91,Outer Eastern Melbourne,Boronia,3 bedroom house,2024-10-01,2025-09-30,moving_annual,184.0,590.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,3 bedroom house,2024-10-01,2025-09-30,moving_annual,610.0,600.00
+93,Outer Eastern Melbourne,Ferntree Gully,3 bedroom house,2024-10-01,2025-09-30,moving_annual,198.0,600.00
+94,Outer Eastern Melbourne,Ringwood,3 bedroom house,2024-10-01,2025-09-30,moving_annual,302.0,600.00
+95,Outer Eastern Melbourne,Rowville,3 bedroom house,2024-10-01,2025-09-30,moving_annual,155.0,600.00
+96,Outer Eastern Melbourne,Wantirna-Scoresby,3 bedroom house,2024-10-01,2025-09-30,moving_annual,312.0,597.00
+97,Outer Eastern Melbourne,Yarra Ranges,3 bedroom house,2024-10-01,2025-09-30,moving_annual,287.0,595.00
+98,South Eastern Melbourne,Berwick,3 bedroom house,2024-10-01,2025-09-30,moving_annual,703.0,560.00
+99,South Eastern Melbourne,Cranbourne,3 bedroom house,2024-10-01,2025-09-30,moving_annual,1622.0,550.00
+100,South Eastern Melbourne,Dandenong,3 bedroom house,2024-10-01,2025-09-30,moving_annual,321.0,560.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,3 bedroom house,2024-10-01,2025-09-30,moving_annual,462.0,530.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,3 bedroom house,2024-10-01,2025-09-30,moving_annual,936.0,550.00
+103,South Eastern Melbourne,Noble Park,3 bedroom house,2024-10-01,2025-09-30,moving_annual,279.0,550.00
+104,South Eastern Melbourne,Pakenham,3 bedroom house,2024-10-01,2025-09-30,moving_annual,715.0,530.00
+105,South Eastern Melbourne,Springvale,3 bedroom house,2024-10-01,2025-09-30,moving_annual,365.0,570.00
+106,Mornington Peninsula,Dromana-Portsea,3 bedroom house,2024-10-01,2025-09-30,moving_annual,678.0,570.00
+107,Mornington Peninsula,Frankston,3 bedroom house,2024-10-01,2025-09-30,moving_annual,715.0,570.00
+108,Mornington Peninsula,Hastings-Flinders,3 bedroom house,2024-10-01,2025-09-30,moving_annual,221.0,595.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,3 bedroom house,2024-10-01,2025-09-30,moving_annual,304.0,675.00
+110,Mornington Peninsula,Seaford-Carrum Downs,3 bedroom house,2024-10-01,2025-09-30,moving_annual,652.0,560.00
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,4 bedroom house,2024-10-01,2025-09-30,moving_annual,35.0,1400.00
+2,Inner Melbourne,Armadale,4 bedroom house,2024-10-01,2025-09-30,moving_annual,14.0,1738.00
+3,Inner Melbourne,Carlton North,4 bedroom house,2024-10-01,2025-09-30,moving_annual,12.0,1225.00
+4,Inner Melbourne,Carlton-Parkville,4 bedroom house,2024-10-01,2025-09-30,moving_annual,29.0,1100.00
+5,Inner Melbourne,CBD-St Kilda Rd,4 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+6,Inner Melbourne,Collingwood-Abbotsford,4 bedroom house,2024-10-01,2025-09-30,moving_annual,13.0,1200.00
+7,Inner Melbourne,Docklands,4 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+8,Inner Melbourne,East Melbourne,4 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+9,Inner Melbourne,East St Kilda,4 bedroom house,2024-10-01,2025-09-30,moving_annual,23.0,1100.00
+10,Inner Melbourne,Elwood,4 bedroom house,2024-10-01,2025-09-30,moving_annual,26.0,1500.00
+11,Inner Melbourne,Fitzroy,4 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+12,Inner Melbourne,Fitzroy North-Clifton Hill,4 bedroom house,2024-10-01,2025-09-30,moving_annual,46.0,1295.00
+13,Inner Melbourne,Flemington-Kensington,4 bedroom house,2024-10-01,2025-09-30,moving_annual,31.0,945.00
+14,Inner Melbourne,North Melbourne-West Melbourne,4 bedroom house,2024-10-01,2025-09-30,moving_annual,22.0,1080.00
+15,Inner Melbourne,Port Melbourne,4 bedroom house,2024-10-01,2025-09-30,moving_annual,54.0,1125.00
+16,Inner Melbourne,Prahran-Windsor,4 bedroom house,2024-10-01,2025-09-30,moving_annual,29.0,1350.00
+17,Inner Melbourne,Richmond-Burnley,4 bedroom house,2024-10-01,2025-09-30,moving_annual,42.0,1315.00
+18,Inner Melbourne,South Melbourne,4 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+19,Inner Melbourne,South Yarra,4 bedroom house,2024-10-01,2025-09-30,moving_annual,29.0,1700.00
+20,Inner Melbourne,Southbank,4 bedroom house,2024-10-01,2025-09-30,moving_annual,,
+21,Inner Melbourne,St Kilda,4 bedroom house,2024-10-01,2025-09-30,moving_annual,16.0,1105.00
+22,Inner Melbourne,Toorak,4 bedroom house,2024-10-01,2025-09-30,moving_annual,31.0,1875.00
+23,Inner Eastern Melbourne,Balwyn,4 bedroom house,2024-10-01,2025-09-30,moving_annual,187.0,1000.00
+24,Inner Eastern Melbourne,Blackburn,4 bedroom house,2024-10-01,2025-09-30,moving_annual,101.0,800.00
+25,Inner Eastern Melbourne,Box Hill,4 bedroom house,2024-10-01,2025-09-30,moving_annual,132.0,808.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,4 bedroom house,2024-10-01,2025-09-30,moving_annual,418.0,820.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,4 bedroom house,2024-10-01,2025-09-30,moving_annual,136.0,878.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,4 bedroom house,2024-10-01,2025-09-30,moving_annual,151.0,1195.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,4 bedroom house,2024-10-01,2025-09-30,moving_annual,103.0,1100.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,4 bedroom house,2024-10-01,2025-09-30,moving_annual,79.0,850.00
+31,Inner Eastern Melbourne,Clayton,4 bedroom house,2024-10-01,2025-09-30,moving_annual,115.0,800.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,4 bedroom house,2024-10-01,2025-09-30,moving_annual,256.0,830.00
+33,Inner Eastern Melbourne,East Hawthorn,4 bedroom house,2024-10-01,2025-09-30,moving_annual,37.0,1300.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,4 bedroom house,2024-10-01,2025-09-30,moving_annual,546.0,780.00
+35,Inner Eastern Melbourne,Hawthorn,4 bedroom house,2024-10-01,2025-09-30,moving_annual,35.0,1500.00
+36,Inner Eastern Melbourne,Kew,4 bedroom house,2024-10-01,2025-09-30,moving_annual,106.0,1300.00
+37,Inner Eastern Melbourne,Mount Waverley,4 bedroom house,2024-10-01,2025-09-30,moving_annual,155.0,800.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,4 bedroom house,2024-10-01,2025-09-30,moving_annual,80.0,745.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,4 bedroom house,2024-10-01,2025-09-30,moving_annual,192.0,750.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,4 bedroom house,2024-10-01,2025-09-30,moving_annual,113.0,870.00
+41,Southern Melbourne,Bentleigh,4 bedroom house,2024-10-01,2025-09-30,moving_annual,301.0,1025.00
+42,Southern Melbourne,Brighton,4 bedroom house,2024-10-01,2025-09-30,moving_annual,98.0,1650.00
+43,Southern Melbourne,Brighton East,4 bedroom house,2024-10-01,2025-09-30,moving_annual,86.0,1295.00
+44,Southern Melbourne,Carnegie,4 bedroom house,2024-10-01,2025-09-30,moving_annual,31.0,1100.00
+45,Southern Melbourne,Caulfield,4 bedroom house,2024-10-01,2025-09-30,moving_annual,119.0,1250.00
+46,Southern Melbourne,Cheltenham,4 bedroom house,2024-10-01,2025-09-30,moving_annual,199.0,950.00
+47,Southern Melbourne,Elsternwick,4 bedroom house,2024-10-01,2025-09-30,moving_annual,18.0,1150.00
+48,Southern Melbourne,Hampton-Beaumaris,4 bedroom house,2024-10-01,2025-09-30,moving_annual,165.0,1295.00
+49,Southern Melbourne,Malvern,4 bedroom house,2024-10-01,2025-09-30,moving_annual,23.0,1400.00
+50,Southern Melbourne,Malvern East,4 bedroom house,2024-10-01,2025-09-30,moving_annual,61.0,1150.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,4 bedroom house,2024-10-01,2025-09-30,moving_annual,89.0,910.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,4 bedroom house,2024-10-01,2025-09-30,moving_annual,50.0,1050.00
+53,Outer Western Melbourne,Altona,4 bedroom house,2024-10-01,2025-09-30,moving_annual,1804.0,580.00
+54,Outer Western Melbourne,Footscray,4 bedroom house,2024-10-01,2025-09-30,moving_annual,24.0,750.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,4 bedroom house,2024-10-01,2025-09-30,moving_annual,102.0,768.00
+56,Outer Western Melbourne,Melton,4 bedroom house,2024-10-01,2025-09-30,moving_annual,1916.0,470.00
+57,Outer Western Melbourne,Newport-Spotswood,4 bedroom house,2024-10-01,2025-09-30,moving_annual,55.0,925.00
+58,Outer Western Melbourne,St Albans-Deer Park,4 bedroom house,2024-10-01,2025-09-30,moving_annual,221.0,550.00
+59,Outer Western Melbourne,Sunshine,4 bedroom house,2024-10-01,2025-09-30,moving_annual,123.0,600.00
+60,Outer Western Melbourne,Sydenham,4 bedroom house,2024-10-01,2025-09-30,moving_annual,2088.0,530.00
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,4 bedroom house,2024-10-01,2025-09-30,moving_annual,5691.0,525.00
+62,Outer Western Melbourne,West Footscray,4 bedroom house,2024-10-01,2025-09-30,moving_annual,79.0,725.00
+63,Outer Western Melbourne,Williamstown,4 bedroom house,2024-10-01,2025-09-30,moving_annual,43.0,1000.00
+64,Outer Western Melbourne,Yarraville-Seddon,4 bedroom house,2024-10-01,2025-09-30,moving_annual,50.0,850.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,4 bedroom house,2024-10-01,2025-09-30,moving_annual,423.0,600.00
+66,North Western Melbourne,Brunswick,4 bedroom house,2024-10-01,2025-09-30,moving_annual,44.0,1000.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,4 bedroom house,2024-10-01,2025-09-30,moving_annual,93.0,850.00
+68,North Western Melbourne,Craigieburn,4 bedroom house,2024-10-01,2025-09-30,moving_annual,1613.0,560.00
+69,North Western Melbourne,East Brunswick,4 bedroom house,2024-10-01,2025-09-30,moving_annual,17.0,1100.00
+70,North Western Melbourne,Essendon,4 bedroom house,2024-10-01,2025-09-30,moving_annual,145.0,895.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,4 bedroom house,2024-10-01,2025-09-30,moving_annual,58.0,620.00
+72,North Western Melbourne,Keilor,4 bedroom house,2024-10-01,2025-09-30,moving_annual,23.0,730.00
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,4 bedroom house,2024-10-01,2025-09-30,moving_annual,80.0,995.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,4 bedroom house,2024-10-01,2025-09-30,moving_annual,102.0,660.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,4 bedroom house,2024-10-01,2025-09-30,moving_annual,54.0,785.00
+76,North Western Melbourne,Sunbury,4 bedroom house,2024-10-01,2025-09-30,moving_annual,458.0,570.00
+77,North Western Melbourne,West Brunswick,4 bedroom house,2024-10-01,2025-09-30,moving_annual,27.0,1000.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,4 bedroom house,2024-10-01,2025-09-30,moving_annual,532.0,600.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,4 bedroom house,2024-10-01,2025-09-30,moving_annual,90.0,813.00
+80,North Eastern Melbourne,Fairfield-Alphington,4 bedroom house,2024-10-01,2025-09-30,moving_annual,26.0,1113.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,4 bedroom house,2024-10-01,2025-09-30,moving_annual,86.0,795.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,4 bedroom house,2024-10-01,2025-09-30,moving_annual,46.0,1000.00
+83,North Eastern Melbourne,Mill Park-Epping,4 bedroom house,2024-10-01,2025-09-30,moving_annual,421.0,600.00
+84,North Eastern Melbourne,Northcote,4 bedroom house,2024-10-01,2025-09-30,moving_annual,51.0,1250.00
+85,North Eastern Melbourne,Preston,4 bedroom house,2024-10-01,2025-09-30,moving_annual,57.0,925.00
+86,North Eastern Melbourne,Reservoir,4 bedroom house,2024-10-01,2025-09-30,moving_annual,77.0,700.00
+87,North Eastern Melbourne,Thomastown-Lalor,4 bedroom house,2024-10-01,2025-09-30,moving_annual,65.0,590.00
+88,North Eastern Melbourne,Thornbury,4 bedroom house,2024-10-01,2025-09-30,moving_annual,24.0,960.00
+89,North Eastern Melbourne,Whittlesea,4 bedroom house,2024-10-01,2025-09-30,moving_annual,1553.0,550.00
+90,Outer Eastern Melbourne,Bayswater,4 bedroom house,2024-10-01,2025-09-30,moving_annual,57.0,675.00
+91,Outer Eastern Melbourne,Boronia,4 bedroom house,2024-10-01,2025-09-30,moving_annual,54.0,680.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,4 bedroom house,2024-10-01,2025-09-30,moving_annual,252.0,730.00
+93,Outer Eastern Melbourne,Ferntree Gully,4 bedroom house,2024-10-01,2025-09-30,moving_annual,74.0,720.00
+94,Outer Eastern Melbourne,Ringwood,4 bedroom house,2024-10-01,2025-09-30,moving_annual,153.0,710.00
+95,Outer Eastern Melbourne,Rowville,4 bedroom house,2024-10-01,2025-09-30,moving_annual,121.0,725.00
+96,Outer Eastern Melbourne,Wantirna-Scoresby,4 bedroom house,2024-10-01,2025-09-30,moving_annual,244.0,700.00
+97,Outer Eastern Melbourne,Yarra Ranges,4 bedroom house,2024-10-01,2025-09-30,moving_annual,123.0,695.00
+98,South Eastern Melbourne,Berwick,4 bedroom house,2024-10-01,2025-09-30,moving_annual,1158.0,620.00
+99,South Eastern Melbourne,Cranbourne,4 bedroom house,2024-10-01,2025-09-30,moving_annual,2739.0,600.00
+100,South Eastern Melbourne,Dandenong,4 bedroom house,2024-10-01,2025-09-30,moving_annual,186.0,750.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,4 bedroom house,2024-10-01,2025-09-30,moving_annual,139.0,630.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,4 bedroom house,2024-10-01,2025-09-30,moving_annual,575.0,640.00
+103,South Eastern Melbourne,Noble Park,4 bedroom house,2024-10-01,2025-09-30,moving_annual,41.0,630.00
+104,South Eastern Melbourne,Pakenham,4 bedroom house,2024-10-01,2025-09-30,moving_annual,636.0,590.00
+105,South Eastern Melbourne,Springvale,4 bedroom house,2024-10-01,2025-09-30,moving_annual,102.0,683.00
+106,Mornington Peninsula,Dromana-Portsea,4 bedroom house,2024-10-01,2025-09-30,moving_annual,325.0,745.00
+107,Mornington Peninsula,Frankston,4 bedroom house,2024-10-01,2025-09-30,moving_annual,310.0,670.00
+108,Mornington Peninsula,Hastings-Flinders,4 bedroom house,2024-10-01,2025-09-30,moving_annual,118.0,750.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,4 bedroom house,2024-10-01,2025-09-30,moving_annual,243.0,895.00
+110,Mornington Peninsula,Seaford-Carrum Downs,4 bedroom house,2024-10-01,2025-09-30,moving_annual,272.0,660.00
+1,Inner Melbourne,Albert Park-Middle Park-West St Kilda,All properties,2024-10-01,2025-09-30,moving_annual,578.0,698.00
+2,Inner Melbourne,Armadale,All properties,2024-10-01,2025-09-30,moving_annual,635.0,625.00
+3,Inner Melbourne,Carlton North,All properties,2024-10-01,2025-09-30,moving_annual,361.0,760.00
+4,Inner Melbourne,Carlton-Parkville,All properties,2024-10-01,2025-09-30,moving_annual,2593.0,620.00
+5,Inner Melbourne,CBD-St Kilda Rd,All properties,2024-10-01,2025-09-30,moving_annual,13655.0,660.00
+6,Inner Melbourne,Collingwood-Abbotsford,All properties,2024-10-01,2025-09-30,moving_annual,1646.0,650.00
+7,Inner Melbourne,Docklands,All properties,2024-10-01,2025-09-30,moving_annual,2950.0,700.00
+8,Inner Melbourne,East Melbourne,All properties,2024-10-01,2025-09-30,moving_annual,431.0,650.00
+9,Inner Melbourne,East St Kilda,All properties,2024-10-01,2025-09-30,moving_annual,1495.0,550.00
+10,Inner Melbourne,Elwood,All properties,2024-10-01,2025-09-30,moving_annual,1183.0,595.00
+11,Inner Melbourne,Fitzroy,All properties,2024-10-01,2025-09-30,moving_annual,611.0,700.00
+12,Inner Melbourne,Fitzroy North-Clifton Hill,All properties,2024-10-01,2025-09-30,moving_annual,887.0,725.00
+13,Inner Melbourne,Flemington-Kensington,All properties,2024-10-01,2025-09-30,moving_annual,1638.0,570.00
+14,Inner Melbourne,North Melbourne-West Melbourne,All properties,2024-10-01,2025-09-30,moving_annual,2933.0,600.00
+15,Inner Melbourne,Port Melbourne,All properties,2024-10-01,2025-09-30,moving_annual,1077.0,795.00
+16,Inner Melbourne,Prahran-Windsor,All properties,2024-10-01,2025-09-30,moving_annual,1995.0,590.00
+17,Inner Melbourne,Richmond-Burnley,All properties,2024-10-01,2025-09-30,moving_annual,2549.0,675.00
+18,Inner Melbourne,South Melbourne,All properties,2024-10-01,2025-09-30,moving_annual,1147.0,650.00
+19,Inner Melbourne,South Yarra,All properties,2024-10-01,2025-09-30,moving_annual,3079.0,620.00
+20,Inner Melbourne,Southbank,All properties,2024-10-01,2025-09-30,moving_annual,4349.0,680.00
+21,Inner Melbourne,St Kilda,All properties,2024-10-01,2025-09-30,moving_annual,2593.0,560.00
+22,Inner Melbourne,Toorak,All properties,2024-10-01,2025-09-30,moving_annual,630.0,688.00
+23,Inner Eastern Melbourne,Balwyn,All properties,2024-10-01,2025-09-30,moving_annual,839.0,740.00
+24,Inner Eastern Melbourne,Blackburn,All properties,2024-10-01,2025-09-30,moving_annual,750.0,600.00
+25,Inner Eastern Melbourne,Box Hill,All properties,2024-10-01,2025-09-30,moving_annual,2437.0,610.00
+26,Inner Eastern Melbourne,Bulleen-Templestowe-Doncaster,All properties,2024-10-01,2025-09-30,moving_annual,1700.0,670.00
+27,Inner Eastern Melbourne,Burwood-Ashburton,All properties,2024-10-01,2025-09-30,moving_annual,906.0,650.00
+28,Inner Eastern Melbourne,Camberwell-Glen Iris,All properties,2024-10-01,2025-09-30,moving_annual,1402.0,650.00
+29,Inner Eastern Melbourne,Canterbury-Surrey Hills-Mont Albert,All properties,2024-10-01,2025-09-30,moving_annual,566.0,678.00
+30,Inner Eastern Melbourne,Chadstone-Oakleigh,All properties,2024-10-01,2025-09-30,moving_annual,1067.0,620.00
+31,Inner Eastern Melbourne,Clayton,All properties,2024-10-01,2025-09-30,moving_annual,2178.0,600.00
+32,Inner Eastern Melbourne,Doncaster East-Donvale,All properties,2024-10-01,2025-09-30,moving_annual,987.0,700.00
+33,Inner Eastern Melbourne,East Hawthorn,All properties,2024-10-01,2025-09-30,moving_annual,881.0,595.00
+34,Inner Eastern Melbourne,Glen Waverley-Mulgrave,All properties,2024-10-01,2025-09-30,moving_annual,1967.0,695.00
+35,Inner Eastern Melbourne,Hawthorn,All properties,2024-10-01,2025-09-30,moving_annual,1531.0,550.00
+36,Inner Eastern Melbourne,Kew,All properties,2024-10-01,2025-09-30,moving_annual,887.0,690.00
+37,Inner Eastern Melbourne,Mount Waverley,All properties,2024-10-01,2025-09-30,moving_annual,860.0,695.00
+38,Inner Eastern Melbourne,Nunawading-Mitcham,All properties,2024-10-01,2025-09-30,moving_annual,783.0,580.00
+39,Inner Eastern Melbourne,Vermont-Forest Hill-Burwood East,All properties,2024-10-01,2025-09-30,moving_annual,907.0,650.00
+40,Southern Melbourne,Aspendale-Chelsea-Carrum,All properties,2024-10-01,2025-09-30,moving_annual,1102.0,620.00
+41,Southern Melbourne,Bentleigh,All properties,2024-10-01,2025-09-30,moving_annual,2039.0,700.00
+42,Southern Melbourne,Brighton,All properties,2024-10-01,2025-09-30,moving_annual,726.0,825.00
+43,Southern Melbourne,Brighton East,All properties,2024-10-01,2025-09-30,moving_annual,426.0,835.00
+44,Southern Melbourne,Carnegie,All properties,2024-10-01,2025-09-30,moving_annual,1037.0,570.00
+45,Southern Melbourne,Caulfield,All properties,2024-10-01,2025-09-30,moving_annual,2292.0,650.00
+46,Southern Melbourne,Cheltenham,All properties,2024-10-01,2025-09-30,moving_annual,1642.0,635.00
+47,Southern Melbourne,Elsternwick,All properties,2024-10-01,2025-09-30,moving_annual,607.0,600.00
+48,Southern Melbourne,Hampton-Beaumaris,All properties,2024-10-01,2025-09-30,moving_annual,1012.0,750.00
+49,Southern Melbourne,Malvern,All properties,2024-10-01,2025-09-30,moving_annual,399.0,630.00
+50,Southern Melbourne,Malvern East,All properties,2024-10-01,2025-09-30,moving_annual,905.0,610.00
+51,Southern Melbourne,Mentone-Parkdale-Mordialloc,All properties,2024-10-01,2025-09-30,moving_annual,1081.0,580.00
+52,Southern Melbourne,Murrumbeena-Hughesdale,All properties,2024-10-01,2025-09-30,moving_annual,710.0,580.00
+53,Outer Western Melbourne,Altona,All properties,2024-10-01,2025-09-30,moving_annual,4394.0,550.00
+54,Outer Western Melbourne,Footscray,All properties,2024-10-01,2025-09-30,moving_annual,1757.0,525.00
+55,Outer Western Melbourne,Keilor East-Avondale Heights,All properties,2024-10-01,2025-09-30,moving_annual,1233.0,550.00
+56,Outer Western Melbourne,Melton,All properties,2024-10-01,2025-09-30,moving_annual,3699.0,450.00
+57,Outer Western Melbourne,Newport-Spotswood,All properties,2024-10-01,2025-09-30,moving_annual,857.0,620.00
+58,Outer Western Melbourne,St Albans-Deer Park,All properties,2024-10-01,2025-09-30,moving_annual,1558.0,470.00
+59,Outer Western Melbourne,Sunshine,All properties,2024-10-01,2025-09-30,moving_annual,1476.0,480.00
+60,Outer Western Melbourne,Sydenham,All properties,2024-10-01,2025-09-30,moving_annual,4284.0,500.00
+61,Outer Western Melbourne,Werribee-Hoppers Crossing,All properties,2024-10-01,2025-09-30,moving_annual,11050.0,490.00
+62,Outer Western Melbourne,West Footscray,All properties,2024-10-01,2025-09-30,moving_annual,1183.0,550.00
+63,Outer Western Melbourne,Williamstown,All properties,2024-10-01,2025-09-30,moving_annual,457.0,670.00
+64,Outer Western Melbourne,Yarraville-Seddon,All properties,2024-10-01,2025-09-30,moving_annual,1023.0,620.00
+65,North Western Melbourne,Broadmeadows-Roxburgh Park,All properties,2024-10-01,2025-09-30,moving_annual,1880.0,515.00
+66,North Western Melbourne,Brunswick,All properties,2024-10-01,2025-09-30,moving_annual,1652.0,600.00
+67,North Western Melbourne,Coburg-Pascoe Vale South,All properties,2024-10-01,2025-09-30,moving_annual,1243.0,600.00
+68,North Western Melbourne,Craigieburn,All properties,2024-10-01,2025-09-30,moving_annual,3259.0,520.00
+69,North Western Melbourne,East Brunswick,All properties,2024-10-01,2025-09-30,moving_annual,1001.0,600.00
+70,North Western Melbourne,Essendon,All properties,2024-10-01,2025-09-30,moving_annual,1961.0,550.00
+71,North Western Melbourne,Gladstone Park-Tullamarine,All properties,2024-10-01,2025-09-30,moving_annual,485.0,530.00
+72,North Western Melbourne,Keilor,All properties,2024-10-01,2025-09-30,moving_annual,43.0,650.00
+73,North Western Melbourne,Moonee Ponds-Ascot Vale,All properties,2024-10-01,2025-09-30,moving_annual,1396.0,575.00
+74,North Western Melbourne,Oak Park-Glenroy-Fawkner,All properties,2024-10-01,2025-09-30,moving_annual,1743.0,530.00
+75,North Western Melbourne,Pascoe Vale-Coburg North,All properties,2024-10-01,2025-09-30,moving_annual,995.0,550.00
+76,North Western Melbourne,Sunbury,All properties,2024-10-01,2025-09-30,moving_annual,1041.0,520.00
+77,North Western Melbourne,West Brunswick,All properties,2024-10-01,2025-09-30,moving_annual,1044.0,480.00
+78,North Eastern Melbourne,Bundoora-Greensborough-Hurstbridge,All properties,2024-10-01,2025-09-30,moving_annual,2316.0,560.00
+79,North Eastern Melbourne,Eltham-Research-Montmorency,All properties,2024-10-01,2025-09-30,moving_annual,500.0,640.00
+80,North Eastern Melbourne,Fairfield-Alphington,All properties,2024-10-01,2025-09-30,moving_annual,676.0,550.00
+81,North Eastern Melbourne,Heidelberg-Heidelberg West,All properties,2024-10-01,2025-09-30,moving_annual,1318.0,565.00
+82,North Eastern Melbourne,Ivanhoe-Ivanhoe East,All properties,2024-10-01,2025-09-30,moving_annual,791.0,600.00
+83,North Eastern Melbourne,Mill Park-Epping,All properties,2024-10-01,2025-09-30,moving_annual,1937.0,530.00
+84,North Eastern Melbourne,Northcote,All properties,2024-10-01,2025-09-30,moving_annual,940.0,640.00
+85,North Eastern Melbourne,Preston,All properties,2024-10-01,2025-09-30,moving_annual,1371.0,560.00
+86,North Eastern Melbourne,Reservoir,All properties,2024-10-01,2025-09-30,moving_annual,1788.0,530.00
+87,North Eastern Melbourne,Thomastown-Lalor,All properties,2024-10-01,2025-09-30,moving_annual,999.0,500.00
+88,North Eastern Melbourne,Thornbury,All properties,2024-10-01,2025-09-30,moving_annual,838.0,525.00
+89,North Eastern Melbourne,Whittlesea,All properties,2024-10-01,2025-09-30,moving_annual,2669.0,540.00
+90,Outer Eastern Melbourne,Bayswater,All properties,2024-10-01,2025-09-30,moving_annual,498.0,550.00
+91,Outer Eastern Melbourne,Boronia,All properties,2024-10-01,2025-09-30,moving_annual,554.0,560.00
+92,Outer Eastern Melbourne,Croydon-Lilydale,All properties,2024-10-01,2025-09-30,moving_annual,1803.0,600.00
+93,Outer Eastern Melbourne,Ferntree Gully,All properties,2024-10-01,2025-09-30,moving_annual,452.0,600.00
+94,Outer Eastern Melbourne,Ringwood,All properties,2024-10-01,2025-09-30,moving_annual,1216.0,560.00
+95,Outer Eastern Melbourne,Rowville,All properties,2024-10-01,2025-09-30,moving_annual,410.0,650.00
+96,Outer Eastern Melbourne,Wantirna-Scoresby,All properties,2024-10-01,2025-09-30,moving_annual,1021.0,620.00
+97,Outer Eastern Melbourne,Yarra Ranges,All properties,2024-10-01,2025-09-30,moving_annual,663.0,580.00
+98,South Eastern Melbourne,Berwick,All properties,2024-10-01,2025-09-30,moving_annual,2324.0,600.00
+99,South Eastern Melbourne,Cranbourne,All properties,2024-10-01,2025-09-30,moving_annual,5205.0,580.00
+100,South Eastern Melbourne,Dandenong,All properties,2024-10-01,2025-09-30,moving_annual,1601.0,520.00
+101,South Eastern Melbourne,Dandenong North-Endeavour Hills,All properties,2024-10-01,2025-09-30,moving_annual,980.0,530.00
+102,South Eastern Melbourne,Narre Warren-Hampton Park,All properties,2024-10-01,2025-09-30,moving_annual,2012.0,560.00
+103,South Eastern Melbourne,Noble Park,All properties,2024-10-01,2025-09-30,moving_annual,1126.0,520.00
+104,South Eastern Melbourne,Pakenham,All properties,2024-10-01,2025-09-30,moving_annual,1812.0,540.00
+105,South Eastern Melbourne,Springvale,All properties,2024-10-01,2025-09-30,moving_annual,1466.0,570.00
+106,Mornington Peninsula,Dromana-Portsea,All properties,2024-10-01,2025-09-30,moving_annual,1681.0,595.00
+107,Mornington Peninsula,Frankston,All properties,2024-10-01,2025-09-30,moving_annual,1990.0,550.00
+108,Mornington Peninsula,Hastings-Flinders,All properties,2024-10-01,2025-09-30,moving_annual,587.0,580.00
+109,Mornington Peninsula,Mt Eliza-Mornington-Mt Martha,All properties,2024-10-01,2025-09-30,moving_annual,962.0,695.00
+110,Mornington Peninsula,Seaford-Carrum Downs,All properties,2024-10-01,2025-09-30,moving_annual,1477.0,560.00

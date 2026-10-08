@@ -1,41 +1,70 @@
 from pathlib import Path
 import pydeck as pdk
 import pandas as pd
-import psycopg
+import os
+import re
 import streamlit as st
 st.set_page_config(page_title="UniMove Melbourne", layout="wide")
 PROJECT_ROOT = Path(__file__).resolve().parent
+
+DATA_MODE = os.environ.get("UNIMOVE_DATA_MODE", "demo").strip().lower()
+if DATA_MODE not in {"demo", "database"}:
+    st.error("UNIMOVE_DATA_MODE must be demo or database.")
+    st.stop()
+
+SNAPSHOTS = {
+    "campus_suburb_distance": "campus_distances",
+    "campus_rental_candidates": "campus_rent",
+    "latest_melbourne_rent": "rent_latest",
+    "campus_population_profiles": "population_profiles",
+    "campus_suburb_map_points": "map_points",
+    "suburb_transport_access_cached": "transport_access",
+    "direct_campus_services": "direct_services",
+    "suburb_crime_candidates": "crime_candidates",
+}
+
+
+def read_data(query, parameters=()):
+    """Read the same selected columns from a snapshot or PostgreSQL."""
+    if DATA_MODE == "database":
+        import psycopg
+        with psycopg.connect(**dict(st.secrets["database"])) as connection:
+            with connection.cursor() as cursor:
+                cursor.execute(query, parameters)
+                return cursor.fetchall(), [column.name for column in cursor.description]
+
+    # These queries are fixed inside this file; no user SQL is accepted.
+    match = re.search(r"SELECT\s+(.*?)\s+FROM\s+unimove\.(\w+)", query, re.S)
+    if match is None or match.group(2) not in SNAPSHOTS:
+        raise ValueError("Unknown snapshot query.")
+    columns = [column.strip() for column in match.group(1).split(",")]
+    path = PROJECT_ROOT / "demo_data" / f"{SNAPSHOTS[match.group(2)]}.csv"
+    frame = pd.read_csv(path, dtype={
+        "sal_code": str, "campus_id": str, "feed_id": str,
+        "trip_id": str, "stop_id": str, "route_short_name": str,
+    })
+    for column in ("period_start", "period_end", "service_date"):
+        if column in frame:
+            frame[column] = pd.to_datetime(frame[column], errors="raise").dt.date
+    if parameters:
+        frame = frame.loc[frame["campus_id"].eq(parameters[0])]
+    if len(parameters) == 3:
+        frame = frame.loc[
+            frame["dwelling_category"].eq(parameters[1])
+            & frame["straight_line_km"].le(parameters[2])
+        ]
+    order = re.search(r"ORDER BY\s+(.*)", query, re.S)
+    if order:
+        frame = frame.sort_values([c.strip() for c in order.group(1).split(",")])
+    return list(frame[columns].itertuples(index=False, name=None)), columns
+
 @st.cache_data(ttl=300)
 def load_campus_distances(campus_id):
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, suburb_name, straight_line_km
-                FROM unimove.campus_suburb_distance
-                WHERE campus_id = %s
-                ORDER BY straight_line_km, sal_code
-            """, (campus_id,))
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, suburb_name, straight_line_km\n                FROM unimove.campus_suburb_distance\n                WHERE campus_id = %s\n                ORDER BY straight_line_km, sal_code\n            ', (campus_id,))
     return pd.DataFrame(rows, columns=columns)
 @st.cache_data(ttl=300)
 def load_campus_rent(campus_id, dwelling_category, radius_km):
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, suburb_name, straight_line_km,
-                       source_area, median_weekly_rent_aud,
-                       rental_coverage_status, match_method,
-                       boundary_equivalence_verified,
-                       period_start, period_end, lease_count
-                FROM unimove.campus_rental_candidates
-                WHERE campus_id = %s
-                  AND dwelling_category = %s
-                  AND straight_line_km <= %s
-                ORDER BY straight_line_km, sal_code, rental_area_id
-            """, (campus_id, dwelling_category, radius_km))
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, suburb_name, straight_line_km,\n                       source_area, median_weekly_rent_aud,\n                       rental_coverage_status, match_method,\n                       boundary_equivalence_verified,\n                       period_start, period_end, lease_count\n                FROM unimove.campus_rental_candidates\n                WHERE campus_id = %s\n                  AND dwelling_category = %s\n                  AND straight_line_km <= %s\n                ORDER BY straight_line_km, sal_code, rental_area_id\n            ', (campus_id, dwelling_category, radius_km))
     frame = pd.DataFrame(rows, columns=columns)
     frame["median_weekly_rent_aud"] = pd.to_numeric(
         frame["median_weekly_rent_aud"]
@@ -43,16 +72,7 @@ def load_campus_rent(campus_id, dwelling_category, radius_km):
     return frame
 @st.cache_data(ttl=300)
 def load_rent():
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT source_region, source_area, dwelling_category,
-                       period_start, period_end, lease_count,
-                       median_weekly_rent_aud
-                FROM unimove.latest_melbourne_rent
-            """)
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT source_region, source_area, dwelling_category,\n                       period_start, period_end, lease_count,\n                       median_weekly_rent_aud\n                FROM unimove.latest_melbourne_rent\n            ')
     frame = pd.DataFrame(rows, columns=columns)
     frame["median_weekly_rent_aud"] = pd.to_numeric(
         frame["median_weekly_rent_aud"]
@@ -60,30 +80,13 @@ def load_rent():
     return frame
 @st.cache_data(ttl=300)
 def load_population_profiles(campus_id):
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, census_year, population_total,
-                       population_18_24, share_18_24_pct
-                FROM unimove.campus_population_profiles
-                WHERE campus_id = %s
-            """, (campus_id,))
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, census_year, population_total,\n                       population_18_24, share_18_24_pct\n                FROM unimove.campus_population_profiles\n                WHERE campus_id = %s\n            ', (campus_id,))
     frame = pd.DataFrame(rows, columns=columns)
     frame["share_18_24_pct"] = pd.to_numeric(frame["share_18_24_pct"])
     return frame
 @st.cache_data(ttl=300)
 def load_transport_access():
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, transport_mode, stop_name, distance_metres
-                FROM unimove.suburb_transport_access_cached
-                ORDER BY sal_code, transport_mode
-            """)
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, transport_mode, stop_name, distance_metres\n                FROM unimove.suburb_transport_access_cached\n                ORDER BY sal_code, transport_mode\n            ')
     frame = pd.DataFrame(rows, columns=columns)
     if frame.empty:
         raise ValueError("Cached transport results are empty.")
@@ -109,35 +112,11 @@ def load_transport_access():
     return result
 @st.cache_data(ttl=300)
 def load_direct_services(campus_id):
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, suburb_name, service_date, feed_id, trip_id,
-                       transport_mode, route_short_name, route_long_name,
-                       boarding_stop_name, arrival_stop_name,
-                       suburb_distance_metres, campus_distance_metres,
-                       departure_seconds, arrival_seconds, in_vehicle_seconds
-                FROM unimove.direct_campus_services
-                WHERE campus_id = %s
-                ORDER BY service_date, suburb_name, departure_seconds,
-                         feed_id, trip_id
-            """, (campus_id,))
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, suburb_name, service_date, feed_id, trip_id,\n                       transport_mode, route_short_name, route_long_name,\n                       boarding_stop_name, arrival_stop_name,\n                       suburb_distance_metres, campus_distance_metres,\n                       departure_seconds, arrival_seconds, in_vehicle_seconds\n                FROM unimove.direct_campus_services\n                WHERE campus_id = %s\n                ORDER BY service_date, suburb_name, departure_seconds,\n                         feed_id, trip_id\n            ', (campus_id,))
     return pd.DataFrame(rows, columns=columns)
 @st.cache_data(ttl=300)
 def load_crime_candidates():
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, period_start, period_end, source_area_count,
-                       recorded_offences, crimes_against_person,
-                       property_and_deception_offences, crime_coverage_status
-                FROM unimove.suburb_crime_candidates
-                ORDER BY sal_code
-            """)
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, period_start, period_end, source_area_count,\n                       recorded_offences, crimes_against_person,\n                       property_and_deception_offences, crime_coverage_status\n                FROM unimove.suburb_crime_candidates\n                ORDER BY sal_code\n            ')
     frame = pd.DataFrame(rows, columns=columns)
     if frame.empty:
         raise ValueError("Crime candidate view is empty.")
@@ -151,21 +130,12 @@ def load_crime_candidates():
     return frame
 @st.cache_data(ttl=300)
 def load_map_points(campus_id):
-    with psycopg.connect(**dict(st.secrets["database"])) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("""
-                SELECT sal_code, suburb_name, straight_line_km,
-                       latitude, longitude,
-                       campus_latitude, campus_longitude
-                FROM unimove.campus_suburb_map_points
-                WHERE campus_id = %s
-                ORDER BY sal_code
-            """, (campus_id,))
-            rows = cursor.fetchall()
-            columns = [column.name for column in cursor.description]
+    rows, columns = read_data('\n                SELECT sal_code, suburb_name, straight_line_km,\n                       latitude, longitude,\n                       campus_latitude, campus_longitude\n                FROM unimove.campus_suburb_map_points\n                WHERE campus_id = %s\n                ORDER BY sal_code\n            ', (campus_id,))
     return pd.DataFrame(rows, columns=columns)
 st.title("UniMove Melbourne")
 st.write("Choose your campus, then explore housing options.")
+if DATA_MODE == "demo":
+    st.caption("Demo uses saved data snapshots. Rental and crime reporting periods and the example transport service date are shown with their results.")
 campuses = pd.read_csv(PROJECT_ROOT / "config" / "campuses.csv")
 university = st.selectbox(
     "University",
@@ -199,8 +169,7 @@ try:
     distances = load_campus_distances(campus_id)
 except Exception:
     st.error(
-        "Could not load project data. Check that PostgreSQL is running, "
-        "your database configuration is correct, and the SQL views exist."
+        "Could not load project data. In demo mode, check that demo_data contains all eight exported CSV files. In database mode, check PostgreSQL and your database configuration."
     )
     st.stop()
 if rent.empty or distances.empty:

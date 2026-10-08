@@ -1,0 +1,45 @@
+{
+  "exported_at_utc": "2026-10-08T11:22:39.779787+00:00",
+  "datasets": {
+    "campus_distances": {
+      "source_view": "unimove.campus_suburb_distance",
+      "rows": 1716,
+      "bytes": 137460
+    },
+    "campus_rent": {
+      "source_view": "unimove.campus_rental_candidates",
+      "rows": 12012,
+      "bytes": 1634986
+    },
+    "rent_latest": {
+      "source_view": "unimove.latest_melbourne_rent",
+      "rows": 770,
+      "bytes": 81578
+    },
+    "population_profiles": {
+      "source_view": "unimove.campus_population_profiles",
+      "rows": 1716,
+      "bytes": 118133
+    },
+    "map_points": {
+      "source_view": "unimove.campus_suburb_map_points",
+      "rows": 1716,
+      "bytes": 184151
+    },
+    "transport_access": {
+      "source_view": "unimove.suburb_transport_access_cached",
+      "rows": 1716,
+      "bytes": 140233
+    },
+    "direct_services": {
+      "source_view": "unimove.direct_campus_services",
+      "rows": 2782,
+      "bytes": 628360
+    },
+    "crime_candidates": {
+      "source_view": "unimove.suburb_crime_candidates",
+      "rows": 572,
+      "bytes": 50411
+    }
+  }
+}

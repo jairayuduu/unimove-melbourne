@@ -1,0 +1,1717 @@
+sal_code,suburb_name,transport_mode,feed_id,stop_id,stop_name,parent_station,distance_metres
+20002,Abbotsford (Vic.),bus,4,3182,Trenerry Cres/Johnston St,,344.99487114
+20002,Abbotsford (Vic.),tram,3,19383,Church St/Victoria St #21,,755.76098517
+20002,Abbotsford (Vic.),metropolitan_train,2,14334,Collingwood Station,vic:rail:CWD,557.92031631
+20003,Aberfeldie,bus,4,6242,Fawkner St/Chisholm St,,83.53061051
+20003,Aberfeldie,tram,3,4945,Van Ness Ave/Raleigh Rd #43,,1045.55327466
+20003,Aberfeldie,metropolitan_train,2,15545,Essendon Station,vic:rail:ESD,1763.46683346
+20731,Delahey,bus,4,47568,Goldsmith Ave/Kings Rd,,442.33798734
+20731,Delahey,tram,3,19482,Airport West/Matthews Ave #59,,10040.89597228
+20731,Delahey,metropolitan_train,2,15358,Keilor Plains Station,vic:rail:KPL,1892.43431229
+20011,Aintree,bus,4,27546,Taylors Rd/Frontier Ave,,53.39510049
+20011,Aintree,tram,3,17944,Central Park Ave/Cordite Ave #49,,19713.58491023
+20011,Aintree,metropolitan_train,2,15357,Watergardens Station,vic:rail:WGS,9878.07681059
+20015,Airport West,bus,4,8630,Highlands Ave/South Rd,,75.21244606
+20015,Airport West,tram,3,19674,Hawker St/Matthews Ave #57,,964.94341487
+20015,Airport West,metropolitan_train,2,15536,Oak Park Station,vic:rail:OKP,3655.45585363
+20017,Albanvale,bus,4,10360,Woodland Dr/Oakwood Rd,,76.31220239
+20017,Albanvale,tram,3,17944,Central Park Ave/Cordite Ave #49,,9926.23072935
+20017,Albanvale,metropolitan_train,2,15360,St Albans Station,vic:rail:SAB,2712.26273139
+20037,Altona North,bus,4,21031,Toyota Australia/Grieve Pde,,732.56956034
+20037,Altona North,tram,3,17934,Footscray Station/Leeds St #64,,7198.42584304
+20037,Altona North,metropolitan_train,2,13742,Altona Station,vic:rail:ALT,3294.08896675
+20018,Albert Park (Vic.),bus,4,10248,Albert Park Shops/Richardson St,,130.82926475
+20018,Albert Park (Vic.),tram,3,19314,Graham St/Victoria Ave #31,,136.86789929
+20018,Albert Park (Vic.),metropolitan_train,2,26556,Anzac Station,vic:rail:AZC,2306.95011909
+20021,Albion (Vic.),bus,4,3270,Perth Ave/Ballarat Rd,,51.70750006
+20021,Albion (Vic.),tram,3,17944,Central Park Ave/Cordite Ave #49,,5566.93669007
+20021,Albion (Vic.),metropolitan_train,2,15365,Albion Station,vic:rail:ALB,795.50846048
+20034,Alphington,bus,4,21467,Alphington Station/Wingrove St,,103.40227314
+20034,Alphington,tram,3,6114,Northcote Town Hall/High St #31,,2856.17132958
+20034,Alphington,metropolitan_train,2,13751,Alphington Station,vic:rail:ALP,104.75242522
+20062,Ardeer,bus,4,3267,Chatsworth Ave/Ballarat Rd,,275.31505264
+20062,Ardeer,tram,3,17944,Central Park Ave/Cordite Ave #49,,6863.3396656
+20062,Ardeer,metropolitan_train,2,15363,Ginifer Station,vic:rail:GIN,1968.82862437
+20035,Altona (Vic.),bus,4,22620,Altona P-9 College/Civic Pde,,157.60234593
+20035,Altona (Vic.),tram,3,17934,Footscray Station/Leeds St #64,,10169.76200687
+20035,Altona (Vic.),metropolitan_train,2,13741,Westona Station,vic:rail:WTO,307.51569253
+20036,Altona Meadows,bus,4,14108,Nelson Ave/Victoria St,,128.9868023
+20036,Altona Meadows,tram,3,17934,Footscray Station/Leeds St #64,,13476.70460559
+20036,Altona Meadows,metropolitan_train,2,26513,Laverton Station,vic:rail:LAV,2075.86455805
+20066,Armadale (Vic.),bus,4,20675,Armadale Station/Kooyong Rd,,74.27828893
+20066,Armadale (Vic.),tram,3,16770,Kooyong Rd/High St #41,,234.76483236
+20066,Armadale (Vic.),metropolitan_train,2,14259,Armadale Station,vic:rail:ARM,159.83672606
+20072,Arthurs Seat,bus,4,13179,Dromana Foreshore Reserve/Point Nepean Rd,,2475.75808478
+20072,Arthurs Seat,tram,3,18412,East Brighton/Hawthorn Rd #68,,49789.62878753
+20072,Arthurs Seat,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,19259.55809332
+20121,Balnarring Beach,bus,4,40275,Merricks Beach Rd/Frankston-Flinders Rd,,1702.43024067
+20121,Balnarring Beach,tram,3,18412,East Brighton/Hawthorn Rd #68,,53807.25742025
+20121,Balnarring Beach,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,7324.19557303
+20071,Arthurs Creek,bus,4,17299,Daisy Hill Rd/Yan Yean Rd,,5591.03839767
+20071,Arthurs Creek,tram,3,4174,RMIT/Plenty Rd #71,,17116.91631096
+20071,Arthurs Creek,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,8098.63977543
+20075,Ascot Vale,bus,4,6004,All Saints Anglican Church/Charles St,,170.04290437
+20075,Ascot Vale,tram,3,18523,Melbourne Showgrounds/Epsom Rd #33,,871.0249515
+20075,Ascot Vale,metropolitan_train,2,15524,Flemington Racecourse Station,vic:rail:RCE,887.96962176
+20120,Balnarring,bus,4,49394,Balnarring Village SC/Frankston-Flinders Rd,,1496.64228494
+20120,Balnarring,tram,3,18412,East Brighton/Hawthorn Rd #68,,50412.04275665
+20120,Balnarring,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,5414.8133656
+20171,Bayles,bus,4,45031,Nar Nar Goon Railway Station/Carney St,,10530.02836998
+20171,Bayles,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,49628.32170151
+20171,Bayles,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,11921.62573098
+20173,Bayswater (Vic.),bus,4,17211,High St/Scoresby Rd,,314.29282363
+20173,Bayswater (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,7504.67878598
+20173,Bayswater (Vic.),metropolitan_train,2,11410,Bayswater Station,vic:rail:BAY,534.28810855
+20077,Ashburton,bus,4,12388,Ashburton Station/High St,,397.43156615
+20077,Ashburton,tram,3,21084,Lithgow St/Toorak Rd #53,,2029.11204445
+20077,Ashburton,metropolitan_train,2,11197,Alamein Station,vic:rail:ALM,123.09027016
+20078,Ashwood,bus,4,12381,Jordan St/High Street Rd,,135.99847
+20078,Ashwood,tram,3,21098,Millicent St/Burwood Hwy #60,,1698.64252681
+20078,Ashwood,metropolitan_train,2,11219,Jordanville Station,vic:rail:JOR,1199.26644736
+20079,Aspendale,bus,4,22381,Laura St/Station St,,313.3602462
+20079,Aspendale,tram,3,18412,East Brighton/Hawthorn Rd #68,,14186.18247228
+20079,Aspendale,metropolitan_train,2,11235,Aspendale Station,vic:rail:ASP,566.7605885
+20080,Aspendale Gardens,bus,4,16047,Nurten Pde/Wells Rd,,249.98822223
+20080,Aspendale Gardens,tram,3,18412,East Brighton/Hawthorn Rd #68,,15360.93844443
+20080,Aspendale Gardens,metropolitan_train,2,11235,Aspendale Station,vic:rail:ASP,1894.9715732
+20198,Bellfield (Banyule - Vic.),bus,4,391,Harrison St/Oriel Rd,,56.76473374
+20198,Bellfield (Banyule - Vic.),tram,3,4506,Murray Rd/Plenty Rd #49,,2867.44270967
+20198,Bellfield (Banyule - Vic.),metropolitan_train,2,13757,Eaglemont Station,vic:rail:EAG,1769.40729359
+20082,Attwood,bus,4,40118,Agriculture Victoria/475 Mickleham Rd,,327.33456633
+20082,Attwood,tram,3,19482,Airport West/Matthews Ave #59,,5237.62807124
+20082,Attwood,metropolitan_train,2,15530,Broadmeadows Station,vic:rail:BMS,3692.30676175
+20089,Avondale Heights,bus,4,8440,Macey Ave/Military Rd,,45.19216659
+20089,Avondale Heights,tram,3,17944,Central Park Ave/Cordite Ave #49,,1470.6207667
+20089,Avondale Heights,metropolitan_train,2,15364,Albion Station,vic:rail:ALB,3738.75503873
+20091,Avonsleigh,bus,4,13951,McNamara Rd/Belgrave-Gembrook Rd,,1303.96955669
+20091,Avonsleigh,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,27144.44376344
+20091,Avonsleigh,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,11162.76932062
+20207,Bend Of Islands,bus,4,14361,Jumping Creek Rd/Homestead Rd,,3869.98937013
+20207,Bend Of Islands,tram,3,46877,RMIT/Plenty Rd #71,,18520.19027846
+20207,Bend Of Islands,metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,8709.4631174
+22598,Tynong,bus,4,45030,Tynong Station/Nar Nar Goon-Longwarry Rd,,1128.08070042
+22598,Tynong,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,46887.43784756
+22598,Tynong,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,10233.48961786
+20095,Bacchus Marsh,bus,4,47226,Bacchus Marsh Village/Bennett St,,426.73225562
+20095,Bacchus Marsh,tram,3,17944,Central Park Ave/Cordite Ave #49,,39904.77035137
+20095,Bacchus Marsh,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,25332.95028202
+20097,Badger Creek,bus,4,8215,Flora Ave/Badger Creek Rd,,364.15850294
+20097,Badger Creek,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,36525.2675335
+20097,Badger Creek,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,18625.88737425
+20105,Balaclava (Vic.),bus,4,6634,The Avenue/Hotham St,,388.92479255
+20105,Balaclava (Vic.),tram,3,18632,Balaclava Station/Carlisle St #38,,213.51574482
+20105,Balaclava (Vic.),metropolitan_train,2,14287,Balaclava Station,vic:rail:BCV,171.89434835
+20123,Balwyn,bus,4,6383,Yarrbat Ave/Balwyn Rd,,470.46270049
+20123,Balwyn,tram,3,19411,Northcote Ave/Whitehorse Rd #49,,380.15589507
+20123,Balwyn,metropolitan_train,2,12213,Chatham Station,vic:rail:CHM,1564.45431666
+20124,Balwyn North,bus,4,5809,Jaserfold St/Balwyn Rd,,86.71551882
+20124,Balwyn North,tram,3,18566,Balwyn Rd/Doncaster Rd #51,,430.16628809
+20124,Balwyn North,metropolitan_train,2,12213,Chatham Station,vic:rail:CHM,3729.20038296
+20131,Bangholme,bus,4,40194,Bangholme Rd/Worsley Rd,,1369.70169093
+20131,Bangholme,tram,3,18411,Carnegie/Truganini Rd #68,,19876.34785383
+20131,Bangholme,metropolitan_train,2,11231,Chelsea Station,vic:rail:CSA,5261.22248174
+20169,Baxter,bus,4,12004,Baxter Station/Baxter-Tooradin Rd,,317.68627865
+20169,Baxter,tram,3,18412,East Brighton/Hawthorn Rd #68,,33794.29329178
+20169,Baxter,metropolitan_train,2,5701,Baxter Station,vic:rail:BXR,588.95186184
+20174,Bayswater North,bus,4,12032,Dorset Rd/Canterbury Rd,,198.67788191
+20174,Bayswater North,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,9596.46395914
+20174,Bayswater North,metropolitan_train,2,11411,Bayswater Station,vic:rail:BAY,2237.78253778
+20175,Beaconsfield (Vic.),bus,4,45698,Crestview Dr/Timberside Dr,,643.29744369
+20175,Beaconsfield (Vic.),tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,26793.89823738
+20175,Beaconsfield (Vic.),metropolitan_train,2,12177,Beaconsfield Station,vic:rail:BFD,1821.72123816
+20176,Beaconsfield Upper,bus,4,13973,Edebohls Rd/Wellington Rd,,6405.0482573
+20176,Beaconsfield Upper,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,26592.0306495
+20176,Beaconsfield Upper,metropolitan_train,2,12175,Officer Station,vic:rail:OFC,7592.25612635
+20182,Beaumaris (Vic.),bus,4,11613,Beaumaris Community Centre/Reserve Rd,,415.61943562
+20182,Beaumaris (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,7899.89302358
+20182,Beaumaris (Vic.),metropolitan_train,2,11243,Cheltenham Station,vic:rail:CTM,2346.01180319
+20254,Blackburn South,bus,4,12725,Samuel Rd/Fulton Rd,,408.57867125
+20254,Blackburn South,tram,3,21115,Keats St/Burwood Hwy #69,,1395.45886267
+20254,Blackburn South,metropolitan_train,2,12225,Laburnum Station,vic:rail:LAB,2129.65530247
+20257,Blairgowrie,bus,4,48371,St Johns Wood Rd/Melbourne Rd,,388.66732518
+20257,Blairgowrie,tram,3,18412,East Brighton/Hawthorn Rd #68,,54989.64576184
+20257,Blairgowrie,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,35548.82304455
+20187,Beenak,bus,4,12561,Gembrook Rd/Main St,,9374.26795013
+20187,Beenak,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,40300.08208765
+20187,Beenak,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,23369.56599388
+20188,Belgrave,bus,4,14363,Belgrave Village/Belgrave Hwy,,186.21158457
+20188,Belgrave,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,16265.86255285
+20188,Belgrave,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,260.15517007
+20743,Derrimut,bus,4,40298,Rochester Vsta/Windsor Bvd,,730.85279289
+20743,Derrimut,tram,3,17944,Central Park Ave/Cordite Ave #49,,9984.97571351
+20743,Derrimut,metropolitan_train,2,15365,Albion Station,vic:rail:ALB,5259.94122315
+20189,Belgrave Heights,bus,4,13861,The Crescent/Colby Dr,,816.55595595
+20189,Belgrave Heights,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,16137.61661221
+20189,Belgrave Heights,metropolitan_train,2,11121,Tecoma Station,vic:rail:TCM,1960.79498531
+20190,Belgrave South,bus,4,13990,Heather Gr/Mt Morton Rd,,975.89535558
+20190,Belgrave South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,17954.48184937
+20190,Belgrave South,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,3596.45436189
+20748,Devon Meadows,bus,4,38676,23 Finsbury Rd,,1252.36430985
+20748,Devon Meadows,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,36600.32453375
+20748,Devon Meadows,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,8234.34630005
+20212,Benloch,bus,4,27899,Casuarina St/Grassy St,,24188.78072715
+20212,Benloch,tram,3,19482,Airport West/Matthews Ave #59,,60007.54624563
+20212,Benloch,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,42366.88750558
+20214,Bentleigh,bus,4,13058,London St/Jasper Rd,,321.15482607
+20214,Bentleigh,tram,3,18412,East Brighton/Hawthorn Rd #68,,2051.8215084
+20214,Bentleigh,metropolitan_train,2,14238,Patterson Station,vic:rail:PAT,301.47316763
+20215,Bentleigh East,bus,4,16215,Chester St/Centre Rd,,15.90140187
+20215,Bentleigh East,tram,3,18411,Carnegie/Truganini Rd #68,,3282.41776078
+20215,Bentleigh East,metropolitan_train,2,14241,Bentleigh Station,vic:rail:BEN,2680.99535855
+20224,Berwick,bus,4,29051,Clyde Rd/Kangan Dr ,,71.85315918
+20224,Berwick,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,25028.29692787
+20224,Berwick,metropolitan_train,2,12178,Berwick Station,vic:rail:BEW,217.87758994
+20278,Bonbeach,bus,4,2502,Chelsea Baptist Church/Fowler St,,248.86625563
+20278,Bonbeach,tram,3,18412,East Brighton/Hawthorn Rd #68,,19184.3541075
+20278,Bonbeach,metropolitan_train,2,11229,Bonbeach Station,vic:rail:BON,742.07322021
+20616,Collingwood (Vic.),bus,4,1245,Wellington St/Johnston St,,290.44961639
+20616,Collingwood (Vic.),tram,3,6127,Hodgson St/Smith St #18,,377.83855128
+20616,Collingwood (Vic.),metropolitan_train,2,14334,Collingwood Station,vic:rail:CWD,551.72764289
+20233,Beveridge,bus,4,29313,Wattlebird St/Lithgow St,,1163.99724968
+20233,Beveridge,tram,3,4174,RMIT/Plenty Rd #71,,24072.9251858
+20233,Beveridge,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,14325.46414126
+20237,Big Pats Creek,bus,4,22895,Millwarra PS/Woods Point Rd,,3085.87828031
+20237,Big Pats Creek,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,52088.32679372
+20237,Big Pats Creek,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,36620.55937356
+20248,Bittern,bus,4,13158,Bittern Station/Frankston-Flinders Rd,,798.11535919
+20248,Bittern,tram,3,18412,East Brighton/Hawthorn Rd #68,,48895.04337614
+20248,Bittern,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,974.50655688
+20666,Cranbourne West,bus,4,27963,Duff St/Evans Rd,,267.14583476
+20666,Cranbourne West,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,27742.90488783
+20666,Cranbourne West,metropolitan_train,2,12186,Merinda Park Station,vic:rail:MPK,2596.53377334
+20251,Black Rock (Vic.),bus,4,10107,Hunter Ave/Balcombe Rd,,307.99639133
+20251,Black Rock (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,6627.55561592
+20251,Black Rock (Vic.),metropolitan_train,2,26527,Southland Station,vic:rail:SOU,2725.20393273
+20252,Blackburn,bus,4,21008,Blackburn Station/South Pde,,115.75177245
+20252,Blackburn,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,2580.00738258
+20252,Blackburn,metropolitan_train,2,12226,Blackburn Station,vic:rail:BBN,165.6978213
+20253,Blackburn North,bus,4,2810,Charlton St/Koonung Rd,,200.37412727
+20253,Blackburn North,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,3279.6874849
+20253,Blackburn North,metropolitan_train,2,12228,Blackburn Station,vic:rail:BBN,1777.17637
+20260,Blind Bight,bus,4,38691,Albatross Cl/Fishermans Dr,,321.2681917
+20260,Blind Bight,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,41935.63207145
+20260,Blind Bight,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,13578.67296229
+20272,Bolinda,bus,4,21875,The Hermitage/The Skyline,,13943.29401741
+20272,Bolinda,tram,3,19482,Airport West/Matthews Ave #59,,32220.65731215
+20272,Bolinda,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,16191.38400312
+20280,Boneo,bus,4,28204,Mornington Peninsula Fwy/Boneo Rd,,3860.13639495
+20280,Boneo,tram,3,18412,East Brighton/Hawthorn Rd #68,,55821.29838103
+20280,Boneo,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,25425.74066957
+20282,Bonnie Brook,bus,4,29350,Cordhill Ct/Taylors Rd,,2374.56557702
+20282,Bonnie Brook,tram,3,19482,Airport West/Matthews Ave #59,,19831.90513755
+20282,Bonnie Brook,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,8873.48975399
+20304,Boronia,bus,4,16465,Olive Gr/Dorset Rd,,349.37148787
+20304,Boronia,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,9512.1021192
+20304,Boronia,metropolitan_train,2,11409,Boronia Station,vic:rail:BOR,862.19605045
+20307,Botanic Ridge,bus,4,51231,Sparks Ct/Settlers Run,,151.47208013
+20307,Botanic Ridge,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,31790.73734556
+20307,Botanic Ridge,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,4720.76020912
+20314,Box Hill (Vic.),bus,4,11903,Harrow St/William St,,160.45865881
+20314,Box Hill (Vic.),tram,3,19781,Box Hill Central/Whitehorse Rd #58,,538.23917454
+20314,Box Hill (Vic.),metropolitan_train,2,12221,Box Hill Station,vic:rail:BOX,444.42970043
+21163,Heatherton,bus,4,10393,Kingston Rd,,100.8322992
+21163,Heatherton,tram,3,18411,Carnegie/Truganini Rd #68,,7461.78189541
+21163,Heatherton,metropolitan_train,2,11244,Cheltenham Station,vic:rail:CTM,3321.39909024
+20315,Box Hill North,bus,4,4670,Memorial Park/Station St,,258.22230595
+20315,Box Hill North,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,1534.76939129
+20315,Box Hill North,metropolitan_train,2,12223,Box Hill Station,vic:rail:BOX,1687.76179182
+20411,Bunyip,bus,4,45071,Bunyip Station/Nar Nar Goon-Longwarry Rd ,,381.85823387
+20411,Bunyip,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,54713.56515457
+20411,Bunyip,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,18921.88530476
+21165,Heathmont,bus,4,12796,Heathmont Station/Canterbury Rd,,75.89218205
+21165,Heathmont,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,6412.34822414
+21165,Heathmont,metropolitan_train,2,11412,Heathmont Station,vic:rail:HMT,159.56209783
+20316,Box Hill South,bus,4,11941,Sycamore St/Foch St,,21.86216958
+20316,Box Hill South,tram,3,19421,Elgar Rd/Riversdale Rd #61,,1128.22538247
+20316,Box Hill South,metropolitan_train,2,12221,Box Hill Station,vic:rail:BOX,1936.52146227
+20320,Braeside,bus,4,45438,Bate Dr/Governor Rd,,892.47910293
+20320,Braeside,tram,3,18411,Carnegie/Truganini Rd #68,,13415.9047348
+20320,Braeside,metropolitan_train,2,11237,Mordialloc Station,vic:rail:MOR,3225.46080374
+20523,Caulfield North,bus,4,20738,Dorgan St/Kooyong Rd,,339.88636749
+20523,Caulfield North,tram,3,18641,Elmhurst Rd/Balaclava Rd #47,,175.78648076
+20523,Caulfield North,metropolitan_train,2,14255,Malvern Station,vic:rail:MAL,800.5663687
+20324,Braybrook,bus,4,3877,Skinner Reserve/Churchill Ave,,131.92574692
+20324,Braybrook,tram,3,17920,Wests Rd/Williamson Rd #50,,2578.08687325
+20324,Braybrook,metropolitan_train,2,15512,Tottenham Station,vic:rail:TOT,1744.98014726
+20331,Briar Hill,bus,4,11000,Sherbourne Rd/Mountain View Rd,,320.48117594
+20331,Briar Hill,tram,3,4486,Taunton Dr/Plenty Rd #69,,5238.72138809
+20331,Briar Hill,metropolitan_train,2,26521,Montmorency Station,vic:rail:MMY,975.24180214
+20412,Bunyip North,bus,4,45071,Bunyip Station/Nar Nar Goon-Longwarry Rd ,,4109.60158802
+20412,Bunyip North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,52859.85554632
+20412,Bunyip North,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,19228.02948196
+20337,Brighton (Vic.),bus,4,11626,Firbank Grammar/St Andrews St,,188.41766403
+20337,Brighton (Vic.),tram,3,18414,Union St/Hawthorn Rd #66,,1841.02759511
+20337,Brighton (Vic.),metropolitan_train,2,14280,North Brighton Station,vic:rail:NBN,610.86234719
+20338,Brighton East,bus,4,17636,Lilac Cres/Centre Rd,,101.97885697
+20338,Brighton East,tram,3,18412,East Brighton/Hawthorn Rd #68,,282.40367167
+20338,Brighton East,metropolitan_train,2,14278,Middle Brighton Station,vic:rail:MBN,1640.94052813
+20442,Calder Park,bus,4,23401,Berthon Cres/Wolviston Ave,,1154.05540617
+20442,Calder Park,tram,3,19482,Airport West/Matthews Ave #59,,12034.06397266
+20442,Calder Park,metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,2906.18527909
+20524,Caulfield South,bus,4,16400,Princes Park/Dover St,,115.63042549
+20524,Caulfield South,tram,3,19007,Dover St/Hawthorn Rd #60,,391.95571766
+20524,Caulfield South,metropolitan_train,2,14248,Glen Huntly Station,vic:rail:GHY,1582.22598965
+20346,Broadmeadows (Vic.),bus,4,47912,Coleraine St/Pascoe Vale Rd,,165.18929874
+20346,Broadmeadows (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,4575.37026878
+20346,Broadmeadows (Vic.),metropolitan_train,2,15530,Broadmeadows Station,vic:rail:BMS,320.67707829
+20351,Brookfield (Vic.),bus,4,5722,Brooklyn Rd/Botanica Springs Bvd,,824.79594795
+20351,Brookfield (Vic.),tram,3,17944,Central Park Ave/Cordite Ave #49,,30586.06837693
+20351,Brookfield (Vic.),metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,17788.13077837
+20352,Brooklyn (Vic.),bus,4,14889,Lilac Ave/Geelong Rd,,452.94528207
+20352,Brooklyn (Vic.),tram,3,17928,Ballarat Rd/Gordon St #58,,4951.70068351
+20352,Brooklyn (Vic.),metropolitan_train,2,15513,Tottenham Station,vic:rail:TOT,2513.93631024
+20361,Brunswick (Vic.),bus,4,6182,Brunswick Station/Victoria St ,,37.18673482
+20361,Brunswick (Vic.),tram,3,16724,Victoria St/Sydney Rd #23,,136.89811579
+20361,Brunswick (Vic.),metropolitan_train,2,14314,Brunswick Station,vic:rail:BWK,127.69102224
+20487,Cardinia,bus,4,28324,Watercolour Bvd/Pattersons Rd,,5299.20274888
+20487,Cardinia,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,38454.70753291
+20487,Cardinia,metropolitan_train,2,26501,Cardinia Road Station,vic:rail:CDA,8307.89330022
+20670,Cremorne (Vic.),bus,4,20712,Dobson St/Alexandra Ave,,407.14226403
+20670,Cremorne (Vic.),tram,3,19097,Balmain St/Church St #54,,408.72502483
+20670,Cremorne (Vic.),metropolitan_train,2,12251,East Richmond Station,vic:rail:ERM,508.21838938
+20362,Brunswick East,bus,4,8366,Bellvue St/Blyth St,,209.60671381
+20362,Brunswick East,tram,3,6145,Albert St/Nicholson St #22,,196.90313099
+20362,Brunswick East,metropolitan_train,2,15388,Northcote Station,vic:rail:NCE,1518.8594512
+20495,Carlton (Vic.),bus,4,347,Grattan St/Rathdowne St,,84.00891917
+20495,Carlton (Vic.),tram,3,18789,Lygon St/Elgin St #112,,384.03749492
+20495,Carlton (Vic.),metropolitan_train,2,26551,Parkville Station,vic:rail:PKV,887.12124248
+20728,Deepdene (Vic.),bus,4,6679,Deepdene PS/Burke Rd,,549.61045177
+20728,Deepdene (Vic.),tram,3,18710,Deepdene Shopping Centre/Whitehorse Rd #43,,122.84858688
+20728,Deepdene (Vic.),metropolitan_train,2,12208,East Camberwell Station,vic:rail:ECM,1592.89017669
+20363,Brunswick West,bus,4,18076,35-Victoria St/Melville Rd,,43.45694828
+20363,Brunswick West,tram,3,18076,Victoria St/Melville Rd #35,,43.45694828
+20363,Brunswick West,metropolitan_train,2,14315,Brunswick Station,vic:rail:BWK,1413.5436183
+20381,Bulla (Vic.),bus,4,7384,Rawdon St/Bulla Rd,,869.07564547
+20381,Bulla (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,12065.67013284
+20381,Bulla (Vic.),metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,7341.27706667
+20386,Bulleen,bus,4,5544,Ronald Ave/Manningham Rd,,141.20529826
+20386,Bulleen,tram,3,18566,Balwyn Rd/Doncaster Rd #51,,3095.60455283
+20386,Bulleen,metropolitan_train,2,13758,Heidelberg Station,vic:rail:HDB,2664.26151124
+20387,Bullengarook,bus,4,46617,39 Robertsons Rd,,18974.06483126
+20387,Bullengarook,tram,3,19482,Airport West/Matthews Ave #59,,42958.60803776
+20387,Bullengarook,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,22746.73457013
+20399,Bundoora (Vic.),bus,4,2051,Mt Cooper Dr/Plenty Rd,,57.66186327
+20399,Bundoora (Vic.),tram,3,4181,Mount Cooper Dr/Plenty Rd #64,,88.44100334
+20399,Bundoora (Vic.),metropolitan_train,2,15328,Watsonia Station,vic:rail:WAT,2616.71062997
+20418,Burnley,bus,4,28699,Chastleton Ave/Grange Rd ,,710.37793491
+20418,Burnley,tram,3,19297,Madden Gr/Swan St #17,,250.43814275
+20418,Burnley,metropolitan_train,2,12264,Heyington Station,vic:rail:HEY,769.30733602
+20419,Burnside (Vic.),bus,4,3247,Tarcoola Dr/Westwood Dr,,52.64903639
+20419,Burnside (Vic.),tram,3,17944,Central Park Ave/Cordite Ave #49,,11494.97069896
+20419,Burnside (Vic.),metropolitan_train,2,15360,St Albans Station,vic:rail:SAB,4449.28839832
+20500,Caroline Springs,bus,4,51561,St Catherine Catholic Church/College St,,136.50029031
+20500,Caroline Springs,tram,3,17944,Central Park Ave/Cordite Ave #49,,12975.25996488
+20500,Caroline Springs,metropolitan_train,2,15357,Watergardens Station,vic:rail:WGS,4642.46363957
+20420,Burnside Heights,bus,4,46037,Inglewood Park/Inglewood Dr,,386.83714014
+20420,Burnside Heights,tram,3,17944,Central Park Ave/Cordite Ave #49,,11437.71191013
+20420,Burnside Heights,metropolitan_train,2,15359,Keilor Plains Station,vic:rail:KPL,3360.6513082
+20507,Carrum,bus,4,17184,Walkers Rd/Poulson St,,34.19632311
+20507,Carrum,tram,3,18412,East Brighton/Hawthorn Rd #68,,20530.34654153
+20507,Carrum,metropolitan_train,2,11227,Carrum Station,vic:rail:CAR,395.99617112
+20426,Burwood (Vic.),bus,4,10442,Deakin University/Burwood Hwy,,146.49617621
+20426,Burwood (Vic.),tram,3,21103,Deakin University/Burwood Hwy #63,,131.5441952
+20426,Burwood (Vic.),metropolitan_train,2,11219,Jordanville Station,vic:rail:JOR,2728.80662261
+20427,Burwood East,bus,4,8241,Keats St/Burwood Hwy,,201.34739279
+20427,Burwood East,tram,3,21116,Highview Gr/Burwood Hwy #69,,203.09842958
+20427,Burwood East,metropolitan_train,2,12161,Syndal Station,vic:rail:SYN,2531.60734553
+20435,Bylands,bus,4,44825,opp 34 The Elms Bvd,,4645.95501709
+20435,Bylands,tram,3,4174,RMIT/Plenty Rd #71,,38418.02476677
+20435,Bylands,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,27894.72944233
+20441,Cairnlea,bus,4,9409,Cairnlea Park PS/Furlong Rd,,153.41241054
+20441,Cairnlea,tram,3,17944,Central Park Ave/Cordite Ave #49,,8091.5153473
+20441,Cairnlea,metropolitan_train,2,15360,St Albans Station,vic:rail:SAB,1905.69819815
+20443,Caldermeade,bus,4,38074,Lyall St/South Gippsland Hwy,,12894.51065455
+20443,Caldermeade,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,52715.65502291
+20443,Caldermeade,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,18185.80349852
+21554,Lynbrook,bus,4,45567,Lynbrook Station/Paterson Dr,,433.03423223
+21554,Lynbrook,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,23180.54447057
+21554,Lynbrook,metropolitan_train,2,26515,Lynbrook Station,vic:rail:LBK,560.86243825
+20453,Camberwell (Vic.),bus,4,18815,Burnside Ave/Prospect Hill Rd,,591.05160067
+20453,Camberwell (Vic.),tram,3,19766,Cooloongatta Rd/Riversdale Rd #48,,309.6062446
+20453,Camberwell (Vic.),metropolitan_train,2,11204,Willison Station,vic:rail:WSN,367.05527065
+20455,Campbellfield,bus,4,9530,Russell St/Sydney Rd,,573.01529557
+20455,Campbellfield,tram,3,17306,North Coburg Terminus/Sydney Rd #40,,6794.54247336
+20455,Campbellfield,metropolitan_train,2,14299,Upfield Station,vic:rail:UFD,1296.0258896
+20466,Cannons Creek,bus,4,38694,Warneet General Store/Culgoa St,,1152.22055436
+20466,Cannons Creek,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,41708.72381649
+20466,Cannons Creek,metropolitan_train,2,5082,Somerville Station,vic:rail:SVE,10489.61464493
+20508,Carrum Downs,bus,4,478,Tuxen Ave/Frankston-Dandenong Rd,,162.74456046
+20508,Carrum Downs,tram,3,18412,East Brighton/Hawthorn Rd #68,,24646.60300785
+20508,Carrum Downs,metropolitan_train,2,11225,Seaford Station,vic:rail:SEA,4253.65027367
+20468,Canterbury (Vic.),bus,4,6389,Daphne St/Canterbury Rd,,81.1258506
+20468,Canterbury (Vic.),tram,3,19434,Cooloongatta Rd/Riversdale Rd #48,,1038.42116266
+20468,Canterbury (Vic.),metropolitan_train,2,12209,Canterbury Station,vic:rail:CBY,366.47304023
+20474,Cape Schanck,bus,4,44779,Tiberius Rd/Julius St,,7804.99690309
+20474,Cape Schanck,tram,3,18412,East Brighton/Hawthorn Rd #68,,62174.11874662
+20474,Cape Schanck,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,27899.7580989
+20476,Capel Sound,bus,4,40039,Hakea Ave/Cootamundra Ave,,58.65195158
+20476,Capel Sound,tram,3,18412,East Brighton/Hawthorn Rd #68,,52145.66015847
+20476,Capel Sound,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,26713.41792925
+20496,Carlton North,bus,4,354,Richardson St/Rathdowne St,,393.38319505
+20496,Carlton North,tram,3,19344,Fenwick St/Lygon St #116,,193.60084224
+20496,Carlton North,metropolitan_train,2,14316,Jewell Station,vic:rail:JWL,1442.62037014
+20498,Carnegie,bus,4,16432,The Crossover/Koornang Rd,,57.76121982
+20498,Carnegie,tram,3,18411,Carnegie/Truganini Rd #68,,6.17901347
+20498,Carnegie,metropolitan_train,2,13729,Carnegie Station,vic:rail:CNE,877.47771689
+21555,Lyndhurst (Vic.),bus,4,51204,Bulga Wattle Cct/Freshwater Bvd,,1505.52461064
+21555,Lyndhurst (Vic.),tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,23475.8873538
+21555,Lyndhurst (Vic.),metropolitan_train,2,26514,Lynbrook Station,vic:rail:LBK,2122.63800779
+20512,Castella,bus,4,23437,Kinglake Police Station/Whittlesea-Kinglake Rd,,8677.63451878
+20512,Castella,tram,3,4174,RMIT/Plenty Rd #71,,37068.83566616
+20512,Castella,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,25519.89337911
+20517,Catani,bus,4,21466,Garfield Station/Nar Nar Goon - Longwarry Rd ,,11401.53992352
+20517,Catani,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,55395.97571413
+20517,Catani,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,17253.36119538
+20521,Caulfield,bus,4,12353,Webb St/Glen Eira Rd,,399.69818178
+20521,Caulfield,tram,3,19012,Sylverly Gr/Hawthorn Rd #55,,324.77265346
+20521,Caulfield,metropolitan_train,2,14248,Glen Huntly Station,vic:rail:GHY,1553.30788136
+20522,Caulfield East,bus,4,14907,Caulfield Station/Normanby Rd,,406.05712405
+20522,Caulfield East,tram,3,18457,Caulfield Railway Station/Derby Rd #57,,531.91354783
+20522,Caulfield East,metropolitan_train,2,14251,Caulfield Station,vic:rail:CFD,423.4496429
+20528,Chadstone,bus,4,7132,Bosco St/Waverley Rd,,156.28922796
+20528,Chadstone,tram,3,21096,Gilmour St/Burwood Hwy #59,,3548.16063318
+20528,Chadstone,metropolitan_train,2,8763,Holmesglen Station,vic:rail:HOL,1219.76908771
+20537,Chelsea,bus,4,12484,Beardsworth Ave/Thames Prom,,114.76812704
+20537,Chelsea,tram,3,18412,East Brighton/Hawthorn Rd #68,,17636.47705682
+20537,Chelsea,metropolitan_train,2,11231,Chelsea Station,vic:rail:CSA,585.22160318
+20538,Chelsea Heights,bus,4,17176,Eighth Ave/Fourth Ave,,40.10151596
+20538,Chelsea Heights,tram,3,18412,East Brighton/Hawthorn Rd #68,,17357.53894242
+20538,Chelsea Heights,metropolitan_train,2,11231,Chelsea Station,vic:rail:CSA,2061.15644853
+20758,Dingley Village,bus,4,3628,Kingswood Golf Club/Centre Dandenong Rd,,302.88163742
+20758,Dingley Village,tram,3,18411,Carnegie/Truganini Rd #68,,10786.33795227
+20758,Dingley Village,metropolitan_train,2,13714,Springvale Station,vic:rail:SPG,3699.66138096
+20539,Cheltenham (Vic.),bus,4,22806,Pine St/Chesterville Rd,,54.63588735
+20539,Cheltenham (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,6302.09698079
+20539,Cheltenham (Vic.),metropolitan_train,2,11244,Cheltenham Station,vic:rail:CTM,560.053348
+20541,Cherokee,bus,4,7470,Lawrence Ave/Fullbrook Dr,,18813.09038432
+20541,Cherokee,tram,3,19482,Airport West/Matthews Ave #59,,41375.72084759
+20541,Cherokee,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,21498.83327181
+20569,Clayton,bus,4,48368,Monash University,,87.35298052
+20569,Clayton,tram,3,21109,Middleborough Rd/Burwood Hwy #66,,7020.7260191
+20569,Clayton,metropolitan_train,2,13719,Clayton Station,vic:rail:CLA,1390.11308834
+20555,Chintin,bus,4,51672,Poa Pl/Roulston Way,,11743.31274927
+20555,Chintin,tram,3,19482,Airport West/Matthews Ave #59,,35659.28197642
+20555,Chintin,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,22173.23396095
+20570,Clayton South,bus,4,16391,Main Rd/Fairbank Rd,,301.2553867
+20570,Clayton South,tram,3,18411,Carnegie/Truganini Rd #68,,8453.39057682
+20570,Clayton South,metropolitan_train,2,13716,Westall Station,vic:rail:WTL,1140.24296681
+20556,Chirnside Park,bus,4,22149,Rolloway Rise/Edward Rd,,621.98822384
+20556,Chirnside Park,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,17192.36767955
+20556,Chirnside Park,metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,3299.87538274
+20559,Christmas Hills (Vic.),bus,4,22098,Herbert St/Melba Hwy,,5891.25222305
+20559,Christmas Hills (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,21144.11668563
+20559,Christmas Hills (Vic.),metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,10413.40653687
+20572,Clematis,bus,4,22506,Paradise Ave/Wellington Rd,,299.68573011
+20572,Clematis,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,22485.02531543
+20572,Clematis,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,6167.15133886
+20574,Clifton Hill,bus,4,1135,Clifton Hill Station/Hoddle St,,296.6863142
+20574,Clifton Hill,tram,3,6120,Clifton Hill Interchange/Queens Pde #25,,531.62506121
+20574,Clifton Hill,metropolitan_train,2,14330,Clifton Hill Station,vic:rail:CHL,274.28365364
+20576,Clonbinane,bus,4,23484,655 Yea Rd,,13370.87067791
+20576,Clonbinane,tram,3,4174,RMIT/Plenty Rd #71,,35487.96607246
+20576,Clonbinane,metropolitan_train,2,26517,Mernda Station,vic:rail:MDD,26567.42397541
+20581,Clyde (Vic.),bus,4,29022,Tuckers Rd/Creekside St ,,2653.11926346
+20581,Clyde (Vic.),tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,35856.75233555
+20581,Clyde (Vic.),metropolitan_train,2,12185,Cranbourne Station,vic:rail:CBE,8553.89640964
+20582,Clyde North,bus,4,29009,Sofra Rd/Bells Rd ,,19.11451168
+20582,Clyde North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,31258.81041084
+20582,Clyde North,metropolitan_train,2,12176,Beaconsfield Station,vic:rail:BFD,5475.77138479
+20560,Chum Creek,bus,4,8204,Chum Creek Rd/Healesville-Yarra Glen Rd,,4797.72320085
+20560,Chum Creek,tram,3,4174,RMIT/Plenty Rd #71,,38159.94171946
+20560,Chum Creek,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,21103.40684027
+20566,Clarinda,bus,4,10492,Clarinda SC/Bourke Rd,,54.37246419
+20566,Clarinda,tram,3,18411,Carnegie/Truganini Rd #68,,6749.95297713
+20566,Clarinda,metropolitan_train,2,13718,Clayton Station,vic:rail:CLA,2459.97045085
+20567,Clarkefield,bus,4,28263,Blackmore Rd/Errol Bvd,,9523.85203161
+20567,Clarkefield,tram,3,19482,Airport West/Matthews Ave #59,,26485.76825776
+20567,Clarkefield,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,12608.66884918
+20587,Cobaw,bus,4,27899,Casuarina St/Grassy St,,25514.83240462
+20587,Cobaw,tram,3,19482,Airport West/Matthews Ave #59,,54463.51428521
+20587,Cobaw,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,35744.00002229
+20590,Cobblebank,bus,4,49304,Cobblebank Village/Coach St,,635.21718094
+20590,Cobblebank,tram,3,17944,Central Park Ave/Cordite Ave #49,,25365.66054189
+20590,Cobblebank,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,13806.08597585
+20596,Coburg,bus,4,9609,Walker St/Munro St,,48.67447765
+20596,Coburg,tram,3,16715,Munro St/Sydney Rd #32,,146.91229466
+20596,Coburg,metropolitan_train,2,14308,Coburg Station,vic:rail:COB,342.6315235
+20597,Coburg North,bus,4,8818,North Coburg Terminus/Bakers Rd,,328.52411965
+20597,Coburg North,tram,3,17306,North Coburg Terminus/Sydney Rd #40,,350.26297745
+20597,Coburg North,metropolitan_train,2,14306,Batman Station,vic:rail:BAT,800.67464283
+20600,Cockatoo (Vic.),bus,4,13833,Woori Yallock Rd/Pakenham Rd,,1021.20396126
+20600,Cockatoo (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,29333.11966217
+20600,Cockatoo (Vic.),metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,13189.95189643
+20601,Cocoroc,bus,4,29490,Geelong Rd/Ison Rd,,4271.10006917
+20601,Cocoroc,tram,3,17928,Ballarat Rd/Gordon St #58,,30513.48709951
+20601,Cocoroc,metropolitan_train,2,13733,Werribee Station,vic:rail:WER,7856.67123041
+20605,Coimadai,bus,4,47218,Grantleigh Dr/Cairns Dr,,7737.0555376
+20605,Coimadai,tram,3,19482,Airport West/Matthews Ave #59,,37783.67792426
+20605,Coimadai,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,20574.7311334
+20613,Coldstream (Vic.),bus,4,22276,Victoria Rd/The Gateway,,4730.35713204
+20613,Coldstream (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,21419.42091875
+20613,Coldstream (Vic.),metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,6444.96328114
+20624,Coolaroo,bus,4,8872,Karnak Cres/Kyabram St,,159.78428867
+20624,Coolaroo,tram,3,19482,Airport West/Matthews Ave #59,,7669.82835309
+20624,Coolaroo,metropolitan_train,2,26504,Coolaroo Station,vic:rail:CLO,1096.19300195
+20633,Cora Lynn,bus,4,45030,Tynong Station/Nar Nar Goon-Longwarry Rd,,6281.49397819
+20633,Cora Lynn,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,49840.08974743
+20633,Cora Lynn,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,11793.5473705
+20654,Cottles Bridge,bus,4,51124,Hurstbridge Station/Heidelberg-Kinglake Rd,,4148.36135263
+20654,Cottles Bridge,tram,3,4174,RMIT/Plenty Rd #71,,15473.10044762
+20654,Cottles Bridge,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,4354.74578802
+20661,Craigieburn,bus,4,44844,Mount Ridley College/Windrock Ave,,90.28188269
+20661,Craigieburn,tram,3,19482,Airport West/Matthews Ave #59,,15076.02952576
+20661,Craigieburn,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,2809.36485971
+20662,Cranbourne,bus,4,43877,Fairbairn Rd/Sladen St,,143.68434523
+20662,Cranbourne,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,29488.63989116
+20662,Cranbourne,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,1667.58987864
+21214,Hughesdale,bus,4,16430,Dalston Rd/Kangaroo Rd,,212.91786492
+21214,Hughesdale,tram,3,18411,Carnegie/Truganini Rd #68,,2333.7596181
+21214,Hughesdale,metropolitan_train,2,13722,Oakleigh Station,vic:rail:OAK,596.98630103
+20663,Cranbourne East,bus,4,51220,Casey Fields Bvd/Berwick-Cranbourne Rd,,414.03010011
+20663,Cranbourne East,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,30455.59363617
+20663,Cranbourne East,metropolitan_train,2,12185,Cranbourne Station,vic:rail:CBE,2539.84769034
+20664,Cranbourne North,bus,4,51398,Rosebank Dr/Narre Warren-Cranbourne Rd,,152.93184708
+20664,Cranbourne North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,26599.97189051
+20664,Cranbourne North,metropolitan_train,2,12185,Cranbourne Station,vic:rail:CBE,2915.93612174
+20665,Cranbourne South,bus,4,51223,Browns Rd/Pearcedale Rd,,861.57397589
+20665,Cranbourne South,tram,3,18412,East Brighton/Hawthorn Rd #68,,32211.95299667
+20665,Cranbourne South,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,6568.259789
+21215,Humevale,bus,4,7701,179 Humevale Rd,,728.9226187
+21215,Humevale,tram,3,4174,RMIT/Plenty Rd #71,,21544.98628215
+21215,Humevale,metropolitan_train,2,26517,Mernda Station,vic:rail:MDD,12701.84730914
+20674,Crib Point,bus,4,13255,Fuller St/Stony Point Rd,,586.51822954
+20674,Crib Point,tram,3,18412,East Brighton/Hawthorn Rd #68,,51710.50687675
+20674,Crib Point,metropolitan_train,2,615,Crib Point Station,vic:rail:CPT,1068.90729559
+20682,Croydon (Vic.),bus,4,10166,Samuel St/Croydon Rd,,131.42993996
+20682,Croydon (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,11433.26322481
+20682,Croydon (Vic.),metropolitan_train,2,12169,Croydon Station,vic:rail:CDN,467.89656515
+20683,Croydon Hills,bus,4,8507,Croydon Hills Dr/Narr-maen Dr,,504.26448705
+20683,Croydon Hills,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,11879.25810291
+20683,Croydon Hills,metropolitan_train,2,12169,Croydon Station,vic:rail:CDN,2526.59548422
+20684,Croydon North,bus,4,14402,Palmer Ave/Patrick Ave,,210.42700904
+20684,Croydon North,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,12874.1775982
+20684,Croydon North,metropolitan_train,2,12169,Croydon Station,vic:rail:CDN,2411.68204566
+21218,Huntingdale (Vic.),bus,4,1978,Carmichael Rd/Princes Hwy,,358.94657134
+21218,Huntingdale (Vic.),tram,3,18411,Carnegie/Truganini Rd #68,,4897.10376963
+21218,Huntingdale (Vic.),metropolitan_train,2,13721,Huntingdale Station,vic:rail:HUN,725.39969259
+21223,Hurstbridge,bus,4,51124,Hurstbridge Station/Heidelberg-Kinglake Rd,,117.34496747
+21223,Hurstbridge,tram,3,4174,RMIT/Plenty Rd #71,,11842.75200214
+21223,Hurstbridge,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,262.35382852
+20685,Croydon South,bus,4,22757,Araluen Dr/Jesmond Rd,,596.88706332
+20685,Croydon South,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,9656.14186557
+20685,Croydon South,metropolitan_train,2,12168,Croydon Station,vic:rail:CDN,2296.64996463
+20702,Dallas,bus,4,9048,Lismore St/Blair St,,465.54497494
+20702,Dallas,tram,3,19482,Airport West/Matthews Ave #59,,6108.83732161
+20702,Dallas,metropolitan_train,2,14299,Upfield Station,vic:rail:UFD,1167.35547789
+20703,Dalmore,bus,4,38074,Lyall St/South Gippsland Hwy,,4253.7906853
+20703,Dalmore,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,42193.18314126
+20703,Dalmore,metropolitan_train,2,26501,Cardinia Road Station,vic:rail:CDA,13055.74814912
+20707,Dandenong,bus,4,45899,Dandenong Town Centre/Scott St,,156.76038315
+20707,Dandenong,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,14610.17432099
+20707,Dandenong,metropolitan_train,2,12189,Dandenong Station,vic:rail:DNG,504.90395266
+20708,Dandenong North,bus,4,2860,Exner Dr/Brady Rd,,126.38653739
+20708,Dandenong North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,11320.73018519
+20708,Dandenong North,metropolitan_train,2,12191,Yarraman Station,vic:rail:YMN,3275.92460813
+21238,Iona,bus,4,45051,Bunyip Primary School/Nar Nar Goon-Longwarry Rd,,5758.60156077
+21238,Iona,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,55198.54366368
+21238,Iona,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,17638.90065975
+21246,Ivanhoe (Vic.),bus,4,7857,Waterdale Rd/Livingstone St,,63.02650265
+21246,Ivanhoe (Vic.),tram,3,18356,Kew High School/High St #43,,3419.78718015
+21246,Ivanhoe (Vic.),metropolitan_train,2,13755,Ivanhoe Station,vic:rail:IVA,350.66635486
+20709,Dandenong South,bus,4,51266,Healey Rd/England St,,290.08944587
+20709,Dandenong South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,19524.44337714
+20709,Dandenong South,metropolitan_train,2,26514,Lynbrook Station,vic:rail:LBK,4217.36621358
+20712,Darley,bus,4,46617,39 Robertsons Rd,,691.32102912
+20712,Darley,tram,3,19482,Airport West/Matthews Ave #59,,41356.70091288
+20712,Darley,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,25434.34283279
+20729,Deer Park,bus,4,3256,Hogan St/Ballarat Rd,,136.49907422
+20729,Deer Park,tram,3,17944,Central Park Ave/Cordite Ave #49,,9812.53290342
+20729,Deer Park,metropolitan_train,2,15360,St Albans Station,vic:rail:SAB,3793.2154697
+20716,Darraweit Guim,bus,4,51673,Golden Ct/Acacia Way,,8038.95272129
+20716,Darraweit Guim,tram,3,19482,Airport West/Matthews Ave #59,,32802.8261505
+20716,Darraweit Guim,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,21287.4167525
+20724,Deanside,bus,4,46694,Neale Rd/Hopkins Rd,,1413.76303536
+20724,Deanside,tram,3,17944,Central Park Ave/Cordite Ave #49,,17189.1463412
+20724,Deanside,metropolitan_train,2,15357,Watergardens Station,vic:rail:WGS,8438.52010226
+20750,Dewhurst,bus,4,41208,Ladd Rd/Paternoster Rd,,3273.36131933
+20750,Dewhurst,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,28907.9896676
+20750,Dewhurst,metropolitan_train,2,26502,Cardinia Road Station,vic:rail:CDA,11034.5414548
+20762,Dixons Creek,bus,4,7894,Tarrawarra Abbey/Healesville-Yarra Glen Rd,,7802.90895615
+20762,Dixons Creek,tram,3,4174,RMIT/Plenty Rd #71,,33654.52958396
+20762,Dixons Creek,metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,20655.55391511
+20766,Docklands,bus,4,4890,Regatta Way/Lorimer St,,540.89749856
+20766,Docklands,tram,3,46874,Waterfront City/Docklands Dr #D11,,389.97093886
+20766,Docklands,metropolitan_train,2,22193,Southern Cross Station,vic:rail:SSS,1197.12225825
+20752,Diamond Creek,bus,4,51002,Broad Gully Rd/Black Gully Rd,,619.67430602
+20752,Diamond Creek,tram,3,4174,RMIT/Plenty Rd #71,,7799.00444502
+20752,Diamond Creek,metropolitan_train,2,15334,Diamond Creek Station,vic:rail:DCK,1434.59457838
+20754,Diggers Rest,bus,4,28524,Tran Ave/Madisons Ave ,,1720.39212622
+20754,Diggers Rest,tram,3,19482,Airport West/Matthews Ave #59,,21510.75940005
+20754,Diggers Rest,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,3663.41924222
+20769,Don Valley,bus,4,7532,Launching Place General Store/Warburton Hwy,,4480.53098171
+20769,Don Valley,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,38382.61499487
+20769,Don Valley,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,21682.47571168
+20771,Doncaster,bus,4,954,Westfield Dr/Williamsons Rd,,64.98253067
+20771,Doncaster,tram,3,18566,Balwyn Rd/Doncaster Rd #51,,3683.17188472
+20771,Doncaster,metropolitan_train,2,12223,Box Hill Station,vic:rail:BOX,4034.80132429
+20772,Doncaster East,bus,4,5198,Landscape Dr/Andersons Creek Rd,,138.74656255
+20772,Doncaster East,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,6445.41563123
+20772,Doncaster East,metropolitan_train,2,12229,Nunawading Station,vic:rail:NWG,5140.42969161
+20773,Donnybrook (Vic.),bus,4,29173,Olivine Bvd/Cycad Ave ,,71.75982524
+20773,Donnybrook (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,16716.03369912
+20773,Donnybrook (Vic.),metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,8346.27845614
+20774,Donvale,bus,4,4111,Old Warrandyte Rd/Springvale Rd,,443.47961249
+20774,Donvale,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,6656.20592744
+20774,Donvale,metropolitan_train,2,12231,Mitcham Station,vic:rail:MCH,3580.84314706
+20779,Doreen,bus,4,51011,Cathedral Rise/Timbertop Dr,,291.25028774
+20779,Doreen,tram,3,4174,RMIT/Plenty Rd #71,,10955.46716304
+20779,Doreen,metropolitan_train,2,26517,Mernda Station,vic:rail:MDD,3506.82471068
+20783,Doveton,bus,4,3116,Plum St/Power Rd,,150.76525222
+20783,Doveton,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,15040.3163429
+20783,Doveton,metropolitan_train,2,12188,Dandenong Station,vic:rail:DNG,2716.22312667
+20830,East Melbourne,bus,4,927,Wellington Pde/Hoddle St,,664.91085284
+20830,East Melbourne,tram,3,18102,Jolimont Station-MCG/Wellington Pde #11,,153.99603194
+20830,East Melbourne,metropolitan_train,2,14340,Jolimont-MCG Station,vic:rail:JLI,163.30419333
+20833,East Warburton,bus,4,22901,Whitegum Dr/Woods Point Rd,,3565.71438461
+20833,East Warburton,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,54301.2492193
+20833,East Warburton,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,37471.80019216
+20788,Dromana,bus,4,40310,Pickings Rd/Dromana Pde,,2538.81588841
+20788,Dromana,tram,3,18412,East Brighton/Hawthorn Rd #68,,46346.57268293
+20788,Dromana,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,14391.32598133
+20825,Eaglemont,bus,4,16651,Devon St/Lower Heidelberg Rd,,160.70051804
+20825,Eaglemont,tram,3,18359,Wattle Ave/Doncaster Rd #46,,3284.12877354
+20825,Eaglemont,metropolitan_train,2,13758,Heidelberg Station,vic:rail:HDB,815.64085813
+20889,Eumemmerring,bus,4,3669,Olive Rd/Frawley Rd,,185.5546264
+20889,Eumemmerring,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,16695.98448403
+20889,Eumemmerring,metropolitan_train,2,12183,Hallam Station,vic:rail:HLM,2955.86580503
+20843,Eden Park,bus,4,51041,Campaspe Dr/Oakbank Bvd,,4119.32961178
+20843,Eden Park,tram,3,4174,RMIT/Plenty Rd #71,,21317.5750268
+20843,Eden Park,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,13138.02907848
+20848,Edithvale,bus,4,13702,Edithvale Rd/Munro Ave,,76.67754285
+20848,Edithvale,tram,3,18412,East Brighton/Hawthorn Rd #68,,16222.86651291
+20848,Edithvale,metropolitan_train,2,11233,Edithvale Station,vic:rail:EDI,716.96096437
+20864,Elsternwick,bus,4,5939,Rowan St/Orrong Rd,,129.49017074
+20864,Elsternwick,tram,3,18374,Orrong Rd/Glenhuntly Rd #46,,250.49167632
+20864,Elsternwick,metropolitan_train,2,14284,Elsternwick Station,vic:rail:ELS,596.06200068
+20865,Eltham (Vic.),bus,4,11696,Fairdale Ct/Wycliffe Cres,,533.42969728
+20865,Eltham (Vic.),tram,3,4486,Taunton Dr/Plenty Rd #69,,8283.81192976
+20865,Eltham (Vic.),metropolitan_train,2,15332,Eltham Station,vic:rail:ELT,595.0465506
+20866,Eltham North,bus,4,1752,Hillcrest Rd/Ryans Rd,,208.86471076
+20866,Eltham North,tram,3,4485,Janefield Dr/Plenty Rd #70,,6794.95724144
+20866,Eltham North,metropolitan_train,2,15333,Eltham Station,vic:rail:ELT,1777.75439351
+20948,Frankston North,bus,4,492,Excelsior Dr/Monterey Bvd,,477.8797257
+20948,Frankston North,tram,3,18412,East Brighton/Hawthorn Rd #68,,27004.93424054
+20948,Frankston North,metropolitan_train,2,11223,Kananook Station,vic:rail:KAN,2811.17429284
+20867,Elwood,bus,4,1099,Elwood College/Glen Huntly Rd,,181.4125985
+20867,Elwood,tram,3,18368,Scott St/Brighton Rd #40,,762.52767686
+20867,Elwood,metropolitan_train,2,14285,Ripponlea Station,vic:rail:RIP,1012.3440895
+20868,Emerald (Vic.),bus,4,13956,Beaconsfield-Emerald Rd/Belgrave-Gembrook Rd,,584.39196112
+20868,Emerald (Vic.),tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,25043.86870322
+20868,Emerald (Vic.),metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,8736.55633926
+20871,Endeavour Hills,bus,4,1327,Heywood Gr/Kennington Park Dr,,129.84769232
+20871,Endeavour Hills,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,14235.6209003
+20871,Endeavour Hills,metropolitan_train,2,12189,Dandenong Station,vic:rail:DNG,4832.48913256
+20878,Epping (Vic.),bus,4,47952,Dilop Dr/Miller St,,352.35182075
+20878,Epping (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,6089.29701311
+20878,Epping (Vic.),metropolitan_train,2,15367,Epping Station,vic:rail:EPP,1598.22750444
+20885,Essendon,bus,4,6903,Banchory St/Woolley St,,224.16664647
+20885,Essendon,tram,3,19660,Thorn St/Mt Alexander Rd #44,,362.26705162
+20885,Essendon,metropolitan_train,2,15545,Essendon Station,vic:rail:ESD,988.95148825
+20886,Essendon Fields,bus,4,27586,Nomad Rd/English St,,475.90607011
+20886,Essendon Fields,tram,3,19480,Hawker St/Matthews Ave #57,,783.07633159
+20886,Essendon Fields,metropolitan_train,2,15536,Oak Park Station,vic:rail:OKP,2006.71197696
+20887,Essendon North,bus,4,7257,Essendon North PS/Keilor Rd,,220.68901068
+20887,Essendon North,tram,3,19472,Essendon North PS/Keilor Rd #49,,228.39208371
+20887,Essendon North,metropolitan_train,2,15542,Glenbervie Station,vic:rail:GBV,1838.39608089
+20888,Essendon West,bus,4,6167,Prospect St/Buckley St,,176.17584187
+20888,Essendon West,tram,3,17917,Rosamond Rd/Raleigh Rd #46,,1586.25525957
+20888,Essendon West,metropolitan_train,2,15545,Essendon Station,vic:rail:ESD,2883.54024553
+20898,Exford,bus,4,6636,Hume Ave/Rees Rd,,2470.26952369
+20898,Exford,tram,3,17944,Central Park Ave/Cordite Ave #49,,29913.21417818
+20898,Exford,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,19216.17263171
+20899,Eynesbury,bus,4,28828,St Arnaud Rd/Eynesbury Rd ,,1463.95284621
+20899,Eynesbury,tram,3,17944,Central Park Ave/Cordite Ave #49,,30517.34806786
+20899,Eynesbury,metropolitan_train,2,13731,Werribee Station,vic:rail:WER,16501.79915588
+20901,Fairfield (Vic.),bus,4,16843,Panther Pl/Heidelberg Rd,,68.28394769
+20901,Fairfield (Vic.),tram,3,6119,Walker St/High St #26,,1466.03916675
+20901,Fairfield (Vic.),metropolitan_train,2,13748,Fairfield Station,vic:rail:FFD,673.57108814
+20909,Fawkner,bus,4,6940,Ledger Ave/Major Rd,,279.78528069
+20909,Fawkner,tram,3,17306,North Coburg Terminus/Sydney Rd #40,,2576.20761689
+20909,Fawkner,metropolitan_train,2,14300,Gowrie Station,vic:rail:GOW,1063.74367469
+20916,Fernshaw,bus,4,48816,Dowd Rd/Maroondah Hwy,,6710.29520108
+20916,Fernshaw,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,47212.09118174
+20916,Fernshaw,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,29086.96451979
+20966,Garfield,bus,4,45045,Garfield Station/Nar Nar Goon-Longwarry Rd,,1166.41091632
+20966,Garfield,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,50784.10609574
+20966,Garfield,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,14436.77819321
+20917,Ferntree Gully,bus,4,8716,Gifford Ave/Burwood Hwy,,267.25805424
+20917,Ferntree Gully,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,9254.53902703
+20917,Ferntree Gully,metropolitan_train,2,11247,Ferntree Gully Station,vic:rail:FTG,1396.14398033
+20967,Garfield North,bus,4,45045,Garfield Station/Nar Nar Goon-Longwarry Rd,,5479.68993487
+20967,Garfield North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,48367.96225948
+20967,Garfield North,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,15866.6274362
+20979,Gembrook,bus,4,12561,Gembrook Rd/Main St,,6930.55214639
+20979,Gembrook,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,40507.03722435
+20979,Gembrook,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,19315.38513258
+20918,Ferny Creek,bus,4,12576,Sherbrooke Rd/Mt Dandenong Tourist Rd,,931.4861984
+20918,Ferny Creek,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,13390.48332498
+20918,Ferny Creek,metropolitan_train,2,11246,Upper Ferntree Gully Station,vic:rail:UFG,2906.86539917
+20925,Fitzroy North,bus,4,4570,St Georges Rd/Scotchmer St,,164.16570521
+20925,Fitzroy North,tram,3,22559,Scotchmer St/St Georges Rd #22,,215.2124648
+20925,Fitzroy North,metropolitan_train,2,15392,Rushall Station,vic:rail:RUS,522.51620539
+20995,Gilderoy,bus,4,7405,Bleaches Lane/Warburton Hwy,,11464.31860021
+20995,Gilderoy,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,46734.18956944
+20995,Gilderoy,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,30385.30516107
+20920,Fingal (Vic.),bus,4,44779,Tiberius Rd/Julius St,,2031.66208275
+20920,Fingal (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,57689.42506168
+20920,Fingal (Vic.),metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,29248.82658658
+20924,Fitzroy (Vic.),bus,4,1694,Brunswick St/Johnston St,,277.68047301
+20924,Fitzroy (Vic.),tram,3,4452,St David St/Brunswick St #15,,96.39003976
+20924,Fitzroy (Vic.),metropolitan_train,2,12200,Parliament Station,vic:rail:PAR,1231.04082271
+21087,Grangefields,bus,4,29258,Wiltshire Boulevard Reserve/Wiltshire Bvd,,1132.44899933
+21087,Grangefields,tram,3,19482,Airport West/Matthews Ave #59,,22884.79643969
+21087,Grangefields,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,11331.04507826
+20929,Flemington,bus,4,19600,25-Mount Alexander College/Mt Alexander Rd,,620.5630518
+20929,Flemington,tram,3,17955,Wellington St/Racecourse Rd #25,,76.25832848
+20929,Flemington,metropolitan_train,2,15550,Newmarket Station,vic:rail:NKT,216.4271672
+20930,Flinders (Vic.),bus,4,13235,Rest Dr/Wood St,,3291.57570395
+20930,Flinders (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,60190.20190565
+20930,Flinders (Vic.),metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,21155.50974592
+20935,Footscray,bus,4,3905,Western Region Health Centre/72 Paisley St,,59.86522639
+20935,Footscray,tram,3,18508,Nicholson St/Droop St #62,,443.41972576
+20935,Footscray,metropolitan_train,2,15516,Middle Footscray Station,vic:rail:MFY,346.34659578
+21104,Greensborough,bus,4,1733,Hume St/St Helena Rd,,75.54005975
+21104,Greensborough,tram,3,4486,Taunton Dr/Plenty Rd #69,,4061.75341051
+21104,Greensborough,metropolitan_train,2,15330,Greensborough Station,vic:rail:GRN,514.5487859
+21105,Greenvale (Vic.),bus,4,29032,Somerton Rd/Mickleham Rd,,735.16489144
+21105,Greenvale (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,8893.94477626
+21105,Greenvale (Vic.),metropolitan_train,2,26504,Coolaroo Station,vic:rail:CLO,5487.56600187
+21115,Gruyere,bus,4,7546,Seville PS/Warburton Hwy,,5034.45848667
+21115,Gruyere,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,28513.39441129
+21115,Gruyere,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,10805.52492871
+21121,Guys Hill,bus,4,14722,Manuka Rd/Brisbane St,,3332.56575749
+21121,Guys Hill,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,25455.66252606
+21121,Guys Hill,metropolitan_train,2,12177,Beaconsfield Station,vic:rail:BFD,4565.87168543
+20937,Forest Hill (Vic.),bus,4,12518,Norma Rd/Springvale Rd,,44.34048109
+20937,Forest Hill (Vic.),tram,3,21124,Springvale Rd/Burwood Hwy #73,,1440.50852351
+20937,Forest Hill (Vic.),metropolitan_train,2,12230,Nunawading Station,vic:rail:NWG,2401.89123522
+20947,Frankston,bus,4,21355,Craig St/Cranbourne Rd,,345.10733354
+20947,Frankston,tram,3,18412,East Brighton/Hawthorn Rd #68,,28482.66410167
+20947,Frankston,metropolitan_train,2,7878,Leawarra Station,vic:rail:LWA,281.09552429
+20949,Frankston South,bus,4,13615,Robinsons Rd/Moorooduc Hwy,,397.51941191
+20949,Frankston South,tram,3,18412,East Brighton/Hawthorn Rd #68,,30983.20236943
+20949,Frankston South,metropolitan_train,2,7878,Leawarra Station,vic:rail:LWA,2796.84760019
+20950,Fraser Rise,bus,4,29378,Aspire Bvd/Beattys Rd,,1462.43621576
+20950,Fraser Rise,tram,3,19482,Airport West/Matthews Ave #59,,16081.0921234
+20950,Fraser Rise,metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,5701.41702362
+20965,Gardenvale,bus,4,20438,Magnolia Rd/Gardenvale Rd,,56.52992793
+20965,Gardenvale,tram,3,18418,Gardenvale Rd/Hawthorn Rd #62,,919.46453286
+20965,Gardenvale,metropolitan_train,2,14282,Gardenvale Station,vic:rail:GVE,462.34220129
+21001,Gisborne,bus,4,43686,Hadlow Ct/Phillip Dr,,12366.69020591
+21001,Gisborne,tram,3,19482,Airport West/Matthews Ave #59,,35845.90037614
+21001,Gisborne,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,15418.95759473
+21002,Gisborne South,bus,4,41306,Reservoir Rd/Wilsons Lane,,6946.49644318
+21002,Gisborne South,tram,3,19482,Airport West/Matthews Ave #59,,30017.0476257
+21002,Gisborne South,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,10019.27694483
+21004,Gladstone Park,bus,4,9111,South Circular Rd/Carrick Dr,,121.71441499
+21004,Gladstone Park,tram,3,19482,Airport West/Matthews Ave #59,,2405.74432828
+21004,Gladstone Park,metropolitan_train,2,15532,Jacana Station,vic:rail:JAC,1684.10068205
+21005,Gladysdale,bus,4,7406,Riversdale Rd/Warburton Hwy,,6327.78305951
+21005,Gladysdale,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,39964.67515504
+21005,Gladysdale,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,25833.1758418
+21009,Glen Huntly,bus,4,14913,Watson Gr/Neerim Rd,,632.69507281
+21009,Glen Huntly,tram,3,18404,Glen Huntly Railway Station/Glen Huntly Rd  #61,,339.89617527
+21009,Glen Huntly,metropolitan_train,2,14249,Glen Huntly Station,vic:rail:GHY,282.04393316
+21124,Hadfield,bus,4,2240,Exeter St/East St,,97.46199566
+21124,Hadfield,tram,3,17306,North Coburg Terminus/Sydney Rd #40,,2241.88337788
+21124,Hadfield,metropolitan_train,2,14303,Fawkner Station,vic:rail:FAK,1046.16555223
+21010,Glen Iris (Vic.),bus,4,16181,Southland St/Glen Iris Rd,,88.17450439
+21010,Glen Iris (Vic.),tram,3,16757,Malvern Rd/High St #53,,1058.34573214
+21010,Glen Iris (Vic.),metropolitan_train,2,8266,Glen Iris Station,vic:rail:GIR,886.6103356
+21013,Glen Waverley,bus,4,3052,Monash Civic Centre/Springvale Rd,,468.31399882
+21013,Glen Waverley,tram,3,21126,Stanley Rd/Burwood Hwy #74,,3008.31752482
+21013,Glen Waverley,metropolitan_train,2,12158,Glen Waverley Station,vic:rail:GWY,735.28866171
+21047,Glenroy (Vic.),bus,4,8431,Granville St/Melbourne Ave,,119.71049573
+21047,Glenroy (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,2905.57377491
+21047,Glenroy (Vic.),metropolitan_train,2,15533,Glenroy Station,vic:rail:GRY,330.02327037
+21059,Goldie,bus,4,27899,Casuarina St/Grassy St,,11981.06986217
+21059,Goldie,tram,3,19482,Airport West/Matthews Ave #59,,51385.86520118
+21059,Goldie,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,36444.0320449
+21079,Gowanbrae,bus,4,40877,Birk Ct/Gowanbrae Dr,,117.70325695
+21079,Gowanbrae,tram,3,19482,Airport West/Matthews Ave #59,,1196.13691027
+21079,Gowanbrae,metropolitan_train,2,15534,Glenroy Station,vic:rail:GRY,1828.61323793
+21125,Hallam,bus,4,4230,Mountview Ave/Frawley Rd,,318.56623651
+21125,Hallam,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,18089.79415064
+21125,Hallam,metropolitan_train,2,12183,Hallam Station,vic:rail:HLM,1563.26057916
+21131,Hampton (Vic.),bus,4,3388,Hudson St/Willis St,,29.27907431
+21131,Hampton (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,2671.35362955
+21131,Hampton (Vic.),metropolitan_train,2,14273,Hampton Station,vic:rail:HAM,802.99971129
+21132,Hampton East,bus,4,10094,Dane Rd/Spring Rd,,353.3525995
+21132,Hampton East,tram,3,18412,East Brighton/Hawthorn Rd #68,,2961.49757431
+21132,Hampton East,metropolitan_train,2,14233,Moorabbin Station,vic:rail:MRN,755.92196007
+21133,Hampton Park,bus,4,17460,Leopold Cres/Huntington Dr,,101.00454693
+21133,Hampton Park,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,21968.68610248
+21133,Hampton Park,metropolitan_train,2,26515,Lynbrook Station,vic:rail:LBK,2373.51656901
+21139,Harkaway,bus,4,45730,Sittella Dr/Whistler Dr,,2976.46520317
+21139,Harkaway,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,21489.4929845
+21139,Harkaway,metropolitan_train,2,12179,Berwick Station,vic:rail:BEW,5343.26205633
+21140,Harkness,bus,4,27542,Arnolds Creek Primary School/Claret Ash Bvd ,,1201.0158772
+21140,Harkness,tram,3,19482,Airport West/Matthews Ave #59,,31052.74053101
+21140,Harkness,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,15638.38308098
+21145,Hastings (Vic.),bus,4,12128,Kimbla Ct/Stalwart Ave,,176.90014452
+21145,Hastings (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,44616.33297068
+21145,Hastings (Vic.),metropolitan_train,2,3580,Hastings Station,vic:rail:HST,1641.79183765
+21152,Hawthorn (Vic.),bus,4,13652,Riversdale Rd/Auburn Rd,,842.16198873
+21152,Hawthorn (Vic.),tram,3,20561,Riversdale Rd/Glenferrie Rd #70,,11.9379433
+21152,Hawthorn (Vic.),metropolitan_train,2,12241,Glenferrie Station,vic:rail:GFE,801.50951328
+21159,Heath Hill,bus,4,45054,Longwarry Railway Station/Nar Nar Goon-Longwarry Rd,,14986.16918642
+21159,Heath Hill,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,63126.53176806
+21159,Heath Hill,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,24983.79101921
+21153,Hawthorn East,bus,4,16865,Harts Pde/Auburn Rd,,568.50642969
+21153,Hawthorn East,tram,3,19444,Hastings Rd/Riversdale Rd #38,,203.44094138
+21153,Hawthorn East,metropolitan_train,2,11207,Camberwell Station,vic:rail:CAM,952.53611668
+21158,Healesville,bus,4,22456,Hannover Rd/Don Rd,,1926.39658058
+21158,Healesville,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,39372.48559433
+21158,Healesville,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,21365.92694201
+21161,Heathcote Junction,bus,4,20354,Wallan Station/Station St ,,5263.93820296
+21161,Heathcote Junction,tram,3,4174,RMIT/Plenty Rd #71,,33074.12546234
+21161,Heathcote Junction,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,24961.83229566
+21167,Heidelberg,bus,4,10057,Brown St/Rosanna Rd,,116.59662153
+21167,Heidelberg,tram,3,4496,Preston Cemetery/Plenty Rd #59,,4440.41935128
+21167,Heidelberg,metropolitan_train,2,13760,Rosanna Station,vic:rail:ROS,937.74852623
+21168,Heidelberg Heights,bus,4,92,Dennis St/Lawson Pde,,53.55928076
+21168,Heidelberg Heights,tram,3,4496,Preston Cemetery/Plenty Rd #59,,2769.48069392
+21168,Heidelberg Heights,metropolitan_train,2,15323,Rosanna Station,vic:rail:ROS,1145.58226465
+21312,Kealba,bus,4,11756,Driscolls Rd/Stenson Rd,,145.89852408
+21312,Kealba,tram,3,19670,Keilor Rd/Matthews Ave #53,,5294.25622227
+21312,Kealba,metropolitan_train,2,15361,St Albans Station,vic:rail:SAB,2686.18858019
+21169,Heidelberg West,bus,4,144,Catalina St/Ramu Pde,,149.55363134
+21169,Heidelberg West,tram,3,4499,Loddon Ave/Plenty Rd #56,,2005.93757683
+21169,Heidelberg West,metropolitan_train,2,15323,Rosanna Station,vic:rail:ROS,2326.62103403
+21176,Hesket,bus,4,7470,Lawrence Ave/Fullbrook Dr,,23524.30439066
+21176,Hesket,tram,3,19482,Airport West/Matthews Ave #59,,45825.9583988
+21176,Hesket,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,26181.40925078
+21185,Highett,bus,4,3407,Thistle Gr/Graham Rd,,155.71629152
+21185,Highett,tram,3,18412,East Brighton/Hawthorn Rd #68,,4540.63218167
+21185,Highett,metropolitan_train,2,11471,Highett Station,vic:rail:HIG,318.1384518
+21193,Hillside (Melton - Vic.),bus,4,23369,Melton Hwy/The Parks,,283.43208135
+21193,Hillside (Melton - Vic.),tram,3,19482,Airport West/Matthews Ave #59,,13391.9918769
+21193,Hillside (Melton - Vic.),metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,3044.9282829
+21195,Hmas Cerberus,bus,4,41664,Sandy Point Rd/South Beach Rd,,1319.82989085
+21195,Hmas Cerberus,tram,3,18412,East Brighton/Hawthorn Rd #68,,54148.26315271
+21195,Hmas Cerberus,metropolitan_train,2,615,Crib Point Station,vic:rail:CPT,1927.23820166
+21317,Keilor Lodge,bus,4,9953,Messina Cres/Verona Dr,,162.78356003
+21317,Keilor Lodge,tram,3,19482,Airport West/Matthews Ave #59,,8299.42251453
+21317,Keilor Lodge,metropolitan_train,2,15356,Watergardens Station,vic:rail:WGS,2218.81321832
+21196,Hoddles Creek,bus,4,7537,Allsops Rd/Warburton Hwy,,7653.96686173
+21196,Hoddles Creek,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,35655.18581325
+21196,Hoddles Creek,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,21377.84822986
+21202,Hopetoun Park,bus,4,22425,Harrington Dr/Westlake Dr,,4151.48805439
+21202,Hopetoun Park,tram,3,17944,Central Park Ave/Cordite Ave #49,,34258.23242507
+21202,Hopetoun Park,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,20709.02439781
+21203,Hoppers Crossing,bus,4,5127,Roberts Ave/Morris Rd,,207.49142933
+21203,Hoppers Crossing,tram,3,17928,Ballarat Rd/Gordon St #58,,18802.8789189
+21203,Hoppers Crossing,metropolitan_train,2,13734,Hoppers Crossing Station,vic:rail:HCG,1523.77742981
+21247,Ivanhoe East,bus,4,700,Veitch St/Mcarthur Rd,,168.93829291
+21247,Ivanhoe East,tram,3,18357,Burke Rd/High St #44,,2152.00514915
+21247,Ivanhoe East,metropolitan_train,2,13756,Eaglemont Station,vic:rail:EAG,1283.60408125
+21248,Jacana,bus,4,8093,Emu Pde/Bliburg St,,141.01152584
+21248,Jacana,tram,3,19482,Airport West/Matthews Ave #59,,3394.23590115
+21248,Jacana,metropolitan_train,2,15532,Jacana Station,vic:rail:JAC,909.53458661
+21277,Junction Village,bus,4,46546,South Gippsland Hwy/Craig Rd,,331.53944469
+21277,Junction Village,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,32295.70131474
+21277,Junction Village,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,3938.45796165
+21284,Kalkallo,bus,4,29193,Cloverton Bvd/Cameron St ,,183.38989106
+21284,Kalkallo,tram,3,4174,RMIT/Plenty Rd #71,,19439.21393739
+21284,Kalkallo,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,8551.51877122
+21286,Kallista,bus,4,14662,The Patch Rd/Kallista-Emerald Rd,,983.33708317
+21286,Kallista,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,18199.75405597
+21286,Kallista,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,2683.3811722
+21287,Kalorama,bus,4,8925,Olinda Creek Rd/Mt Dandenong Tourist Rd,,51.65509002
+21287,Kalorama,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,18095.36490932
+21287,Kalorama,metropolitan_train,2,12166,Mooroolbark Station,vic:rail:MLK,7028.13408193
+21294,Kangaroo Ground,bus,4,8533,360 Kangaroo Ground-Warrandyte Rd,,970.71833276
+21294,Kangaroo Ground,tram,3,4174,RMIT/Plenty Rd #71,,14326.49715055
+21294,Kangaroo Ground,metropolitan_train,2,15336,Wattle Glen Station,vic:rail:WTT,5310.82369138
+21314,Keilor,bus,4,9265,Melville Cl/Old Calder Hwy,,357.97229485
+21314,Keilor,tram,3,19482,Airport West/Matthews Ave #59,,5826.15153407
+21314,Keilor,metropolitan_train,2,15358,Keilor Plains Station,vic:rail:KPL,3528.05588811
+21315,Keilor Downs,bus,4,11775,Belmont Ave/Copernicus Way,,355.75018474
+21315,Keilor Downs,tram,3,19482,Airport West/Matthews Ave #59,,7600.45049142
+21315,Keilor Downs,metropolitan_train,2,15358,Keilor Plains Station,vic:rail:KPL,1419.18625214
+21316,Keilor East,bus,4,47859,Keilor Park Dr,,199.49153936
+21316,Keilor East,tram,3,19670,Keilor Rd/Matthews Ave #53,,2744.77128253
+21316,Keilor East,metropolitan_train,2,15362,Ginifer Station,vic:rail:GIN,4783.06462514
+21318,Keilor North,bus,4,22458,Keilor Golf Course/Calder Fwy,,483.35830506
+21318,Keilor North,tram,3,19482,Airport West/Matthews Ave #59,,9407.68871522
+21318,Keilor North,metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,2694.58632664
+21319,Keilor Park,bus,4,6151,William St/Fosters Rd,,433.36861453
+21319,Keilor Park,tram,3,19482,Airport West/Matthews Ave #59,,3667.70320541
+21319,Keilor Park,metropolitan_train,2,15358,Keilor Plains Station,vic:rail:KPL,5046.5992563
+21327,Kensington (Vic.),bus,4,7451,Derby St/Kensington Rd,,104.04939094
+21327,Kensington (Vic.),tram,3,18529,Newmarket Plaza/Racecourse Rd #26,,775.38418678
+21327,Kensington (Vic.),metropolitan_train,2,15553,Kensington Station,vic:rail:KEN,480.56588372
+21333,Kerrie,bus,4,44658,Bundanoon Ave/Canterbury Ave,,20109.80733931
+21333,Kerrie,tram,3,19482,Airport West/Matthews Ave #59,,41800.05280351
+21333,Kerrie,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,22647.12932161
+21336,Kew (Vic.),bus,4,4685,Spruzen Ave/Asquith St,,508.85824941
+21336,Kew (Vic.),tram,3,18350,Kew Cemetery/High St #37,,174.55493202
+21336,Kew (Vic.),metropolitan_train,2,12243,Glenferrie Station,vic:rail:GFE,2239.09850107
+21339,Keysborough,bus,4,48183,Stanley Rd/Westwood Bvd,,234.77537046
+21339,Keysborough,tram,3,18411,Carnegie/Truganini Rd #68,,15858.31934262
+21339,Keysborough,metropolitan_train,2,12190,Yarraman Station,vic:rail:YMN,3855.4644428
+21597,Manor Lakes,bus,4,51888,Memory Cres/Welcome Pde,,1422.22997982
+21597,Manor Lakes,tram,3,17944,Central Park Ave/Cordite Ave #49,,28330.67561447
+21597,Manor Lakes,metropolitan_train,2,13733,Werribee Station,vic:rail:WER,8187.82584402
+21337,Kew East,bus,4,751,Meldrum St/Kilby Rd,,141.45401582
+21337,Kew East,tram,3,18355,Irymple Ave/High St #42,,746.90645525
+21337,Kew East,metropolitan_train,2,13752,Darebin Station,vic:rail:DBN,2142.59521844
+21468,Langwarrin South,bus,4,11039,Nirvana Cl/Robinsons Rd,,972.85517973
+21468,Langwarrin South,tram,3,18412,East Brighton/Hawthorn Rd #68,,34282.26317077
+21468,Langwarrin South,metropolitan_train,2,5701,Baxter Station,vic:rail:BXR,2913.68374141
+21473,Launching Place,bus,4,7533,Glenview Rd/Warburton Hwy,,508.61952298
+21473,Launching Place,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,35800.61102279
+21473,Launching Place,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,20567.24468957
+21354,Kilsyth,bus,4,12042,Danjul Cl/Canterbury Rd,,271.07220661
+21354,Kilsyth,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,12898.32338689
+21354,Kilsyth,metropolitan_train,2,12166,Mooroolbark Station,vic:rail:MLK,3922.48274461
+21355,Kilsyth South,bus,4,10263,Collier Rd/Rendcomb St,,529.67946543
+21355,Kilsyth South,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,11677.99191688
+21355,Kilsyth South,metropolitan_train,2,11411,Bayswater Station,vic:rail:BAY,3959.98150625
+21358,Kinglake,bus,4,23437,Kinglake Police Station/Whittlesea-Kinglake Rd,,3138.26068985
+21358,Kinglake,tram,3,4174,RMIT/Plenty Rd #71,,32087.35471238
+21358,Kinglake,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,20772.19336441
+21476,Laverton (Vic.),bus,4,14870,Ulm St/Bladin St,,347.72336382
+21476,Laverton (Vic.),tram,3,17928,Ballarat Rd/Gordon St #58,,13178.39551681
+21476,Laverton (Vic.),metropolitan_train,2,13736,Laverton Station,vic:rail:LAV,786.79043526
+21359,Kinglake Central,bus,4,23467,Pheasant Creek Rd/Whittlesea-Kinglake Rd,,3563.1581934
+21359,Kinglake Central,tram,3,4174,RMIT/Plenty Rd #71,,32466.96517565
+21359,Kinglake Central,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,22277.57378385
+21360,Kinglake West,bus,4,23475,Edenvale Cres/Whittlesea-Kinglake Rd,,542.42684755
+21360,Kinglake West,tram,3,4174,RMIT/Plenty Rd #71,,27776.64347833
+21360,Kinglake West,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,18834.72714244
+21362,Kings Park (Vic.),bus,4,10861,Copperfield College/Gillespie Rd,,51.43102075
+21362,Kings Park (Vic.),tram,3,17944,Central Park Ave/Cordite Ave #49,,10123.82423114
+21362,Kings Park (Vic.),metropolitan_train,2,15359,Keilor Plains Station,vic:rail:KPL,1975.69915689
+21363,Kingsbury,bus,4,1885,Browning St/Plenty Rd,,382.53804474
+21363,Kingsbury,tram,3,4188,Browning St/Plenty Rd #58,,397.87451457
+21363,Kingsbury,metropolitan_train,2,15375,Reservoir Station,vic:rail:RES,2413.21033515
+21365,Kingsville,bus,4,14122,Wales St/Geelong Rd,,212.55105424
+21365,Kingsville,tram,3,17931,Geelong Rd/Droop St #61,,1915.23205855
+21365,Kingsville,metropolitan_train,2,26538,West Footscray Station,vic:rail:WFY,705.62808819
+21374,Knoxfield,bus,4,15047,Kathryn Rd/Anne Rd,,203.32482928
+21374,Knoxfield,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,6740.16347055
+21374,Knoxfield,metropolitan_train,2,11247,Ferntree Gully Station,vic:rail:FTG,4153.6918322
+21380,Koo Wee Rup,bus,4,38074,Lyall St/South Gippsland Hwy,,10131.92070036
+21380,Koo Wee Rup,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,46156.77215934
+21380,Koo Wee Rup,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,11923.88695207
+21381,Koo Wee Rup North,bus,4,45031,Nar Nar Goon Railway Station/Carney St,,6856.95567904
+21381,Koo Wee Rup North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,44279.66788997
+21381,Koo Wee Rup North,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,6608.01045034
+21393,Kooyong,bus,4,13658,Auburn Rd/Airedale Ave,,678.43182595
+21393,Kooyong,tram,3,20550,Warra St/Glenferrie Rd #65,,345.61390163
+21393,Kooyong,metropolitan_train,2,12266,Kooyong Station,vic:rail:KYG,278.2316742
+21411,Kurunjang,bus,4,40291,Kayla Way/Kirkton Dr,,31.11010176
+21411,Kurunjang,tram,3,19482,Airport West/Matthews Ave #59,,26890.77143908
+21411,Kurunjang,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,11870.7399069
+21452,Lalor,bus,4,10635,Lyndon St/Kingsway Dr,,256.30897612
+21452,Lalor,tram,3,4178,Bundoora Square SC/Plenty Rd #67,,5392.48125362
+21452,Lalor,metropolitan_train,2,15369,Lalor Station,vic:rail:LAL,644.23295996
+21456,Lancefield,bus,4,27899,Casuarina St/Grassy St,,18616.55030029
+21456,Lancefield,tram,3,19482,Airport West/Matthews Ave #59,,51969.86753806
+21456,Lancefield,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,34859.09236259
+21459,Lang Lang,bus,4,38074,Lyall St/South Gippsland Hwy,,19282.79585134
+21459,Lang Lang,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,59905.5278583
+21459,Lang Lang,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,24468.34192916
+21460,Lang Lang East,bus,4,45051,Bunyip Primary School/Nar Nar Goon-Longwarry Rd,,19584.66267169
+21460,Lang Lang East,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,61803.13206262
+21460,Lang Lang East,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,24244.86968391
+21467,Langwarrin,bus,4,16367,Peninsula Cres/Southgateway,,219.58199858
+21467,Langwarrin,tram,3,18412,East Brighton/Hawthorn Rd #68,,30913.57082139
+21467,Langwarrin,metropolitan_train,2,7878,Leawarra Station,vic:rail:LWA,5076.71094645
+21477,Laverton North,bus,4,22294,60 Fitzgerald Rd,,240.32089021
+21477,Laverton North,tram,3,17928,Ballarat Rd/Gordon St #58,,10226.39222644
+21477,Laverton North,metropolitan_train,2,13736,Laverton Station,vic:rail:LAV,3576.2514805
+21504,Lilydale (Vic.),bus,4,22037,Bristol Cres/Hereford Rd,,618.97200976
+21504,Lilydale (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,19654.58194688
+21504,Lilydale (Vic.),metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,2340.47544074
+21533,Long Forest,bus,4,27543,Ravida Ave/Claret Ash Bvd,,2842.43078105
+21533,Long Forest,tram,3,19482,Airport West/Matthews Ave #59,,34249.72753661
+21533,Long Forest,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,18945.89326994
+21547,Lower Plenty,bus,4,607,Cressy St/Main Rd,,1246.73233351
+21547,Lower Plenty,tram,3,4491,Mount Cooper Dr/Plenty Rd #64,,6878.60209186
+21547,Lower Plenty,metropolitan_train,2,15331,Montmorency Station,vic:rail:MMY,2606.38764238
+21558,Lysterfield,bus,4,15201,Windsor Dr/Heritage Way,,2058.77158396
+21558,Lysterfield,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,13532.62836141
+21558,Lysterfield,metropolitan_train,2,11122,Upwey Station,vic:rail:UPW,4613.38463917
+21559,Lysterfield South,bus,4,1332,Millport Ct/Shetland St,,1067.63046035
+21559,Lysterfield South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,13059.02610788
+21559,Lysterfield South,metropolitan_train,2,12189,Dandenong Station,vic:rail:DNG,6462.50212334
+21561,Macclesfield (Vic.),bus,4,13835,Margaret Rd/Belgrave-Gembrook Rd,,4701.55411239
+21561,Macclesfield (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,27200.9951182
+21561,Macclesfield (Vic.),metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,12186.2481531
+21562,Macedon,bus,4,43686,Hadlow Ct/Phillip Dr,,19691.24674133
+21562,Macedon,tram,3,19482,Airport West/Matthews Ave #59,,43348.01984594
+21562,Macedon,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,22636.2389712
+21564,Macleod (Vic.),bus,4,616,Highview Cres/Wungan St,,143.46327513
+21564,Macleod (Vic.),tram,3,4492,Greenwood Dr/Plenty Rd #63,,2060.79108946
+21564,Macleod (Vic.),metropolitan_train,2,15326,Macleod Station,vic:rail:MCD,575.31819958
+21569,Maddingley,bus,4,46968,Darcy St/Tilley Dr,,1092.85406739
+21569,Maddingley,tram,3,17944,Central Park Ave/Cordite Ave #49,,40432.33853484
+21569,Maddingley,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,27074.17208159
+21575,Maidstone,bus,4,51584,Raglan St/Mitchell St,,166.22553296
+21575,Maidstone,tram,3,17920,Wests Rd/Williamson Rd #50,,961.20553301
+21575,Maidstone,metropolitan_train,2,15512,Tottenham Station,vic:rail:TOT,2196.04555231
+21578,Main Ridge,bus,4,13062,The Avenue/Point Nepean Rd,,6796.86365662
+21578,Main Ridge,tram,3,18412,East Brighton/Hawthorn Rd #68,,54372.06160237
+21578,Main Ridge,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,19939.78567723
+21586,Malvern (Vic.),bus,4,13712,High St/Tooronga Rd,,554.85182356
+21586,Malvern (Vic.),tram,3,16765,Fraser St/High St #46,,119.76612248
+21586,Malvern (Vic.),metropolitan_train,2,14258,Malvern Station,vic:rail:MAL,1000.28236089
+21625,McCrae,bus,4,13061,Beverley Rd/Point Nepean Rd,,786.85987422
+21625,McCrae,tram,3,18412,East Brighton/Hawthorn Rd #68,,49421.38369338
+21625,McCrae,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,21494.00671652
+21587,Malvern East,bus,4,15217,East Malvern Station/Waverley Rd,,111.42361711
+21587,Malvern East,tram,3,18451,Darling Rd/Waverley Rd #64,,924.01727204
+21587,Malvern East,metropolitan_train,2,8705,East Malvern Station,vic:rail:EMV,150.95687225
+21588,Mambourin,bus,4,29158,Black Forest Rd/Ison Rd ,,3535.77445907
+21588,Mambourin,tram,3,17928,Ballarat Rd/Gordon St #58,,32558.08509735
+21588,Mambourin,metropolitan_train,2,13733,Werribee Station,vic:rail:WER,9705.29339124
+21604,Maribyrnong,bus,4,7331,Homemaker City/Rosamond Rd,,121.35193505
+21604,Maribyrnong,tram,3,17919,Waterford Ave/Wests Rd #49,,242.49325724
+21604,Maribyrnong,metropolitan_train,2,15524,Flemington Racecourse Station,vic:rail:RCE,2616.62070788
+21619,Maryknoll,bus,4,45031,Nar Nar Goon Railway Station/Carney St,,5965.13823621
+21619,Maryknoll,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,41868.89486511
+21619,Maryknoll,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,10003.7431951
+21629,McKinnon,bus,4,20577,McKinnon Station/McKinnon Rd,,57.31745953
+21629,McKinnon,tram,3,19001,Union St/Hawthorn Rd #66,,1812.46767552
+21629,McKinnon,metropolitan_train,2,14244,McKinnon Station,vic:rail:MCK,46.94996698
+21635,Meadow Heights,bus,4,4584,Papworth Pl/Hudson Cct,,128.62095212
+21635,Meadow Heights,tram,3,19482,Airport West/Matthews Ave #59,,7423.9520047
+21635,Meadow Heights,metropolitan_train,2,26504,Coolaroo Station,vic:rail:CLO,1227.48180842
+21640,Melbourne,bus,4,48761,Anderson St/Alexandra Ave,,513.9773386
+21640,Melbourne,tram,3,18161,MCG Gates 4-7/John Cain Arena #7C,,571.00955095
+21640,Melbourne,metropolitan_train,2,12253,Richmond Station,vic:rail:RMD,894.25476658
+21641,Melbourne Airport,bus,4,47996,Melbourne Airport/Grants Rd,,1362.92570393
+21641,Melbourne Airport,tram,3,19482,Airport West/Matthews Ave #59,,6488.43252479
+21641,Melbourne Airport,metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,6073.95359964
+21642,Melton (Vic.),bus,4,9995,Carberry Dr/Gisborne-Melton Rd,,2272.29458449
+21642,Melton (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,23907.51071625
+21642,Melton (Vic.),metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,10035.18359334
+21664,Merricks North,bus,4,40276,Merricks Beach Rd/Frankston-Flinders Rd,,5508.13457199
+21664,Merricks North,tram,3,18412,East Brighton/Hawthorn Rd #68,,47676.27832057
+21664,Merricks North,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,9276.12921968
+21643,Melton South,bus,4,21185,Exford Rd/Staughton St,,211.05027282
+21643,Melton South,tram,3,17944,Central Park Ave/Cordite Ave #49,,27844.86239177
+21643,Melton South,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,15638.50590271
+21644,Melton West,bus,4,21837,Sunderland Way/Westlake Dr,,235.05397947
+21644,Melton West,tram,3,19482,Airport West/Matthews Ave #59,,31025.05499115
+21644,Melton West,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,16706.81968065
+21648,Mentone,bus,4,11324,Davies St/Florence St,,180.14534674
+21648,Mentone,tram,3,18412,East Brighton/Hawthorn Rd #68,,8701.98273664
+21648,Mentone,metropolitan_train,2,11240,Mentone Station,vic:rail:MEN,407.72857556
+21649,Menzies Creek,bus,4,13965,School Rd/Belgrave-Gembrook Rd,,88.94957206
+21649,Menzies Creek,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,20954.39269558
+21649,Menzies Creek,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,4645.46843359
+21659,Mernda,bus,4,51052,Stradling Rise/Galloway Dr,,211.40996339
+21659,Mernda,tram,3,4174,RMIT/Plenty Rd #71,,9734.13173769
+21659,Mernda,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,1847.35775384
+21662,Merricks,bus,4,13238,Thompsons Lane/Frankston-Flinders Rd,,480.98687638
+21662,Merricks,tram,3,18412,East Brighton/Hawthorn Rd #68,,53406.0330043
+21662,Merricks,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,10305.85966774
+21663,Merricks Beach,bus,4,40276,Merricks Beach Rd/Frankston-Flinders Rd,,1568.0711213
+21663,Merricks Beach,tram,3,18412,East Brighton/Hawthorn Rd #68,,54324.81775317
+21663,Merricks Beach,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,8686.99480119
+21668,Merrimu,bus,4,47557,Darley Primary School/Nelson St,,3372.02281947
+21668,Merrimu,tram,3,19482,Airport West/Matthews Ave #59,,37121.73336548
+21668,Merrimu,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,21799.82279634
+21675,Mickleham,bus,4,28282,Hythe Pl/Ellscott Bvd,,423.48741216
+21675,Mickleham,tram,3,19482,Airport West/Matthews Ave #59,,18516.60472729
+21675,Mickleham,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,7259.91677624
+21677,Middle Park (Vic.),bus,4,10252,Nimmo St/Richardson St,,175.79473068
+21677,Middle Park (Vic.),tram,3,4134,Harold St/Danks St #137,,141.37006119
+21677,Middle Park (Vic.),metropolitan_train,2,26556,Anzac Station,vic:rail:AZC,2227.81280698
+21683,Mill Park,bus,4,2070,Moorhead Dr/Redleap Ave,,190.46124111
+21683,Mill Park,tram,3,4174,RMIT/Plenty Rd #71,,1795.92871598
+21683,Mill Park,metropolitan_train,2,26522,South Morang Station,vic:rail:SMG,1695.15408472
+22344,St Kilda East,bus,4,5930,Inkerman St/Orrong Rd,,410.92143407
+22344,St Kilda East,tram,3,18636,Sidwell Ave/Balaclava Rd #42,,252.02945283
+22344,St Kilda East,metropolitan_train,2,14287,Balaclava Station,vic:rail:BCV,965.35955343
+21685,Millgrove,bus,4,7516,Millgrove CFA/Warburton Hwy,,1070.73280319
+21685,Millgrove,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,43103.8841268
+21685,Millgrove,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,26913.25435269
+21706,Mitcham (Vic.),bus,4,11553,Brunswick Rd/Reserve Ave,,157.19292692
+21706,Mitcham (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,4611.24328819
+21706,Mitcham (Vic.),metropolitan_train,2,12232,Mitcham Station,vic:rail:MCH,578.97187685
+21727,Monbulk,bus,4,44558,Monbulk Secondary College/Cavey Rd,,1002.601428
+21727,Monbulk,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,21538.42496953
+21727,Monbulk,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,7313.34003188
+21733,Mont Albert North,bus,4,4941,Boondara Rd/Belmore Rd,,201.88338752
+21733,Mont Albert North,tram,3,19417,Hood St/Whitehorse Rd #55,,1483.93470267
+21733,Mont Albert North,metropolitan_train,2,12223,Box Hill Station,vic:rail:BOX,2021.81858952
+21735,Montmorency,bus,4,625,Rattray Rd/Looker Rd,,63.66025184
+21735,Montmorency,tram,3,4486,Taunton Dr/Plenty Rd #69,,6182.99924738
+21735,Montmorency,metropolitan_train,2,15331,Montmorency Station,vic:rail:MMY,622.40889223
+21728,Monegeetta,bus,4,51672,Poa Pl/Roulston Way,,15665.89179436
+21728,Monegeetta,tram,3,19482,Airport West/Matthews Ave #59,,36800.41912499
+21728,Monegeetta,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,21247.19114934
+21731,Monomeith,bus,4,38074,Lyall St/South Gippsland Hwy,,13154.93802142
+21731,Monomeith,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,50061.46951208
+21731,Monomeith,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,14402.74649392
+21732,Mont Albert,bus,4,6355,Laing St/Whitehorse Rd,,230.32548548
+21732,Mont Albert,tram,3,19417,Hood St/Whitehorse Rd #55,,223.48176294
+21732,Mont Albert,metropolitan_train,2,26535,Union Station,vic:rail:UNN,753.40081088
+21736,Montrose (Vic.),bus,4,11393,Mt Dandenong Rd/Canterbury Rd,,707.50820656
+21736,Montrose (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,14628.94451635
+21736,Montrose (Vic.),metropolitan_train,2,12166,Mooroolbark Station,vic:rail:MLK,4404.59405292
+21747,Moorabbin Airport,bus,4,3423,Federation Way/Centre Dandenong Rd,,770.35210059
+21747,Moorabbin Airport,tram,3,18411,Carnegie/Truganini Rd #68,,10146.48482595
+21747,Moorabbin Airport,metropolitan_train,2,11239,Parkdale Station,vic:rail:PKD,2742.53936691
+21754,Moorooduc,bus,4,29205,Derril Rd/Mornington-Tyabb Rd ,,1133.14953303
+21754,Moorooduc,tram,3,18412,East Brighton/Hawthorn Rd #68,,37578.91194239
+21754,Moorooduc,metropolitan_train,2,5082,Somerville Station,vic:rail:SVE,5576.90005801
+21755,Mooroolbark,bus,4,12866,Greenslopes Dr/Hull Rd,,153.30228016
+21755,Mooroolbark,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,15131.40464887
+21755,Mooroolbark,metropolitan_train,2,12167,Mooroolbark Station,vic:rail:MLK,1134.50000153
+22805,Windsor (Vic.),bus,4,1113,Union St/Punt Rd,,808.13153334
+22805,Windsor (Vic.),tram,3,18612,Duke St/Chapel St #44,,68.59259577
+22805,Windsor (Vic.),metropolitan_train,2,14290,Windsor Station,vic:rail:WIN,162.9760524
+21742,Moonee Ponds,bus,4,18852,Moonee Ponds Station/Norwood Cres,,99.26554301
+21742,Moonee Ponds,tram,3,19608,Moonee Ponds Junction/Pascoe Vale Rd #32,,451.26231897
+21742,Moonee Ponds,metropolitan_train,2,15546,Moonee Ponds Station,vic:rail:MPD,77.16489017
+21746,Moorabbin,bus,4,9449,Cochranes Rd/Chesterville Rd,,187.1323985
+21746,Moorabbin,tram,3,18412,East Brighton/Hawthorn Rd #68,,4713.13831747
+21746,Moorabbin,metropolitan_train,2,14232,Highett Station,vic:rail:HIG,1617.03461239
+22820,Wollert,bus,4,28090,Edgars Rd/Craigieburn Rd,,1661.86513279
+22820,Wollert,tram,3,4174,RMIT/Plenty Rd #71,,11143.73555637
+22820,Wollert,metropolitan_train,2,15527,Craigieburn Station,vic:rail:CGB,5941.10079077
+22825,Wonga Park,bus,4,14362,Yarra Rd/Jumping Creek Rd,,583.73462684
+22825,Wonga Park,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,15321.34011648
+22825,Wonga Park,metropolitan_train,2,12169,Croydon Station,vic:rail:CDN,6799.04601288
+21760,Mordialloc,bus,4,45436,Treeby Bvd/McDonald St,,397.7288195
+21760,Mordialloc,tram,3,18412,East Brighton/Hawthorn Rd #68,,11760.98985339
+21760,Mordialloc,metropolitan_train,2,11237,Mordialloc Station,vic:rail:MOR,1328.10285636
+21763,Mornington (Vic.),bus,4,11282,Hardy St/Robertson Dr,,260.63077121
+21763,Mornington (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,35033.17153395
+21763,Mornington (Vic.),metropolitan_train,2,5701,Baxter Station,vic:rail:BXR,9510.9074713
+21779,Mount Burnett,bus,4,44811,Mount Burnett Rd/Gembrook Rd,,2052.70913472
+21779,Mount Burnett,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,31791.5212165
+21779,Mount Burnett,metropolitan_train,2,12173,Pakenham Station,vic:rail:PKM,11845.35789091
+21786,Mount Cottrell,bus,4,29456,Davis Rd/Dohertys Rd,,3220.05586358
+21786,Mount Cottrell,tram,3,17944,Central Park Ave/Cordite Ave #49,,21646.23088873
+21786,Mount Cottrell,metropolitan_train,2,13734,Hoppers Crossing Station,vic:rail:HCG,11599.22074381
+21878,Nar Nar Goon,bus,4,45031,Nar Nar Goon Railway Station/Carney St,,3558.21781928
+21878,Nar Nar Goon,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,44854.96957488
+21878,Nar Nar Goon,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,6845.68582003
+21787,Mount Dandenong,bus,4,9852,Singleton Reserve/Ridge Rd,,36.93205256
+21787,Mount Dandenong,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,15052.59160904
+21787,Mount Dandenong,metropolitan_train,2,11409,Boronia Station,vic:rail:BOR,6432.75598814
+21793,Mount Eliza,bus,4,11271,Coonara Ave/Mount Eliza Way,,491.88520876
+21793,Mount Eliza,tram,3,18412,East Brighton/Hawthorn Rd #68,,31787.74276909
+21793,Mount Eliza,metropolitan_train,2,5701,Baxter Station,vic:rail:BXR,5623.45242597
+21795,Mount Evelyn,bus,4,14547,Joy Ave/Monbulk Rd,,246.75153938
+21795,Mount Evelyn,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,19512.42732723
+21795,Mount Evelyn,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,4779.58509654
+22843,Woodstock (Vic.),bus,4,7688,2005 Plenty Rd,,4271.81073376
+22843,Woodstock (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,14874.64602417
+22843,Woodstock (Vic.),metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,7213.45552833
+22857,Woori Yallock,bus,4,7422,Healesville-Koo Wee Rup Rd/Warburton Hwy,,162.63690302
+22857,Woori Yallock,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,31932.33633101
+22857,Woori Yallock,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,16544.86727171
+22883,Wyndham Vale,bus,4,51889,Spearmint Bvd/Ballan Rd,,1145.32940479
+22883,Wyndham Vale,tram,3,17944,Central Park Ave/Cordite Ave #49,,25738.04996806
+22883,Wyndham Vale,metropolitan_train,2,13731,Werribee Station,vic:rail:WER,6416.67738344
+21801,Mount Macedon,bus,4,7470,Lawrence Ave/Fullbrook Dr,,21692.75797346
+21801,Mount Macedon,tram,3,19482,Airport West/Matthews Ave #59,,44970.83453136
+21801,Mount Macedon,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,24516.24245806
+21803,Mount Martha,bus,4,12611,Balcombe Grammar School/Nepean Hwy,,201.8759223
+21803,Mount Martha,tram,3,18412,East Brighton/Hawthorn Rd #68,,39968.00421095
+21803,Mount Martha,metropolitan_train,2,4318,Tyabb Station,vic:rail:TAB,13641.21834055
+21814,Mount Toolebewong,bus,4,8215,Flora Ave/Badger Creek Rd,,3618.23559245
+21814,Mount Toolebewong,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,37044.92667618
+21814,Mount Toolebewong,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,19690.52175073
+22345,St Kilda West,bus,4,10257,Jacoby Reserve/Park St,,114.95978667
+22345,St Kilda West,tram,3,4137,Deakin St/Park St #141,,124.92704646
+22345,St Kilda West,metropolitan_train,2,14289,Windsor Station,vic:rail:WIN,1811.39484199
+21816,Mount Waverley,bus,4,6409,Sherwood Rd/Stephensons Rd,,76.91037832
+21816,Mount Waverley,tram,3,21109,Middleborough Rd/Burwood Hwy #66,,2939.67341762
+21816,Mount Waverley,metropolitan_train,2,12162,Mount Waverley Station,vic:rail:MWY,349.2730247
+21827,Mulgrave (Vic.),bus,4,11535,Shaftsbury Dr/Wanda St,,42.89381118
+21827,Mulgrave (Vic.),tram,3,21126,Stanley Rd/Burwood Hwy #74,,7314.20556143
+21827,Mulgrave (Vic.),metropolitan_train,2,26539,Westall Station,vic:rail:WTL,2968.59838488
+21849,Murrumbeena,bus,4,16426,Gerald St/Kangaroo Rd,,165.60721168
+21849,Murrumbeena,tram,3,18411,Carnegie/Truganini Rd #68,,1330.11417563
+21849,Murrumbeena,metropolitan_train,2,13725,Hughesdale Station,vic:rail:HUG,526.33695524
+21872,Nangana,bus,4,13833,Woori Yallock Rd/Pakenham Rd,,7232.94532654
+21872,Nangana,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,31295.745047
+21872,Nangana,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,16460.22791009
+22941,Yuroke,bus,4,28253,Eremaea Rd/Highlander Dr,,3173.5410179
+22941,Yuroke,tram,3,19482,Airport West/Matthews Ave #59,,15142.51625907
+22941,Yuroke,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,7714.1726211
+21879,Nar Nar Goon North,bus,4,44810,Clink Rd/Gembrook Rd,,4702.07102767
+21879,Nar Nar Goon North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,38647.40387903
+21879,Nar Nar Goon North,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,7875.74177763
+21895,Narre Warren North,bus,4,12310,Narre Warren North Scout Hall/Memorial Dr,,118.3658803
+21895,Narre Warren North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,18376.33920578
+21895,Narre Warren North,metropolitan_train,2,12181,Narre Warren Station,vic:rail:NWA,4937.63516365
+21893,Narre Warren,bus,4,3686,Casey ARC/Princes Hwy,,103.11126863
+21893,Narre Warren,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,20966.70526267
+21893,Narre Warren,metropolitan_train,2,12181,Narre Warren Station,vic:rail:NWA,842.31526285
+21894,Narre Warren East,bus,4,22511,Berwick Rd/Wellington Rd,,276.18144535
+21894,Narre Warren East,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,19470.13098382
+21894,Narre Warren East,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,5948.35270553
+22599,Tynong North,bus,4,45030,Tynong Station/Nar Nar Goon-Longwarry Rd,,6348.5261919
+22599,Tynong North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,44391.02190176
+22599,Tynong North,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,13037.01337047
+21896,Narre Warren South,bus,4,13478,Waverley Christian College/Narre Warren-Cranbourne Rd,,152.05572887
+21896,Narre Warren South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,23840.60593099
+21896,Narre Warren South,metropolitan_train,2,12180,Narre Warren Station,vic:rail:NWA,2446.08628836
+21991,Nutfield,bus,4,51124,Hurstbridge Station/Heidelberg-Kinglake Rd,,4142.03709094
+21991,Nutfield,tram,3,4174,RMIT/Plenty Rd #71,,13411.44714433
+21991,Nutfield,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,4264.29672634
+21921,New Gisborne,bus,4,43686,Hadlow Ct/Phillip Dr,,14885.90210116
+21921,New Gisborne,tram,3,19482,Airport West/Matthews Ave #59,,38415.25509468
+21921,New Gisborne,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,17759.49242641
+21934,Newport (Vic.),bus,4,9799,Ford St/Jack St,,306.41019216
+21934,Newport (Vic.),tram,3,19725,Beacon Cove/Light Rail #129,,4699.54209107
+21934,Newport (Vic.),metropolitan_train,2,15343,Newport Station,vic:rail:NPT,449.14668032
+21998,Oak Park,bus,4,7703,Xavier St/Winifred St,,344.46474227
+21998,Oak Park,tram,3,19481,Marshall Rd/Matthews Ave #58,,2449.30502403
+21998,Oak Park,metropolitan_train,2,15536,Oak Park Station,vic:rail:OKP,144.05635747
+21999,Oaklands Junction,bus,4,29037,Highlander Dr/Craigieburn Rd ,,5479.40447053
+21999,Oaklands Junction,tram,3,19482,Airport West/Matthews Ave #59,,15712.10808759
+21999,Oaklands Junction,metropolitan_train,2,26529,Sunbury Station,vic:rail:SUY,9264.85168699
+21942,Niddrie,bus,4,7041,Gibson Ct/Hoffmans Rd,,473.75143137
+21942,Niddrie,tram,3,19669,Matthews Ave/Keilor Rd #53A,,487.53075574
+21942,Niddrie,metropolitan_train,2,15542,Glenbervie Station,vic:rail:GBV,3134.09362682
+22721,Watsonia,bus,4,2722,Watsonia Station/Morwell Ave,,33.3790269
+22721,Watsonia,tram,3,4180,Grimshaw St/Plenty Rd #65,,2361.64080008
+22721,Watsonia,metropolitan_train,2,15328,Watsonia Station,vic:rail:WAT,190.76184397
+21952,Noble Park,bus,4,2918,Ian St/Heatherton Rd,,39.58089137
+21952,Noble Park,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,12163.15285169
+21952,Noble Park,metropolitan_train,2,12193,Noble Park Station,vic:rail:NPK,165.33684113
+21953,Noble Park North,bus,4,2597,Lower Terrace Cres/Jacksons Rd,,366.89889628
+21953,Noble Park North,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,10602.46308035
+21953,Noble Park North,metropolitan_train,2,12193,Noble Park Station,vic:rail:NPK,1867.86079863
+21966,North Melbourne,bus,4,7582,Dryburgh St/Shiel St,,111.06479794
+21966,North Melbourne,tram,3,18539,Haines St/Abbotsford St #16,,256.66225145
+21966,North Melbourne,metropolitan_train,2,26549,Arden Station,vic:rail:ARN,620.84450839
+21969,North Warrandyte,bus,4,7947,Stony Creek Rd/Research-Warrandyte Rd,,227.53927405
+21969,North Warrandyte,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,12966.33445735
+21969,North Warrandyte,metropolitan_train,2,15332,Eltham Station,vic:rail:ELT,5965.25330064
+22000,Oakleigh,bus,4,1559,Clyde St/Atherton Rd,,32.93659225
+22000,Oakleigh,tram,3,18411,Carnegie/Truganini Rd #68,,3562.88792672
+22000,Oakleigh,metropolitan_train,2,13723,Oakleigh Station,vic:rail:OAK,639.8224421
+21971,Northcote,bus,4,1036,High St/Mitchell St,,183.66749619
+21971,Northcote,tram,3,6113,Mitchell St/High St #32,,215.58763925
+21971,Northcote,metropolitan_train,2,15387,Northcote Station,vic:rail:NCE,552.46638811
+21974,Notting Hill,bus,4,17611,Normanby Rd/Blackburn Rd,,73.7966808
+21974,Notting Hill,tram,3,21117,Blackburn Rd/Burwood Hwy #70,,5937.39907466
+21974,Notting Hill,metropolitan_train,2,13719,Clayton Station,vic:rail:CLA,2792.22914226
+22001,Oakleigh East,bus,4,1552,Princes Hwy Reserve/Princes Hwy,,330.11054353
+22001,Oakleigh East,tram,3,18411,Carnegie/Truganini Rd #68,,5599.8064661
+22001,Oakleigh East,metropolitan_train,2,13721,Huntingdale Station,vic:rail:HUN,1507.10529029
+21985,Nunawading,bus,4,4121,Tunstall Ave/Springvale Rd,,120.87305822
+21985,Nunawading,tram,3,21124,Springvale Rd/Burwood Hwy #73,,4250.69359439
+21985,Nunawading,metropolitan_train,2,12229,Nunawading Station,vic:rail:NWG,411.36962199
+22002,Oakleigh South,bus,4,8176,Jacks Rd/Centre Rd,,228.51268257
+22002,Oakleigh South,tram,3,18411,Carnegie/Truganini Rd #68,,4827.19641569
+22002,Oakleigh South,metropolitan_train,2,13720,Huntingdale Station,vic:rail:HUN,2035.14100448
+22006,Officer,bus,4,3711,Tivendale Rd/Princes Hwy,,1239.70215932
+22006,Officer,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,29401.09343718
+22006,Officer,metropolitan_train,2,12175,Officer Station,vic:rail:OFC,1912.58644813
+22007,Officer South,bus,4,28921,Kaduna Park Playground/Centenary Bvd ,,2148.283136
+22007,Officer South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,34792.45727056
+22007,Officer South,metropolitan_train,2,26501,Cardinia Road Station,vic:rail:CDA,3830.15002117
+22009,Olinda (Vic.),bus,4,45194,Olinda Hall/Olinda-Monbulk Rd,,189.06918609
+22009,Olinda (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,16470.11053885
+22009,Olinda (Vic.),metropolitan_train,2,11120,Belgrave Station,vic:rail:BEG,6391.88544292
+22016,Ormond,bus,4,7141,Ormond Station/North Rd,,22.48971433
+22016,Ormond,tram,3,18404,Glen Huntly Railway Station/Glen Huntly Rd  #61,,1614.52337746
+22016,Ormond,metropolitan_train,2,14247,Ormond Station,vic:rail:OMD,34.83167935
+22355,Steels Creek,bus,4,23437,Kinglake Police Station/Whittlesea-Kinglake Rd,,6247.35198678
+22355,Steels Creek,tram,3,4174,RMIT/Plenty Rd #71,,29622.87237122
+22355,Steels Creek,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,17958.95270166
+22027,Pakenham,bus,4,3719,Lyle Blue Ct/Princes Hwy,,167.22436004
+22027,Pakenham,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,35214.54471807
+22027,Pakenham,metropolitan_train,2,12173,Pakenham Station,vic:rail:PKM,1324.47396207
+22028,Pakenham South,bus,4,45617,Pakenham Regional Tennis Centre/Webster Way,,6101.72674945
+22028,Pakenham South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,42229.31112975
+22028,Pakenham South,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,6136.53564653
+22381,Strathmore Heights,bus,4,6721,Boeing Rd/Lockheed St,,148.71445241
+22381,Strathmore Heights,tram,3,19482,Airport West/Matthews Ave #59,,797.8691514
+22381,Strathmore Heights,metropolitan_train,2,15534,Glenroy Station,vic:rail:GRY,1878.3314526
+22382,Strathtulloh,bus,4,29264,Everlasting Bvd/Alfred Rd,,1265.01142523
+22382,Strathtulloh,tram,3,17944,Central Park Ave/Cordite Ave #49,,25107.12459884
+22382,Strathtulloh,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,15866.38160039
+22029,Pakenham Upper,bus,4,44797,Henry Blackburn Oval/Pakenham Rd,,1160.85240581
+22029,Pakenham Upper,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,32668.0927007
+22029,Pakenham Upper,metropolitan_train,2,12173,Pakenham Station,vic:rail:PKM,7989.81695652
+22038,Parkville (Vic.),bus,4,45656,Melbourne Zoo/Poplar Rd,,612.11917881
+22038,Parkville (Vic.),tram,3,18544,Elliott Ave/Royal Park #24,,88.8959508
+22038,Parkville (Vic.),metropolitan_train,2,14318,Royal Park Station,vic:rail:RPK,678.02474852
+22391,Sunbury,bus,4,44658,Bundanoon Ave/Canterbury Ave,,626.5757892
+22391,Sunbury,tram,3,19482,Airport West/Matthews Ave #59,,23760.67064805
+22391,Sunbury,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,3183.68018116
+22032,Panton Hill,bus,4,51124,Hurstbridge Station/Heidelberg-Kinglake Rd,,4778.22241367
+22032,Panton Hill,tram,3,4174,RMIT/Plenty Rd #71,,16292.04563366
+22032,Panton Hill,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,4924.50780344
+22037,Parkdale,bus,4,18698,Parkdale Station/Parkers Rd,,307.10738565
+22037,Parkdale,tram,3,18412,East Brighton/Hawthorn Rd #68,,10489.81678778
+22037,Parkdale,metropolitan_train,2,11239,Parkdale Station,vic:rail:PKD,442.06671641
+22036,Park Orchards,bus,4,1136,Alva Ave/Park Rd,,219.72239118
+22036,Park Orchards,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,9163.59556298
+22036,Park Orchards,metropolitan_train,2,12235,Ringwood Station,vic:rail:RWD,4676.39307183
+22722,Watsonia North,bus,4,194,Byrne Cres/Macorna St,,202.75784412
+22722,Watsonia North,tram,3,4486,Taunton Dr/Plenty Rd #69,,1929.46696049
+22722,Watsonia North,metropolitan_train,2,15328,Watsonia Station,vic:rail:WAT,1735.56434989
+22041,Pascoe Vale,bus,4,10025,Daley St/Cumberland Rd,,237.44506506
+22041,Pascoe Vale,tram,3,18086,Bell St/Melville Rd #45,,1883.84471308
+22041,Pascoe Vale,metropolitan_train,2,15537,Pascoe Vale Station,vic:rail:PVL,1006.25332342
+22087,Point Leo,bus,4,13571,Point Leo Rd/Frankston-Flinders Rd,,822.49852524
+22087,Point Leo,tram,3,18412,East Brighton/Hawthorn Rd #68,,55648.14985577
+22087,Point Leo,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,12473.24614581
+22042,Pascoe Vale South,bus,4,9592,Winifred St/Reynard St,,279.19062655
+22042,Pascoe Vale South,tram,3,18563,Princes Tce/Melville Rd #43,,387.0327402
+22042,Pascoe Vale South,metropolitan_train,2,15539,Strathmore Station,vic:rail:SME,1146.40736076
+22047,Patterson Lakes,bus,4,2660,Illawong Ret Village/Gladesville Bvd,,134.75566034
+22047,Patterson Lakes,tram,3,18412,East Brighton/Hawthorn Rd #68,,20472.94537903
+22047,Patterson Lakes,metropolitan_train,2,11229,Bonbeach Station,vic:rail:BON,2310.44721946
+22179,Ripponlea,bus,4,2520,Rippon Lea Estate/Hotham St,,174.89792764
+22179,Ripponlea,tram,3,18977,Scott St/Brighton Rd #40,,158.87676426
+22179,Ripponlea,metropolitan_train,2,14286,Ripponlea Station,vic:rail:RIP,343.29837399
+22050,Pearcedale,bus,4,11995,Victoria Rd/Pearcedale Rd,,1146.28566653
+22050,Pearcedale,tram,3,18412,East Brighton/Hawthorn Rd #68,,37546.56435379
+22050,Pearcedale,metropolitan_train,2,5082,Somerville Station,vic:rail:SVE,7059.3677542
+22058,Pentland Hills,bus,4,46976,Darley Civic and Community Hub/Halletts Way ,,3519.61161562
+22058,Pentland Hills,tram,3,19482,Airport West/Matthews Ave #59,,45388.8371466
+22058,Pentland Hills,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,29972.67665136
+22064,Pheasant Creek (Vic.),bus,4,23467,Pheasant Creek Rd/Whittlesea-Kinglake Rd,,1452.15620654
+22064,Pheasant Creek (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,30570.7792535
+22064,Pheasant Creek (Vic.),metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,20922.92907245
+22084,Plenty (Vic.),bus,4,43911,Yan Yean Rd,,1002.71990898
+22084,Plenty (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,4071.29086165
+22084,Plenty (Vic.),metropolitan_train,2,26519,Middle Gorge Station,vic:rail:MMR,2960.91037045
+22085,Plumpton (Vic.),bus,4,28517,License Rd/Madisons Ave ,,5037.69497323
+22085,Plumpton (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,20709.65383259
+22085,Plumpton (Vic.),metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,6192.2936281
+22086,Point Cook,bus,4,46644,Tristania Dr/Point Cook Rd,,345.3304497
+22086,Point Cook,tram,3,19725,Beacon Cove/Light Rail #129,,17089.29983879
+22086,Point Cook,metropolitan_train,2,26541,Williams Landing Station,vic:rail:WLD,4007.24964025
+22185,Rochford,bus,4,27899,Casuarina St/Grassy St,,23335.18014218
+22185,Rochford,tram,3,19482,Airport West/Matthews Ave #59,,48896.90712997
+22185,Rochford,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,30277.84600002
+22107,Port Melbourne,bus,4,329,Leith Cres/Howe Pde,,144.77843031
+22107,Port Melbourne,tram,3,19725,Beacon Cove/Light Rail #129,,1070.11282905
+22107,Port Melbourne,metropolitan_train,2,22193,Southern Cross Station,vic:rail:SSS,3097.15747388
+22113,Portsea,bus,4,13131,Nepean Pl/Point Nepean Rd,,503.28938658
+22113,Portsea,tram,3,18412,East Brighton/Hawthorn Rd #68,,52830.89022846
+22113,Portsea,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,40858.54511467
+22115,Powelltown,bus,4,23223,Rupert Rd/Woods Point Rd,,13125.41389972
+22115,Powelltown,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,51451.50948531
+22115,Powelltown,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,33696.16104074
+22186,Rockbank,bus,4,28626,Carnation Dr/Lightsview Bvd ,,221.3560222
+22186,Rockbank,tram,3,17944,Central Park Ave/Cordite Ave #49,,19970.69499429
+22186,Rockbank,metropolitan_train,2,15357,Watergardens Station,vic:rail:WGS,11127.53896681
+22723,Watsons Creek (Vic.),bus,4,8533,360 Kangaroo Ground-Warrandyte Rd,,5476.73184777
+22723,Watsons Creek (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,17435.06613893
+22723,Watsons Creek (Vic.),metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,6955.70741658
+22118,Prahran,bus,4,6566,High St/Williams Rd,,379.16418147
+22118,Prahran,tram,3,16739,Chatsworth Rd/High St #36,,66.91347809
+22118,Prahran,metropolitan_train,2,14263,Toorak Station,vic:rail:TOR,658.79475261
+22121,Preston (Vic.),bus,4,566,Gower St/High St,,353.28046076
+22121,Preston (Vic.),tram,3,4508,David St/Plenty Rd #47,,150.44823312
+22121,Preston (Vic.),metropolitan_train,2,15379,Preston Station,vic:rail:PRE,682.13478491
+22122,Princes Hill,bus,4,4539,Ewing St/Brunswick Rd,,443.6707732
+22122,Princes Hill,tram,3,18795,Pigdon St/Lygon St #118,,300.82311544
+22122,Princes Hill,metropolitan_train,2,14316,Jewell Station,vic:rail:JWL,1028.7324072
+22132,Quandong,bus,4,28830,Bridgewater Ave/Eynesbury Rd ,,6092.17612792
+22132,Quandong,tram,3,17944,Central Park Ave/Cordite Ave #49,,33313.73993646
+22132,Quandong,metropolitan_train,2,13733,Werribee Station,vic:rail:WER,15081.24422163
+22141,Ravenhall,bus,4,22345,Dame Phyllis Frost Centre/Riding Boundary Rd,,730.84780302
+22141,Ravenhall,tram,3,17944,Central Park Ave/Cordite Ave #49,,12411.62656431
+22141,Ravenhall,metropolitan_train,2,15360,St Albans Station,vic:rail:SAB,6438.17560386
+22148,Red Hill (Vic.),bus,4,40345,Nepean Hwy/Dromana Pde,,4837.37356988
+22148,Red Hill (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,49662.7207862
+22148,Red Hill (Vic.),metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,14678.63353367
+22149,Red Hill South,bus,4,40278,Point Leo Rd/Frankston-Flinders Rd,,3263.91564172
+22149,Red Hill South,tram,3,18412,East Brighton/Hawthorn Rd #68,,52130.96780098
+22149,Red Hill South,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,12936.21707808
+22160,Research,bus,4,7954,Bells Hill Rd/Research-Warrandyte Rd,,204.35215287
+22160,Research,tram,3,4485,Janefield Dr/Plenty Rd #70,,11366.6358722
+22160,Research,metropolitan_train,2,15332,Eltham Station,vic:rail:ELT,4171.07917819
+22161,Reservoir (Vic.),bus,4,11630,Leamington St/Whitby St,,67.53610083
+22161,Reservoir (Vic.),tram,3,4484,West Preston/Gilbert Rd #47,,2088.72425464
+22161,Reservoir (Vic.),metropolitan_train,2,15376,Reservoir Station,vic:rail:RES,644.25393922
+22194,Rosanna,bus,4,10062,Arden Cres/Lower Plenty Rd,,76.00411657
+22194,Rosanna,tram,3,4495,La Trobe University/Plenty Rd #60,,3439.48198192
+22194,Rosanna,metropolitan_train,2,13760,Rosanna Station,vic:rail:ROS,510.44665117
+22170,Richmond (Vic.),bus,4,28696,Burnley Station/Burnley St ,,784.3986039
+22170,Richmond (Vic.),tram,3,19092,St Ignatius Church/Church St #59,,343.29271744
+22170,Richmond (Vic.),metropolitan_train,2,12252,East Richmond Station,vic:rail:ERM,667.36961615
+22172,Riddells Creek,bus,4,44658,Bundanoon Ave/Canterbury Ave,,12700.94058214
+22172,Riddells Creek,tram,3,19482,Airport West/Matthews Ave #59,,35039.84547843
+22172,Riddells Creek,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,15293.56931639
+22174,Ringwood (Vic.),bus,4,3178,Andrew St/Ringwood St,,155.7752654
+22174,Ringwood (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,6611.40858912
+22174,Ringwood (Vic.),metropolitan_train,2,12235,Ringwood Station,vic:rail:RWD,668.46474072
+22756,West Footscray,bus,4,40899,Sunshine Rd/Roberts St,,64.17673979
+22756,West Footscray,tram,3,17928,Ballarat Rd/Gordon St #58,,2075.87217946
+22756,West Footscray,metropolitan_train,2,15513,Tottenham Station,vic:rail:TOT,692.43473076
+22175,Ringwood East,bus,4,8289,Ringwood East Station/Railway Ave,,139.36854145
+22175,Ringwood East,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,7642.99898735
+22175,Ringwood East,metropolitan_train,2,12171,Ringwood East Station,vic:rail:RWE,130.77880729
+22176,Ringwood North,bus,4,740,Linda Pl/Cormistom Rd,,140.11191247
+22176,Ringwood North,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,8425.5445325
+22176,Ringwood North,metropolitan_train,2,12171,Ringwood East Station,vic:rail:RWE,2604.56124594
+22193,Romsey,bus,4,27899,Casuarina St/Grassy St,,19499.99109512
+22193,Romsey,tram,3,19482,Airport West/Matthews Ave #59,,42535.48540567
+22193,Romsey,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,24976.71763693
+22198,Rosebud,bus,4,13066,Rosebud Village SC/Point Nepean Rd,,1957.47292975
+22198,Rosebud,tram,3,18412,East Brighton/Hawthorn Rd #68,,51495.03205551
+22198,Rosebud,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,23223.20652135
+22207,Rowville,bus,4,14176,Turramurra Dr/Stud Rd,,327.79343622
+22207,Rowville,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,9052.1042709
+22207,Rowville,metropolitan_train,2,12193,Noble Park Station,vic:rail:NPK,6976.08063076
+22208,Roxburgh Park,bus,4,4600,McKenzie Cres/Roxburgh Park Dr,,247.53471152
+22208,Roxburgh Park,tram,3,19482,Airport West/Matthews Ave #59,,10317.17788659
+22208,Roxburgh Park,metropolitan_train,2,40219,Roxburgh Park Station,vic:rail:RXP,1632.66075472
+22220,Rye,bus,4,44784,Glenvue Rd/Dundas St,,480.12593453
+22220,Rye,tram,3,18412,East Brighton/Hawthorn Rd #68,,55524.58850131
+22220,Rye,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,32474.84678199
+22221,Rythdale,bus,4,21458,The Heritage Shopping Centre/Henry Rd ,,6091.56364996
+22221,Rythdale,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,39997.94648833
+22221,Rythdale,metropolitan_train,2,12172,Pakenham Station,vic:rail:PKM,6995.12484682
+22222,Safety Beach (Vic.),bus,4,40354,Victoria St/Dromana Pde,,679.41532679
+22222,Safety Beach (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,44622.37314546
+22222,Safety Beach (Vic.),metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,15673.30186596
+22232,Sandhurst,bus,4,51392,Sandarra Bvd/Mccormicks Rd,,821.54874708
+22232,Sandhurst,tram,3,18411,Carnegie/Truganini Rd #68,,24892.3357673
+22232,Sandhurst,metropolitan_train,2,26514,Lynbrook Station,vic:rail:LBK,4325.61793667
+22239,Sassafras (Vic.),bus,4,12099,Prince St/Mt Dandenong Tourist Rd,,113.29914287
+22239,Sassafras (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,15056.98823786
+22239,Sassafras (Vic.),metropolitan_train,2,11123,Upwey Station,vic:rail:UPW,4739.4654098
+22242,Scoresby,bus,4,41075,East Link/Ferntree Gully Rd,,373.17129575
+22242,Scoresby,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,6281.40444258
+22242,Scoresby,metropolitan_train,2,12158,Glen Waverley Station,vic:rail:GWY,5631.93408644
+22234,Sandringham (Vic.),bus,4,16031,John Batman Gardens/Bay Rd,,88.8949231
+22234,Sandringham (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,4393.26411026
+22234,Sandringham (Vic.),metropolitan_train,2,14271,Sandringham Station,vic:rail:SHM,992.03875759
+22256,Seddon (Vic.),bus,4,12012,Victoria St/Charles St,,24.8782597
+22256,Seddon (Vic.),tram,3,17934,Footscray Station/Leeds St #64,,988.97468698
+22256,Seddon (Vic.),metropolitan_train,2,15517,Middle Footscray Station,vic:rail:MFY,423.6281631
+22247,Seabrook,bus,4,46686,Allington Pl/Point Cook Rd,,140.65570202
+22247,Seabrook,tram,3,17928,Ballarat Rd/Gordon St #58,,15295.79359966
+22247,Seabrook,metropolitan_train,2,26541,Williams Landing Station,vic:rail:WLD,1547.63823036
+22291,Skye (Vic.),bus,4,28852,Taylors Rd/Hall Rd ,,94.52977098
+22291,Skye (Vic.),tram,3,18411,Carnegie/Truganini Rd #68,,27239.32120363
+22291,Skye (Vic.),metropolitan_train,2,12186,Merinda Park Station,vic:rail:MPK,5055.50278301
+22249,Seaford (Vic.),bus,4,11956,St Annes Catholic PS/Brunel Rd,,190.88198466
+22249,Seaford (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,24019.26342688
+22249,Seaford (Vic.),metropolitan_train,2,11225,Seaford Station,vic:rail:SEA,1275.15114536
+22250,Seaholme,bus,4,14138,Sussex St/Millers Rd,,393.60820814
+22250,Seaholme,tram,3,19725,Beacon Cove/Light Rail #129,,8209.34927081
+22250,Seaholme,metropolitan_train,2,13743,Seaholme Station,vic:rail:SHE,475.03042296
+22258,Selby,bus,4,13851,Charles St/Belgrave-Gembrook Rd,,732.69991723
+22258,Selby,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,18758.45690829
+22258,Selby,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,2440.26202039
+22263,Seville,bus,4,7426,Douthie Rd/Warburton Hwy,,2436.53328113
+22263,Seville,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,27651.5191225
+22263,Seville,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,13265.6777036
+22264,Seville East,bus,4,22892,Peters Rd/Warburton Hwy,,893.7962705
+22264,Seville East,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,29055.96103153
+22264,Seville East,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,13750.99766041
+22295,Smiths Gully,bus,4,22098,Herbert St/Melba Hwy,,8346.01258387
+22295,Smiths Gully,tram,3,4174,RMIT/Plenty Rd #71,,20079.68341706
+22295,Smiths Gully,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,8548.78221555
+22303,Somers,bus,4,13568,Coolart Rd/Sandy Point Rd,,847.00174374
+22303,Somers,tram,3,18412,East Brighton/Hawthorn Rd #68,,53173.29645275
+22303,Somers,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,4448.06191968
+22278,Sherbrooke,bus,4,13815,Monbulk Rd/Sherbrooke Rd,,1015.47763265
+22278,Sherbrooke,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,16076.10941053
+22278,Sherbrooke,metropolitan_train,2,11120,Belgrave Station,vic:rail:BEG,2114.75500954
+22279,Shoreham,bus,4,13573,Prout Webb Rd/Byrnes Rd,,983.89625822
+22279,Shoreham,tram,3,18412,East Brighton/Hawthorn Rd #68,,56933.38812787
+22279,Shoreham,metropolitan_train,2,2155,Morradoo Station,vic:rail:MRO,15721.54241103
+22281,Silvan,bus,4,14558,Silvan Recreation Ground/Monbulk Rd,,1144.67912834
+22281,Silvan,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,22997.47565453
+22281,Silvan,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,11421.50232927
+22304,Somerton (Vic.),bus,4,9062,Austrak Dr/Sydney Rd,,476.83843321
+22304,Somerton (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,10237.89484457
+22304,Somerton (Vic.),metropolitan_train,2,40218,Roxburgh Park Station,vic:rail:RXP,1195.92301014
+22315,Southbank,bus,4,20480,Kavanagh St/Southbank Bvd,,273.6918863
+22315,Southbank,tram,3,18226,Grant St/Sturt St #18,,237.71703927
+22315,Southbank,metropolitan_train,2,12203,Flinders Street Station,vic:rail:FSS,760.35809124
+22305,Somerville (Vic.),bus,4,12133,Chesterfield Rd/Frankston-Flinders Rd,,1407.90834028
+22305,Somerville (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,38876.86134072
+22305,Somerville (Vic.),metropolitan_train,2,5082,Somerville Station,vic:rail:SVE,2414.28372532
+22306,Sorrento (Vic.),bus,4,12654,Watson Rd/Coppin Rd,,84.92034314
+22306,Sorrento (Vic.),tram,3,18412,East Brighton/Hawthorn Rd #68,,53470.66593053
+22306,Sorrento (Vic.),metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,38253.66387812
+22309,South Kingsville,bus,4,40819,Vernon St/Aloha St,,146.2712942
+22309,South Kingsville,tram,3,17934,Footscray Station/Leeds St #64,,4142.76122619
+22309,South Kingsville,metropolitan_train,2,15345,Spotswood Station,vic:rail:SPT,1310.87060162
+22474,Taylors Lakes,bus,4,9928,Kings Rd/Melton Hwy,,167.65532009
+22474,Taylors Lakes,tram,3,19482,Airport West/Matthews Ave #59,,9792.08732631
+22474,Taylors Lakes,metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,840.63302884
+22310,South Melbourne,bus,4,8411,South Melbourne Market/Cecil St,,331.07168551
+22310,South Melbourne,tram,3,4039,Dorcas St/Clarendon St #128,,107.72784969
+22310,South Melbourne,metropolitan_train,2,26556,Anzac Station,vic:rail:AZC,1071.2676737
+22311,South Morang,bus,4,46355,Nighthawk Bvd/Grange Dr,,36.71058575
+22311,South Morang,tram,3,4174,RMIT/Plenty Rd #71,,4835.4457601
+22311,South Morang,metropolitan_train,2,26520,Middle Gorge Station,vic:rail:MMR,890.01571222
+22313,South Wharf,bus,4,48728,Collins Square/Batmans Hill Dr,,537.12574506
+22313,South Wharf,tram,3,19369,Southbank Tram Depot/Light Rail #125A,,286.90593836
+22313,South Wharf,metropolitan_train,2,22193,Southern Cross Station,vic:rail:SSS,749.5477648
+22314,South Yarra,bus,4,1119,Toorak Rd/Punt Rd,,413.37244599
+22314,South Yarra,tram,3,19325,South Yarra Railway Station/Toorak Rd #127,,126.81101524
+22314,South Yarra,metropolitan_train,2,14293,South Yarra Station,vic:rail:SYR,86.53582796
+22319,Spotswood,bus,4,6454,McLister St/Melbourne Rd,,440.41272745
+22319,Spotswood,tram,3,17934,Footscray Station/Leeds St #64,,3461.79658084
+22319,Spotswood,metropolitan_train,2,15345,Spotswood Station,vic:rail:SPT,65.34932962
+22330,St Albans (Vic.),bus,4,23002,Watford Rd/Main Rd East,,340.01669368
+22330,St Albans (Vic.),tram,3,17944,Central Park Ave/Cordite Ave #49,,6225.10415655
+22330,St Albans (Vic.),metropolitan_train,2,15361,St Albans Station,vic:rail:SAB,1157.69314561
+22325,Springfield (Macedon Ranges - Vic.),bus,4,27899,Casuarina St/Grassy St,,10237.77713153
+22325,Springfield (Macedon Ranges - Vic.),tram,3,19482,Airport West/Matthews Ave #59,,42965.70129912
+22325,Springfield (Macedon Ranges - Vic.),metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,28943.85801298
+22328,Springvale (Vic.),bus,4,1536,Birmingham St/Princes Hwy,,380.02810886
+22328,Springvale (Vic.),tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,9899.12196787
+22328,Springvale (Vic.),metropolitan_train,2,13715,Springvale Station,vic:rail:SPG,1011.3778732
+22329,Springvale South,bus,4,415,Athol Rd/Springvale Rd,,39.26300797
+22329,Springvale South,tram,3,18411,Carnegie/Truganini Rd #68,,11864.94381137
+22329,Springvale South,metropolitan_train,2,12194,Sandown Park Station,vic:rail:SNP,2057.21434004
+22332,St Andrews (Vic.),bus,4,23454,Bald Spur Rd/Whittlesea - Kinglake Rd,,7087.00510607
+22332,St Andrews (Vic.),tram,3,4174,RMIT/Plenty Rd #71,,22045.70638924
+22332,St Andrews (Vic.),metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,10612.59930474
+22339,St Helena,bus,4,8325,Allumba Dr/Beales Rd,,127.0632181
+22339,St Helena,tram,3,4485,Janefield Dr/Plenty Rd #70,,4858.2376783
+22339,St Helena,metropolitan_train,2,15330,Greensborough Station,vic:rail:GRN,2060.52973085
+22333,St Andrews Beach,bus,4,44778,Miami Dr/Bass Meadows Bvd,,117.72131475
+22333,St Andrews Beach,tram,3,18412,East Brighton/Hawthorn Rd #68,,58384.45077106
+22333,St Andrews Beach,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,31625.92181628
+22343,St Kilda (Vic.),bus,4,910,Fawkner St/Barkly St,,57.01473126
+22343,St Kilda (Vic.),tram,3,18625,Barkly St/Carlisle St #33,,303.67178624
+22343,St Kilda (Vic.),metropolitan_train,2,14288,Balaclava Station,vic:rail:BCV,1232.85269448
+22375,Strathewen,bus,4,23504,Bowden Spur Rd/Whittlesea-Kinglake Rd,,4147.40662951
+22375,Strathewen,tram,3,4174,RMIT/Plenty Rd #71,,24327.98307114
+22375,Strathewen,metropolitan_train,2,15337,Hurstbridge Station,vic:rail:HBE,13764.19249666
+22380,Strathmore (Vic.),bus,4,6816,Loch Cres/Napier St,,235.58754658
+22380,Strathmore (Vic.),tram,3,19470,Mt Alexander Rd/Keilor Rd #47,,1854.10606133
+22380,Strathmore (Vic.),metropolitan_train,2,15538,Pascoe Vale Station,vic:rail:PVL,660.34507268
+22395,Sunshine (Vic.),bus,4,3786,Whitty St/Monash St,,100.25529742
+22395,Sunshine (Vic.),tram,3,17944,Central Park Ave/Cordite Ave #49,,4406.26464192
+22395,Sunshine (Vic.),metropolitan_train,2,26530,Sunshine Station,vic:rail:SUN,294.59386513
+22396,Sunshine North,bus,4,47546,Westmoreland Rd/Berkshire Rd,,271.49670488
+22396,Sunshine North,tram,3,17944,Central Park Ave/Cordite Ave #49,,3712.99719563
+22396,Sunshine North,metropolitan_train,2,15364,Albion Station,vic:rail:ALB,1936.15121336
+22484,Templestowe Lower,bus,4,5537,Valerie St/Thompsons Rd,,346.83383442
+22484,Templestowe Lower,tram,3,18566,Balwyn Rd/Doncaster Rd #51,,4252.83545762
+22484,Templestowe Lower,metropolitan_train,2,13758,Heidelberg Station,vic:rail:HDB,4762.33371818
+22397,Sunshine West,bus,4,21816,The Avenue SC/The Avenue,,103.45719748
+22397,Sunshine West,tram,3,17944,Central Park Ave/Cordite Ave #49,,7238.70762169
+22397,Sunshine West,metropolitan_train,2,26531,Sunshine Station,vic:rail:SUN,2709.10556419
+22556,Tottenham (Vic.),bus,4,40911,457a Somerville Rd,,939.01618668
+22556,Tottenham (Vic.),tram,3,17928,Ballarat Rd/Gordon St #58,,3565.33153095
+22556,Tottenham (Vic.),metropolitan_train,2,15513,Tottenham Station,vic:rail:TOT,1096.64504374
+22399,Surrey Hills,bus,4,20093,Union Station/Union Rd ,,232.39270011
+22399,Surrey Hills,tram,3,19785,Inglisby Rd/Whitehorse Rd #54,,1101.48760822
+22399,Surrey Hills,metropolitan_train,2,26535,Union Station,vic:rail:UNN,337.93296664
+22414,Sydenham (Vic.),bus,4,9433,Milligan Pde/Overton Lea Bvd,,232.61948914
+22414,Sydenham (Vic.),tram,3,19482,Airport West/Matthews Ave #59,,11410.84760831
+22414,Sydenham (Vic.),metropolitan_train,2,15355,Watergardens Station,vic:rail:WGS,1081.97822073
+22451,Tarneit,bus,4,50107,Felix Way/Hummingbird Bvd,,90.02286508
+22451,Tarneit,tram,3,17944,Central Park Ave/Cordite Ave #49,,20622.71380435
+22451,Tarneit,metropolitan_train,2,13734,Hoppers Crossing Station,vic:rail:HCG,6353.41578283
+22572,Travancore,bus,4,19261,24-Mooltan St/Mt Alexander Rd,,222.89413842
+22572,Travancore,tram,3,19261,Mooltan St/Mt Alexander Rd #24,,222.89413842
+22572,Travancore,metropolitan_train,2,14321,Flemington Bridge Station,vic:rail:FBD,728.03293037
+22457,Tarrawarra,bus,4,8655,Tarrawarra Abbey/Healesville-Yarra Glen Rd,,721.69241301
+22457,Tarrawarra,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,31844.21256174
+22457,Tarrawarra,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,14002.09842506
+22473,Taylors Hill,bus,4,46026,Taylors Hill Ret Village/Calder Park Dr,,214.20370691
+22473,Taylors Hill,tram,3,19482,Airport West/Matthews Ave #59,,12112.39629564
+22473,Taylors Hill,metropolitan_train,2,15357,Watergardens Station,vic:rail:WGS,2406.32360259
+22476,Tecoma,bus,4,14407,Sophia Gr/Monbulk Rd,,88.1749622
+22476,Tecoma,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,15282.83851858
+22476,Tecoma,metropolitan_train,2,11121,Tecoma Station,vic:rail:TCM,144.51846703
+22483,Templestowe,bus,4,5526,Church Rd/Porter St,,295.80319381
+22483,Templestowe,tram,3,18566,Balwyn Rd/Doncaster Rd #51,,6759.56768147
+22483,Templestowe,metropolitan_train,2,15332,Eltham Station,vic:rail:ELT,4755.91139249
+22496,The Basin (Vic.),bus,4,21979,1387 Mountain Hwy ,,534.66604744
+22496,The Basin (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,12347.13150632
+22496,The Basin (Vic.),metropolitan_train,2,11409,Boronia Station,vic:rail:BOR,3347.97692968
+22501,The Patch,bus,4,14574,Lawrence Ct/The Patch Rd,,938.9576491
+22501,The Patch,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,19716.41846202
+22501,The Patch,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,4535.50652969
+22504,Thomastown,bus,4,11718,Lantana Ave/Spring St,,176.29618941
+22504,Thomastown,tram,3,4185,Bundoora Park/Plenty Rd #61,,4776.02631901
+22504,Thomastown,metropolitan_train,2,26534,Thomastown Station,vic:rail:TSN,752.59122447
+22508,Thornbury,bus,4,9717,St David St/Clarendon St,,187.17322972
+22508,Thornbury,tram,3,6106,Gooch St/High St #39,,364.49959028
+22508,Thornbury,metropolitan_train,2,15383,Thornbury Station,vic:rail:TBY,662.85822806
+22509,Thornhill Park,bus,4,29273,Parklea Way/Morningside Dr,,702.40231344
+22509,Thornhill Park,tram,3,17944,Central Park Ave/Cordite Ave #49,,21925.08199685
+22509,Thornhill Park,metropolitan_train,2,15357,Watergardens Station,vic:rail:WGS,12491.66103279
+22514,Three Bridges,bus,4,7405,Bleaches Lane/Warburton Hwy,,8837.16375413
+22514,Three Bridges,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,43826.71997605
+22514,Three Bridges,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,29256.36881536
+22531,Tonimbuk,bus,4,21465,Bunyip Primary School/Nar Nar Goon-Longwarry Rd,,9208.32698632
+22531,Tonimbuk,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,50714.49032336
+22531,Tonimbuk,metropolitan_train,2,26507,East Pakenham Station,vic:rail:EPH,20382.57834609
+22536,Toolangi,bus,4,22085,Anderson Lane/Maroondah Hwy,,13861.44803535
+22536,Toolangi,tram,3,4174,RMIT/Plenty Rd #71,,42902.03792125
+22536,Toolangi,metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,30311.13426046
+22537,Toolern Vale,bus,4,40287,Foxzami Lane/Dalray Cres,,6021.295377
+22537,Toolern Vale,tram,3,19482,Airport West/Matthews Ave #59,,29094.69310816
+22537,Toolern Vale,metropolitan_train,2,15354,Diggers Rest Station,vic:rail:DRT,11595.7262105
+22546,Tooradin,bus,4,38072,Bayview Rd/South Gippsland Hwy,,1339.32172016
+22546,Tooradin,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,41949.35023232
+22546,Tooradin,metropolitan_train,2,12184,Cranbourne Station,vic:rail:CBE,14284.73368055
+22586,Tullamarine,bus,4,7269,Tullamarine PS/Broadmeadows Rd,,76.77812898
+22586,Tullamarine,tram,3,19482,Airport West/Matthews Ave #59,,1557.23156985
+22586,Tullamarine,metropolitan_train,2,15532,Jacana Station,vic:rail:JAC,3286.15247578
+22547,Toorak,bus,4,20722,St Johns Anglican Church/Orrong Rd,,389.74616821
+22547,Toorak,tram,3,19333,Woorigoleen Rd/Toorak Rd #135,,123.16556409
+22547,Toorak,metropolitan_train,2,12263,Heyington Station,vic:rail:HEY,805.423439
+22550,Tootgarook,bus,4,48640,Keith St/Alma St,,125.59927162
+22550,Tootgarook,tram,3,18412,East Brighton/Hawthorn Rd #68,,53425.9532066
+22550,Tootgarook,metropolitan_train,2,3236,Bittern Station,vic:rail:BIT,29003.34838445
+22576,Tremont,bus,4,21495,1000 Steps/Mount Dandenong Tourist Rd,,1338.37272618
+22576,Tremont,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,11909.2404359
+22576,Tremont,metropolitan_train,2,11246,Upper Ferntree Gully Station,vic:rail:UFG,1737.11531384
+22582,Truganina,bus,4,29089,Morris Rd/Everton Rd,,1789.90911102
+22582,Truganina,tram,3,17944,Central Park Ave/Cordite Ave #49,,14791.82646514
+22582,Truganina,metropolitan_train,2,26540,Williams Landing Station,vic:rail:WLD,8143.939581
+22584,Tuerong,bus,4,46465,Bruce Rd/Nepean Hwy,,5374.2027645
+22584,Tuerong,tram,3,18412,East Brighton/Hawthorn Rd #68,,43085.69439878
+22584,Tuerong,metropolitan_train,2,3580,Hastings Station,vic:rail:HST,8302.81542959
+22594,Tyabb,bus,4,47114,Padua College/Frankston-Flinders Rd,,173.18627233
+22594,Tyabb,tram,3,18412,East Brighton/Hawthorn Rd #68,,41933.23521019
+22594,Tyabb,metropolitan_train,2,4318,Tyabb Station,vic:rail:TAB,803.97114741
+22614,Upper Ferntree Gully,bus,4,8725,Chandler House/16 Albert St,,165.09038776
+22614,Upper Ferntree Gully,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,12210.87861806
+22614,Upper Ferntree Gully,metropolitan_train,2,11245,Upper Ferntree Gully Station,vic:rail:UFG,733.95943206
+22617,Upper Plenty,bus,4,20354,Wallan Station/Station St ,,5026.03720946
+22617,Upper Plenty,tram,3,4174,RMIT/Plenty Rd #71,,29397.44183433
+22617,Upper Plenty,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,21143.99084627
+22620,Upwey,bus,4,11147,Upwey CFA/Morris Rd,,316.17499836
+22620,Upwey,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,13704.7604494
+22620,Upwey,metropolitan_train,2,11122,Upwey Station,vic:rail:UPW,482.54258743
+22757,West Melbourne,bus,4,3935,Footscray Rd,,343.77297361
+22757,West Melbourne,tram,3,46874,Waterfront City/Docklands Dr #D11,,1645.64432427
+22757,West Melbourne,metropolitan_train,2,15523,South Kensington Station,vic:rail:SKN,1321.33275526
+22627,Vermont,bus,4,16704,Hayward Ct/Boronia Rd,,122.66024951
+22627,Vermont,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,2517.3128533
+22627,Vermont,metropolitan_train,2,12232,Mitcham Station,vic:rail:MCH,2340.89318521
+22628,Vermont South,bus,4,8250,Warrington Ave/Burwood Hwy,,218.77285152
+22628,Vermont South,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,536.23992436
+22628,Vermont South,metropolitan_train,2,12159,Glen Waverley Station,vic:rail:GWY,3492.9362192
+22629,Vervale,bus,4,21466,Garfield Station/Nar Nar Goon - Longwarry Rd ,,5303.11344877
+22629,Vervale,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,52464.62480399
+22629,Vervale,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,14815.06105372
+22791,Williams Landing,bus,4,50248,Williams Landing Bvd/Palmers Rd,,318.03526692
+22791,Williams Landing,tram,3,17928,Ballarat Rd/Gordon St #58,,15122.34074781
+22791,Williams Landing,metropolitan_train,2,26540,Williams Landing Station,vic:rail:WLD,781.44077434
+22792,Williamstown (Vic.),bus,4,6438,Knight St/Victoria St,,85.88303909
+22792,Williamstown (Vic.),tram,3,19725,Beacon Cove/Light Rail #129,,4491.64636378
+22792,Williamstown (Vic.),metropolitan_train,2,15341,North Williamstown Station,vic:rail:NWN,418.53732534
+22633,Viewbank,bus,4,1712,Moran St/Rutherford Rd,,135.21034121
+22633,Viewbank,tram,3,4493,Metropolitan Fire Brigade/Plenty Rd #62,,5021.87188088
+22633,Viewbank,metropolitan_train,2,13760,Rosanna Station,vic:rail:ROS,2258.42241711
+22661,Wallan,bus,4,40736,Roulston Way/Darraweit Rd,,382.69973386
+22661,Wallan,tram,3,4174,RMIT/Plenty Rd #71,,31608.23303479
+22661,Wallan,metropolitan_train,2,15528,Craigieburn Station,vic:rail:CGB,21762.6361447
+22672,Wandin East,bus,4,14558,Silvan Recreation Ground/Monbulk Rd,,3142.19521032
+22672,Wandin East,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,24525.75378485
+22672,Wandin East,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,11461.06764258
+22673,Wandin North,bus,4,7432,George St/Warburton Hwy,,49.08470954
+22673,Wandin North,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,23184.82528413
+22673,Wandin North,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,7575.94240371
+22676,Wandong,bus,4,51668,Berry Saltbush Dr/Springridge Bvd,,7191.79199484
+22676,Wandong,tram,3,4174,RMIT/Plenty Rd #71,,35898.26995906
+22676,Wandong,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,27822.44308147
+22685,Wantirna,bus,4,16698,Linsley Way/Harold St,,230.34096555
+22685,Wantirna,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,3789.9820166
+22685,Wantirna,metropolitan_train,2,11412,Heathmont Station,vic:rail:HMT,3259.77785976
+22686,Wantirna South,bus,4,16621,Old Orchard Dr/Timmothy Dr,,340.76117987
+22686,Wantirna South,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,3794.11448337
+22686,Wantirna South,metropolitan_train,2,11412,Heathmont Station,vic:rail:HMT,5130.07005848
+22689,Warburton (Vic.),bus,4,6747,Yarra View Ret Village/Warburton Hwy,,2062.11289362
+22689,Warburton (Vic.),tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,47335.86982298
+22689,Warburton (Vic.),metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,31057.78067707
+22695,Warneet,bus,4,38340,Balaka St/Kallara Rd,,884.49086971
+22695,Warneet,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,43118.82400767
+22695,Warneet,metropolitan_train,2,4318,Tyabb Station,vic:rail:TAB,12362.58361367
+22702,Warrandyte,bus,4,4402,Harris Gully Rd/Heidelberg-Warrandyte Rd,,447.14690946
+22702,Warrandyte,tram,3,19781,Box Hill Central/Whitehorse Rd #58,,10733.96743535
+22702,Warrandyte,metropolitan_train,2,15332,Eltham Station,vic:rail:ELT,6909.97884865
+22703,Warrandyte South,bus,4,4051,Wyena Pony Club/47 Croydon Rd,,922.31410797
+22703,Warrandyte South,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,12203.89902352
+22703,Warrandyte South,metropolitan_train,2,12169,Croydon Station,vic:rail:CDN,5119.0848521
+22704,Warranwood,bus,4,4055,Hutchins Ct/Highfield Ave,,376.68664383
+22704,Warranwood,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,11104.19942167
+22704,Warranwood,metropolitan_train,2,12169,Croydon Station,vic:rail:CDN,3639.11246934
+22717,Waterford Park,bus,4,22474,Kilmore East Station/O'Gradys Rd ,,7430.52233958
+22717,Waterford Park,tram,3,4174,RMIT/Plenty Rd #71,,42032.56118953
+22717,Waterford Park,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,33643.84619448
+22720,Waterways,bus,4,45425,Governor Rd/Burdekin Bvd,,433.33797098
+22720,Waterways,tram,3,18411,Carnegie/Truganini Rd #68,,14953.66727858
+22720,Waterways,metropolitan_train,2,11235,Aspendale Station,vic:rail:ASP,2773.54503576
+22727,Wattle Glen,bus,4,51121,Wattle Glen Station/Heidelberg-Kinglake Rd,,911.97685379
+22727,Wattle Glen,tram,3,4174,RMIT/Plenty Rd #71,,10483.32433951
+22727,Wattle Glen,metropolitan_train,2,15336,Wattle Glen Station,vic:rail:WTT,949.71615266
+22740,Weir Views,bus,4,28816,Castletown Bvd/Exford Rd ,,486.41582004
+22740,Weir Views,tram,3,17944,Central Park Ave/Cordite Ave #49,,27487.95711774
+22740,Weir Views,metropolitan_train,2,26505,Diggers Rest Station,vic:rail:DRT,17522.29988127
+22750,Werribee,bus,4,51898,Glendene Ct/Lyall Dr,,79.09802806
+22750,Werribee,tram,3,17928,Ballarat Rd/Gordon St #58,,25535.22757272
+22750,Werribee,metropolitan_train,2,13733,Werribee Station,vic:rail:WER,2000.40038845
+22793,Williamstown North,bus,4,15725,Maddox Rd/Kororoit Creek Rd,,326.88035635
+22793,Williamstown North,tram,3,19725,Beacon Cove/Light Rail #129,,5918.27449548
+22793,Williamstown North,metropolitan_train,2,15343,Newport Station,vic:rail:NPT,1807.63811664
+22751,Werribee South,bus,4,20240,Diggers Rd/K Rd,,1727.92300217
+22751,Werribee South,tram,3,19725,Beacon Cove/Light Rail #129,,22742.39421146
+22751,Werribee South,metropolitan_train,2,13732,Werribee Station,vic:rail:WER,5247.83486704
+22753,Wesburn,bus,4,7519,Edward St/Warburton Hwy,,895.65263823
+22753,Wesburn,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,41150.72829794
+22753,Wesburn,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,25536.98435721
+22761,Westmeadows,bus,4,9122,Riddell St/Raleigh St,,157.6635273
+22761,Westmeadows,tram,3,19482,Airport West/Matthews Ave #59,,4224.81493701
+22761,Westmeadows,metropolitan_train,2,15530,Broadmeadows Station,vic:rail:BMS,2327.53870179
+22766,Wheelers Hill,bus,4,13029,Sheringham Dr/Ferntree Gully Rd,,122.36265085
+22766,Wheelers Hill,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,5631.76824644
+22766,Wheelers Hill,metropolitan_train,2,12158,Glen Waverley Station,vic:rail:GWY,3518.87511153
+22775,Whittlesea,bus,4,51041,Campaspe Dr/Oakbank Bvd,,3903.7883511
+22775,Whittlesea,tram,3,4174,RMIT/Plenty Rd #71,,23927.77853651
+22775,Whittlesea,metropolitan_train,2,26518,Mernda Station,vic:rail:MDD,15076.09868711
+22784,Wildwood,bus,4,21877,The Old Stock Run/Highgrove Dr,,3616.02270672
+22784,Wildwood,tram,3,19482,Airport West/Matthews Ave #59,,18352.00138892
+22784,Wildwood,metropolitan_train,2,15352,Sunbury Station,vic:rail:SUY,6512.55302219
+22892,Yallambie,bus,4,8514,Grantham Rd/Lower Plenty Rd,,365.53353619
+22892,Yallambie,tram,3,4491,Mount Cooper Dr/Plenty Rd #64,,3938.58320518
+22892,Yallambie,metropolitan_train,2,15326,Macleod Station,vic:rail:MCD,1828.49390101
+22898,Yan Yean,bus,4,7733,2005 Plenty Rd,,1882.15854427
+22898,Yan Yean,tram,3,4174,RMIT/Plenty Rd #71,,15204.16304797
+22898,Yan Yean,metropolitan_train,2,26517,Mernda Station,vic:rail:MDD,6262.32340847
+22906,Yannathan,bus,4,21466,Garfield Station/Nar Nar Goon - Longwarry Rd ,,14641.26258658
+22906,Yannathan,tram,3,21127,Vermont South Shopping Centre/Burwood Hwy #75,,57733.1325379
+22906,Yannathan,metropolitan_train,2,26506,East Pakenham Station,vic:rail:EPH,19748.85694322
+22910,Yarra Glen,bus,4,22096,Melba Hwy/Armstrong Gr,,472.40985612
+22910,Yarra Glen,tram,3,4174,RMIT/Plenty Rd #71,,27799.44774634
+22910,Yarra Glen,metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,12335.93872674
+22911,Yarra Junction,bus,4,7406,Riversdale Rd/Warburton Hwy,,1398.17966095
+22911,Yarra Junction,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,39759.27427023
+22911,Yarra Junction,metropolitan_train,2,12164,Lilydale Station,vic:rail:LIL,25170.63545894
+22916,Yarrambat,bus,4,51004,Yan Yean Rd/Ironbark Rd,,246.95516541
+22916,Yarrambat,tram,3,4174,RMIT/Plenty Rd #71,,7488.317913
+22916,Yarrambat,metropolitan_train,2,26511,Hawkstowe Station,vic:rail:HWS,3833.47278977
+22917,Yarraville,bus,4,6448,Blackwood St/Williamstown Rd,,53.49283839
+22917,Yarraville,tram,3,17934,Footscray Station/Leeds St #64,,2441.25828985
+22917,Yarraville,metropolitan_train,2,15347,Yarraville Station,vic:rail:YVE,660.84636132
+22925,Yellingbo,bus,4,7418,Lusatia Park Rd/Warburton Hwy,,7150.91428596
+22925,Yellingbo,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,29898.49996935
+22925,Yellingbo,metropolitan_train,2,11119,Belgrave Station,vic:rail:BEG,16119.63902788
+22930,Yering,bus,4,22099,Herbert St/Melba Hwy,,2864.59023622
+22930,Yering,tram,3,46875,Vermont South Shopping Centre/Burwood Hwy #75,,25269.881956
+22930,Yering,metropolitan_train,2,12165,Lilydale Station,vic:rail:LIL,8422.65346181

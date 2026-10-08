@@ -1,0 +1,1717 @@
+campus_id,university_name,campus_name,sal_code,suburb_name,straight_line_km
+monash_clayton,Monash University,Clayton,20002,Abbotsford (Vic.),16.88454367169
+rmit_city,RMIT University,Melbourne City,20002,Abbotsford (Vic.),3.35279067878
+unimelb_parkville,University of Melbourne,Parkville,20002,Abbotsford (Vic.),3.4530551906199998
+monash_clayton,Monash University,Clayton,20003,Aberfeldie,26.93781208052
+rmit_city,RMIT University,Melbourne City,20003,Aberfeldie,7.89565435506
+unimelb_parkville,University of Melbourne,Parkville,20003,Aberfeldie,6.96934964738
+monash_clayton,Monash University,Clayton,20731,Delahey,38.146567497099994
+rmit_city,RMIT University,Melbourne City,20731,Delahey,19.11534880494
+unimelb_parkville,University of Melbourne,Parkville,20731,Delahey,18.389334915830002
+monash_clayton,Monash University,Clayton,20011,Aintree,46.811225567250005
+rmit_city,RMIT University,Melbourne City,20011,Aintree,28.16688818971
+unimelb_parkville,University of Melbourne,Parkville,20011,Aintree,27.67570761157
+monash_clayton,Monash University,Clayton,20015,Airport West,30.73281310024
+rmit_city,RMIT University,Melbourne City,20015,Airport West,11.949355526769999
+unimelb_parkville,University of Melbourne,Parkville,20015,Airport West,10.79534685994
+monash_clayton,Monash University,Clayton,20017,Albanvale,37.14771783686
+rmit_city,RMIT University,Melbourne City,20017,Albanvale,18.377895799890002
+unimelb_parkville,University of Melbourne,Parkville,20017,Albanvale,17.877554990180002
+monash_clayton,Monash University,Clayton,20037,Altona North,27.88451475878
+rmit_city,RMIT University,Melbourne City,20037,Altona North,11.830953248190001
+unimelb_parkville,University of Melbourne,Parkville,20037,Altona North,12.34123059803
+monash_clayton,Monash University,Clayton,20018,Albert Park (Vic.),17.8242972892
+rmit_city,RMIT University,Melbourne City,20018,Albert Park (Vic.),4.2185516613
+unimelb_parkville,University of Melbourne,Parkville,20018,Albert Park (Vic.),5.69687326349
+monash_clayton,Monash University,Clayton,20021,Albion (Vic.),31.98399340368
+rmit_city,RMIT University,Melbourne City,20021,Albion (Vic.),13.442179849390001
+unimelb_parkville,University of Melbourne,Parkville,20021,Albion (Vic.),13.128832607480001
+monash_clayton,Monash University,Clayton,20034,Alphington,17.43573140359
+rmit_city,RMIT University,Melbourne City,20034,Alphington,6.83411387971
+unimelb_parkville,University of Melbourne,Parkville,20034,Alphington,6.22866876744
+monash_clayton,Monash University,Clayton,20062,Ardeer,33.16377206769
+rmit_city,RMIT University,Melbourne City,20062,Ardeer,14.71779284266
+unimelb_parkville,University of Melbourne,Parkville,20062,Ardeer,14.42930705262
+monash_clayton,Monash University,Clayton,20035,Altona (Vic.),28.75823588587
+rmit_city,RMIT University,Melbourne City,20035,Altona (Vic.),14.29708002834
+unimelb_parkville,University of Melbourne,Parkville,20035,Altona (Vic.),15.00535033823
+monash_clayton,Monash University,Clayton,20036,Altona Meadows,31.165205742919998
+rmit_city,RMIT University,Melbourne City,20036,Altona Meadows,17.580191785700002
+unimelb_parkville,University of Melbourne,Parkville,20036,Altona Meadows,18.32058071101
+monash_clayton,Monash University,Clayton,20066,Armadale (Vic.),11.85962760847
+rmit_city,RMIT University,Melbourne City,20066,Armadale (Vic.),7.42558705236
+unimelb_parkville,University of Melbourne,Parkville,20066,Armadale (Vic.),8.58868229218
+monash_clayton,Monash University,Clayton,20072,Arthurs Seat,52.28164784353
+rmit_city,RMIT University,Melbourne City,20072,Arthurs Seat,61.29884956341
+unimelb_parkville,University of Melbourne,Parkville,20072,Arthurs Seat,62.80504664765
+monash_clayton,Monash University,Clayton,20121,Balnarring Beach,53.441222954850005
+rmit_city,RMIT University,Melbourne City,20121,Balnarring Beach,66.26571501235
+unimelb_parkville,University of Melbourne,Parkville,20121,Balnarring Beach,67.73733413267
+monash_clayton,Monash University,Clayton,20071,Arthurs Creek,38.573338856709995
+rmit_city,RMIT University,Melbourne City,20071,Arthurs Creek,34.144426980409996
+unimelb_parkville,University of Melbourne,Parkville,20071,Arthurs Creek,32.97212110172
+monash_clayton,Monash University,Clayton,20075,Ascot Vale,25.01906995067
+rmit_city,RMIT University,Melbourne City,20075,Ascot Vale,5.9603983925
+unimelb_parkville,University of Melbourne,Parkville,20075,Ascot Vale,5.33023272335
+monash_clayton,Monash University,Clayton,20120,Balnarring,49.94363552168
+rmit_city,RMIT University,Melbourne City,20120,Balnarring,62.90823358611
+unimelb_parkville,University of Melbourne,Parkville,20120,Balnarring,64.37485441714
+monash_clayton,Monash University,Clayton,20171,Bayles,48.61240199118
+rmit_city,RMIT University,Melbourne City,20171,Bayles,67.68431343399999
+unimelb_parkville,University of Melbourne,Parkville,20171,Bayles,68.6016645652
+monash_clayton,Monash University,Clayton,20173,Bayswater (Vic.),13.484696152820002
+rmit_city,RMIT University,Melbourne City,20173,Bayswater (Vic.),27.08595286673
+unimelb_parkville,University of Melbourne,Parkville,20173,Bayswater (Vic.),27.35297900601
+monash_clayton,Monash University,Clayton,20077,Ashburton,6.95340242799
+rmit_city,RMIT University,Melbourne City,20077,Ashburton,12.21466066974
+unimelb_parkville,University of Melbourne,Parkville,20077,Ashburton,13.0749813019
+monash_clayton,Monash University,Clayton,20078,Ashwood,5.8052490711199995
+rmit_city,RMIT University,Melbourne City,20078,Ashwood,13.88804030132
+unimelb_parkville,University of Melbourne,Parkville,20078,Ashwood,14.63490872452
+monash_clayton,Monash University,Clayton,20079,Aspendale,12.71774926176
+rmit_city,RMIT University,Melbourne City,20079,Aspendale,26.78233862997
+unimelb_parkville,University of Melbourne,Parkville,20079,Aspendale,28.12250497521
+monash_clayton,Monash University,Clayton,20080,Aspendale Gardens,12.632772035190001
+rmit_city,RMIT University,Melbourne City,20080,Aspendale Gardens,27.81479343209
+unimelb_parkville,University of Melbourne,Parkville,20080,Aspendale Gardens,29.1174146553
+monash_clayton,Monash University,Clayton,20198,Bellfield (Banyule - Vic.),19.48732659317
+rmit_city,RMIT University,Melbourne City,20198,Bellfield (Banyule - Vic.),9.087282834740002
+unimelb_parkville,University of Melbourne,Parkville,20198,Bellfield (Banyule - Vic.),8.14230104424
+monash_clayton,Monash University,Clayton,20082,Attwood,35.069549786050004
+rmit_city,RMIT University,Melbourne City,20082,Attwood,17.166634216040002
+unimelb_parkville,University of Melbourne,Parkville,20082,Attwood,15.808269135820002
+monash_clayton,Monash University,Clayton,20089,Avondale Heights,29.118783590129997
+rmit_city,RMIT University,Melbourne City,20089,Avondale Heights,10.092116762469999
+unimelb_parkville,University of Melbourne,Parkville,20089,Avondale Heights,9.44497316107
+monash_clayton,Monash University,Clayton,20091,Avonsleigh,30.38936857848
+rmit_city,RMIT University,Melbourne City,20091,Avonsleigh,47.20226132279
+unimelb_parkville,University of Melbourne,Parkville,20091,Avonsleigh,47.59295321362
+monash_clayton,Monash University,Clayton,20207,Bend Of Islands,26.46290170098
+rmit_city,RMIT University,Melbourne City,20207,Bend Of Islands,30.270624035730002
+unimelb_parkville,University of Melbourne,Parkville,20207,Bend Of Islands,29.69961797727
+monash_clayton,Monash University,Clayton,22598,Tynong,47.34884469324
+rmit_city,RMIT University,Melbourne City,22598,Tynong,66.17921609359
+unimelb_parkville,University of Melbourne,Parkville,22598,Tynong,66.91122172668
+monash_clayton,Monash University,Clayton,20095,Bacchus Marsh,66.55255499999
+rmit_city,RMIT University,Melbourne City,20095,Bacchus Marsh,48.2555054059
+unimelb_parkville,University of Melbourne,Parkville,20095,Bacchus Marsh,47.839384501510004
+monash_clayton,Monash University,Clayton,20097,Badger Creek,43.156520104360006
+rmit_city,RMIT University,Melbourne City,20097,Badger Creek,52.47888274135
+unimelb_parkville,University of Melbourne,Parkville,20097,Badger Creek,52.11163652853
+monash_clayton,Monash University,Clayton,20105,Balaclava (Vic.),13.229232158930001
+rmit_city,RMIT University,Melbourne City,20105,Balaclava (Vic.),7.48489885057
+unimelb_parkville,University of Melbourne,Parkville,20105,Balaclava (Vic.),8.89277824356
+monash_clayton,Monash University,Clayton,20123,Balwyn,11.9631347287
+rmit_city,RMIT University,Melbourne City,20123,Balwyn,11.00501237839
+unimelb_parkville,University of Melbourne,Parkville,20123,Balwyn,11.12747529642
+monash_clayton,Monash University,Clayton,20124,Balwyn North,14.06718357103
+rmit_city,RMIT University,Melbourne City,20124,Balwyn North,10.93878986886
+unimelb_parkville,University of Melbourne,Parkville,20124,Balwyn North,10.76516909433
+monash_clayton,Monash University,Clayton,20131,Bangholme,15.37970883994
+rmit_city,RMIT University,Melbourne City,20131,Bangholme,32.349341833800004
+unimelb_parkville,University of Melbourne,Parkville,20131,Bangholme,33.58314136376
+monash_clayton,Monash University,Clayton,20169,Baxter,31.94810021003
+rmit_city,RMIT University,Melbourne City,20169,Baxter,46.493839592650005
+unimelb_parkville,University of Melbourne,Parkville,20169,Baxter,47.89573428153
+monash_clayton,Monash University,Clayton,20174,Bayswater North,16.035872005679998
+rmit_city,RMIT University,Melbourne City,20174,Bayswater North,28.38923350496
+unimelb_parkville,University of Melbourne,Parkville,20174,Bayswater North,28.52551761716
+monash_clayton,Monash University,Clayton,20175,Beaconsfield (Vic.),25.798107381180003
+rmit_city,RMIT University,Melbourne City,20175,Beaconsfield (Vic.),44.85925797782
+unimelb_parkville,University of Melbourne,Parkville,20175,Beaconsfield (Vic.),45.73230325433
+monash_clayton,Monash University,Clayton,20176,Beaconsfield Upper,27.211274009559997
+rmit_city,RMIT University,Melbourne City,20176,Beaconsfield Upper,45.88207338221
+unimelb_parkville,University of Melbourne,Parkville,20176,Beaconsfield Upper,46.58991516655
+monash_clayton,Monash University,Clayton,20182,Beaumaris (Vic.),11.81632456402
+rmit_city,RMIT University,Melbourne City,20182,Beaumaris (Vic.),20.5481294362
+unimelb_parkville,University of Melbourne,Parkville,20182,Beaumaris (Vic.),21.97534294755
+monash_clayton,Monash University,Clayton,20254,Blackburn South,7.9753412085
+rmit_city,RMIT University,Melbourne City,20254,Blackburn South,16.62135521624
+unimelb_parkville,University of Melbourne,Parkville,20254,Blackburn South,16.98959732701
+monash_clayton,Monash University,Clayton,20257,Blairgowrie,60.17667898099
+rmit_city,RMIT University,Melbourne City,20257,Blairgowrie,64.6064605911
+unimelb_parkville,University of Melbourne,Parkville,20257,Blairgowrie,66.06625754346
+monash_clayton,Monash University,Clayton,20187,Beenak,44.01067938386
+rmit_city,RMIT University,Melbourne City,20187,Beenak,60.22363589313
+unimelb_parkville,University of Melbourne,Parkville,20187,Beenak,60.493769938010004
+monash_clayton,Monash University,Clayton,20188,Belgrave,19.094298811119998
+rmit_city,RMIT University,Melbourne City,20188,Belgrave,36.26998690837
+unimelb_parkville,University of Melbourne,Parkville,20188,Belgrave,36.76576383002
+monash_clayton,Monash University,Clayton,20743,Derrimut,34.490361092890005
+rmit_city,RMIT University,Melbourne City,20743,Derrimut,16.89292803591
+unimelb_parkville,University of Melbourne,Parkville,20743,Derrimut,16.87490412673
+monash_clayton,Monash University,Clayton,20189,Belgrave Heights,18.2701399992
+rmit_city,RMIT University,Melbourne City,20189,Belgrave Heights,35.96774638139
+unimelb_parkville,University of Melbourne,Parkville,20189,Belgrave Heights,36.53436535757
+monash_clayton,Monash University,Clayton,20190,Belgrave South,19.57329211962
+rmit_city,RMIT University,Melbourne City,20190,Belgrave South,37.630010350670005
+unimelb_parkville,University of Melbourne,Parkville,20190,Belgrave South,38.24138735608
+monash_clayton,Monash University,Clayton,20748,Devon Meadows,32.57462358465
+rmit_city,RMIT University,Melbourne City,20748,Devon Meadows,50.42708995127
+unimelb_parkville,University of Melbourne,Parkville,20748,Devon Meadows,51.63234022118
+monash_clayton,Monash University,Clayton,20212,Benloch,88.54355254357999
+rmit_city,RMIT University,Melbourne City,20212,Benloch,71.97459967821
+unimelb_parkville,University of Melbourne,Parkville,20212,Benloch,70.56555475872
+monash_clayton,Monash University,Clayton,20214,Bentleigh,8.79302613246
+rmit_city,RMIT University,Melbourne City,20214,Bentleigh,14.321628435540001
+unimelb_parkville,University of Melbourne,Parkville,20214,Bentleigh,15.66884377025
+monash_clayton,Monash University,Clayton,20215,Bentleigh East,6.23951079281
+rmit_city,RMIT University,Melbourne City,20215,Bentleigh East,15.63153104337
+unimelb_parkville,University of Melbourne,Parkville,20215,Bentleigh East,16.86739278383
+monash_clayton,Monash University,Clayton,20224,Berwick,23.35144400338
+rmit_city,RMIT University,Melbourne City,20224,Berwick,42.418739795920004
+unimelb_parkville,University of Melbourne,Parkville,20224,Berwick,43.35016458335
+monash_clayton,Monash University,Clayton,20278,Bonbeach,16.92865968343
+rmit_city,RMIT University,Melbourne City,20278,Bonbeach,31.804240345369998
+unimelb_parkville,University of Melbourne,Parkville,20278,Bonbeach,33.14687555883
+monash_clayton,Monash University,Clayton,20616,Collingwood (Vic.),17.77108699287
+rmit_city,RMIT University,Melbourne City,20616,Collingwood (Vic.),2.3780729177
+unimelb_parkville,University of Melbourne,Parkville,20616,Collingwood (Vic.),2.4026855167
+monash_clayton,Monash University,Clayton,20233,Beveridge,50.33225232995
+rmit_city,RMIT University,Melbourne City,20233,Beveridge,36.92807443272
+unimelb_parkville,University of Melbourne,Parkville,20233,Beveridge,35.42231721064
+monash_clayton,Monash University,Clayton,20237,Big Pats Creek,57.44215926223
+rmit_city,RMIT University,Melbourne City,20237,Big Pats Creek,70.57008668065
+unimelb_parkville,University of Melbourne,Parkville,20237,Big Pats Creek,70.47223501769001
+monash_clayton,Monash University,Clayton,20248,Bittern,47.560712493059995
+rmit_city,RMIT University,Melbourne City,20248,Bittern,61.52882435684
+unimelb_parkville,University of Melbourne,Parkville,20248,Bittern,62.96866489457
+monash_clayton,Monash University,Clayton,20666,Cranbourne West,23.33944721975
+rmit_city,RMIT University,Melbourne City,20666,Cranbourne West,41.170153558639996
+unimelb_parkville,University of Melbourne,Parkville,20666,Cranbourne West,42.36200480621
+monash_clayton,Monash University,Clayton,20251,Black Rock (Vic.),12.08482931829
+rmit_city,RMIT University,Melbourne City,20251,Black Rock (Vic.),19.14785416603
+unimelb_parkville,University of Melbourne,Parkville,20251,Black Rock (Vic.),20.593792973430002
+monash_clayton,Monash University,Clayton,20252,Blackburn,9.97722364497
+rmit_city,RMIT University,Melbourne City,20252,Blackburn,16.67302356375
+unimelb_parkville,University of Melbourne,Parkville,20252,Blackburn,16.8645915661
+monash_clayton,Monash University,Clayton,20253,Blackburn North,11.88907357766
+rmit_city,RMIT University,Melbourne City,20253,Blackburn North,16.997056426849998
+unimelb_parkville,University of Melbourne,Parkville,20253,Blackburn North,17.01950854647
+monash_clayton,Monash University,Clayton,20260,Blind Bight,37.945744892579995
+rmit_city,RMIT University,Melbourne City,20260,Blind Bight,55.69658344391
+unimelb_parkville,University of Melbourne,Parkville,20260,Blind Bight,56.91877290203
+monash_clayton,Monash University,Clayton,20272,Bolinda,61.322894589410005
+rmit_city,RMIT University,Melbourne City,20272,Bolinda,44.240806301179994
+unimelb_parkville,University of Melbourne,Parkville,20272,Bolinda,42.85076577078
+monash_clayton,Monash University,Clayton,20280,Boneo,59.00071573676
+rmit_city,RMIT University,Melbourne City,20280,Boneo,66.87482774896999
+unimelb_parkville,University of Melbourne,Parkville,20280,Boneo,68.37712248973999
+monash_clayton,Monash University,Clayton,20282,Bonnie Brook,47.7684078849
+rmit_city,RMIT University,Melbourne City,20282,Bonnie Brook,28.90473425953
+unimelb_parkville,University of Melbourne,Parkville,20282,Bonnie Brook,28.294280885470002
+monash_clayton,Monash University,Clayton,20304,Boronia,14.91098972691
+rmit_city,RMIT University,Melbourne City,20304,Boronia,29.290207019969998
+unimelb_parkville,University of Melbourne,Parkville,20304,Boronia,29.580994089070003
+monash_clayton,Monash University,Clayton,20307,Botanic Ridge,27.18920652443
+rmit_city,RMIT University,Melbourne City,20307,Botanic Ridge,44.62701513375
+unimelb_parkville,University of Melbourne,Parkville,20307,Botanic Ridge,45.86273269746
+monash_clayton,Monash University,Clayton,20314,Box Hill (Vic.),9.93726322232
+rmit_city,RMIT University,Melbourne City,20314,Box Hill (Vic.),14.4896844601
+unimelb_parkville,University of Melbourne,Parkville,20314,Box Hill (Vic.),14.710698000419999
+monash_clayton,Monash University,Clayton,21163,Heatherton,6.46145237816
+rmit_city,RMIT University,Melbourne City,21163,Heatherton,19.811898804019997
+unimelb_parkville,University of Melbourne,Parkville,21163,Heatherton,21.06713825879
+monash_clayton,Monash University,Clayton,20315,Box Hill North,11.716785095659999
+rmit_city,RMIT University,Melbourne City,20315,Box Hill North,14.69510408646
+unimelb_parkville,University of Melbourne,Parkville,20315,Box Hill North,14.72960309844
+monash_clayton,Monash University,Clayton,20411,Bunyip,55.628308014119995
+rmit_city,RMIT University,Melbourne City,20411,Bunyip,74.29145958964
+unimelb_parkville,University of Melbourne,Parkville,20411,Bunyip,74.96318272293999
+monash_clayton,Monash University,Clayton,21165,Heathmont,13.23909985376
+rmit_city,RMIT University,Melbourne City,21165,Heathmont,25.09463631998
+unimelb_parkville,University of Melbourne,Parkville,21165,Heathmont,25.27023490569
+monash_clayton,Monash University,Clayton,20316,Box Hill South,8.282101294419999
+rmit_city,RMIT University,Melbourne City,20316,Box Hill South,14.519963271329999
+unimelb_parkville,University of Melbourne,Parkville,20316,Box Hill South,14.91273177233
+monash_clayton,Monash University,Clayton,20320,Braeside,10.21418275974
+rmit_city,RMIT University,Melbourne City,20320,Braeside,25.774142423550003
+unimelb_parkville,University of Melbourne,Parkville,20320,Braeside,27.03987143965
+monash_clayton,Monash University,Clayton,20523,Caulfield North,11.00808657192
+rmit_city,RMIT University,Melbourne City,20523,Caulfield North,8.68946825486
+unimelb_parkville,University of Melbourne,Parkville,20523,Caulfield North,9.92771671235
+monash_clayton,Monash University,Clayton,20324,Braybrook,28.3976794831
+rmit_city,RMIT University,Melbourne City,20324,Braybrook,9.765040429139999
+unimelb_parkville,University of Melbourne,Parkville,20324,Braybrook,9.48670922656
+monash_clayton,Monash University,Clayton,20331,Briar Hill,22.7077804119
+rmit_city,RMIT University,Melbourne City,20331,Briar Hill,18.007615209
+unimelb_parkville,University of Melbourne,Parkville,20331,Briar Hill,17.095427436549997
+monash_clayton,Monash University,Clayton,20412,Bunyip North,54.32569705144
+rmit_city,RMIT University,Melbourne City,20412,Bunyip North,72.68406583637001
+unimelb_parkville,University of Melbourne,Parkville,20412,Bunyip North,73.27842535331999
+monash_clayton,Monash University,Clayton,20337,Brighton (Vic.),12.28133857856
+rmit_city,RMIT University,Melbourne City,20337,Brighton (Vic.),11.465328274800001
+unimelb_parkville,University of Melbourne,Parkville,20337,Brighton (Vic.),12.92177252909
+monash_clayton,Monash University,Clayton,20338,Brighton East,10.68368672499
+rmit_city,RMIT University,Melbourne City,20338,Brighton East,12.8694961312
+unimelb_parkville,University of Melbourne,Parkville,20338,Brighton East,14.28142592088
+monash_clayton,Monash University,Clayton,20442,Calder Park,41.96746823129
+rmit_city,RMIT University,Melbourne City,20442,Calder Park,22.90845714934
+unimelb_parkville,University of Melbourne,Parkville,20442,Calder Park,21.984175380699998
+monash_clayton,Monash University,Clayton,20524,Caulfield South,9.96772978606
+rmit_city,RMIT University,Melbourne City,20524,Caulfield South,11.04530637428
+unimelb_parkville,University of Melbourne,Parkville,20524,Caulfield South,12.36954873608
+monash_clayton,Monash University,Clayton,20346,Broadmeadows (Vic.),31.93542939792
+rmit_city,RMIT University,Melbourne City,20346,Broadmeadows (Vic.),14.73415466969
+unimelb_parkville,University of Melbourne,Parkville,20346,Broadmeadows (Vic.),13.285679784849998
+monash_clayton,Monash University,Clayton,20351,Brookfield (Vic.),57.30154904287
+rmit_city,RMIT University,Melbourne City,20351,Brookfield (Vic.),38.93433510834
+unimelb_parkville,University of Melbourne,Parkville,20351,Brookfield (Vic.),38.51624546791
+monash_clayton,Monash University,Clayton,20352,Brooklyn (Vic.),28.03832823059
+rmit_city,RMIT University,Melbourne City,20352,Brooklyn (Vic.),10.62553961568
+unimelb_parkville,University of Melbourne,Parkville,20352,Brooklyn (Vic.),10.83490991324
+monash_clayton,Monash University,Clayton,20361,Brunswick (Vic.),22.24035269804
+rmit_city,RMIT University,Melbourne City,20361,Brunswick (Vic.),4.600108785170001
+unimelb_parkville,University of Melbourne,Parkville,20361,Brunswick (Vic.),3.09589052644
+monash_clayton,Monash University,Clayton,20487,Cardinia,36.25822913985
+rmit_city,RMIT University,Melbourne City,20487,Cardinia,55.16077279966
+unimelb_parkville,University of Melbourne,Parkville,20487,Cardinia,56.189020658809994
+monash_clayton,Monash University,Clayton,20670,Cremorne (Vic.),15.53949813491
+rmit_city,RMIT University,Melbourne City,20670,Cremorne (Vic.),3.5502012119599997
+unimelb_parkville,University of Melbourne,Parkville,20670,Cremorne (Vic.),4.67974503301
+monash_clayton,Monash University,Clayton,20362,Brunswick East,21.03565990797
+rmit_city,RMIT University,Melbourne City,20362,Brunswick East,4.59646826519
+unimelb_parkville,University of Melbourne,Parkville,20362,Brunswick East,3.1877384005300002
+monash_clayton,Monash University,Clayton,20495,Carlton (Vic.),19.15908467086
+rmit_city,RMIT University,Melbourne City,20495,Carlton (Vic.),1.09118359125
+unimelb_parkville,University of Melbourne,Parkville,20495,Carlton (Vic.),0.84618360632
+monash_clayton,Monash University,Clayton,20728,Deepdene (Vic.),12.63211428376
+rmit_city,RMIT University,Melbourne City,20728,Deepdene (Vic.),9.14066822489
+unimelb_parkville,University of Melbourne,Parkville,20728,Deepdene (Vic.),9.31259401787
+monash_clayton,Monash University,Clayton,20363,Brunswick West,23.460109907499998
+rmit_city,RMIT University,Melbourne City,20363,Brunswick West,5.13159825857
+unimelb_parkville,University of Melbourne,Parkville,20363,Brunswick West,3.73591861253
+monash_clayton,Monash University,Clayton,20381,Bulla (Vic.),42.78856802401
+rmit_city,RMIT University,Melbourne City,20381,Bulla (Vic.),24.23389038052
+unimelb_parkville,University of Melbourne,Parkville,20381,Bulla (Vic.),23.02990144243
+monash_clayton,Monash University,Clayton,20386,Bulleen,16.50143425603
+rmit_city,RMIT University,Melbourne City,20386,Bulleen,12.01609176092
+unimelb_parkville,University of Melbourne,Parkville,20386,Bulleen,11.5171786878
+monash_clayton,Monash University,Clayton,20387,Bullengarook,73.51437838097
+rmit_city,RMIT University,Melbourne City,20387,Bullengarook,54.49366197762
+unimelb_parkville,University of Melbourne,Parkville,20387,Bullengarook,53.51265803807
+monash_clayton,Monash University,Clayton,20399,Bundoora (Vic.),24.124882065850002
+rmit_city,RMIT University,Melbourne City,20399,Bundoora (Vic.),14.29669219817
+unimelb_parkville,University of Melbourne,Parkville,20399,Bundoora (Vic.),13.08824460424
+monash_clayton,Monash University,Clayton,20418,Burnley,13.852153396379999
+rmit_city,RMIT University,Melbourne City,20418,Burnley,5.33592951246
+unimelb_parkville,University of Melbourne,Parkville,20418,Burnley,6.15076874279
+monash_clayton,Monash University,Clayton,20419,Burnside (Vic.),38.43553694805
+rmit_city,RMIT University,Melbourne City,20419,Burnside (Vic.),19.82099902891
+unimelb_parkville,University of Melbourne,Parkville,20419,Burnside (Vic.),19.39277817664
+monash_clayton,Monash University,Clayton,20500,Caroline Springs,40.28292269766
+rmit_city,RMIT University,Melbourne City,20500,Caroline Springs,21.48637686109
+unimelb_parkville,University of Melbourne,Parkville,20500,Caroline Springs,20.94841148553
+monash_clayton,Monash University,Clayton,20420,Burnside Heights,38.832998464730004
+rmit_city,RMIT University,Melbourne City,20420,Burnside Heights,19.980140313979998
+unimelb_parkville,University of Melbourne,Parkville,20420,Burnside Heights,19.415229031710002
+monash_clayton,Monash University,Clayton,20507,Carrum,18.4945381994
+rmit_city,RMIT University,Melbourne City,20507,Carrum,33.18779412564
+unimelb_parkville,University of Melbourne,Parkville,20507,Carrum,34.54493579156
+monash_clayton,Monash University,Clayton,20426,Burwood (Vic.),7.110473491
+rmit_city,RMIT University,Melbourne City,20426,Burwood (Vic.),14.125269890330001
+unimelb_parkville,University of Melbourne,Parkville,20426,Burwood (Vic.),14.66955413039
+monash_clayton,Monash University,Clayton,20427,Burwood East,6.42003432696
+rmit_city,RMIT University,Melbourne City,20427,Burwood East,17.0604927842
+unimelb_parkville,University of Melbourne,Parkville,20427,Burwood East,17.55514917325
+monash_clayton,Monash University,Clayton,20435,Bylands,64.70364034959
+rmit_city,RMIT University,Melbourne City,20435,Bylands,50.81563830288
+unimelb_parkville,University of Melbourne,Parkville,20435,Bylands,49.31238159143
+monash_clayton,Monash University,Clayton,20441,Cairnlea,35.078661871019996
+rmit_city,RMIT University,Melbourne City,20441,Cairnlea,16.39580456673
+unimelb_parkville,University of Melbourne,Parkville,20441,Cairnlea,15.96480125403
+monash_clayton,Monash University,Clayton,20443,Caldermeade,50.46371079183
+rmit_city,RMIT University,Melbourne City,20443,Caldermeade,69.26086337976001
+unimelb_parkville,University of Melbourne,Parkville,20443,Caldermeade,70.32639873929
+monash_clayton,Monash University,Clayton,21554,Lynbrook,19.33351230737
+rmit_city,RMIT University,Melbourne City,21554,Lynbrook,37.78614533798
+unimelb_parkville,University of Melbourne,Parkville,21554,Lynbrook,38.895133174310004
+monash_clayton,Monash University,Clayton,20453,Camberwell (Vic.),9.945272859840001
+rmit_city,RMIT University,Melbourne City,20453,Camberwell (Vic.),10.337992059460001
+unimelb_parkville,University of Melbourne,Parkville,20453,Camberwell (Vic.),10.868691490729999
+monash_clayton,Monash University,Clayton,20455,Campbellfield,31.17315280938
+rmit_city,RMIT University,Melbourne City,20455,Campbellfield,15.728583012749999
+unimelb_parkville,University of Melbourne,Parkville,20455,Campbellfield,14.22249747296
+monash_clayton,Monash University,Clayton,20466,Cannons Creek,37.20963927443
+rmit_city,RMIT University,Melbourne City,20466,Cannons Creek,54.40158521931
+unimelb_parkville,University of Melbourne,Parkville,20466,Cannons Creek,55.672994974859996
+monash_clayton,Monash University,Clayton,20508,Carrum Downs,20.98904410513
+rmit_city,RMIT University,Melbourne City,20508,Carrum Downs,37.15514534653
+unimelb_parkville,University of Melbourne,Parkville,20508,Carrum Downs,38.458630266120004
+monash_clayton,Monash University,Clayton,20468,Canterbury (Vic.),10.91127668547
+rmit_city,RMIT University,Melbourne City,20468,Canterbury (Vic.),10.26312293542
+unimelb_parkville,University of Melbourne,Parkville,20468,Canterbury (Vic.),10.62023399526
+monash_clayton,Monash University,Clayton,20474,Cape Schanck,65.04428576264999
+rmit_city,RMIT University,Melbourne City,20474,Cape Schanck,73.32573859599
+unimelb_parkville,University of Melbourne,Parkville,20474,Cape Schanck,74.82904277102
+monash_clayton,Monash University,Clayton,20476,Capel Sound,55.941242130140004
+rmit_city,RMIT University,Melbourne City,20476,Capel Sound,62.87557194923
+unimelb_parkville,University of Melbourne,Parkville,20476,Capel Sound,64.37210183506
+monash_clayton,Monash University,Clayton,20496,Carlton North,20.28986119947
+rmit_city,RMIT University,Melbourne City,20496,Carlton North,2.55471800486
+unimelb_parkville,University of Melbourne,Parkville,20496,Carlton North,1.11583147911
+monash_clayton,Monash University,Clayton,20498,Carnegie,7.328555168189999
+rmit_city,RMIT University,Melbourne City,20498,Carnegie,12.570196524310001
+unimelb_parkville,University of Melbourne,Parkville,20498,Carnegie,13.73897752726
+monash_clayton,Monash University,Clayton,21555,Lyndhurst (Vic.),18.88524081834
+rmit_city,RMIT University,Melbourne City,21555,Lyndhurst (Vic.),36.78584640482
+unimelb_parkville,University of Melbourne,Parkville,21555,Lyndhurst (Vic.),37.959636497
+monash_clayton,Monash University,Clayton,20512,Castella,51.014552983579996
+rmit_city,RMIT University,Melbourne City,20512,Castella,52.847211608799995
+unimelb_parkville,University of Melbourne,Parkville,20512,Castella,51.93789748762
+monash_clayton,Monash University,Clayton,20517,Catani,54.76378458506
+rmit_city,RMIT University,Melbourne City,20517,Catani,73.83279388188001
+unimelb_parkville,University of Melbourne,Parkville,20517,Catani,74.70898452587
+monash_clayton,Monash University,Clayton,20521,Caulfield,10.15323549137
+rmit_city,RMIT University,Melbourne City,20521,Caulfield,10.10469751163
+unimelb_parkville,University of Melbourne,Parkville,20521,Caulfield,11.38443319759
+monash_clayton,Monash University,Clayton,20522,Caulfield East,8.92333909279
+rmit_city,RMIT University,Melbourne City,20522,Caulfield East,10.71144827401
+unimelb_parkville,University of Melbourne,Parkville,20522,Caulfield East,11.88555129076
+monash_clayton,Monash University,Clayton,20528,Chadstone,4.486228443130001
+rmit_city,RMIT University,Melbourne City,20528,Chadstone,14.63420570831
+unimelb_parkville,University of Melbourne,Parkville,20528,Chadstone,15.5278541439
+monash_clayton,Monash University,Clayton,20537,Chelsea,15.49221383723
+rmit_city,RMIT University,Melbourne City,20537,Chelsea,30.241380282239998
+unimelb_parkville,University of Melbourne,Parkville,20537,Chelsea,31.58026041286
+monash_clayton,Monash University,Clayton,20538,Chelsea Heights,14.39978088446
+rmit_city,RMIT University,Melbourne City,20538,Chelsea Heights,29.83993499159
+unimelb_parkville,University of Melbourne,Parkville,20538,Chelsea Heights,31.14555338455
+monash_clayton,Monash University,Clayton,20758,Dingley Village,7.106537926570001
+rmit_city,RMIT University,Melbourne City,20758,Dingley Village,23.314526244920003
+unimelb_parkville,University of Melbourne,Parkville,20758,Dingley Village,24.51584906691
+monash_clayton,Monash University,Clayton,20539,Cheltenham (Vic.),9.02694749572
+rmit_city,RMIT University,Melbourne City,20539,Cheltenham (Vic.),18.921842672039997
+unimelb_parkville,University of Melbourne,Parkville,20539,Cheltenham (Vic.),20.28353317522
+monash_clayton,Monash University,Clayton,20541,Cherokee,71.70446003514
+rmit_city,RMIT University,Melbourne City,20541,Cherokee,53.61317739567
+unimelb_parkville,University of Melbourne,Parkville,20541,Cherokee,52.34585419253
+monash_clayton,Monash University,Clayton,20569,Clayton,0.68995048234
+rmit_city,RMIT University,Melbourne City,20569,Clayton,19.02263883792
+unimelb_parkville,University of Melbourne,Parkville,20569,Clayton,19.991616560679997
+monash_clayton,Monash University,Clayton,20555,Chintin,63.19827705473
+rmit_city,RMIT University,Melbourne City,20555,Chintin,47.210106256450004
+unimelb_parkville,University of Melbourne,Parkville,20555,Chintin,45.755728753759996
+monash_clayton,Monash University,Clayton,20570,Clayton South,3.8104142801200003
+rmit_city,RMIT University,Melbourne City,20570,Clayton South,20.97415327848
+unimelb_parkville,University of Melbourne,Parkville,20570,Clayton South,22.077690131089998
+monash_clayton,Monash University,Clayton,20556,Chirnside Park,24.365139235300003
+rmit_city,RMIT University,Melbourne City,20556,Chirnside Park,31.80295757802
+unimelb_parkville,University of Melbourne,Parkville,20556,Chirnside Park,31.48187963444
+monash_clayton,Monash University,Clayton,20559,Christmas Hills (Vic.),31.841278531380002
+rmit_city,RMIT University,Melbourne City,20559,Christmas Hills (Vic.),34.70690447983
+unimelb_parkville,University of Melbourne,Parkville,20559,Christmas Hills (Vic.),34.00257573555
+monash_clayton,Monash University,Clayton,20572,Clematis,25.03457010289
+rmit_city,RMIT University,Melbourne City,20572,Clematis,42.48909499406
+unimelb_parkville,University of Melbourne,Parkville,20572,Clematis,42.98714549952
+monash_clayton,Monash University,Clayton,20574,Clifton Hill,18.11495364318
+rmit_city,RMIT University,Melbourne City,20574,Clifton Hill,3.77514560236
+unimelb_parkville,University of Melbourne,Parkville,20574,Clifton Hill,3.2015871274800003
+monash_clayton,Monash University,Clayton,20576,Clonbinane,60.31025516693
+rmit_city,RMIT University,Melbourne City,20576,Clonbinane,51.92445877756
+unimelb_parkville,University of Melbourne,Parkville,20576,Clonbinane,50.50543987729
+monash_clayton,Monash University,Clayton,20581,Clyde (Vic.),32.71004180555
+rmit_city,RMIT University,Melbourne City,20581,Clyde (Vic.),51.22948946771
+unimelb_parkville,University of Melbourne,Parkville,20581,Clyde (Vic.),52.345825110700005
+monash_clayton,Monash University,Clayton,20582,Clyde North,28.795366993610003
+rmit_city,RMIT University,Melbourne City,20582,Clyde North,47.678257927400004
+unimelb_parkville,University of Melbourne,Parkville,20582,Clyde North,48.70954406422
+monash_clayton,Monash University,Clayton,20560,Chum Creek,46.036126339380004
+rmit_city,RMIT University,Melbourne City,20560,Chum Creek,51.79071579956
+unimelb_parkville,University of Melbourne,Parkville,20560,Chum Creek,51.1538596231
+monash_clayton,Monash University,Clayton,20566,Clarinda,4.5459903888
+rmit_city,RMIT University,Melbourne City,20566,Clarinda,19.3095025304
+unimelb_parkville,University of Melbourne,Parkville,20566,Clarinda,20.483672309230002
+monash_clayton,Monash University,Clayton,20567,Clarkefield,55.487701069939995
+rmit_city,RMIT University,Melbourne City,20567,Clarkefield,38.44099575423
+unimelb_parkville,University of Melbourne,Parkville,20567,Clarkefield,37.0415645915
+monash_clayton,Monash University,Clayton,20587,Cobaw,83.89145817896001
+rmit_city,RMIT University,Melbourne City,20587,Cobaw,66.61667337157999
+unimelb_parkville,University of Melbourne,Parkville,20587,Cobaw,65.25900915544
+monash_clayton,Monash University,Clayton,20590,Cobblebank,52.28065613925
+rmit_city,RMIT University,Melbourne City,20590,Cobblebank,33.76984173661
+unimelb_parkville,University of Melbourne,Parkville,20590,Cobblebank,33.31462696037
+monash_clayton,Monash University,Clayton,20596,Coburg,23.8306651656
+rmit_city,RMIT University,Melbourne City,20596,Coburg,7.01672211808
+unimelb_parkville,University of Melbourne,Parkville,20596,Coburg,5.51076344599
+monash_clayton,Monash University,Clayton,20597,Coburg North,25.21230181185
+rmit_city,RMIT University,Melbourne City,20597,Coburg North,9.00734382349
+unimelb_parkville,University of Melbourne,Parkville,20597,Coburg North,7.502926422870001
+monash_clayton,Monash University,Clayton,20600,Cockatoo (Vic.),32.332744556819996
+rmit_city,RMIT University,Melbourne City,20600,Cockatoo (Vic.),49.39625888172
+unimelb_parkville,University of Melbourne,Parkville,20600,Cockatoo (Vic.),49.81201738728
+monash_clayton,Monash University,Clayton,20601,Cocoroc,45.84017607171
+rmit_city,RMIT University,Melbourne City,20601,Cocoroc,34.71730006131
+unimelb_parkville,University of Melbourne,Parkville,20601,Cocoroc,35.49551788893
+monash_clayton,Monash University,Clayton,20605,Coimadai,67.01692887914
+rmit_city,RMIT University,Melbourne City,20605,Coimadai,48.03457426255
+unimelb_parkville,University of Melbourne,Parkville,20605,Coimadai,47.30859142076
+monash_clayton,Monash University,Clayton,20613,Coldstream (Vic.),28.64471826866
+rmit_city,RMIT University,Melbourne City,20613,Coldstream (Vic.),34.21751041524
+unimelb_parkville,University of Melbourne,Parkville,20613,Coldstream (Vic.),33.71762915304
+monash_clayton,Monash University,Clayton,20624,Coolaroo,33.45536787649
+rmit_city,RMIT University,Melbourne City,20624,Coolaroo,17.19614576347
+unimelb_parkville,University of Melbourne,Parkville,20624,Coolaroo,15.70695802249
+monash_clayton,Monash University,Clayton,20633,Cora Lynn,49.62224038695
+rmit_city,RMIT University,Melbourne City,20633,Cora Lynn,68.63839637793
+unimelb_parkville,University of Melbourne,Parkville,20633,Cora Lynn,69.45827120569001
+monash_clayton,Monash University,Clayton,20654,Cottles Bridge,34.48122257462
+rmit_city,RMIT University,Melbourne City,20654,Cottles Bridge,31.82682867398
+unimelb_parkville,University of Melbourne,Parkville,20654,Cottles Bridge,30.783180993229998
+monash_clayton,Monash University,Clayton,20661,Craigieburn,41.02874413634
+rmit_city,RMIT University,Melbourne City,20661,Craigieburn,25.43215819769
+unimelb_parkville,University of Melbourne,Parkville,20661,Craigieburn,23.94018101091
+monash_clayton,Monash University,Clayton,20662,Cranbourne,25.339930966479997
+rmit_city,RMIT University,Melbourne City,20662,Cranbourne,43.31983320511
+unimelb_parkville,University of Melbourne,Parkville,20662,Cranbourne,44.50012614516
+monash_clayton,Monash University,Clayton,21214,Hughesdale,5.00342986021
+rmit_city,RMIT University,Melbourne City,21214,Hughesdale,14.50675085297
+unimelb_parkville,University of Melbourne,Parkville,21214,Hughesdale,15.578261812200001
+monash_clayton,Monash University,Clayton,20663,Cranbourne East,26.88125773826
+rmit_city,RMIT University,Melbourne City,20663,Cranbourne East,45.25623587698
+unimelb_parkville,University of Melbourne,Parkville,20663,Cranbourne East,46.38918178232
+monash_clayton,Monash University,Clayton,20664,Cranbourne North,23.37579270783
+rmit_city,RMIT University,Melbourne City,20664,Cranbourne North,42.042502691150005
+unimelb_parkville,University of Melbourne,Parkville,20664,Cranbourne North,43.12173704192
+monash_clayton,Monash University,Clayton,20665,Cranbourne South,27.657381974539998
+rmit_city,RMIT University,Melbourne City,20665,Cranbourne South,44.62725050416
+unimelb_parkville,University of Melbourne,Parkville,20665,Cranbourne South,45.899896986790004
+monash_clayton,Monash University,Clayton,21215,Humevale,45.29044607914
+rmit_city,RMIT University,Melbourne City,21215,Humevale,38.61351281828
+unimelb_parkville,University of Melbourne,Parkville,21215,Humevale,37.29797597909
+monash_clayton,Monash University,Clayton,20674,Crib Point,49.81389251279
+rmit_city,RMIT University,Melbourne City,20674,Crib Point,64.3880008416
+unimelb_parkville,University of Melbourne,Parkville,20674,Crib Point,65.81053600573
+monash_clayton,Monash University,Clayton,20682,Croydon (Vic.),18.46899364465
+rmit_city,RMIT University,Melbourne City,20682,Croydon (Vic.),28.26045635918
+unimelb_parkville,University of Melbourne,Parkville,20682,Croydon (Vic.),28.192437766300003
+monash_clayton,Monash University,Clayton,20683,Croydon Hills,19.08355231162
+rmit_city,RMIT University,Melbourne City,20683,Croydon Hills,27.244770716079998
+unimelb_parkville,University of Melbourne,Parkville,20683,Croydon Hills,27.07110281415
+monash_clayton,Monash University,Clayton,20684,Croydon North,20.02382830232
+rmit_city,RMIT University,Melbourne City,20684,Croydon North,28.62435199844
+unimelb_parkville,University of Melbourne,Parkville,20684,Croydon North,28.454068982379997
+monash_clayton,Monash University,Clayton,21218,Huntingdale (Vic.),2.4528815279300002
+rmit_city,RMIT University,Melbourne City,21218,Huntingdale (Vic.),16.92675112095
+unimelb_parkville,University of Melbourne,Parkville,21218,Huntingdale (Vic.),17.932751699
+monash_clayton,Monash University,Clayton,21223,Hurstbridge,30.737958374879998
+rmit_city,RMIT University,Melbourne City,21223,Hurstbridge,27.804791535299998
+unimelb_parkville,University of Melbourne,Parkville,21223,Hurstbridge,26.79404272864
+monash_clayton,Monash University,Clayton,20685,Croydon South,16.3766693746
+rmit_city,RMIT University,Melbourne City,20685,Croydon South,27.900730456770003
+unimelb_parkville,University of Melbourne,Parkville,20685,Croydon South,27.97971162709
+monash_clayton,Monash University,Clayton,20702,Dallas,31.73450999574
+rmit_city,RMIT University,Melbourne City,20702,Dallas,15.21195473458
+unimelb_parkville,University of Melbourne,Parkville,20702,Dallas,13.7261150278
+monash_clayton,Monash University,Clayton,20703,Dalmore,39.43226917008
+rmit_city,RMIT University,Melbourne City,20703,Dalmore,58.07512684085
+unimelb_parkville,University of Melbourne,Parkville,20703,Dalmore,59.1728880586
+monash_clayton,Monash University,Clayton,20707,Dandenong,10.68363885139
+rmit_city,RMIT University,Melbourne City,20707,Dandenong,29.52612266509
+unimelb_parkville,University of Melbourne,Parkville,20707,Dandenong,30.54691856888
+monash_clayton,Monash University,Clayton,20708,Dandenong North,8.48011152536
+rmit_city,RMIT University,Melbourne City,20708,Dandenong North,27.55355558187
+unimelb_parkville,University of Melbourne,Parkville,20708,Dandenong North,28.4641864382
+monash_clayton,Monash University,Clayton,21238,Iona,55.38093173741
+rmit_city,RMIT University,Melbourne City,21238,Iona,74.31668794894
+unimelb_parkville,University of Melbourne,Parkville,21238,Iona,75.08777806628001
+monash_clayton,Monash University,Clayton,21246,Ivanhoe (Vic.),17.8990432501
+rmit_city,RMIT University,Melbourne City,21246,Ivanhoe (Vic.),8.28203625787
+unimelb_parkville,University of Melbourne,Parkville,21246,Ivanhoe (Vic.),7.56849493204
+monash_clayton,Monash University,Clayton,20709,Dandenong South,14.998972294360001
+rmit_city,RMIT University,Melbourne City,20709,Dandenong South,33.22352603751
+unimelb_parkville,University of Melbourne,Parkville,20709,Dandenong South,34.35082221157
+monash_clayton,Monash University,Clayton,20712,Darley,69.11384899888999
+rmit_city,RMIT University,Melbourne City,20712,Darley,50.4903284994
+unimelb_parkville,University of Melbourne,Parkville,20712,Darley,49.95502936551
+monash_clayton,Monash University,Clayton,20729,Deer Park,36.26487931384
+rmit_city,RMIT University,Melbourne City,20729,Deer Park,17.849717271779998
+unimelb_parkville,University of Melbourne,Parkville,20729,Deer Park,17.531798489190002
+monash_clayton,Monash University,Clayton,20716,Darraweit Guim,59.33131027072
+rmit_city,RMIT University,Melbourne City,20716,Darraweit Guim,43.95070431214
+unimelb_parkville,University of Melbourne,Parkville,20716,Darraweit Guim,42.47145480159
+monash_clayton,Monash University,Clayton,20724,Deanside,44.0829557982
+rmit_city,RMIT University,Melbourne City,20724,Deanside,25.543657113789997
+unimelb_parkville,University of Melbourne,Parkville,20724,Deanside,25.11143574611
+monash_clayton,Monash University,Clayton,20750,Dewhurst,30.55177022178
+rmit_city,RMIT University,Melbourne City,20750,Dewhurst,48.710302884719994
+unimelb_parkville,University of Melbourne,Parkville,20750,Dewhurst,49.300714647940005
+monash_clayton,Monash University,Clayton,20762,Dixons Creek,44.61048052134
+rmit_city,RMIT University,Melbourne City,20762,Dixons Creek,48.28160446565
+unimelb_parkville,University of Melbourne,Parkville,20762,Dixons Creek,47.51778757198
+monash_clayton,Monash University,Clayton,20766,Docklands,20.264145990699998
+rmit_city,RMIT University,Melbourne City,20766,Docklands,2.4059863687900003
+unimelb_parkville,University of Melbourne,Parkville,20766,Docklands,3.371982751
+monash_clayton,Monash University,Clayton,20752,Diamond Creek,27.78169063561
+rmit_city,RMIT University,Melbourne City,20752,Diamond Creek,23.573457910640002
+unimelb_parkville,University of Melbourne,Parkville,20752,Diamond Creek,22.547466523769998
+monash_clayton,Monash University,Clayton,20754,Diggers Rest,51.87285968917
+rmit_city,RMIT University,Melbourne City,20754,Diggers Rest,32.834529449
+unimelb_parkville,University of Melbourne,Parkville,20754,Diggers Rest,31.87326648697
+monash_clayton,Monash University,Clayton,20769,Don Valley,44.43903880384
+rmit_city,RMIT University,Melbourne City,20769,Don Valley,55.907438206079995
+unimelb_parkville,University of Melbourne,Parkville,20769,Don Valley,55.70483039815
+monash_clayton,Monash University,Clayton,20771,Doncaster,14.235738836140001
+rmit_city,RMIT University,Melbourne City,20771,Doncaster,14.4650092069
+unimelb_parkville,University of Melbourne,Parkville,20771,Doncaster,14.239285878779999
+monash_clayton,Monash University,Clayton,20772,Doncaster East,15.42805123565
+rmit_city,RMIT University,Melbourne City,20772,Doncaster East,18.7101200655
+unimelb_parkville,University of Melbourne,Parkville,20772,Doncaster East,18.457651951939997
+monash_clayton,Monash University,Clayton,20773,Donnybrook (Vic.),42.93091615564
+rmit_city,RMIT University,Melbourne City,20773,Donnybrook (Vic.),29.905810497580003
+unimelb_parkville,University of Melbourne,Parkville,20773,Donnybrook (Vic.),28.40668223765
+monash_clayton,Monash University,Clayton,20774,Donvale,14.49106538683
+rmit_city,RMIT University,Melbourne City,20774,Donvale,19.8688559474
+unimelb_parkville,University of Melbourne,Parkville,20774,Donvale,19.73209286624
+monash_clayton,Monash University,Clayton,20779,Doreen,34.69405416046
+rmit_city,RMIT University,Melbourne City,20779,Doreen,28.114432725369998
+unimelb_parkville,University of Melbourne,Parkville,20779,Doreen,26.87302300924
+monash_clayton,Monash University,Clayton,20783,Doveton,12.197330972489999
+rmit_city,RMIT University,Melbourne City,20783,Doveton,31.238670796610002
+unimelb_parkville,University of Melbourne,Parkville,20783,Doveton,32.195038489089995
+monash_clayton,Monash University,Clayton,20830,East Melbourne,17.17016537505
+rmit_city,RMIT University,Melbourne City,20830,East Melbourne,1.95297731006
+unimelb_parkville,University of Melbourne,Parkville,20830,East Melbourne,2.91255549016
+monash_clayton,Monash University,Clayton,20833,East Warburton,60.23122451265
+rmit_city,RMIT University,Melbourne City,20833,East Warburton,71.71468938279
+unimelb_parkville,University of Melbourne,Parkville,20833,East Warburton,71.45904218715
+monash_clayton,Monash University,Clayton,20788,Dromana,47.96747031862
+rmit_city,RMIT University,Melbourne City,20788,Dromana,58.28050256658
+unimelb_parkville,University of Melbourne,Parkville,20788,Dromana,59.78160540856
+monash_clayton,Monash University,Clayton,20825,Eaglemont,17.49483286997
+rmit_city,RMIT University,Melbourne City,20825,Eaglemont,10.40052802715
+unimelb_parkville,University of Melbourne,Parkville,20825,Eaglemont,9.7590503331
+monash_clayton,Monash University,Clayton,20889,Eumemmerring,13.777935548990001
+rmit_city,RMIT University,Melbourne City,20889,Eumemmerring,32.77831210905
+unimelb_parkville,University of Melbourne,Parkville,20889,Eumemmerring,33.756798656179996
+monash_clayton,Monash University,Clayton,20843,Eden Park,47.41123599313
+rmit_city,RMIT University,Melbourne City,20843,Eden Park,36.82121216093
+unimelb_parkville,University of Melbourne,Parkville,20843,Eden Park,35.36274235929
+monash_clayton,Monash University,Clayton,20848,Edithvale,14.23448513074
+rmit_city,RMIT University,Melbourne City,20848,Edithvale,28.814613505910003
+unimelb_parkville,University of Melbourne,Parkville,20848,Edithvale,30.15086068434
+monash_clayton,Monash University,Clayton,20864,Elsternwick,11.6621310971
+rmit_city,RMIT University,Melbourne City,20864,Elsternwick,9.60637158326
+unimelb_parkville,University of Melbourne,Parkville,20864,Elsternwick,10.993657833679999
+monash_clayton,Monash University,Clayton,20865,Eltham (Vic.),21.81261117871
+rmit_city,RMIT University,Melbourne City,20865,Eltham (Vic.),19.862016057119998
+unimelb_parkville,University of Melbourne,Parkville,20865,Eltham (Vic.),19.110046967509998
+monash_clayton,Monash University,Clayton,20866,Eltham North,23.64086127103
+rmit_city,RMIT University,Melbourne City,20866,Eltham North,20.1292944208
+unimelb_parkville,University of Melbourne,Parkville,20866,Eltham North,19.241579754300002
+monash_clayton,Monash University,Clayton,20948,Frankston North,24.12088330064
+rmit_city,RMIT University,Melbourne City,20948,Frankston North,39.64256133836
+unimelb_parkville,University of Melbourne,Parkville,20948,Frankston North,40.98733831125
+monash_clayton,Monash University,Clayton,20867,Elwood,13.67083719011
+rmit_city,RMIT University,Melbourne City,20867,Elwood,8.32800433121
+unimelb_parkville,University of Melbourne,Parkville,20867,Elwood,9.79309882735
+monash_clayton,Monash University,Clayton,20868,Emerald (Vic.),27.684709889639997
+rmit_city,RMIT University,Melbourne City,20868,Emerald (Vic.),45.07436628516
+unimelb_parkville,University of Melbourne,Parkville,20868,Emerald (Vic.),45.55218235088
+monash_clayton,Monash University,Clayton,20871,Endeavour Hills,12.55359649715
+rmit_city,RMIT University,Melbourne City,20871,Endeavour Hills,31.59797006579
+unimelb_parkville,University of Melbourne,Parkville,20871,Endeavour Hills,32.46922582157
+monash_clayton,Monash University,Clayton,20878,Epping (Vic.),31.44246905217
+rmit_city,RMIT University,Melbourne City,20878,Epping (Vic.),18.87324899722
+unimelb_parkville,University of Melbourne,Parkville,20878,Epping (Vic.),17.41804428702
+monash_clayton,Monash University,Clayton,20885,Essendon,26.87027935105
+rmit_city,RMIT University,Melbourne City,20885,Essendon,8.06250634737
+unimelb_parkville,University of Melbourne,Parkville,20885,Essendon,6.90366202858
+monash_clayton,Monash University,Clayton,20886,Essendon Fields,29.34314840067
+rmit_city,RMIT University,Melbourne City,20886,Essendon Fields,10.81651714047
+unimelb_parkville,University of Melbourne,Parkville,20886,Essendon Fields,9.555066720200001
+monash_clayton,Monash University,Clayton,20887,Essendon North,28.028673545620002
+rmit_city,RMIT University,Melbourne City,20887,Essendon North,9.28442850778
+unimelb_parkville,University of Melbourne,Parkville,20887,Essendon North,8.09839232303
+monash_clayton,Monash University,Clayton,20888,Essendon West,28.203209970659998
+rmit_city,RMIT University,Melbourne City,20888,Essendon West,9.14232904843
+unimelb_parkville,University of Melbourne,Parkville,20888,Essendon West,8.2546293426
+monash_clayton,Monash University,Clayton,20898,Exford,56.098432692100005
+rmit_city,RMIT University,Melbourne City,20898,Exford,38.05743960795
+unimelb_parkville,University of Melbourne,Parkville,20898,Exford,37.74467837178
+monash_clayton,Monash University,Clayton,20899,Eynesbury,54.77294004748
+rmit_city,RMIT University,Melbourne City,20899,Eynesbury,37.89279153704
+unimelb_parkville,University of Melbourne,Parkville,20899,Eynesbury,37.859770201829996
+monash_clayton,Monash University,Clayton,20901,Fairfield (Vic.),17.74851481407
+rmit_city,RMIT University,Melbourne City,20901,Fairfield (Vic.),5.17685687797
+unimelb_parkville,University of Melbourne,Parkville,20901,Fairfield (Vic.),4.58067611101
+monash_clayton,Monash University,Clayton,20909,Fawkner,27.14571339235
+rmit_city,RMIT University,Melbourne City,20909,Fawkner,11.47695116339
+unimelb_parkville,University of Melbourne,Parkville,20909,Fawkner,9.972824568930001
+monash_clayton,Monash University,Clayton,20916,Fernshaw,54.03092874823
+rmit_city,RMIT University,Melbourne City,20916,Fernshaw,61.866794689479995
+unimelb_parkville,University of Melbourne,Parkville,20916,Fernshaw,61.33985170336
+monash_clayton,Monash University,Clayton,20966,Garfield,51.43811191859
+rmit_city,RMIT University,Melbourne City,20966,Garfield,70.20584920124
+unimelb_parkville,University of Melbourne,Parkville,20966,Garfield,70.91317236813
+monash_clayton,Monash University,Clayton,20917,Ferntree Gully,12.9401625683
+rmit_city,RMIT University,Melbourne City,20917,Ferntree Gully,29.28811094133
+unimelb_parkville,University of Melbourne,Parkville,20917,Ferntree Gully,29.7609684757
+monash_clayton,Monash University,Clayton,20967,Garfield North,49.92437125981
+rmit_city,RMIT University,Melbourne City,20967,Garfield North,68.21546935686
+unimelb_parkville,University of Melbourne,Parkville,20967,Garfield North,68.79941829603
+monash_clayton,Monash University,Clayton,20979,Gembrook,43.54234042917
+rmit_city,RMIT University,Melbourne City,20979,Gembrook,60.5621942461
+unimelb_parkville,University of Melbourne,Parkville,20979,Gembrook,60.93983612114
+monash_clayton,Monash University,Clayton,20918,Ferny Creek,17.66239241519
+rmit_city,RMIT University,Melbourne City,20918,Ferny Creek,33.40607225185
+unimelb_parkville,University of Melbourne,Parkville,20918,Ferny Creek,33.76813002875
+monash_clayton,Monash University,Clayton,20925,Fitzroy North,19.29332143519
+rmit_city,RMIT University,Melbourne City,20925,Fitzroy North,3.40714656158
+unimelb_parkville,University of Melbourne,Parkville,20925,Fitzroy North,2.3985137572100004
+monash_clayton,Monash University,Clayton,20995,Gilderoy,50.97710503564
+rmit_city,RMIT University,Melbourne City,20995,Gilderoy,66.37111948335
+unimelb_parkville,University of Melbourne,Parkville,20995,Gilderoy,66.52595471839
+monash_clayton,Monash University,Clayton,20920,Fingal (Vic.),61.40731270893
+rmit_city,RMIT University,Melbourne City,20920,Fingal (Vic.),68.37970210239
+unimelb_parkville,University of Melbourne,Parkville,20920,Fingal (Vic.),69.87443397426999
+monash_clayton,Monash University,Clayton,20924,Fitzroy (Vic.),18.43703427355
+rmit_city,RMIT University,Melbourne City,20924,Fitzroy (Vic.),1.6847004004600001
+unimelb_parkville,University of Melbourne,Parkville,20924,Fitzroy (Vic.),1.62305127962
+monash_clayton,Monash University,Clayton,21087,Grangefields,50.170015624070004
+rmit_city,RMIT University,Melbourne City,21087,Grangefields,31.478861995520003
+unimelb_parkville,University of Melbourne,Parkville,21087,Grangefields,30.95381628422
+monash_clayton,Monash University,Clayton,20929,Flemington,22.62854591289
+rmit_city,RMIT University,Melbourne City,20929,Flemington,3.55984128186
+unimelb_parkville,University of Melbourne,Parkville,20929,Flemington,2.8434439939
+monash_clayton,Monash University,Clayton,20930,Flinders (Vic.),61.96157621119
+rmit_city,RMIT University,Melbourne City,20930,Flinders (Vic.),71.91307558838
+unimelb_parkville,University of Melbourne,Parkville,20930,Flinders (Vic.),73.41843885396
+monash_clayton,Monash University,Clayton,20935,Footscray,24.51823900162
+rmit_city,RMIT University,Melbourne City,20935,Footscray,6.013506533179999
+unimelb_parkville,University of Melbourne,Parkville,20935,Footscray,6.005015422970001
+monash_clayton,Monash University,Clayton,21104,Greensborough,23.53192952684
+rmit_city,RMIT University,Melbourne City,21104,Greensborough,17.76128880225
+unimelb_parkville,University of Melbourne,Parkville,21104,Greensborough,16.76890796592
+monash_clayton,Monash University,Clayton,21105,Greenvale (Vic.),38.402396494449995
+rmit_city,RMIT University,Melbourne City,21105,Greenvale (Vic.),20.78435051526
+unimelb_parkville,University of Melbourne,Parkville,21105,Greenvale (Vic.),19.402929664160002
+monash_clayton,Monash University,Clayton,21115,Gruyere,35.12637550782
+rmit_city,RMIT University,Melbourne City,21115,Gruyere,44.986064918349996
+unimelb_parkville,University of Melbourne,Parkville,21115,Gruyere,44.71007739712
+monash_clayton,Monash University,Clayton,21121,Guys Hill,25.21224682913
+rmit_city,RMIT University,Melbourne City,21121,Guys Hill,44.149413537250005
+unimelb_parkville,University of Melbourne,Parkville,21121,Guys Hill,44.94524962928
+monash_clayton,Monash University,Clayton,20937,Forest Hill (Vic.),8.207295549500001
+rmit_city,RMIT University,Melbourne City,20937,Forest Hill (Vic.),18.74464088702
+unimelb_parkville,University of Melbourne,Parkville,20937,Forest Hill (Vic.),19.09463081245
+monash_clayton,Monash University,Clayton,20947,Frankston,26.66596166352
+rmit_city,RMIT University,Melbourne City,20947,Frankston,41.18332282264
+unimelb_parkville,University of Melbourne,Parkville,20947,Frankston,42.57488447155
+monash_clayton,Monash University,Clayton,20949,Frankston South,29.57059898454
+rmit_city,RMIT University,Melbourne City,20949,Frankston South,43.675265748710004
+unimelb_parkville,University of Melbourne,Parkville,20949,Frankston South,45.087210135890004
+monash_clayton,Monash University,Clayton,20950,Fraser Rise,44.789846791689996
+rmit_city,RMIT University,Melbourne City,20950,Fraser Rise,25.77666242838
+unimelb_parkville,University of Melbourne,Parkville,20950,Fraser Rise,25.05270179776
+monash_clayton,Monash University,Clayton,20965,Gardenvale,11.27632174578
+rmit_city,RMIT University,Melbourne City,20965,Gardenvale,10.77535796313
+unimelb_parkville,University of Melbourne,Parkville,20965,Gardenvale,12.177314326969999
+monash_clayton,Monash University,Clayton,21001,Gisborne,66.51933345357999
+rmit_city,RMIT University,Melbourne City,21001,Gisborne,47.57358957393
+unimelb_parkville,University of Melbourne,Parkville,21001,Gisborne,46.537398045690004
+monash_clayton,Monash University,Clayton,21002,Gisborne South,60.627587480920006
+rmit_city,RMIT University,Melbourne City,21002,Gisborne South,41.64979603479
+unimelb_parkville,University of Melbourne,Parkville,21002,Gisborne South,40.63327871889
+monash_clayton,Monash University,Clayton,21004,Gladstone Park,32.0902837148
+rmit_city,RMIT University,Melbourne City,21004,Gladstone Park,14.055753408029998
+unimelb_parkville,University of Melbourne,Parkville,21004,Gladstone Park,12.70194803134
+monash_clayton,Monash University,Clayton,21005,Gladysdale,44.61023929375
+rmit_city,RMIT University,Melbourne City,21005,Gladysdale,59.38306260337
+unimelb_parkville,University of Melbourne,Parkville,21005,Gladysdale,59.487839405769996
+monash_clayton,Monash University,Clayton,21009,Glen Huntly,8.60157285434
+rmit_city,RMIT University,Melbourne City,21009,Glen Huntly,11.648617823619999
+unimelb_parkville,University of Melbourne,Parkville,21009,Glen Huntly,12.88348122224
+monash_clayton,Monash University,Clayton,21124,Hadfield,27.60846205864
+rmit_city,RMIT University,Melbourne City,21124,Hadfield,10.863988708929998
+unimelb_parkville,University of Melbourne,Parkville,21124,Hadfield,9.36839322052
+monash_clayton,Monash University,Clayton,21010,Glen Iris (Vic.),8.516337120480001
+rmit_city,RMIT University,Melbourne City,21010,Glen Iris (Vic.),10.7154630206
+unimelb_parkville,University of Melbourne,Parkville,21010,Glen Iris (Vic.),11.53651922117
+monash_clayton,Monash University,Clayton,21013,Glen Waverley,4.331996895950001
+rmit_city,RMIT University,Melbourne City,21013,Glen Waverley,20.08511772085
+unimelb_parkville,University of Melbourne,Parkville,21013,Glen Waverley,20.74111919229
+monash_clayton,Monash University,Clayton,21047,Glenroy (Vic.),29.77712529495
+rmit_city,RMIT University,Melbourne City,21047,Glenroy (Vic.),12.14707860741
+unimelb_parkville,University of Melbourne,Parkville,21047,Glenroy (Vic.),10.72314356601
+monash_clayton,Monash University,Clayton,21059,Goldie,78.38822974605
+rmit_city,RMIT University,Melbourne City,21059,Goldie,62.875680114969995
+unimelb_parkville,University of Melbourne,Parkville,21059,Goldie,61.41133788585
+monash_clayton,Monash University,Clayton,21079,Gowanbrae,31.153989485769998
+rmit_city,RMIT University,Melbourne City,21079,Gowanbrae,12.91391663625
+unimelb_parkville,University of Melbourne,Parkville,21079,Gowanbrae,11.592172498419998
+monash_clayton,Monash University,Clayton,21125,Hallam,15.639320367129999
+rmit_city,RMIT University,Melbourne City,21125,Hallam,34.682069141220005
+unimelb_parkville,University of Melbourne,Parkville,21125,Hallam,35.638516908869995
+monash_clayton,Monash University,Clayton,21131,Hampton (Vic.),11.46661335806
+rmit_city,RMIT University,Melbourne City,21131,Hampton (Vic.),14.988866524090001
+unimelb_parkville,University of Melbourne,Parkville,21131,Hampton (Vic.),16.43653149161
+monash_clayton,Monash University,Clayton,21132,Hampton East,9.860670503720002
+rmit_city,RMIT University,Melbourne City,21132,Hampton East,15.66224496983
+unimelb_parkville,University of Melbourne,Parkville,21132,Hampton East,17.061694744740002
+monash_clayton,Monash University,Clayton,21133,Hampton Park,18.64121543753
+rmit_city,RMIT University,Melbourne City,21133,Hampton Park,37.389005774340006
+unimelb_parkville,University of Melbourne,Parkville,21133,Hampton Park,38.44527710328
+monash_clayton,Monash University,Clayton,21139,Harkaway,21.32527438568
+rmit_city,RMIT University,Melbourne City,21139,Harkaway,40.20546948336
+unimelb_parkville,University of Melbourne,Parkville,21139,Harkaway,40.98633414362
+monash_clayton,Monash University,Clayton,21140,Harkness,59.20006026975
+rmit_city,RMIT University,Melbourne City,21140,Harkness,40.40700082009
+unimelb_parkville,University of Melbourne,Parkville,21140,Harkness,39.810578312420006
+monash_clayton,Monash University,Clayton,21145,Hastings (Vic.),43.03784460595
+rmit_city,RMIT University,Melbourne City,21145,Hastings (Vic.),57.28423593146
+unimelb_parkville,University of Melbourne,Parkville,21145,Hastings (Vic.),58.71142650621
+monash_clayton,Monash University,Clayton,21152,Hawthorn (Vic.),12.80168099614
+rmit_city,RMIT University,Melbourne City,21152,Hawthorn (Vic.),6.71409849359
+unimelb_parkville,University of Melbourne,Parkville,21152,Hawthorn (Vic.),7.35110401703
+monash_clayton,Monash University,Clayton,21159,Heath Hill,62.4245203244
+rmit_city,RMIT University,Melbourne City,21159,Heath Hill,81.49812797451
+unimelb_parkville,University of Melbourne,Parkville,21159,Heath Hill,82.38912361127
+monash_clayton,Monash University,Clayton,21153,Hawthorn East,11.58471282311
+rmit_city,RMIT University,Melbourne City,21153,Hawthorn East,8.13809185126
+unimelb_parkville,University of Melbourne,Parkville,21153,Hawthorn East,8.73617610074
+monash_clayton,Monash University,Clayton,21158,Healesville,46.06636813886
+rmit_city,RMIT University,Melbourne City,21158,Healesville,54.94220074212
+unimelb_parkville,University of Melbourne,Parkville,21158,Healesville,54.52644147355
+monash_clayton,Monash University,Clayton,21161,Heathcote Junction,59.24700630484
+rmit_city,RMIT University,Melbourne City,21161,Heathcote Junction,47.9077560546
+unimelb_parkville,University of Melbourne,Parkville,21161,Heathcote Junction,46.41861466546
+monash_clayton,Monash University,Clayton,21167,Heidelberg,18.64939491059
+rmit_city,RMIT University,Melbourne City,21167,Heidelberg,11.38634839422
+unimelb_parkville,University of Melbourne,Parkville,21167,Heidelberg,10.61427935248
+monash_clayton,Monash University,Clayton,21168,Heidelberg Heights,20.148246865860003
+rmit_city,RMIT University,Melbourne City,21168,Heidelberg Heights,10.91761481354
+unimelb_parkville,University of Melbourne,Parkville,21168,Heidelberg Heights,9.94983661787
+monash_clayton,Monash University,Clayton,21312,Kealba,33.065851551239994
+rmit_city,RMIT University,Melbourne City,21312,Kealba,14.00579791142
+unimelb_parkville,University of Melbourne,Parkville,21312,Kealba,13.24916770551
+monash_clayton,Monash University,Clayton,21169,Heidelberg West,20.8266297843
+rmit_city,RMIT University,Melbourne City,21169,Heidelberg West,10.28862547588
+unimelb_parkville,University of Melbourne,Parkville,21169,Heidelberg West,9.21491550022
+monash_clayton,Monash University,Clayton,21176,Hesket,75.97225784705999
+rmit_city,RMIT University,Melbourne City,21176,Hesket,58.06285254246
+unimelb_parkville,University of Melbourne,Parkville,21176,Hesket,56.771512118960004
+monash_clayton,Monash University,Clayton,21185,Highett,9.59543561494
+rmit_city,RMIT University,Melbourne City,21185,Highett,17.23265197879
+unimelb_parkville,University of Melbourne,Parkville,21185,Highett,18.622263083220002
+monash_clayton,Monash University,Clayton,21193,Hillside (Melton - Vic.),42.43736235636
+rmit_city,RMIT University,Melbourne City,21193,Hillside (Melton - Vic.),23.37895388465
+unimelb_parkville,University of Melbourne,Parkville,21193,Hillside (Melton - Vic.),22.59149931312
+monash_clayton,Monash University,Clayton,21195,Hmas Cerberus,52.5098176638
+rmit_city,RMIT University,Melbourne City,21195,Hmas Cerberus,66.80075748448999
+unimelb_parkville,University of Melbourne,Parkville,21195,Hmas Cerberus,68.23465369588999
+monash_clayton,Monash University,Clayton,21317,Keilor Lodge,38.00115048607
+rmit_city,RMIT University,Melbourne City,21317,Keilor Lodge,18.9474807327
+unimelb_parkville,University of Melbourne,Parkville,21317,Keilor Lodge,18.01573665674
+monash_clayton,Monash University,Clayton,21196,Hoddles Creek,40.18494749546
+rmit_city,RMIT University,Melbourne City,21196,Hoddles Creek,55.21201137029
+unimelb_parkville,University of Melbourne,Parkville,21196,Hoddles Creek,55.35924851559
+monash_clayton,Monash University,Clayton,21202,Hopetoun Park,60.91099086245
+rmit_city,RMIT University,Melbourne City,21202,Hopetoun Park,42.59562855459
+unimelb_parkville,University of Melbourne,Parkville,21202,Hopetoun Park,42.1855904619
+monash_clayton,Monash University,Clayton,21203,Hoppers Crossing,38.60879318917
+rmit_city,RMIT University,Melbourne City,21203,Hoppers Crossing,24.02308566548
+unimelb_parkville,University of Melbourne,Parkville,21203,Hoppers Crossing,24.50305120182
+monash_clayton,Monash University,Clayton,21247,Ivanhoe East,16.567979312920002
+rmit_city,RMIT University,Melbourne City,21247,Ivanhoe East,9.339440676550002
+unimelb_parkville,University of Melbourne,Parkville,21247,Ivanhoe East,8.833628822009999
+monash_clayton,Monash University,Clayton,21248,Jacana,31.70817862527
+rmit_city,RMIT University,Melbourne City,21248,Jacana,14.10288986933
+unimelb_parkville,University of Melbourne,Parkville,21248,Jacana,12.68931941127
+monash_clayton,Monash University,Clayton,21277,Junction Village,28.302212495939997
+rmit_city,RMIT University,Melbourne City,21277,Junction Village,46.31304535578
+unimelb_parkville,University of Melbourne,Parkville,21277,Junction Village,47.49485139086
+monash_clayton,Monash University,Clayton,21284,Kalkallo,45.33807340098
+rmit_city,RMIT University,Melbourne City,21284,Kalkallo,31.26415741347
+unimelb_parkville,University of Melbourne,Parkville,21284,Kalkallo,29.75802376312
+monash_clayton,Monash University,Clayton,21286,Kallista,21.6580583295
+rmit_city,RMIT University,Melbourne City,21286,Kallista,38.2622131611
+unimelb_parkville,University of Melbourne,Parkville,21286,Kallista,38.675079016859996
+monash_clayton,Monash University,Clayton,21287,Kalorama,23.93236446004
+rmit_city,RMIT University,Melbourne City,21287,Kalorama,36.92632389288
+unimelb_parkville,University of Melbourne,Parkville,21287,Kalorama,36.99127755826
+monash_clayton,Monash University,Clayton,21294,Kangaroo Ground,25.74249588705
+rmit_city,RMIT University,Melbourne City,21294,Kangaroo Ground,27.01730553121
+unimelb_parkville,University of Melbourne,Parkville,21294,Kangaroo Ground,26.31959700283
+monash_clayton,Monash University,Clayton,21314,Keilor,35.39485616507
+rmit_city,RMIT University,Melbourne City,21314,Keilor,16.3612593762
+unimelb_parkville,University of Melbourne,Parkville,21314,Keilor,15.39912067502
+monash_clayton,Monash University,Clayton,21315,Keilor Downs,36.064579692129996
+rmit_city,RMIT University,Melbourne City,21315,Keilor Downs,16.99337079972
+unimelb_parkville,University of Melbourne,Parkville,21315,Keilor Downs,16.18193818025
+monash_clayton,Monash University,Clayton,21316,Keilor East,31.02903136616
+rmit_city,RMIT University,Melbourne City,21316,Keilor East,11.96835126127
+unimelb_parkville,University of Melbourne,Parkville,21316,Keilor East,11.06626857444
+monash_clayton,Monash University,Clayton,21318,Keilor North,39.5968861964
+rmit_city,RMIT University,Melbourne City,21318,Keilor North,20.58689624145
+unimelb_parkville,University of Melbourne,Parkville,21318,Keilor North,19.595025542240002
+monash_clayton,Monash University,Clayton,21319,Keilor Park,33.04828509855
+rmit_city,RMIT University,Melbourne City,21319,Keilor Park,14.0587406653
+unimelb_parkville,University of Melbourne,Parkville,21319,Keilor Park,13.04638212887
+monash_clayton,Monash University,Clayton,21327,Kensington (Vic.),22.62701762424
+rmit_city,RMIT University,Melbourne City,21327,Kensington (Vic.),3.6170522180900004
+unimelb_parkville,University of Melbourne,Parkville,21327,Kensington (Vic.),3.29243048773
+monash_clayton,Monash University,Clayton,21333,Kerrie,71.7718545365
+rmit_city,RMIT University,Melbourne City,21333,Kerrie,54.021612260939996
+unimelb_parkville,University of Melbourne,Parkville,21333,Kerrie,52.70708850102
+monash_clayton,Monash University,Clayton,21336,Kew (Vic.),14.73917439649
+rmit_city,RMIT University,Melbourne City,21336,Kew (Vic.),6.957827266420001
+unimelb_parkville,University of Melbourne,Parkville,21336,Kew (Vic.),6.95117822987
+monash_clayton,Monash University,Clayton,21339,Keysborough,10.98038323531
+rmit_city,RMIT University,Melbourne City,21339,Keysborough,28.41385529214
+unimelb_parkville,University of Melbourne,Parkville,21339,Keysborough,29.59163808522
+monash_clayton,Monash University,Clayton,21597,Manor Lakes,49.28924229114
+rmit_city,RMIT University,Melbourne City,21597,Manor Lakes,34.28177248608
+unimelb_parkville,University of Melbourne,Parkville,21597,Manor Lakes,34.5966200239
+monash_clayton,Monash University,Clayton,21337,Kew East,15.21915132792
+rmit_city,RMIT University,Melbourne City,21337,Kew East,8.17055089003
+unimelb_parkville,University of Melbourne,Parkville,21337,Kew East,7.939759378460001
+monash_clayton,Monash University,Clayton,21468,Langwarrin South,31.379397231
+rmit_city,RMIT University,Melbourne City,21468,Langwarrin South,46.95327914337
+unimelb_parkville,University of Melbourne,Parkville,21468,Langwarrin South,48.31270393724
+monash_clayton,Monash University,Clayton,21473,Launching Place,41.39137666849
+rmit_city,RMIT University,Melbourne City,21473,Launching Place,54.24843683014
+unimelb_parkville,University of Melbourne,Parkville,21473,Launching Place,54.180169065
+monash_clayton,Monash University,Clayton,21354,Kilsyth,19.129402721490003
+rmit_city,RMIT University,Melbourne City,21354,Kilsyth,31.602538826430003
+unimelb_parkville,University of Melbourne,Parkville,21354,Kilsyth,31.69120040268
+monash_clayton,Monash University,Clayton,21355,Kilsyth South,17.724314885349997
+rmit_city,RMIT University,Melbourne City,21355,Kilsyth South,30.75617754213
+unimelb_parkville,University of Melbourne,Parkville,21355,Kilsyth South,30.90590787777
+monash_clayton,Monash University,Clayton,21358,Kinglake,48.11042440379
+rmit_city,RMIT University,Melbourne City,21358,Kinglake,48.324522351439995
+unimelb_parkville,University of Melbourne,Parkville,21358,Kinglake,47.33576723849
+monash_clayton,Monash University,Clayton,21476,Laverton (Vic.),33.05924404298
+rmit_city,RMIT University,Melbourne City,21476,Laverton (Vic.),18.107067535810003
+unimelb_parkville,University of Melbourne,Parkville,21476,Laverton (Vic.),18.63337484529
+monash_clayton,Monash University,Clayton,21359,Kinglake Central,51.734501186660005
+rmit_city,RMIT University,Melbourne City,21359,Kinglake Central,49.423125065280004
+unimelb_parkville,University of Melbourne,Parkville,21359,Kinglake Central,48.28264221443
+monash_clayton,Monash University,Clayton,21360,Kinglake West,49.19148461056
+rmit_city,RMIT University,Melbourne City,21360,Kinglake West,44.921810562400005
+unimelb_parkville,University of Melbourne,Parkville,21360,Kinglake West,43.6962998385
+monash_clayton,Monash University,Clayton,21362,Kings Park (Vic.),37.6235170595
+rmit_city,RMIT University,Melbourne City,21362,Kings Park (Vic.),18.70581620238
+unimelb_parkville,University of Melbourne,Parkville,21362,Kings Park (Vic.),18.10066886005
+monash_clayton,Monash University,Clayton,21363,Kingsbury,23.2976487997
+rmit_city,RMIT University,Melbourne City,21363,Kingsbury,11.95833557032
+unimelb_parkville,University of Melbourne,Parkville,21363,Kingsbury,10.70668109337
+monash_clayton,Monash University,Clayton,21365,Kingsville,25.281595622050002
+rmit_city,RMIT University,Melbourne City,21365,Kingsville,7.23576811473
+unimelb_parkville,University of Melbourne,Parkville,21365,Kingsville,7.38739050718
+monash_clayton,Monash University,Clayton,21374,Knoxfield,10.19081788253
+rmit_city,RMIT University,Melbourne City,21374,Knoxfield,26.63866219829
+unimelb_parkville,University of Melbourne,Parkville,21374,Knoxfield,27.1622595399
+monash_clayton,Monash University,Clayton,21380,Koo Wee Rup,44.201170411250004
+rmit_city,RMIT University,Melbourne City,21380,Koo Wee Rup,63.131962859990004
+unimelb_parkville,University of Melbourne,Parkville,21380,Koo Wee Rup,64.15213238272
+monash_clayton,Monash University,Clayton,21381,Koo Wee Rup North,43.42900813519
+rmit_city,RMIT University,Melbourne City,21381,Koo Wee Rup North,62.50204167093
+unimelb_parkville,University of Melbourne,Parkville,21381,Koo Wee Rup North,63.39307510632
+monash_clayton,Monash University,Clayton,21393,Kooyong,11.74726632791
+rmit_city,RMIT University,Melbourne City,21393,Kooyong,7.42256240967
+unimelb_parkville,University of Melbourne,Parkville,21393,Kooyong,8.25955612464
+monash_clayton,Monash University,Clayton,21411,Kurunjang,55.26884517832
+rmit_city,RMIT University,Melbourne City,21411,Kurunjang,36.395501143189996
+unimelb_parkville,University of Melbourne,Parkville,21411,Kurunjang,35.76123368013
+monash_clayton,Monash University,Clayton,21452,Lalor,29.226561172950003
+rmit_city,RMIT University,Melbourne City,21452,Lalor,16.21427072783
+unimelb_parkville,University of Melbourne,Parkville,21452,Lalor,14.76216695379
+monash_clayton,Monash University,Clayton,21456,Lancefield,80.41869063944
+rmit_city,RMIT University,Melbourne City,21456,Lancefield,63.89255393719
+unimelb_parkville,University of Melbourne,Parkville,21456,Lancefield,62.477123407840004
+monash_clayton,Monash University,Clayton,21459,Lang Lang,57.65768700531
+rmit_city,RMIT University,Melbourne City,21459,Lang Lang,76.42252294597
+unimelb_parkville,University of Melbourne,Parkville,21459,Lang Lang,77.49884996127999
+monash_clayton,Monash University,Clayton,21460,Lang Lang East,60.42743552241
+rmit_city,RMIT University,Melbourne City,21460,Lang Lang East,79.45073706221
+unimelb_parkville,University of Melbourne,Parkville,21460,Lang Lang East,80.42534206187
+monash_clayton,Monash University,Clayton,21467,Langwarrin,27.46186687637
+rmit_city,RMIT University,Melbourne City,21467,Langwarrin,43.5131705021
+unimelb_parkville,University of Melbourne,Parkville,21467,Langwarrin,44.84098299309
+monash_clayton,Monash University,Clayton,21477,Laverton North,31.903836453700002
+rmit_city,RMIT University,Melbourne City,21477,Laverton North,15.69536807868
+unimelb_parkville,University of Melbourne,Parkville,21477,Laverton North,16.04676195195
+monash_clayton,Monash University,Clayton,21504,Lilydale (Vic.),26.407993483720002
+rmit_city,RMIT University,Melbourne City,21504,Lilydale (Vic.),36.38644394895
+unimelb_parkville,University of Melbourne,Parkville,21504,Lilydale (Vic.),36.20171248057
+monash_clayton,Monash University,Clayton,21533,Long Forest,62.00109447387
+rmit_city,RMIT University,Melbourne City,21533,Long Forest,43.32849917619
+unimelb_parkville,University of Melbourne,Parkville,21533,Long Forest,42.78382257964
+monash_clayton,Monash University,Clayton,21547,Lower Plenty,19.133405916380003
+rmit_city,RMIT University,Melbourne City,21547,Lower Plenty,15.914843309
+unimelb_parkville,University of Melbourne,Parkville,21547,Lower Plenty,15.23392767234
+monash_clayton,Monash University,Clayton,21558,Lysterfield,14.527527619779999
+rmit_city,RMIT University,Melbourne City,21558,Lysterfield,32.803838821650004
+unimelb_parkville,University of Melbourne,Parkville,21558,Lysterfield,33.476688131230006
+monash_clayton,Monash University,Clayton,21559,Lysterfield South,12.3824142448
+rmit_city,RMIT University,Melbourne City,21559,Lysterfield South,31.22941439256
+unimelb_parkville,University of Melbourne,Parkville,21559,Lysterfield South,32.0248041213
+monash_clayton,Monash University,Clayton,21561,Macclesfield (Vic.),31.212179168850003
+rmit_city,RMIT University,Melbourne City,21561,Macclesfield (Vic.),47.11278569772
+unimelb_parkville,University of Melbourne,Parkville,21561,Macclesfield (Vic.),47.392706987290005
+monash_clayton,Monash University,Clayton,21562,Macedon,74.08105024775999
+rmit_city,RMIT University,Melbourne City,21562,Macedon,55.41679723043
+unimelb_parkville,University of Melbourne,Parkville,21562,Macedon,54.27087596297
+monash_clayton,Monash University,Clayton,21564,Macleod (Vic.),21.90048668668
+rmit_city,RMIT University,Melbourne City,21564,Macleod (Vic.),13.48604819592
+unimelb_parkville,University of Melbourne,Parkville,21564,Macleod (Vic.),12.43940527015
+monash_clayton,Monash University,Clayton,21569,Maddingley,66.64781865152001
+rmit_city,RMIT University,Melbourne City,21569,Maddingley,48.6335691635
+unimelb_parkville,University of Melbourne,Parkville,21569,Maddingley,48.300059585460005
+monash_clayton,Monash University,Clayton,21575,Maidstone,27.11297244762
+rmit_city,RMIT University,Melbourne City,21575,Maidstone,8.25461785608
+unimelb_parkville,University of Melbourne,Parkville,21575,Maidstone,7.85354010665
+monash_clayton,Monash University,Clayton,21578,Main Ridge,56.601380028790004
+rmit_city,RMIT University,Melbourne City,21578,Main Ridge,65.94700719756
+unimelb_parkville,University of Melbourne,Parkville,21578,Main Ridge,67.45312767397
+monash_clayton,Monash University,Clayton,21586,Malvern (Vic.),10.6705967988
+rmit_city,RMIT University,Melbourne City,21586,Malvern (Vic.),8.449498011920001
+unimelb_parkville,University of Melbourne,Parkville,21586,Malvern (Vic.),9.50083789584
+monash_clayton,Monash University,Clayton,21625,McCrae,52.39438466098
+rmit_city,RMIT University,Melbourne City,21625,McCrae,60.68908794144
+unimelb_parkville,University of Melbourne,Parkville,21625,McCrae,62.19435795895
+monash_clayton,Monash University,Clayton,21587,Malvern East,6.921077299429999
+rmit_city,RMIT University,Melbourne City,21587,Malvern East,12.1996868373
+unimelb_parkville,University of Melbourne,Parkville,21587,Malvern East,13.20455309139
+monash_clayton,Monash University,Clayton,21588,Mambourin,51.52643729327
+rmit_city,RMIT University,Melbourne City,21588,Mambourin,37.89192420844
+unimelb_parkville,University of Melbourne,Parkville,21588,Mambourin,38.370882267380004
+monash_clayton,Monash University,Clayton,21604,Maribyrnong,26.96631995672
+rmit_city,RMIT University,Melbourne City,21604,Maribyrnong,7.92650432396
+unimelb_parkville,University of Melbourne,Parkville,21604,Maribyrnong,7.293529213429999
+monash_clayton,Monash University,Clayton,21619,Maryknoll,43.15118919204
+rmit_city,RMIT University,Melbourne City,21619,Maryknoll,61.58893506672
+unimelb_parkville,University of Melbourne,Parkville,21619,Maryknoll,62.21409929621
+monash_clayton,Monash University,Clayton,21629,McKinnon,8.622000462199999
+rmit_city,RMIT University,Melbourne City,21629,McKinnon,13.17279679301
+unimelb_parkville,University of Melbourne,Parkville,21629,McKinnon,14.486221232730001
+monash_clayton,Monash University,Clayton,21635,Meadow Heights,34.563017351119996
+rmit_city,RMIT University,Melbourne City,21635,Meadow Heights,17.845400431450003
+unimelb_parkville,University of Melbourne,Parkville,21635,Meadow Heights,16.37849597183
+monash_clayton,Monash University,Clayton,21640,Melbourne,16.62900752314
+rmit_city,RMIT University,Melbourne City,21640,Melbourne,2.56591295695
+unimelb_parkville,University of Melbourne,Parkville,21640,Melbourne,3.87301651143
+monash_clayton,Monash University,Clayton,21641,Melbourne Airport,37.22641868507
+rmit_city,RMIT University,Melbourne City,21641,Melbourne Airport,18.51933649218
+unimelb_parkville,University of Melbourne,Parkville,21641,Melbourne Airport,17.35229993231
+monash_clayton,Monash University,Clayton,21642,Melton (Vic.),52.14873033993
+rmit_city,RMIT University,Melbourne City,21642,Melton (Vic.),33.276086715
+unimelb_parkville,University of Melbourne,Parkville,21642,Melton (Vic.),32.648664011550004
+monash_clayton,Monash University,Clayton,21664,Merricks North,48.15773251322
+rmit_city,RMIT University,Melbourne City,21664,Merricks North,59.9687386205
+unimelb_parkville,University of Melbourne,Parkville,21664,Merricks North,61.454472774479996
+monash_clayton,Monash University,Clayton,21643,Melton South,54.653649140809996
+rmit_city,RMIT University,Melbourne City,21643,Melton South,36.218062399809995
+unimelb_parkville,University of Melbourne,Parkville,21643,Melton South,35.783578112559994
+monash_clayton,Monash University,Clayton,21644,Melton West,58.3991019017
+rmit_city,RMIT University,Melbourne City,21644,Melton West,39.79325654182
+unimelb_parkville,University of Melbourne,Parkville,21644,Melton West,39.28375440087
+monash_clayton,Monash University,Clayton,21648,Mentone,10.48342517796
+rmit_city,RMIT University,Melbourne City,21648,Mentone,21.386085439179997
+unimelb_parkville,University of Melbourne,Parkville,21648,Mentone,22.766080090470002
+monash_clayton,Monash University,Clayton,21649,Menzies Creek,23.71525104831
+rmit_city,RMIT University,Melbourne City,21649,Menzies Creek,40.982746054930004
+unimelb_parkville,University of Melbourne,Parkville,21649,Menzies Creek,41.462219761300005
+monash_clayton,Monash University,Clayton,21659,Mernda,35.640969750260005
+rmit_city,RMIT University,Melbourne City,21659,Mernda,26.27632135331
+unimelb_parkville,University of Melbourne,Parkville,21659,Mernda,24.90574808368
+monash_clayton,Monash University,Clayton,21662,Merricks,53.70495612149
+rmit_city,RMIT University,Melbourne City,21662,Merricks,65.70549716805
+unimelb_parkville,University of Melbourne,Parkville,21662,Merricks,67.19133698389
+monash_clayton,Monash University,Clayton,21663,Merricks Beach,54.19421394025
+rmit_city,RMIT University,Melbourne City,21663,Merricks Beach,66.72795345066001
+unimelb_parkville,University of Melbourne,Parkville,21663,Merricks Beach,68.20543181513
+monash_clayton,Monash University,Clayton,21668,Merrimu,64.63152600256
+rmit_city,RMIT University,Melbourne City,21668,Merrimu,46.04623137035
+unimelb_parkville,University of Melbourne,Parkville,21668,Merrimu,45.53290788176
+monash_clayton,Monash University,Clayton,21675,Mickleham,45.45931576048
+rmit_city,RMIT University,Melbourne City,21675,Mickleham,29.51742995823
+unimelb_parkville,University of Melbourne,Parkville,21675,Mickleham,28.04218467672
+monash_clayton,Monash University,Clayton,21677,Middle Park (Vic.),16.83297335837
+rmit_city,RMIT University,Melbourne City,21677,Middle Park (Vic.),4.7234338655000006
+unimelb_parkville,University of Melbourne,Parkville,21677,Middle Park (Vic.),6.22925822962
+monash_clayton,Monash University,Clayton,21683,Mill Park,28.150081342590003
+rmit_city,RMIT University,Melbourne City,21683,Mill Park,18.30807666458
+unimelb_parkville,University of Melbourne,Parkville,21683,Mill Park,17.00053131595
+monash_clayton,Monash University,Clayton,22344,St Kilda East,12.542786646849999
+rmit_city,RMIT University,Melbourne City,22344,St Kilda East,7.59486694635
+unimelb_parkville,University of Melbourne,Parkville,22344,St Kilda East,8.936580819020001
+monash_clayton,Monash University,Clayton,21685,Millgrove,48.88288104944
+rmit_city,RMIT University,Melbourne City,21685,Millgrove,61.05543799371
+unimelb_parkville,University of Melbourne,Parkville,21685,Millgrove,60.895595031919996
+monash_clayton,Monash University,Clayton,21706,Mitcham (Vic.),11.76010407907
+rmit_city,RMIT University,Melbourne City,21706,Mitcham (Vic.),20.924459959849997
+unimelb_parkville,University of Melbourne,Parkville,21706,Mitcham (Vic.),21.042986772069998
+monash_clayton,Monash University,Clayton,21727,Monbulk,25.7662605841
+rmit_city,RMIT University,Melbourne City,21727,Monbulk,41.44267652018
+unimelb_parkville,University of Melbourne,Parkville,21727,Monbulk,41.729652380699996
+monash_clayton,Monash University,Clayton,21733,Mont Albert North,12.17087073771
+rmit_city,RMIT University,Melbourne City,21733,Mont Albert North,13.10273117655
+unimelb_parkville,University of Melbourne,Parkville,21733,Mont Albert North,13.11203127106
+monash_clayton,Monash University,Clayton,21735,Montmorency,21.14364880502
+rmit_city,RMIT University,Melbourne City,21735,Montmorency,17.24523273485
+unimelb_parkville,University of Melbourne,Parkville,21735,Montmorency,16.43345883153
+monash_clayton,Monash University,Clayton,21728,Monegeetta,65.27776936379
+rmit_city,RMIT University,Melbourne City,21728,Monegeetta,48.66501504307
+unimelb_parkville,University of Melbourne,Parkville,21728,Monegeetta,47.24514634464
+monash_clayton,Monash University,Clayton,21731,Monomeith,48.24313860029
+rmit_city,RMIT University,Melbourne City,21731,Monomeith,67.19625852925
+unimelb_parkville,University of Melbourne,Parkville,21731,Monomeith,68.20799203717
+monash_clayton,Monash University,Clayton,21732,Mont Albert,10.59759127673
+rmit_city,RMIT University,Melbourne City,21732,Mont Albert,12.86604994774
+unimelb_parkville,University of Melbourne,Parkville,21732,Mont Albert,13.06908513243
+monash_clayton,Monash University,Clayton,21736,Montrose (Vic.),20.73689298799
+rmit_city,RMIT University,Melbourne City,21736,Montrose (Vic.),33.347972498429996
+unimelb_parkville,University of Melbourne,Parkville,21736,Montrose (Vic.),33.42274949176
+monash_clayton,Monash University,Clayton,21747,Moorabbin Airport,8.0970556037
+rmit_city,RMIT University,Melbourne City,21747,Moorabbin Airport,22.44035275606
+unimelb_parkville,University of Melbourne,Parkville,21747,Moorabbin Airport,23.714475300409998
+monash_clayton,Monash University,Clayton,21754,Moorooduc,36.97818881054
+rmit_city,RMIT University,Melbourne City,21754,Moorooduc,50.16976487159
+unimelb_parkville,University of Melbourne,Parkville,21754,Moorooduc,51.61927798508
+monash_clayton,Monash University,Clayton,21755,Mooroolbark,21.986406322409998
+rmit_city,RMIT University,Melbourne City,21755,Mooroolbark,32.0677196506
+unimelb_parkville,University of Melbourne,Parkville,21755,Mooroolbark,31.95147040237
+monash_clayton,Monash University,Clayton,22805,Windsor (Vic.),14.079320619919999
+rmit_city,RMIT University,Melbourne City,22805,Windsor (Vic.),5.81195704316
+unimelb_parkville,University of Melbourne,Parkville,22805,Windsor (Vic.),7.178728308609999
+monash_clayton,Monash University,Clayton,21742,Moonee Ponds,24.96035029994
+rmit_city,RMIT University,Melbourne City,21742,Moonee Ponds,6.0465662380900005
+unimelb_parkville,University of Melbourne,Parkville,21742,Moonee Ponds,4.95879599915
+monash_clayton,Monash University,Clayton,21746,Moorabbin,7.69331109667
+rmit_city,RMIT University,Melbourne City,21746,Moorabbin,17.00770692688
+unimelb_parkville,University of Melbourne,Parkville,21746,Moorabbin,18.327577894180003
+monash_clayton,Monash University,Clayton,22820,Wollert,37.212998276949996
+rmit_city,RMIT University,Melbourne City,22820,Wollert,24.4596825159
+unimelb_parkville,University of Melbourne,Parkville,22820,Wollert,22.97465013287
+monash_clayton,Monash University,Clayton,22825,Wonga Park,22.53360260792
+rmit_city,RMIT University,Melbourne City,22825,Wonga Park,27.87773517767
+unimelb_parkville,University of Melbourne,Parkville,22825,Wonga Park,27.47000173336
+monash_clayton,Monash University,Clayton,21760,Mordialloc,10.250086900140001
+rmit_city,RMIT University,Melbourne City,21760,Mordialloc,24.23891589743
+unimelb_parkville,University of Melbourne,Parkville,21760,Mordialloc,25.55464686038
+monash_clayton,Monash University,Clayton,21763,Mornington (Vic.),35.83695595802
+rmit_city,RMIT University,Melbourne City,21763,Mornington (Vic.),47.37663126403
+unimelb_parkville,University of Melbourne,Parkville,21763,Mornington (Vic.),48.85672875057
+monash_clayton,Monash University,Clayton,21779,Mount Burnett,33.686602683489994
+rmit_city,RMIT University,Melbourne City,21779,Mount Burnett,51.69311819994
+unimelb_parkville,University of Melbourne,Parkville,21779,Mount Burnett,52.248319886190004
+monash_clayton,Monash University,Clayton,21786,Mount Cottrell,46.08880897073
+rmit_city,RMIT University,Melbourne City,21786,Mount Cottrell,28.954149928579998
+unimelb_parkville,University of Melbourne,Parkville,21786,Mount Cottrell,28.918592802510002
+monash_clayton,Monash University,Clayton,21878,Nar Nar Goon,44.676971491429995
+rmit_city,RMIT University,Melbourne City,21878,Nar Nar Goon,63.67692272141
+unimelb_parkville,University of Melbourne,Parkville,21878,Nar Nar Goon,64.48817728187
+monash_clayton,Monash University,Clayton,21787,Mount Dandenong,20.618869720070002
+rmit_city,RMIT University,Melbourne City,21787,Mount Dandenong,34.368654963430004
+unimelb_parkville,University of Melbourne,Parkville,21787,Mount Dandenong,34.53050304407
+monash_clayton,Monash University,Clayton,21793,Mount Eliza,31.60612001499
+rmit_city,RMIT University,Melbourne City,21793,Mount Eliza,44.36296577443
+unimelb_parkville,University of Melbourne,Parkville,21793,Mount Eliza,45.81473083414
+monash_clayton,Monash University,Clayton,21795,Mount Evelyn,25.8783627513
+rmit_city,RMIT University,Melbourne City,21795,Mount Evelyn,37.339378309500006
+unimelb_parkville,University of Melbourne,Parkville,21795,Mount Evelyn,37.26669382966
+monash_clayton,Monash University,Clayton,22843,Woodstock (Vic.),41.086084696
+rmit_city,RMIT University,Melbourne City,22843,Woodstock (Vic.),30.47892399898
+unimelb_parkville,University of Melbourne,Parkville,22843,Woodstock (Vic.),29.036969770629998
+monash_clayton,Monash University,Clayton,22857,Woori Yallock,37.695444342
+rmit_city,RMIT University,Melbourne City,22857,Woori Yallock,50.227646114399995
+unimelb_parkville,University of Melbourne,Parkville,22857,Woori Yallock,50.1491989764
+monash_clayton,Monash University,Clayton,22883,Wyndham Vale,46.77705360213999
+rmit_city,RMIT University,Melbourne City,22883,Wyndham Vale,31.641147431910003
+unimelb_parkville,University of Melbourne,Parkville,22883,Wyndham Vale,31.9564161315
+monash_clayton,Monash University,Clayton,21801,Mount Macedon,75.55800206175999
+rmit_city,RMIT University,Melbourne City,21801,Mount Macedon,57.1598485141
+unimelb_parkville,University of Melbourne,Parkville,21801,Mount Macedon,55.94983468646
+monash_clayton,Monash University,Clayton,21803,Mount Martha,41.383143256850005
+rmit_city,RMIT University,Melbourne City,21803,Mount Martha,52.06269986313
+unimelb_parkville,University of Melbourne,Parkville,21803,Mount Martha,53.557891259390004
+monash_clayton,Monash University,Clayton,21814,Mount Toolebewong,43.3910839938
+rmit_city,RMIT University,Melbourne City,21814,Mount Toolebewong,53.900944833779995
+unimelb_parkville,University of Melbourne,Parkville,21814,Mount Toolebewong,53.62482029724001
+monash_clayton,Monash University,Clayton,22345,St Kilda West,15.62128064521
+rmit_city,RMIT University,Melbourne City,22345,St Kilda West,5.62820385939
+unimelb_parkville,University of Melbourne,Parkville,22345,St Kilda West,7.120984518559999
+monash_clayton,Monash University,Clayton,21816,Mount Waverley,3.64943310355
+rmit_city,RMIT University,Melbourne City,21816,Mount Waverley,16.56366852541
+unimelb_parkville,University of Melbourne,Parkville,21816,Mount Waverley,17.31546011958
+monash_clayton,Monash University,Clayton,21827,Mulgrave (Vic.),2.7032270856
+rmit_city,RMIT University,Melbourne City,21827,Mulgrave (Vic.),21.72970022389
+unimelb_parkville,University of Melbourne,Parkville,21827,Mulgrave (Vic.),22.62379035271
+monash_clayton,Monash University,Clayton,21849,Murrumbeena,6.00618729652
+rmit_city,RMIT University,Melbourne City,21849,Murrumbeena,13.65224873994
+unimelb_parkville,University of Melbourne,Parkville,21849,Murrumbeena,14.76330305634
+monash_clayton,Monash University,Clayton,21872,Nangana,35.46682638222
+rmit_city,RMIT University,Melbourne City,21872,Nangana,51.10419692397
+unimelb_parkville,University of Melbourne,Parkville,21872,Nangana,51.3359983004
+monash_clayton,Monash University,Clayton,22941,Yuroke,44.06661131796
+rmit_city,RMIT University,Melbourne City,22941,Yuroke,26.927554008210002
+unimelb_parkville,University of Melbourne,Parkville,22941,Yuroke,25.51622030074
+monash_clayton,Monash University,Clayton,21879,Nar Nar Goon North,39.784098750999995
+rmit_city,RMIT University,Melbourne City,21879,Nar Nar Goon North,58.288884638809996
+unimelb_parkville,University of Melbourne,Parkville,21879,Nar Nar Goon North,58.93441205292
+monash_clayton,Monash University,Clayton,21895,Narre Warren North,17.70251777391
+rmit_city,RMIT University,Melbourne City,21895,Narre Warren North,36.66135159623
+unimelb_parkville,University of Melbourne,Parkville,21895,Narre Warren North,37.47870032563
+monash_clayton,Monash University,Clayton,21893,Narre Warren,18.872705788349997
+rmit_city,RMIT University,Melbourne City,21893,Narre Warren,37.926753096569996
+unimelb_parkville,University of Melbourne,Parkville,21893,Narre Warren,38.874519650020005
+monash_clayton,Monash University,Clayton,21894,Narre Warren East,20.33170174153
+rmit_city,RMIT University,Melbourne City,21894,Narre Warren East,38.81133304541
+unimelb_parkville,University of Melbourne,Parkville,21894,Narre Warren East,39.49394828533
+monash_clayton,Monash University,Clayton,22599,Tynong North,45.96104158547
+rmit_city,RMIT University,Melbourne City,22599,Tynong North,64.23311575903
+unimelb_parkville,University of Melbourne,Parkville,22599,Tynong North,64.81783984677
+monash_clayton,Monash University,Clayton,21896,Narre Warren South,21.12678123428
+rmit_city,RMIT University,Melbourne City,21896,Narre Warren South,40.036441264779995
+unimelb_parkville,University of Melbourne,Parkville,21896,Narre Warren South,41.05409702949
+monash_clayton,Monash University,Clayton,21991,Nutfield,34.59180243507
+rmit_city,RMIT University,Melbourne City,21991,Nutfield,30.25355352604
+unimelb_parkville,University of Melbourne,Parkville,21991,Nutfield,29.122090773110003
+monash_clayton,Monash University,Clayton,21921,New Gisborne,69.12314926172999
+rmit_city,RMIT University,Melbourne City,21921,New Gisborne,50.5299754469
+unimelb_parkville,University of Melbourne,Parkville,21921,New Gisborne,49.36219336191
+monash_clayton,Monash University,Clayton,21934,Newport (Vic.),23.71628192985
+rmit_city,RMIT University,Melbourne City,21934,Newport (Vic.),8.37256433677
+unimelb_parkville,University of Melbourne,Parkville,21934,Newport (Vic.),9.218725013810001
+monash_clayton,Monash University,Clayton,21998,Oak Park,28.62692475013
+rmit_city,RMIT University,Melbourne City,21998,Oak Park,10.66309022895
+unimelb_parkville,University of Melbourne,Parkville,21998,Oak Park,9.2721825637
+monash_clayton,Monash University,Clayton,21999,Oaklands Junction,45.4234735887
+rmit_city,RMIT University,Melbourne City,21999,Oaklands Junction,27.796416552129998
+unimelb_parkville,University of Melbourne,Parkville,21999,Oaklands Junction,26.435237839739997
+monash_clayton,Monash University,Clayton,21942,Niddrie,29.04516651599
+rmit_city,RMIT University,Melbourne City,21942,Niddrie,10.11544074321
+unimelb_parkville,University of Melbourne,Parkville,21942,Niddrie,9.04760736744
+monash_clayton,Monash University,Clayton,22721,Watsonia,22.792357154450002
+rmit_city,RMIT University,Melbourne City,22721,Watsonia,15.17566418321
+unimelb_parkville,University of Melbourne,Parkville,22721,Watsonia,14.12438185471
+monash_clayton,Monash University,Clayton,21952,Noble Park,7.13614080061
+rmit_city,RMIT University,Melbourne City,21952,Noble Park,25.79807990644
+unimelb_parkville,University of Melbourne,Parkville,21952,Noble Park,26.83738717112
+monash_clayton,Monash University,Clayton,21953,Noble Park North,6.3803424918800005
+rmit_city,RMIT University,Melbourne City,21953,Noble Park North,25.39097772519
+unimelb_parkville,University of Melbourne,Parkville,21953,Noble Park North,26.35687597013
+monash_clayton,Monash University,Clayton,21966,North Melbourne,21.14526017872
+rmit_city,RMIT University,Melbourne City,21966,North Melbourne,2.07135961896
+unimelb_parkville,University of Melbourne,Parkville,21966,North Melbourne,1.6647693109
+monash_clayton,Monash University,Clayton,21969,North Warrandyte,21.55139411603
+rmit_city,RMIT University,Melbourne City,21969,North Warrandyte,23.92678579357
+unimelb_parkville,University of Melbourne,Parkville,21969,North Warrandyte,23.388909039530002
+monash_clayton,Monash University,Clayton,22000,Oakleigh,3.78915691431
+rmit_city,RMIT University,Melbourne City,22000,Oakleigh,15.515256720710001
+unimelb_parkville,University of Melbourne,Parkville,22000,Oakleigh,16.534818863399998
+monash_clayton,Monash University,Clayton,21971,Northcote,19.4511032867
+rmit_city,RMIT University,Melbourne City,21971,Northcote,5.228110897610001
+unimelb_parkville,University of Melbourne,Parkville,21971,Northcote,4.18646526181
+monash_clayton,Monash University,Clayton,21974,Notting Hill,0.71384258862
+rmit_city,RMIT University,Melbourne City,21974,Notting Hill,19.089454507760003
+unimelb_parkville,University of Melbourne,Parkville,21974,Notting Hill,19.97312560561
+monash_clayton,Monash University,Clayton,22001,Oakleigh East,1.74707796814
+rmit_city,RMIT University,Melbourne City,22001,Oakleigh East,17.400803605609998
+unimelb_parkville,University of Melbourne,Parkville,22001,Oakleigh East,18.363235487959997
+monash_clayton,Monash University,Clayton,21985,Nunawading,10.97563226521
+rmit_city,RMIT University,Melbourne City,21985,Nunawading,18.86242684136
+unimelb_parkville,University of Melbourne,Parkville,21985,Nunawading,18.99116778539
+monash_clayton,Monash University,Clayton,22002,Oakleigh South,4.3813660389699995
+rmit_city,RMIT University,Melbourne City,22002,Oakleigh South,17.39242503967
+unimelb_parkville,University of Melbourne,Parkville,22002,Oakleigh South,18.55563479339
+monash_clayton,Monash University,Clayton,22006,Officer,28.65387894088
+rmit_city,RMIT University,Melbourne City,22006,Officer,47.699577556579996
+unimelb_parkville,University of Melbourne,Parkville,22006,Officer,48.554156990310005
+monash_clayton,Monash University,Clayton,22007,Officer South,33.198435241569996
+rmit_city,RMIT University,Melbourne City,22007,Officer South,52.24468956294
+unimelb_parkville,University of Melbourne,Parkville,22007,Officer South,53.200021285199995
+monash_clayton,Monash University,Clayton,22009,Olinda (Vic.),21.45941485063
+rmit_city,RMIT University,Melbourne City,22009,Olinda (Vic.),36.144541503679996
+unimelb_parkville,University of Melbourne,Parkville,22009,Olinda (Vic.),36.37388111874
+monash_clayton,Monash University,Clayton,22016,Ormond,8.51891553128
+rmit_city,RMIT University,Melbourne City,22016,Ormond,12.62060782343
+unimelb_parkville,University of Melbourne,Parkville,22016,Ormond,13.906752721470001
+monash_clayton,Monash University,Clayton,22355,Steels Creek,42.6913676202
+rmit_city,RMIT University,Melbourne City,22355,Steels Creek,44.82744163155
+unimelb_parkville,University of Melbourne,Parkville,22355,Steels Creek,43.98178047916
+monash_clayton,Monash University,Clayton,22027,Pakenham,34.85727106926
+rmit_city,RMIT University,Melbourne City,22027,Pakenham,53.86584493447
+unimelb_parkville,University of Melbourne,Parkville,22027,Pakenham,54.688382967340004
+monash_clayton,Monash University,Clayton,22028,Pakenham South,41.01733466195
+rmit_city,RMIT University,Melbourne City,22028,Pakenham South,60.08454190617
+unimelb_parkville,University of Melbourne,Parkville,22028,Pakenham South,61.01403268229
+monash_clayton,Monash University,Clayton,22381,Strathmore Heights,30.171740009
+rmit_city,RMIT University,Melbourne City,22381,Strathmore Heights,11.81392004668
+unimelb_parkville,University of Melbourne,Parkville,22381,Strathmore Heights,10.511902102219999
+monash_clayton,Monash University,Clayton,22382,Strathtulloh,51.49080320356
+rmit_city,RMIT University,Melbourne City,22382,Strathtulloh,33.3008186688
+unimelb_parkville,University of Melbourne,Parkville,22382,Strathtulloh,32.960223883430004
+monash_clayton,Monash University,Clayton,22029,Pakenham Upper,33.73865919658
+rmit_city,RMIT University,Melbourne City,22029,Pakenham Upper,52.248044776280004
+unimelb_parkville,University of Melbourne,Parkville,22029,Pakenham Upper,52.90407617934
+monash_clayton,Monash University,Clayton,22038,Parkville (Vic.),21.41581914415
+rmit_city,RMIT University,Melbourne City,22038,Parkville (Vic.),2.60662623704
+unimelb_parkville,University of Melbourne,Parkville,22038,Parkville (Vic.),1.41643700334
+monash_clayton,Monash University,Clayton,22391,Sunbury,54.49141176666
+rmit_city,RMIT University,Melbourne City,22391,Sunbury,35.87120178078
+unimelb_parkville,University of Melbourne,Parkville,22391,Sunbury,34.701008108610004
+monash_clayton,Monash University,Clayton,22032,Panton Hill,31.51119630965
+rmit_city,RMIT University,Melbourne City,22032,Panton Hill,31.275791778200002
+unimelb_parkville,University of Melbourne,Parkville,22032,Panton Hill,30.39890151807
+monash_clayton,Monash University,Clayton,22037,Parkdale,10.46810800766
+rmit_city,RMIT University,Melbourne City,22037,Parkdale,23.10040497124
+unimelb_parkville,University of Melbourne,Parkville,22037,Parkdale,24.4505260235
+monash_clayton,Monash University,Clayton,22036,Park Orchards,16.35154965312
+rmit_city,RMIT University,Melbourne City,22036,Park Orchards,22.251439307960002
+unimelb_parkville,University of Melbourne,Parkville,22036,Park Orchards,22.05123720723
+monash_clayton,Monash University,Clayton,22722,Watsonia North,24.27948581267
+rmit_city,RMIT University,Melbourne City,22722,Watsonia North,16.61835884293
+unimelb_parkville,University of Melbourne,Parkville,22722,Watsonia North,15.50987926843
+monash_clayton,Monash University,Clayton,22041,Pascoe Vale,27.10893811665
+rmit_city,RMIT University,Melbourne City,22041,Pascoe Vale,9.54109356259
+unimelb_parkville,University of Melbourne,Parkville,22041,Pascoe Vale,8.088161402079999
+monash_clayton,Monash University,Clayton,22087,Point Leo,56.17292301123
+rmit_city,RMIT University,Melbourne City,22087,Point Leo,67.86744942206
+unimelb_parkville,University of Melbourne,Parkville,22087,Point Leo,69.35845196116999
+monash_clayton,Monash University,Clayton,22042,Pascoe Vale South,25.3347660828
+rmit_city,RMIT University,Melbourne City,22042,Pascoe Vale South,7.43839277991
+unimelb_parkville,University of Melbourne,Parkville,22042,Pascoe Vale South,6.00001197897
+monash_clayton,Monash University,Clayton,22047,Patterson Lakes,17.43988287367
+rmit_city,RMIT University,Melbourne City,22047,Patterson Lakes,33.01573726323
+unimelb_parkville,University of Melbourne,Parkville,22047,Patterson Lakes,34.33287544114
+monash_clayton,Monash University,Clayton,22179,Ripponlea,12.86434910669
+rmit_city,RMIT University,Melbourne City,22179,Ripponlea,8.38294845341
+unimelb_parkville,University of Melbourne,Parkville,22179,Ripponlea,9.80495809768
+monash_clayton,Monash University,Clayton,22050,Pearcedale,33.422962842809994
+rmit_city,RMIT University,Melbourne City,22050,Pearcedale,50.08476305423
+unimelb_parkville,University of Melbourne,Parkville,22050,Pearcedale,51.388584478949994
+monash_clayton,Monash University,Clayton,22058,Pentland Hills,72.37576919933
+rmit_city,RMIT University,Melbourne City,22058,Pentland Hills,54.008456748069996
+unimelb_parkville,University of Melbourne,Parkville,22058,Pentland Hills,53.56022990676
+monash_clayton,Monash University,Clayton,22064,Pheasant Creek (Vic.),50.90243674602
+rmit_city,RMIT University,Melbourne City,22064,Pheasant Creek (Vic.),47.64672070767
+unimelb_parkville,University of Melbourne,Parkville,22064,Pheasant Creek (Vic.),46.46262626995
+monash_clayton,Monash University,Clayton,22084,Plenty (Vic.),27.3088999917
+rmit_city,RMIT University,Melbourne City,22084,Plenty (Vic.),20.64206085947
+unimelb_parkville,University of Melbourne,Parkville,22084,Plenty (Vic.),19.50283446016
+monash_clayton,Monash University,Clayton,22085,Plumpton (Vic.),49.8603093067
+rmit_city,RMIT University,Melbourne City,22085,Plumpton (Vic.),30.82974559266
+unimelb_parkville,University of Melbourne,Parkville,22085,Plumpton (Vic.),30.07431485684
+monash_clayton,Monash University,Clayton,22086,Point Cook,33.41807831518
+rmit_city,RMIT University,Melbourne City,22086,Point Cook,21.08975658527
+unimelb_parkville,University of Melbourne,Parkville,22086,Point Cook,21.9084272543
+monash_clayton,Monash University,Clayton,22185,Rochford,78.3970607769
+rmit_city,RMIT University,Melbourne City,22185,Rochford,61.05553135713
+unimelb_parkville,University of Melbourne,Parkville,22185,Rochford,59.701174453
+monash_clayton,Monash University,Clayton,22107,Port Melbourne,20.5638979109
+rmit_city,RMIT University,Melbourne City,22107,Port Melbourne,4.5518171363399995
+unimelb_parkville,University of Melbourne,Parkville,22107,Port Melbourne,5.65528684542
+monash_clayton,Monash University,Clayton,22113,Portsea,59.15945632091
+rmit_city,RMIT University,Melbourne City,22113,Portsea,61.37924984786
+unimelb_parkville,University of Melbourne,Parkville,22113,Portsea,62.79127272614
+monash_clayton,Monash University,Clayton,22115,Powelltown,55.714312428999996
+rmit_city,RMIT University,Melbourne City,22115,Powelltown,71.04369981162999
+unimelb_parkville,University of Melbourne,Parkville,22115,Powelltown,71.1802855662
+monash_clayton,Monash University,Clayton,22186,Rockbank,46.616559246639994
+rmit_city,RMIT University,Melbourne City,22186,Rockbank,28.23787981754
+unimelb_parkville,University of Melbourne,Parkville,22186,Rockbank,27.855292483550002
+monash_clayton,Monash University,Clayton,22723,Watsons Creek (Vic.),29.92003456282
+rmit_city,RMIT University,Melbourne City,22723,Watsons Creek (Vic.),31.32464151863
+unimelb_parkville,University of Melbourne,Parkville,22723,Watsons Creek (Vic.),30.56163935011
+monash_clayton,Monash University,Clayton,22118,Prahran,13.083015106520001
+rmit_city,RMIT University,Melbourne City,22118,Prahran,6.321091021659999
+unimelb_parkville,University of Melbourne,Parkville,22118,Prahran,7.55869516898
+monash_clayton,Monash University,Clayton,22121,Preston (Vic.),21.914633344139997
+rmit_city,RMIT University,Melbourne City,22121,Preston (Vic.),8.36890011052
+unimelb_parkville,University of Melbourne,Parkville,22121,Preston (Vic.),7.07299079518
+monash_clayton,Monash University,Clayton,22122,Princes Hill,20.67803528878
+rmit_city,RMIT University,Melbourne City,22122,Princes Hill,2.94920730722
+unimelb_parkville,University of Melbourne,Parkville,22122,Princes Hill,1.4654963348799999
+monash_clayton,Monash University,Clayton,22132,Quandong,55.80562557543
+rmit_city,RMIT University,Melbourne City,22132,Quandong,40.013979268069995
+unimelb_parkville,University of Melbourne,Parkville,22132,Quandong,40.17067752931
+monash_clayton,Monash University,Clayton,22141,Ravenhall,38.22696929421
+rmit_city,RMIT University,Melbourne City,22141,Ravenhall,20.167295195940003
+unimelb_parkville,University of Melbourne,Parkville,22141,Ravenhall,19.957516553879998
+monash_clayton,Monash University,Clayton,22148,Red Hill (Vic.),51.213844302220004
+rmit_city,RMIT University,Melbourne City,22148,Red Hill (Vic.),61.58347187271
+unimelb_parkville,University of Melbourne,Parkville,22148,Red Hill (Vic.),63.085155988589996
+monash_clayton,Monash University,Clayton,22149,Red Hill South,53.12567226993
+rmit_city,RMIT University,Melbourne City,22149,Red Hill South,64.22792994567
+unimelb_parkville,University of Melbourne,Parkville,22149,Red Hill South,65.72435873269
+monash_clayton,Monash University,Clayton,22160,Research,23.277079463779998
+rmit_city,RMIT University,Melbourne City,22160,Research,23.37605899275
+unimelb_parkville,University of Melbourne,Parkville,22160,Research,22.676055122959998
+monash_clayton,Monash University,Clayton,22161,Reservoir (Vic.),24.98624456324
+rmit_city,RMIT University,Melbourne City,22161,Reservoir (Vic.),11.20677447017
+unimelb_parkville,University of Melbourne,Parkville,22161,Reservoir (Vic.),9.78409493997
+monash_clayton,Monash University,Clayton,22194,Rosanna,19.86864603425
+rmit_city,RMIT University,Melbourne City,22194,Rosanna,12.15793085965
+unimelb_parkville,University of Melbourne,Parkville,22194,Rosanna,11.26771750669
+monash_clayton,Monash University,Clayton,22170,Richmond (Vic.),15.33632902232
+rmit_city,RMIT University,Melbourne City,22170,Richmond (Vic.),3.86149533992
+unimelb_parkville,University of Melbourne,Parkville,22170,Richmond (Vic.),4.66613535366
+monash_clayton,Monash University,Clayton,22172,Riddells Creek,65.41541187348
+rmit_city,RMIT University,Melbourne City,22172,Riddells Creek,47.27653575086
+unimelb_parkville,University of Melbourne,Parkville,22172,Riddells Creek,46.01246436737
+monash_clayton,Monash University,Clayton,22174,Ringwood (Vic.),13.831481135239999
+rmit_city,RMIT University,Melbourne City,22174,Ringwood (Vic.),23.45152977398
+unimelb_parkville,University of Melbourne,Parkville,22174,Ringwood (Vic.),23.502868984270002
+monash_clayton,Monash University,Clayton,22756,West Footscray,26.32614028672
+rmit_city,RMIT University,Melbourne City,22756,West Footscray,8.10478711135
+unimelb_parkville,University of Melbourne,Parkville,22756,West Footscray,8.12054358107
+monash_clayton,Monash University,Clayton,22175,Ringwood East,14.72471787301
+rmit_city,RMIT University,Melbourne City,22175,Ringwood East,25.19929638176
+unimelb_parkville,University of Melbourne,Parkville,22175,Ringwood East,25.26244683356
+monash_clayton,Monash University,Clayton,22176,Ringwood North,15.6564716493
+rmit_city,RMIT University,Melbourne City,22176,Ringwood North,23.92368771953
+unimelb_parkville,University of Melbourne,Parkville,22176,Ringwood North,23.85207727722
+monash_clayton,Monash University,Clayton,22193,Romsey,71.66606140531
+rmit_city,RMIT University,Melbourne City,22193,Romsey,54.6022627636
+unimelb_parkville,University of Melbourne,Parkville,22193,Romsey,53.21936471124
+monash_clayton,Monash University,Clayton,22198,Rosebud,54.658521774250005
+rmit_city,RMIT University,Melbourne City,22198,Rosebud,62.623121332429996
+unimelb_parkville,University of Melbourne,Parkville,22198,Rosebud,64.12681470774
+monash_clayton,Monash University,Clayton,22207,Rowville,8.95326645199
+rmit_city,RMIT University,Melbourne City,22207,Rowville,27.41482073861
+unimelb_parkville,University of Melbourne,Parkville,22207,Rowville,28.15545548815
+monash_clayton,Monash University,Clayton,22208,Roxburgh Park,36.672634504280005
+rmit_city,RMIT University,Melbourne City,22208,Roxburgh Park,20.54351594956
+unimelb_parkville,University of Melbourne,Parkville,22208,Roxburgh Park,19.05843315803
+monash_clayton,Monash University,Clayton,22220,Rye,60.09216042558
+rmit_city,RMIT University,Melbourne City,22220,Rye,65.64162180889001
+unimelb_parkville,University of Melbourne,Parkville,22220,Rye,67.11991367658001
+monash_clayton,Monash University,Clayton,22221,Rythdale,38.3239897658
+rmit_city,RMIT University,Melbourne City,22221,Rythdale,57.342475789299996
+unimelb_parkville,University of Melbourne,Parkville,22221,Rythdale,58.31881762345
+monash_clayton,Monash University,Clayton,22222,Safety Beach (Vic.),46.54209672606
+rmit_city,RMIT University,Melbourne City,22222,Safety Beach (Vic.),56.462354272060004
+unimelb_parkville,University of Melbourne,Parkville,22222,Safety Beach (Vic.),57.96535917445
+monash_clayton,Monash University,Clayton,22232,Sandhurst,20.06965996557
+rmit_city,RMIT University,Melbourne City,22232,Sandhurst,37.38063702479
+unimelb_parkville,University of Melbourne,Parkville,22232,Sandhurst,38.60898470009
+monash_clayton,Monash University,Clayton,22239,Sassafras (Vic.),19.71593675017
+rmit_city,RMIT University,Melbourne City,22239,Sassafras (Vic.),34.93255252271
+unimelb_parkville,University of Melbourne,Parkville,22239,Sassafras (Vic.),35.22597356806
+monash_clayton,Monash University,Clayton,22242,Scoresby,7.21870864061
+rmit_city,RMIT University,Melbourne City,22242,Scoresby,24.957850801960003
+unimelb_parkville,University of Melbourne,Parkville,22242,Scoresby,25.63669110409
+monash_clayton,Monash University,Clayton,22234,Sandringham (Vic.),11.71105725969
+rmit_city,RMIT University,Melbourne City,22234,Sandringham (Vic.),16.7984359196
+unimelb_parkville,University of Melbourne,Parkville,22234,Sandringham (Vic.),18.24891381519
+monash_clayton,Monash University,Clayton,22256,Seddon (Vic.),24.44826040364
+rmit_city,RMIT University,Melbourne City,22256,Seddon (Vic.),6.22551324335
+unimelb_parkville,University of Melbourne,Parkville,22256,Seddon (Vic.),6.3665874837
+monash_clayton,Monash University,Clayton,22247,Seabrook,33.43241309719
+rmit_city,RMIT University,Melbourne City,22247,Seabrook,19.68697424874
+unimelb_parkville,University of Melbourne,Parkville,22247,Seabrook,20.35895833459
+monash_clayton,Monash University,Clayton,22291,Skye (Vic.),22.58393424761
+rmit_city,RMIT University,Melbourne City,22291,Skye (Vic.),39.67472150711
+unimelb_parkville,University of Melbourne,Parkville,22291,Skye (Vic.),40.92669538876
+monash_clayton,Monash University,Clayton,22249,Seaford (Vic.),21.73939234557
+rmit_city,RMIT University,Melbourne City,22249,Seaford (Vic.),36.68734307104
+unimelb_parkville,University of Melbourne,Parkville,22249,Seaford (Vic.),38.04827257926
+monash_clayton,Monash University,Clayton,22250,Seaholme,26.19450932825
+rmit_city,RMIT University,Melbourne City,22250,Seaholme,12.11906907047
+unimelb_parkville,University of Melbourne,Parkville,22250,Seaholme,12.968576497419999
+monash_clayton,Monash University,Clayton,22258,Selby,21.50156052461
+rmit_city,RMIT University,Melbourne City,22258,Selby,38.770240767640004
+unimelb_parkville,University of Melbourne,Parkville,22258,Selby,39.26198719616
+monash_clayton,Monash University,Clayton,22263,Seville,33.31742479519
+rmit_city,RMIT University,Melbourne City,22263,Seville,46.248183517979996
+unimelb_parkville,University of Melbourne,Parkville,22263,Seville,46.23015460019
+monash_clayton,Monash University,Clayton,22264,Seville East,34.90517719396
+rmit_city,RMIT University,Melbourne City,22264,Seville East,47.31544809389
+unimelb_parkville,University of Melbourne,Parkville,22264,Seville East,47.24291843346
+monash_clayton,Monash University,Clayton,22295,Smiths Gully,34.11119649927
+rmit_city,RMIT University,Melbourne City,22295,Smiths Gully,34.98533225916
+unimelb_parkville,University of Melbourne,Parkville,22295,Smiths Gully,34.13905220034
+monash_clayton,Monash University,Clayton,22303,Somers,52.24757300062
+rmit_city,RMIT University,Melbourne City,22303,Somers,65.73810163437
+unimelb_parkville,University of Melbourne,Parkville,22303,Somers,67.19421837991
+monash_clayton,Monash University,Clayton,22278,Sherbrooke,19.76002043477
+rmit_city,RMIT University,Melbourne City,22278,Sherbrooke,36.134977891249996
+unimelb_parkville,University of Melbourne,Parkville,22278,Sherbrooke,36.53780887262
+monash_clayton,Monash University,Clayton,22279,Shoreham,57.98885836734
+rmit_city,RMIT University,Melbourne City,22279,Shoreham,68.96862072283001
+unimelb_parkville,University of Melbourne,Parkville,22279,Shoreham,70.46762473302
+monash_clayton,Monash University,Clayton,22281,Silvan,28.216690370000002
+rmit_city,RMIT University,Melbourne City,22281,Silvan,42.27381197537
+unimelb_parkville,University of Melbourne,Parkville,22281,Silvan,42.38980529752
+monash_clayton,Monash University,Clayton,22304,Somerton (Vic.),34.974585572420004
+rmit_city,RMIT University,Melbourne City,22304,Somerton (Vic.),19.440765000909998
+unimelb_parkville,University of Melbourne,Parkville,22304,Somerton (Vic.),17.93899714117
+monash_clayton,Monash University,Clayton,22315,Southbank,17.89031921542
+rmit_city,RMIT University,Melbourne City,22315,Southbank,1.8936332615
+unimelb_parkville,University of Melbourne,Parkville,22315,Southbank,3.39701491369
+monash_clayton,Monash University,Clayton,22305,Somerville (Vic.),36.16469474239
+rmit_city,RMIT University,Melbourne City,22305,Somerville (Vic.),51.568691587829996
+unimelb_parkville,University of Melbourne,Parkville,22305,Somerville (Vic.),52.943753350070004
+monash_clayton,Monash University,Clayton,22306,Sorrento (Vic.),59.28804713303
+rmit_city,RMIT University,Melbourne City,22306,Sorrento (Vic.),62.53507831481
+unimelb_parkville,University of Melbourne,Parkville,22306,Sorrento (Vic.),63.971663473629995
+monash_clayton,Monash University,Clayton,22309,South Kingsville,25.0094765709
+rmit_city,RMIT University,Melbourne City,22309,South Kingsville,8.40287633045
+unimelb_parkville,University of Melbourne,Parkville,22309,South Kingsville,8.96364350144
+monash_clayton,Monash University,Clayton,22474,Taylors Lakes,39.257428667330004
+rmit_city,RMIT University,Melbourne City,22474,Taylors Lakes,20.18555015402
+unimelb_parkville,University of Melbourne,Parkville,22474,Taylors Lakes,19.30527245856
+monash_clayton,Monash University,Clayton,22310,South Melbourne,17.649776131390002
+rmit_city,RMIT University,Melbourne City,22310,South Melbourne,2.8757896928999997
+unimelb_parkville,University of Melbourne,Parkville,22310,South Melbourne,4.38086547173
+monash_clayton,Monash University,Clayton,22311,South Morang,30.63256811739
+rmit_city,RMIT University,Melbourne City,22311,South Morang,21.85295018856
+unimelb_parkville,University of Melbourne,Parkville,22311,South Morang,20.5564389466
+monash_clayton,Monash University,Clayton,22313,South Wharf,18.77515306498
+rmit_city,RMIT University,Melbourne City,22313,South Wharf,2.08741506624
+unimelb_parkville,University of Melbourne,Parkville,22313,South Wharf,3.51134476872
+monash_clayton,Monash University,Clayton,22314,South Yarra,15.10133232541
+rmit_city,RMIT University,Melbourne City,22314,South Yarra,4.16824440441
+unimelb_parkville,University of Melbourne,Parkville,22314,South Yarra,5.43310067139
+monash_clayton,Monash University,Clayton,22319,Spotswood,23.72782145807
+rmit_city,RMIT University,Melbourne City,22319,Spotswood,7.11199159707
+unimelb_parkville,University of Melbourne,Parkville,22319,Spotswood,7.76942496145
+monash_clayton,Monash University,Clayton,22330,St Albans (Vic.),33.7430660646
+rmit_city,RMIT University,Melbourne City,22330,St Albans (Vic.),14.800656024510001
+unimelb_parkville,University of Melbourne,Parkville,22330,St Albans (Vic.),14.203556948260001
+monash_clayton,Monash University,Clayton,22325,Springfield (Macedon Ranges - Vic.),70.0213978012
+rmit_city,RMIT University,Melbourne City,22325,Springfield (Macedon Ranges - Vic.),54.41518852464
+unimelb_parkville,University of Melbourne,Parkville,22325,Springfield (Macedon Ranges - Vic.),52.95008662592
+monash_clayton,Monash University,Clayton,22328,Springvale (Vic.),4.41475464006
+rmit_city,RMIT University,Melbourne City,22328,Springvale (Vic.),23.23909723044
+unimelb_parkville,University of Melbourne,Parkville,22328,Springvale (Vic.),24.23939348975
+monash_clayton,Monash University,Clayton,22329,Springvale South,6.83132581156
+rmit_city,RMIT University,Melbourne City,22329,Springvale South,24.42437378565
+unimelb_parkville,University of Melbourne,Parkville,22329,Springvale South,25.55596711451
+monash_clayton,Monash University,Clayton,22332,St Andrews (Vic.),39.00794692148
+rmit_city,RMIT University,Melbourne City,22332,St Andrews (Vic.),38.16274531159
+unimelb_parkville,University of Melbourne,Parkville,22332,St Andrews (Vic.),37.17357779987999
+monash_clayton,Monash University,Clayton,22339,St Helena,24.54846060066
+rmit_city,RMIT University,Melbourne City,22339,St Helena,19.33811603314
+unimelb_parkville,University of Melbourne,Parkville,22339,St Helena,18.34019709454
+monash_clayton,Monash University,Clayton,22333,St Andrews Beach,62.47870043125
+rmit_city,RMIT University,Melbourne City,22333,St Andrews Beach,68.80513993105
+unimelb_parkville,University of Melbourne,Parkville,22333,St Andrews Beach,70.29242755011
+monash_clayton,Monash University,Clayton,22343,St Kilda (Vic.),14.60916610819
+rmit_city,RMIT University,Melbourne City,22343,St Kilda (Vic.),6.43694963964
+unimelb_parkville,University of Melbourne,Parkville,22343,St Kilda (Vic.),7.90080580365
+monash_clayton,Monash University,Clayton,22375,Strathewen,43.36911421262
+rmit_city,RMIT University,Melbourne City,22375,Strathewen,41.08917226885
+unimelb_parkville,University of Melbourne,Parkville,22375,Strathewen,39.99214069398
+monash_clayton,Monash University,Clayton,22380,Strathmore (Vic.),27.61348603307
+rmit_city,RMIT University,Melbourne City,22380,Strathmore (Vic.),9.42039844456
+unimelb_parkville,University of Melbourne,Parkville,22380,Strathmore (Vic.),8.05950587918
+monash_clayton,Monash University,Clayton,22395,Sunshine (Vic.),29.680363573170002
+rmit_city,RMIT University,Melbourne City,22395,Sunshine (Vic.),11.35365931497
+unimelb_parkville,University of Melbourne,Parkville,22395,Sunshine (Vic.),11.192805942889999
+monash_clayton,Monash University,Clayton,22396,Sunshine North,31.09424394224
+rmit_city,RMIT University,Melbourne City,22396,Sunshine North,12.18549320808
+unimelb_parkville,University of Melbourne,Parkville,22396,Sunshine North,11.650367362
+monash_clayton,Monash University,Clayton,22484,Templestowe Lower,16.34628215919
+rmit_city,RMIT University,Melbourne City,22484,Templestowe Lower,14.22281970085
+unimelb_parkville,University of Melbourne,Parkville,22484,Templestowe Lower,13.77252100296
+monash_clayton,Monash University,Clayton,22397,Sunshine West,31.66861957661
+rmit_city,RMIT University,Melbourne City,22397,Sunshine West,13.878046272339999
+unimelb_parkville,University of Melbourne,Parkville,22397,Sunshine West,13.86133215385
+monash_clayton,Monash University,Clayton,22556,Tottenham (Vic.),27.46827467753
+rmit_city,RMIT University,Melbourne City,22556,Tottenham (Vic.),9.563336558389999
+unimelb_parkville,University of Melbourne,Parkville,22556,Tottenham (Vic.),9.64590922592
+monash_clayton,Monash University,Clayton,22399,Surrey Hills,10.01635101693
+rmit_city,RMIT University,Melbourne City,22399,Surrey Hills,12.26511933623
+unimelb_parkville,University of Melbourne,Parkville,22399,Surrey Hills,12.57542706052
+monash_clayton,Monash University,Clayton,22414,Sydenham (Vic.),40.59202128352
+rmit_city,RMIT University,Melbourne City,22414,Sydenham (Vic.),21.52063042608
+unimelb_parkville,University of Melbourne,Parkville,22414,Sydenham (Vic.),20.695963577369998
+monash_clayton,Monash University,Clayton,22451,Tarneit,42.74693349707
+rmit_city,RMIT University,Melbourne City,22451,Tarneit,26.82542718173
+unimelb_parkville,University of Melbourne,Parkville,22451,Tarneit,27.05337627471
+monash_clayton,Monash University,Clayton,22572,Travancore,22.68354330395
+rmit_city,RMIT University,Melbourne City,22572,Travancore,3.71443590208
+unimelb_parkville,University of Melbourne,Parkville,22572,Travancore,2.7106438862199997
+monash_clayton,Monash University,Clayton,22457,Tarrawarra,38.94319027998
+rmit_city,RMIT University,Melbourne City,22457,Tarrawarra,45.43449188534
+unimelb_parkville,University of Melbourne,Parkville,22457,Tarrawarra,44.89161711471
+monash_clayton,Monash University,Clayton,22473,Taylors Hill,40.11866631968
+rmit_city,RMIT University,Melbourne City,22473,Taylors Hill,21.12818776901
+unimelb_parkville,University of Melbourne,Parkville,22473,Taylors Hill,20.444112496139997
+monash_clayton,Monash University,Clayton,22476,Tecoma,18.22727910907
+rmit_city,RMIT University,Melbourne City,22476,Tecoma,35.295830522980005
+unimelb_parkville,University of Melbourne,Parkville,22476,Tecoma,35.78552778656
+monash_clayton,Monash University,Clayton,22483,Templestowe,17.161439862620004
+rmit_city,RMIT University,Melbourne City,22483,Templestowe,16.9996098885
+unimelb_parkville,University of Melbourne,Parkville,22483,Templestowe,16.53987424221
+monash_clayton,Monash University,Clayton,22496,The Basin (Vic.),17.45195772977
+rmit_city,RMIT University,Melbourne City,22496,The Basin (Vic.),32.12362260151
+unimelb_parkville,University of Melbourne,Parkville,22496,The Basin (Vic.),32.398094798689996
+monash_clayton,Monash University,Clayton,22501,The Patch,23.426741961439998
+rmit_city,RMIT University,Melbourne City,22501,The Patch,39.75618307056
+unimelb_parkville,University of Melbourne,Parkville,22501,The Patch,40.12709335545
+monash_clayton,Monash University,Clayton,22504,Thomastown,27.70738373252
+rmit_city,RMIT University,Melbourne City,22504,Thomastown,14.40748768334
+unimelb_parkville,University of Melbourne,Parkville,22504,Thomastown,12.96099762749
+monash_clayton,Monash University,Clayton,22508,Thornbury,20.488373764989998
+rmit_city,RMIT University,Melbourne City,22508,Thornbury,6.68128891033
+unimelb_parkville,University of Melbourne,Parkville,22508,Thornbury,5.492379590710001
+monash_clayton,Monash University,Clayton,22509,Thornhill Park,48.696509246510004
+rmit_city,RMIT University,Melbourne City,22509,Thornhill Park,30.25722242245
+unimelb_parkville,University of Melbourne,Parkville,22509,Thornhill Park,29.84262468508
+monash_clayton,Monash University,Clayton,22514,Three Bridges,48.2511165016
+rmit_city,RMIT University,Melbourne City,22514,Three Bridges,63.36833297702999
+unimelb_parkville,University of Melbourne,Parkville,22514,Three Bridges,63.4991751077
+monash_clayton,Monash University,Clayton,22531,Tonimbuk,52.81958427918
+rmit_city,RMIT University,Melbourne City,22531,Tonimbuk,70.71792849146999
+unimelb_parkville,University of Melbourne,Parkville,22531,Tonimbuk,71.22003576644
+monash_clayton,Monash University,Clayton,22536,Toolangi,54.69299131179
+rmit_city,RMIT University,Melbourne City,22536,Toolangi,58.155420517109995
+unimelb_parkville,University of Melbourne,Parkville,22536,Toolangi,57.32983649351
+monash_clayton,Monash University,Clayton,22537,Toolern Vale,58.91998893106
+rmit_city,RMIT University,Melbourne City,22537,Toolern Vale,39.85155958486
+unimelb_parkville,University of Melbourne,Parkville,22537,Toolern Vale,39.01745621648
+monash_clayton,Monash University,Clayton,22546,Tooradin,38.70051311756001
+rmit_city,RMIT University,Melbourne City,22546,Tooradin,57.05971301768
+unimelb_parkville,University of Melbourne,Parkville,22546,Tooradin,58.207263805379995
+monash_clayton,Monash University,Clayton,22586,Tullamarine,32.30042139169
+rmit_city,RMIT University,Melbourne City,22586,Tullamarine,13.7865639718
+unimelb_parkville,University of Melbourne,Parkville,22586,Tullamarine,12.538796818529999
+monash_clayton,Monash University,Clayton,22547,Toorak,12.97043789775
+rmit_city,RMIT University,Melbourne City,22547,Toorak,6.103821318770001
+unimelb_parkville,University of Melbourne,Parkville,22547,Toorak,7.09855356133
+monash_clayton,Monash University,Clayton,22550,Tootgarook,57.54602234933
+rmit_city,RMIT University,Melbourne City,22550,Tootgarook,63.91245903158
+unimelb_parkville,University of Melbourne,Parkville,22550,Tootgarook,65.4026599946
+monash_clayton,Monash University,Clayton,22576,Tremont,16.08549679599
+rmit_city,RMIT University,Melbourne City,22576,Tremont,31.956340557
+unimelb_parkville,University of Melbourne,Parkville,22576,Tremont,32.34758596371
+monash_clayton,Monash University,Clayton,22582,Truganina,39.02070516989
+rmit_city,RMIT University,Melbourne City,22582,Truganina,21.79245643855
+unimelb_parkville,University of Melbourne,Parkville,22582,Truganina,21.80238824417
+monash_clayton,Monash University,Clayton,22584,Tuerong,43.161827274880004
+rmit_city,RMIT University,Melbourne City,22584,Tuerong,55.51594467668
+unimelb_parkville,University of Melbourne,Parkville,22584,Tuerong,56.98949916932
+monash_clayton,Monash University,Clayton,22594,Tyabb,39.78055816778
+rmit_city,RMIT University,Melbourne City,22594,Tyabb,54.632397202499995
+unimelb_parkville,University of Melbourne,Parkville,22594,Tyabb,56.034902275469996
+monash_clayton,Monash University,Clayton,22614,Upper Ferntree Gully,15.33558515393
+rmit_city,RMIT University,Melbourne City,22614,Upper Ferntree Gully,32.21339351284
+unimelb_parkville,University of Melbourne,Parkville,22614,Upper Ferntree Gully,32.70768164933
+monash_clayton,Monash University,Clayton,22617,Upper Plenty,55.475985407879996
+rmit_city,RMIT University,Melbourne City,22617,Upper Plenty,44.598479396230005
+unimelb_parkville,University of Melbourne,Parkville,22617,Upper Plenty,43.121131223199995
+monash_clayton,Monash University,Clayton,22620,Upwey,16.66304682555
+rmit_city,RMIT University,Melbourne City,22620,Upwey,33.70088735818
+unimelb_parkville,University of Melbourne,Parkville,22620,Upwey,34.19981683037
+monash_clayton,Monash University,Clayton,22757,West Melbourne,22.00578460622
+rmit_city,RMIT University,Melbourne City,22757,West Melbourne,3.7099437356
+unimelb_parkville,University of Melbourne,Parkville,22757,West Melbourne,4.12003283275
+monash_clayton,Monash University,Clayton,22627,Vermont,9.744126718310001
+rmit_city,RMIT University,Melbourne City,22627,Vermont,21.15489472471
+unimelb_parkville,University of Melbourne,Parkville,22627,Vermont,21.43814957897
+monash_clayton,Monash University,Clayton,22628,Vermont South,7.6329529658499995
+rmit_city,RMIT University,Melbourne City,22628,Vermont South,20.53493751286
+unimelb_parkville,University of Melbourne,Parkville,22628,Vermont South,20.96120624512
+monash_clayton,Monash University,Clayton,22629,Vervale,52.57598540504
+rmit_city,RMIT University,Melbourne City,22629,Vervale,71.52571736979
+unimelb_parkville,University of Melbourne,Parkville,22629,Vervale,72.30502778485999
+monash_clayton,Monash University,Clayton,22791,Williams Landing,34.880645895330005
+rmit_city,RMIT University,Melbourne City,22791,Williams Landing,20.13696473679
+unimelb_parkville,University of Melbourne,Parkville,22791,Williams Landing,20.65533377205
+monash_clayton,Monash University,Clayton,22792,Williamstown (Vic.),22.506391966669998
+rmit_city,RMIT University,Melbourne City,22792,Williamstown (Vic.),8.745701758020001
+unimelb_parkville,University of Melbourne,Parkville,22792,Williamstown (Vic.),9.82270343533
+monash_clayton,Monash University,Clayton,22633,Viewbank,19.28553487811
+rmit_city,RMIT University,Melbourne City,22633,Viewbank,13.647095831049999
+unimelb_parkville,University of Melbourne,Parkville,22633,Viewbank,12.87169754219
+monash_clayton,Monash University,Clayton,22661,Wallan,57.93403804577
+rmit_city,RMIT University,Melbourne City,22661,Wallan,44.54663369067
+unimelb_parkville,University of Melbourne,Parkville,22661,Wallan,43.04043537042
+monash_clayton,Monash University,Clayton,22672,Wandin East,30.06907262133
+rmit_city,RMIT University,Melbourne City,22672,Wandin East,43.4042416878
+unimelb_parkville,University of Melbourne,Parkville,22672,Wandin East,43.44332103166
+monash_clayton,Monash University,Clayton,22673,Wandin North,29.40985752478
+rmit_city,RMIT University,Melbourne City,22673,Wandin North,41.04336953199
+unimelb_parkville,University of Melbourne,Parkville,22673,Wandin North,40.948888279769996
+monash_clayton,Monash University,Clayton,22676,Wandong,62.09607562189
+rmit_city,RMIT University,Melbourne City,22676,Wandong,50.56913858542
+unimelb_parkville,University of Melbourne,Parkville,22676,Wandong,49.07541126145
+monash_clayton,Monash University,Clayton,22685,Wantirna,10.05229839604
+rmit_city,RMIT University,Melbourne City,22685,Wantirna,23.64898164843
+unimelb_parkville,University of Melbourne,Parkville,22685,Wantirna,24.00550820692
+monash_clayton,Monash University,Clayton,22686,Wantirna South,8.6684012785
+rmit_city,RMIT University,Melbourne City,22686,Wantirna South,23.81442188558
+unimelb_parkville,University of Melbourne,Parkville,22686,Wantirna South,24.28887224557
+monash_clayton,Monash University,Clayton,22689,Warburton (Vic.),53.08972551241
+rmit_city,RMIT University,Melbourne City,22689,Warburton (Vic.),65.24133144443
+unimelb_parkville,University of Melbourne,Parkville,22689,Warburton (Vic.),65.06538299763
+monash_clayton,Monash University,Clayton,22695,Warneet,38.88693590015
+rmit_city,RMIT University,Melbourne City,22695,Warneet,56.355601429560004
+unimelb_parkville,University of Melbourne,Parkville,22695,Warneet,57.60574741811
+monash_clayton,Monash University,Clayton,22702,Warrandyte,18.859230832199998
+rmit_city,RMIT University,Melbourne City,22702,Warrandyte,22.73983481155
+unimelb_parkville,University of Melbourne,Parkville,22702,Warrandyte,22.359234595260002
+monash_clayton,Monash University,Clayton,22703,Warrandyte South,19.40644132736
+rmit_city,RMIT University,Melbourne City,22703,Warrandyte South,25.5200307645
+unimelb_parkville,University of Melbourne,Parkville,22703,Warrandyte South,25.230115775599998
+monash_clayton,Monash University,Clayton,22704,Warranwood,18.33582621126
+rmit_city,RMIT University,Melbourne City,22704,Warranwood,25.70679681771
+unimelb_parkville,University of Melbourne,Parkville,22704,Warranwood,25.510536088469998
+monash_clayton,Monash University,Clayton,22717,Waterford Park,68.00987127863
+rmit_city,RMIT University,Melbourne City,22717,Waterford Park,57.10723800392
+unimelb_parkville,University of Melbourne,Parkville,22717,Waterford Park,55.61975468245
+monash_clayton,Monash University,Clayton,22720,Waterways,11.61660743961
+rmit_city,RMIT University,Melbourne City,22720,Waterways,27.28167571661
+unimelb_parkville,University of Melbourne,Parkville,22720,Waterways,28.55690206802
+monash_clayton,Monash University,Clayton,22727,Wattle Glen,26.98095673545
+rmit_city,RMIT University,Melbourne City,22727,Wattle Glen,25.04228298296
+unimelb_parkville,University of Melbourne,Parkville,22727,Wattle Glen,24.14918176307
+monash_clayton,Monash University,Clayton,22740,Weir Views,53.74518717567
+rmit_city,RMIT University,Melbourne City,22740,Weir Views,35.646072403190004
+unimelb_parkville,University of Melbourne,Parkville,22740,Weir Views,35.32462072028
+monash_clayton,Monash University,Clayton,22750,Werribee,43.638390531889996
+rmit_city,RMIT University,Melbourne City,22750,Werribee,30.44026407816
+unimelb_parkville,University of Melbourne,Parkville,22750,Werribee,31.03190508327
+monash_clayton,Monash University,Clayton,22793,Williamstown North,24.540228845090002
+rmit_city,RMIT University,Melbourne City,22793,Williamstown North,9.72486646506
+unimelb_parkville,University of Melbourne,Parkville,22793,Williamstown North,10.57833984685
+monash_clayton,Monash University,Clayton,22751,Werribee South,38.25824028608999
+rmit_city,RMIT University,Melbourne City,22751,Werribee South,26.7852936639
+unimelb_parkville,University of Melbourne,Parkville,22751,Werribee South,27.607967300650003
+monash_clayton,Monash University,Clayton,22753,Wesburn,46.74444221812
+rmit_city,RMIT University,Melbourne City,22753,Wesburn,59.4633558147
+unimelb_parkville,University of Melbourne,Parkville,22753,Wesburn,59.36043954054
+monash_clayton,Monash University,Clayton,22761,Westmeadows,33.63923109896
+rmit_city,RMIT University,Melbourne City,22761,Westmeadows,15.84716724348
+unimelb_parkville,University of Melbourne,Parkville,22761,Westmeadows,14.46665330131
+monash_clayton,Monash University,Clayton,22766,Wheelers Hill,4.1040584384
+rmit_city,RMIT University,Melbourne City,22766,Wheelers Hill,22.2992371665
+unimelb_parkville,University of Melbourne,Parkville,22766,Wheelers Hill,23.07152860274
+monash_clayton,Monash University,Clayton,22775,Whittlesea,49.22467068247
+rmit_city,RMIT University,Melbourne City,22775,Whittlesea,40.31645843618
+unimelb_parkville,University of Melbourne,Parkville,22775,Whittlesea,38.90330813008
+monash_clayton,Monash University,Clayton,22784,Wildwood,48.496760362239996
+rmit_city,RMIT University,Melbourne City,22784,Wildwood,30.56176339447
+unimelb_parkville,University of Melbourne,Parkville,22784,Wildwood,29.2462401672
+monash_clayton,Monash University,Clayton,22892,Yallambie,20.806852239439998
+rmit_city,RMIT University,Melbourne City,22892,Yallambie,14.41659769882
+unimelb_parkville,University of Melbourne,Parkville,22892,Yallambie,13.51658838979
+monash_clayton,Monash University,Clayton,22898,Yan Yean,39.91366503461
+rmit_city,RMIT University,Melbourne City,22898,Yan Yean,32.172697064939996
+unimelb_parkville,University of Melbourne,Parkville,22898,Yan Yean,30.840134518430002
+monash_clayton,Monash University,Clayton,22906,Yannathan,56.7825600616
+rmit_city,RMIT University,Melbourne City,22906,Yannathan,75.85401857910999
+unimelb_parkville,University of Melbourne,Parkville,22906,Yannathan,76.77206498503
+monash_clayton,Monash University,Clayton,22910,Yarra Glen,36.14629359631
+rmit_city,RMIT University,Melbourne City,22910,Yarra Glen,40.984470029069996
+unimelb_parkville,University of Melbourne,Parkville,22910,Yarra Glen,40.35602203113
+monash_clayton,Monash University,Clayton,22911,Yarra Junction,45.018763648109996
+rmit_city,RMIT University,Melbourne City,22911,Yarra Junction,58.56840293396
+unimelb_parkville,University of Melbourne,Parkville,22911,Yarra Junction,58.549311593389994
+monash_clayton,Monash University,Clayton,22916,Yarrambat,30.28082009474
+rmit_city,RMIT University,Melbourne City,22916,Yarrambat,24.36598710996
+unimelb_parkville,University of Melbourne,Parkville,22916,Yarrambat,23.210626554260003
+monash_clayton,Monash University,Clayton,22917,Yarraville,24.58641939271
+rmit_city,RMIT University,Melbourne City,22917,Yarraville,7.09471969003
+unimelb_parkville,University of Melbourne,Parkville,22917,Yarraville,7.4812137566
+monash_clayton,Monash University,Clayton,22925,Yellingbo,34.58251296583
+rmit_city,RMIT University,Melbourne City,22925,Yellingbo,49.434393257429996
+unimelb_parkville,University of Melbourne,Parkville,22925,Yellingbo,49.58759496447
+monash_clayton,Monash University,Clayton,22930,Yering,32.45986001451
+rmit_city,RMIT University,Melbourne City,22930,Yering,38.39303846972
+unimelb_parkville,University of Melbourne,Parkville,22930,Yering,37.87013473501

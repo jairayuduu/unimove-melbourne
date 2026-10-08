@@ -1,0 +1,573 @@
+sal_code,suburb_name,period_start,period_end,source_area_count,recorded_offences,crimes_against_person,property_and_deception_offences,crime_coverage_status
+20002,Abbotsford (Vic.),2025-07-01,2026-06-30,1.0,1676.0,170.0,1220.0,unverified_area_candidate
+20003,Aberfeldie,2025-07-01,2026-06-30,1.0,176.0,14.0,118.0,unverified_area_candidate
+20011,Aintree,2025-07-01,2026-06-30,1.0,422.0,74.0,256.0,unverified_area_candidate
+20015,Airport West,2025-07-01,2026-06-30,1.0,1090.0,111.0,730.0,unverified_area_candidate
+20017,Albanvale,2025-07-01,2026-06-30,1.0,260.0,55.0,133.0,unverified_area_candidate
+20018,Albert Park (Vic.),2025-07-01,2026-06-30,1.0,676.0,64.0,527.0,unverified_area_candidate
+20021,Albion (Vic.),2025-07-01,2026-06-30,1.0,565.0,69.0,334.0,unverified_area_candidate
+20034,Alphington,2025-07-01,2026-06-30,2.0,453.0,33.0,382.0,unverified_area_candidate
+20035,Altona (Vic.),2025-07-01,2026-06-30,1.0,974.0,135.0,571.0,unverified_area_candidate
+20036,Altona Meadows,2025-07-01,2026-06-30,1.0,1043.0,157.0,572.0,unverified_area_candidate
+20037,Altona North,2025-07-01,2026-06-30,1.0,1522.0,170.0,1084.0,unverified_area_candidate
+20062,Ardeer,2025-07-01,2026-06-30,1.0,348.0,67.0,210.0,unverified_area_candidate
+20066,Armadale (Vic.),2025-07-01,2026-06-30,1.0,758.0,76.0,592.0,unverified_area_candidate
+20071,Arthurs Creek,2025-07-01,2026-06-30,1.0,9.0,4.0,5.0,unverified_area_candidate
+20072,Arthurs Seat,2025-07-01,2026-06-30,1.0,22.0,,19.0,unverified_area_candidate
+20075,Ascot Vale,2025-07-01,2026-06-30,1.0,1923.0,220.0,1247.0,unverified_area_candidate
+20077,Ashburton,2025-07-01,2026-06-30,1.0,618.0,61.0,394.0,unverified_area_candidate
+20078,Ashwood,2025-07-01,2026-06-30,1.0,664.0,67.0,413.0,unverified_area_candidate
+20079,Aspendale,2025-07-01,2026-06-30,1.0,337.0,67.0,185.0,unverified_area_candidate
+20080,Aspendale Gardens,2025-07-01,2026-06-30,1.0,136.0,33.0,82.0,unverified_area_candidate
+20082,Attwood,2025-07-01,2026-06-30,1.0,176.0,16.0,85.0,unverified_area_candidate
+20089,Avondale Heights,2025-07-01,2026-06-30,1.0,539.0,88.0,333.0,unverified_area_candidate
+20091,Avonsleigh,2025-07-01,2026-06-30,1.0,3.0,1.0,2.0,unverified_area_candidate
+20095,Bacchus Marsh,2025-07-01,2026-06-30,1.0,1256.0,168.0,611.0,unverified_area_candidate
+20097,Badger Creek,2025-07-01,2026-06-30,1.0,79.0,24.0,23.0,unverified_area_candidate
+20105,Balaclava (Vic.),2025-07-01,2026-06-30,1.0,1057.0,94.0,850.0,unverified_area_candidate
+20120,Balnarring,2025-07-01,2026-06-30,1.0,119.0,4.0,106.0,unverified_area_candidate
+20121,Balnarring Beach,2025-07-01,2026-06-30,1.0,16.0,1.0,15.0,unverified_area_candidate
+20123,Balwyn,2025-07-01,2026-06-30,1.0,752.0,73.0,592.0,unverified_area_candidate
+20124,Balwyn North,2025-07-01,2026-06-30,2.0,770.0,105.0,553.0,unverified_area_candidate
+20131,Bangholme,2025-07-01,2026-06-30,1.0,83.0,15.0,60.0,unverified_area_candidate
+20169,Baxter,2025-07-01,2026-06-30,1.0,351.0,39.0,228.0,unverified_area_candidate
+20171,Bayles,2025-07-01,2026-06-30,1.0,30.0,5.0,19.0,unverified_area_candidate
+20173,Bayswater (Vic.),2025-07-01,2026-06-30,1.0,1152.0,149.0,715.0,unverified_area_candidate
+20174,Bayswater North,2025-07-01,2026-06-30,1.0,864.0,154.0,524.0,unverified_area_candidate
+20175,Beaconsfield (Vic.),2025-07-01,2026-06-30,2.0,576.0,81.0,385.0,unverified_area_candidate
+20176,Beaconsfield Upper,2025-07-01,2026-06-30,1.0,74.0,15.0,27.0,unverified_area_candidate
+20182,Beaumaris (Vic.),2025-07-01,2026-06-30,2.0,379.0,37.0,262.0,unverified_area_candidate
+20187,Beenak,2025-07-01,2026-06-30,1.0,1.0,,1.0,unverified_area_candidate
+20188,Belgrave,2025-07-01,2026-06-30,1.0,257.0,31.0,159.0,unverified_area_candidate
+20189,Belgrave Heights,2025-07-01,2026-06-30,1.0,28.0,8.0,13.0,unverified_area_candidate
+20190,Belgrave South,2025-07-01,2026-06-30,1.0,64.0,12.0,32.0,unverified_area_candidate
+20198,Bellfield (Banyule - Vic.),2025-07-01,2026-06-30,1.0,159.0,26.0,93.0,unverified_area_candidate
+20212,Benloch,2025-07-01,2026-06-30,1.0,3.0,,2.0,unverified_area_candidate
+20214,Bentleigh,2025-07-01,2026-06-30,1.0,882.0,121.0,619.0,unverified_area_candidate
+20215,Bentleigh East,2025-07-01,2026-06-30,1.0,1129.0,207.0,664.0,unverified_area_candidate
+20224,Berwick,2025-07-01,2026-06-30,1.0,3477.0,543.0,2235.0,unverified_area_candidate
+20233,Beveridge,2025-07-01,2026-06-30,2.0,804.0,130.0,362.0,unverified_area_candidate
+20237,Big Pats Creek,2025-07-01,2026-06-30,1.0,3.0,1.0,,unverified_area_candidate
+20248,Bittern,2025-07-01,2026-06-30,1.0,169.0,21.0,68.0,unverified_area_candidate
+20251,Black Rock (Vic.),2025-07-01,2026-06-30,1.0,158.0,36.0,107.0,unverified_area_candidate
+20252,Blackburn,2025-07-01,2026-06-30,1.0,925.0,141.0,626.0,unverified_area_candidate
+20253,Blackburn North,2025-07-01,2026-06-30,1.0,235.0,21.0,177.0,unverified_area_candidate
+20254,Blackburn South,2025-07-01,2026-06-30,1.0,407.0,48.0,273.0,unverified_area_candidate
+20257,Blairgowrie,2025-07-01,2026-06-30,1.0,100.0,19.0,58.0,unverified_area_candidate
+20260,Blind Bight,2025-07-01,2026-06-30,1.0,18.0,5.0,11.0,unverified_area_candidate
+20272,Bolinda,2025-07-01,2026-06-30,1.0,5.0,1.0,3.0,unverified_area_candidate
+20278,Bonbeach,2025-07-01,2026-06-30,1.0,265.0,46.0,138.0,unverified_area_candidate
+20280,Boneo,2025-07-01,2026-06-30,1.0,28.0,5.0,9.0,unverified_area_candidate
+20282,Bonnie Brook,2025-07-01,2026-06-30,1.0,485.0,87.0,279.0,unverified_area_candidate
+20304,Boronia,2025-07-01,2026-06-30,1.0,2028.0,313.0,1049.0,unverified_area_candidate
+20307,Botanic Ridge,2025-07-01,2026-06-30,1.0,304.0,49.0,156.0,unverified_area_candidate
+20314,Box Hill (Vic.),2025-07-01,2026-06-30,1.0,2530.0,307.0,1772.0,unverified_area_candidate
+20315,Box Hill North,2025-07-01,2026-06-30,1.0,384.0,49.0,269.0,unverified_area_candidate
+20316,Box Hill South,2025-07-01,2026-06-30,1.0,659.0,63.0,440.0,unverified_area_candidate
+20320,Braeside,2025-07-01,2026-06-30,1.0,266.0,14.0,222.0,unverified_area_candidate
+20324,Braybrook,2025-07-01,2026-06-30,1.0,1645.0,156.0,1094.0,unverified_area_candidate
+20331,Briar Hill,2025-07-01,2026-06-30,1.0,100.0,17.0,41.0,unverified_area_candidate
+20337,Brighton (Vic.),2025-07-01,2026-06-30,1.0,1483.0,162.0,1026.0,unverified_area_candidate
+20338,Brighton East,2025-07-01,2026-06-30,3.0,669.0,80.0,451.0,unverified_area_candidate
+20346,Broadmeadows (Vic.),2025-07-01,2026-06-30,1.0,3897.0,574.0,1728.0,unverified_area_candidate
+20351,Brookfield (Vic.),2025-07-01,2026-06-30,1.0,500.0,110.0,191.0,unverified_area_candidate
+20352,Brooklyn (Vic.),2025-07-01,2026-06-30,2.0,455.0,49.0,311.0,unverified_area_candidate
+20361,Brunswick (Vic.),2025-07-01,2026-06-30,1.0,2611.0,346.0,1912.0,unverified_area_candidate
+20362,Brunswick East,2025-07-01,2026-06-30,2.0,1037.0,89.0,834.0,unverified_area_candidate
+20363,Brunswick West,2025-07-01,2026-06-30,1.0,1320.0,145.0,921.0,unverified_area_candidate
+20381,Bulla (Vic.),2025-07-01,2026-06-30,1.0,122.0,19.0,84.0,unverified_area_candidate
+20386,Bulleen,2025-07-01,2026-06-30,2.0,576.0,81.0,407.0,unverified_area_candidate
+20387,Bullengarook,2025-07-01,2026-06-30,1.0,19.0,3.0,12.0,unverified_area_candidate
+20399,Bundoora (Vic.),2025-07-01,2026-06-30,3.0,2456.0,277.0,1766.0,unverified_area_candidate
+20411,Bunyip,2025-07-01,2026-06-30,1.0,121.0,22.0,63.0,unverified_area_candidate
+20412,Bunyip North,2025-07-01,2026-06-30,1.0,11.0,1.0,2.0,unverified_area_candidate
+20418,Burnley,2025-07-01,2026-06-30,1.0,217.0,26.0,150.0,unverified_area_candidate
+20419,Burnside (Vic.),2025-07-01,2026-06-30,1.0,349.0,27.0,276.0,unverified_area_candidate
+20420,Burnside Heights,2025-07-01,2026-06-30,1.0,161.0,37.0,89.0,unverified_area_candidate
+20426,Burwood (Vic.),2025-07-01,2026-06-30,2.0,968.0,130.0,633.0,unverified_area_candidate
+20427,Burwood East,2025-07-01,2026-06-30,1.0,877.0,100.0,635.0,unverified_area_candidate
+20435,Bylands,2025-07-01,2026-06-30,1.0,30.0,2.0,17.0,unverified_area_candidate
+20441,Cairnlea,2025-07-01,2026-06-30,1.0,446.0,48.0,296.0,unverified_area_candidate
+20442,Calder Park,2025-07-01,2026-06-30,1.0,52.0,5.0,46.0,unverified_area_candidate
+20443,Caldermeade,2025-07-01,2026-06-30,1.0,33.0,6.0,26.0,unverified_area_candidate
+20453,Camberwell (Vic.),2025-07-01,2026-06-30,1.0,1522.0,169.0,1178.0,unverified_area_candidate
+20455,Campbellfield,2025-07-01,2026-06-30,1.0,1454.0,189.0,1024.0,unverified_area_candidate
+20466,Cannons Creek,2025-07-01,2026-06-30,1.0,45.0,18.0,23.0,unverified_area_candidate
+20468,Canterbury (Vic.),2025-07-01,2026-06-30,2.0,298.0,32.0,199.0,unverified_area_candidate
+20474,Cape Schanck,2025-07-01,2026-06-30,1.0,7.0,2.0,4.0,unverified_area_candidate
+20476,Capel Sound,2025-07-01,2026-06-30,1.0,485.0,81.0,154.0,unverified_area_candidate
+20487,Cardinia,2025-07-01,2026-06-30,1.0,54.0,4.0,26.0,unverified_area_candidate
+20495,Carlton (Vic.),2025-07-01,2026-06-30,2.0,3174.0,374.0,2360.0,unverified_area_candidate
+20496,Carlton North,2025-07-01,2026-06-30,2.0,479.0,36.0,383.0,unverified_area_candidate
+20498,Carnegie,2025-07-01,2026-06-30,1.0,974.0,173.0,688.0,unverified_area_candidate
+20500,Caroline Springs,2025-07-01,2026-06-30,1.0,1270.0,284.0,716.0,unverified_area_candidate
+20507,Carrum,2025-07-01,2026-06-30,1.0,267.0,50.0,146.0,unverified_area_candidate
+20508,Carrum Downs,2025-07-01,2026-06-30,1.0,2287.0,323.0,1284.0,unverified_area_candidate
+20512,Castella,2025-07-01,2026-06-30,1.0,12.0,1.0,8.0,unverified_area_candidate
+20517,Catani,2025-07-01,2026-06-30,1.0,10.0,4.0,4.0,unverified_area_candidate
+20521,Caulfield,2025-07-01,2026-06-30,1.0,407.0,56.0,240.0,unverified_area_candidate
+20522,Caulfield East,2025-07-01,2026-06-30,1.0,338.0,55.0,218.0,unverified_area_candidate
+20523,Caulfield North,2025-07-01,2026-06-30,1.0,953.0,100.0,712.0,unverified_area_candidate
+20524,Caulfield South,2025-07-01,2026-06-30,1.0,503.0,61.0,333.0,unverified_area_candidate
+20528,Chadstone,2025-07-01,2026-06-30,1.0,1159.0,117.0,795.0,unverified_area_candidate
+20537,Chelsea,2025-07-01,2026-06-30,1.0,558.0,97.0,334.0,unverified_area_candidate
+20538,Chelsea Heights,2025-07-01,2026-06-30,1.0,286.0,39.0,174.0,unverified_area_candidate
+20539,Cheltenham (Vic.),2025-07-01,2026-06-30,2.0,2429.0,279.0,1640.0,unverified_area_candidate
+20541,Cherokee,2025-07-01,2026-06-30,1.0,4.0,2.0,2.0,unverified_area_candidate
+20555,Chintin,2025-07-01,2026-06-30,1.0,1.0,1.0,,unverified_area_candidate
+20556,Chirnside Park,2025-07-01,2026-06-30,1.0,852.0,140.0,550.0,unverified_area_candidate
+20559,Christmas Hills (Vic.),2025-07-01,2026-06-30,1.0,19.0,5.0,4.0,unverified_area_candidate
+20560,Chum Creek,2025-07-01,2026-06-30,1.0,16.0,3.0,7.0,unverified_area_candidate
+20566,Clarinda,2025-07-01,2026-06-30,1.0,294.0,46.0,166.0,unverified_area_candidate
+20567,Clarkefield,2025-07-01,2026-06-30,2.0,47.0,6.0,35.0,unverified_area_candidate
+20569,Clayton,2025-07-01,2026-06-30,1.0,2298.0,212.0,1778.0,unverified_area_candidate
+20570,Clayton South,2025-07-01,2026-06-30,1.0,1044.0,118.0,772.0,unverified_area_candidate
+20572,Clematis,2025-07-01,2026-06-30,1.0,27.0,4.0,12.0,unverified_area_candidate
+20574,Clifton Hill,2025-07-01,2026-06-30,3.0,628.0,53.0,508.0,unverified_area_candidate
+20576,Clonbinane,2025-07-01,2026-06-30,1.0,23.0,3.0,17.0,unverified_area_candidate
+20581,Clyde (Vic.),2025-07-01,2026-06-30,1.0,1166.0,239.0,635.0,unverified_area_candidate
+20582,Clyde North,2025-07-01,2026-06-30,1.0,2760.0,587.0,1535.0,unverified_area_candidate
+20587,Cobaw,2025-07-01,2026-06-30,1.0,1.0,,,unverified_area_candidate
+20590,Cobblebank,2025-07-01,2026-06-30,1.0,276.0,55.0,157.0,unverified_area_candidate
+20596,Coburg,2025-07-01,2026-06-30,1.0,2339.0,300.0,1653.0,unverified_area_candidate
+20597,Coburg North,2025-07-01,2026-06-30,1.0,1066.0,151.0,715.0,unverified_area_candidate
+20600,Cockatoo (Vic.),2025-07-01,2026-06-30,1.0,182.0,53.0,82.0,unverified_area_candidate
+20601,Cocoroc,2025-07-01,2026-06-30,1.0,23.0,5.0,18.0,unverified_area_candidate
+20605,Coimadai,2025-07-01,2026-06-30,1.0,45.0,16.0,10.0,unverified_area_candidate
+20613,Coldstream (Vic.),2025-07-01,2026-06-30,1.0,123.0,27.0,59.0,unverified_area_candidate
+20616,Collingwood (Vic.),2025-07-01,2026-06-30,1.0,2667.0,353.0,1691.0,unverified_area_candidate
+20624,Coolaroo,2025-07-01,2026-06-30,1.0,743.0,98.0,427.0,unverified_area_candidate
+20633,Cora Lynn,2025-07-01,2026-06-30,1.0,8.0,1.0,6.0,unverified_area_candidate
+20654,Cottles Bridge,2025-07-01,2026-06-30,1.0,9.0,2.0,5.0,unverified_area_candidate
+20661,Craigieburn,2025-07-01,2026-06-30,1.0,4479.0,858.0,2551.0,unverified_area_candidate
+20662,Cranbourne,2025-07-01,2026-06-30,1.0,4464.0,771.0,2338.0,unverified_area_candidate
+20663,Cranbourne East,2025-07-01,2026-06-30,1.0,1638.0,423.0,762.0,unverified_area_candidate
+20664,Cranbourne North,2025-07-01,2026-06-30,1.0,1667.0,371.0,837.0,unverified_area_candidate
+20665,Cranbourne South,2025-07-01,2026-06-30,1.0,243.0,44.0,136.0,unverified_area_candidate
+20666,Cranbourne West,2025-07-01,2026-06-30,1.0,1508.0,307.0,872.0,unverified_area_candidate
+20670,Cremorne (Vic.),2025-07-01,2026-06-30,1.0,494.0,28.0,438.0,unverified_area_candidate
+20674,Crib Point,2025-07-01,2026-06-30,1.0,221.0,56.0,87.0,unverified_area_candidate
+20682,Croydon (Vic.),2025-07-01,2026-06-30,1.0,2258.0,438.0,1099.0,unverified_area_candidate
+20683,Croydon Hills,2025-07-01,2026-06-30,1.0,83.0,33.0,33.0,unverified_area_candidate
+20684,Croydon North,2025-07-01,2026-06-30,1.0,236.0,68.0,101.0,unverified_area_candidate
+20685,Croydon South,2025-07-01,2026-06-30,1.0,217.0,47.0,90.0,unverified_area_candidate
+20702,Dallas,2025-07-01,2026-06-30,1.0,536.0,110.0,248.0,unverified_area_candidate
+20703,Dalmore,2025-07-01,2026-06-30,1.0,15.0,2.0,12.0,unverified_area_candidate
+20707,Dandenong,2025-07-01,2026-06-30,1.0,9212.0,1471.0,4427.0,unverified_area_candidate
+20708,Dandenong North,2025-07-01,2026-06-30,1.0,1758.0,291.0,850.0,unverified_area_candidate
+20709,Dandenong South,2025-07-01,2026-06-30,1.0,1606.0,117.0,1294.0,unverified_area_candidate
+20712,Darley,2025-07-01,2026-06-30,1.0,575.0,139.0,235.0,unverified_area_candidate
+20716,Darraweit Guim,2025-07-01,2026-06-30,1.0,38.0,8.0,20.0,unverified_area_candidate
+20724,Deanside,2025-07-01,2026-06-30,1.0,361.0,56.0,263.0,unverified_area_candidate
+20728,Deepdene (Vic.),2025-07-01,2026-06-30,1.0,102.0,11.0,72.0,unverified_area_candidate
+20729,Deer Park,2025-07-01,2026-06-30,1.0,1564.0,251.0,903.0,unverified_area_candidate
+20731,Delahey,2025-07-01,2026-06-30,1.0,300.0,50.0,142.0,unverified_area_candidate
+20743,Derrimut,2025-07-01,2026-06-30,1.0,821.0,81.0,593.0,unverified_area_candidate
+20748,Devon Meadows,2025-07-01,2026-06-30,1.0,98.0,35.0,42.0,unverified_area_candidate
+20750,Dewhurst,2025-07-01,2026-06-30,1.0,5.0,1.0,4.0,unverified_area_candidate
+20752,Diamond Creek,2025-07-01,2026-06-30,1.0,493.0,83.0,297.0,unverified_area_candidate
+20754,Diggers Rest,2025-07-01,2026-06-30,2.0,411.0,67.0,268.0,unverified_area_candidate
+20758,Dingley Village,2025-07-01,2026-06-30,1.0,553.0,48.0,391.0,unverified_area_candidate
+20762,Dixons Creek,2025-07-01,2026-06-30,1.0,9.0,3.0,4.0,unverified_area_candidate
+20766,Docklands,2025-07-01,2026-06-30,1.0,4011.0,686.0,2297.0,unverified_area_candidate
+20769,Don Valley,2025-07-01,2026-06-30,1.0,29.0,6.0,12.0,unverified_area_candidate
+20771,Doncaster,2025-07-01,2026-06-30,2.0,2129.0,286.0,1488.0,unverified_area_candidate
+20772,Doncaster East,2025-07-01,2026-06-30,1.0,990.0,150.0,666.0,unverified_area_candidate
+20773,Donnybrook (Vic.),2025-07-01,2026-06-30,1.0,629.0,106.0,399.0,unverified_area_candidate
+20774,Donvale,2025-07-01,2026-06-30,1.0,338.0,44.0,248.0,unverified_area_candidate
+20779,Doreen,2025-07-01,2026-06-30,2.0,1132.0,222.0,479.0,unverified_area_candidate
+20783,Doveton,2025-07-01,2026-06-30,1.0,1712.0,282.0,944.0,unverified_area_candidate
+20788,Dromana,2025-07-01,2026-06-30,1.0,723.0,74.0,338.0,unverified_area_candidate
+20825,Eaglemont,2025-07-01,2026-06-30,1.0,163.0,14.0,126.0,unverified_area_candidate
+20830,East Melbourne,2025-07-01,2026-06-30,1.0,1149.0,115.0,822.0,unverified_area_candidate
+20833,East Warburton,2025-07-01,2026-06-30,1.0,54.0,16.0,16.0,unverified_area_candidate
+20843,Eden Park,2025-07-01,2026-06-30,1.0,22.0,4.0,15.0,unverified_area_candidate
+20848,Edithvale,2025-07-01,2026-06-30,1.0,191.0,44.0,99.0,unverified_area_candidate
+20864,Elsternwick,2025-07-01,2026-06-30,1.0,733.0,93.0,537.0,unverified_area_candidate
+20865,Eltham (Vic.),2025-07-01,2026-06-30,2.0,1047.0,121.0,677.0,unverified_area_candidate
+20866,Eltham North,2025-07-01,2026-06-30,2.0,115.0,25.0,56.0,unverified_area_candidate
+20867,Elwood,2025-07-01,2026-06-30,1.0,1060.0,125.0,787.0,unverified_area_candidate
+20868,Emerald (Vic.),2025-07-01,2026-06-30,2.0,220.0,59.0,107.0,unverified_area_candidate
+20871,Endeavour Hills,2025-07-01,2026-06-30,1.0,1549.0,300.0,827.0,unverified_area_candidate
+20878,Epping (Vic.),2025-07-01,2026-06-30,1.0,4334.0,565.0,2897.0,unverified_area_candidate
+20885,Essendon,2025-07-01,2026-06-30,1.0,1365.0,156.0,962.0,unverified_area_candidate
+20886,Essendon Fields,2025-07-01,2026-06-30,1.0,311.0,17.0,267.0,unverified_area_candidate
+20887,Essendon North,2025-07-01,2026-06-30,1.0,322.0,37.0,230.0,unverified_area_candidate
+20888,Essendon West,2025-07-01,2026-06-30,1.0,62.0,6.0,42.0,unverified_area_candidate
+20889,Eumemmerring,2025-07-01,2026-06-30,1.0,371.0,67.0,241.0,unverified_area_candidate
+20898,Exford,2025-07-01,2026-06-30,1.0,24.0,4.0,16.0,unverified_area_candidate
+20899,Eynesbury,2025-07-01,2026-06-30,2.0,434.0,75.0,262.0,unverified_area_candidate
+20901,Fairfield (Vic.),2025-07-01,2026-06-30,2.0,472.0,48.0,380.0,unverified_area_candidate
+20909,Fawkner,2025-07-01,2026-06-30,2.0,961.0,220.0,494.0,unverified_area_candidate
+20916,Fernshaw,2025-07-01,2026-06-30,1.0,2.0,,2.0,unverified_area_candidate
+20917,Ferntree Gully,2025-07-01,2026-06-30,1.0,1679.0,252.0,1103.0,unverified_area_candidate
+20918,Ferny Creek,2025-07-01,2026-06-30,1.0,65.0,2.0,20.0,unverified_area_candidate
+20920,Fingal (Vic.),2025-07-01,2026-06-30,1.0,23.0,7.0,11.0,unverified_area_candidate
+20924,Fitzroy (Vic.),2025-07-01,2026-06-30,1.0,2958.0,438.0,1981.0,unverified_area_candidate
+20925,Fitzroy North,2025-07-01,2026-06-30,2.0,1271.0,122.0,985.0,unverified_area_candidate
+20929,Flemington,2025-07-01,2026-06-30,2.0,1454.0,206.0,918.0,unverified_area_candidate
+20930,Flinders (Vic.),2025-07-01,2026-06-30,1.0,69.0,4.0,61.0,unverified_area_candidate
+20935,Footscray,2025-07-01,2026-06-30,1.0,4397.0,592.0,2845.0,unverified_area_candidate
+20937,Forest Hill (Vic.),2025-07-01,2026-06-30,1.0,872.0,118.0,584.0,unverified_area_candidate
+20947,Frankston,2025-07-01,2026-06-30,1.0,9015.0,1137.0,4222.0,unverified_area_candidate
+20948,Frankston North,2025-07-01,2026-06-30,1.0,704.0,156.0,281.0,unverified_area_candidate
+20949,Frankston South,2025-07-01,2026-06-30,1.0,736.0,91.0,426.0,unverified_area_candidate
+20950,Fraser Rise,2025-07-01,2026-06-30,1.0,695.0,104.0,422.0,unverified_area_candidate
+20965,Gardenvale,2025-07-01,2026-06-30,1.0,62.0,7.0,50.0,unverified_area_candidate
+20966,Garfield,2025-07-01,2026-06-30,1.0,96.0,23.0,53.0,unverified_area_candidate
+20967,Garfield North,2025-07-01,2026-06-30,1.0,12.0,1.0,4.0,unverified_area_candidate
+20979,Gembrook,2025-07-01,2026-06-30,1.0,315.0,18.0,274.0,unverified_area_candidate
+21001,Gisborne,2025-07-01,2026-06-30,1.0,650.0,111.0,297.0,unverified_area_candidate
+21002,Gisborne South,2025-07-01,2026-06-30,1.0,40.0,1.0,7.0,unverified_area_candidate
+21004,Gladstone Park,2025-07-01,2026-06-30,1.0,594.0,89.0,320.0,unverified_area_candidate
+21005,Gladysdale,2025-07-01,2026-06-30,1.0,17.0,4.0,5.0,unverified_area_candidate
+21009,Glen Huntly,2025-07-01,2026-06-30,1.0,283.0,46.0,195.0,unverified_area_candidate
+21010,Glen Iris (Vic.),2025-07-01,2026-06-30,2.0,1198.0,118.0,911.0,unverified_area_candidate
+21013,Glen Waverley,2025-07-01,2026-06-30,1.0,2870.0,367.0,1994.0,unverified_area_candidate
+21047,Glenroy (Vic.),2025-07-01,2026-06-30,1.0,2202.0,386.0,1261.0,unverified_area_candidate
+21059,Goldie,2025-07-01,2026-06-30,1.0,10.0,2.0,5.0,unverified_area_candidate
+21079,Gowanbrae,2025-07-01,2026-06-30,1.0,65.0,5.0,39.0,unverified_area_candidate
+21087,Grangefields,2025-07-01,2026-06-30,1.0,435.0,3.0,430.0,unverified_area_candidate
+21104,Greensborough,2025-07-01,2026-06-30,2.0,1353.0,207.0,788.0,unverified_area_candidate
+21105,Greenvale (Vic.),2025-07-01,2026-06-30,1.0,1014.0,226.0,519.0,unverified_area_candidate
+21115,Gruyere,2025-07-01,2026-06-30,1.0,48.0,8.0,28.0,unverified_area_candidate
+21121,Guys Hill,2025-07-01,2026-06-30,1.0,19.0,5.0,5.0,unverified_area_candidate
+21124,Hadfield,2025-07-01,2026-06-30,1.0,581.0,99.0,327.0,unverified_area_candidate
+21125,Hallam,2025-07-01,2026-06-30,1.0,1679.0,223.0,1094.0,unverified_area_candidate
+21131,Hampton (Vic.),2025-07-01,2026-06-30,1.0,614.0,75.0,448.0,unverified_area_candidate
+21132,Hampton East,2025-07-01,2026-06-30,1.0,454.0,53.0,275.0,unverified_area_candidate
+21133,Hampton Park,2025-07-01,2026-06-30,1.0,1664.0,363.0,792.0,unverified_area_candidate
+21139,Harkaway,2025-07-01,2026-06-30,1.0,28.0,7.0,19.0,unverified_area_candidate
+21140,Harkness,2025-07-01,2026-06-30,1.0,623.0,150.0,256.0,unverified_area_candidate
+21145,Hastings (Vic.),2025-07-01,2026-06-30,1.0,1698.0,272.0,900.0,unverified_area_candidate
+21152,Hawthorn (Vic.),2025-07-01,2026-06-30,1.0,1954.0,236.0,1350.0,unverified_area_candidate
+21153,Hawthorn East,2025-07-01,2026-06-30,1.0,1063.0,97.0,838.0,unverified_area_candidate
+21158,Healesville,2025-07-01,2026-06-30,1.0,449.0,95.0,240.0,unverified_area_candidate
+21159,Heath Hill,2025-07-01,2026-06-30,2.0,15.0,,6.0,unverified_area_candidate
+21161,Heathcote Junction,2025-07-01,2026-06-30,1.0,25.0,11.0,8.0,unverified_area_candidate
+21163,Heatherton,2025-07-01,2026-06-30,1.0,238.0,23.0,152.0,unverified_area_candidate
+21165,Heathmont,2025-07-01,2026-06-30,1.0,343.0,61.0,216.0,unverified_area_candidate
+21167,Heidelberg,2025-07-01,2026-06-30,1.0,2743.0,678.0,623.0,unverified_area_candidate
+21168,Heidelberg Heights,2025-07-01,2026-06-30,1.0,725.0,120.0,397.0,unverified_area_candidate
+21169,Heidelberg West,2025-07-01,2026-06-30,1.0,1433.0,194.0,787.0,unverified_area_candidate
+21176,Hesket,2025-07-01,2026-06-30,1.0,2.0,,2.0,unverified_area_candidate
+21185,Highett,2025-07-01,2026-06-30,3.0,937.0,92.0,518.0,unverified_area_candidate
+21193,Hillside (Melton - Vic.),2025-07-01,2026-06-30,2.0,566.0,91.0,333.0,unverified_area_candidate
+21195,Hmas Cerberus,2025-07-01,2026-06-30,1.0,12.0,2.0,4.0,unverified_area_candidate
+21196,Hoddles Creek,2025-07-01,2026-06-30,1.0,31.0,7.0,10.0,unverified_area_candidate
+21202,Hopetoun Park,2025-07-01,2026-06-30,1.0,34.0,5.0,24.0,unverified_area_candidate
+21203,Hoppers Crossing,2025-07-01,2026-06-30,1.0,3903.0,504.0,2663.0,unverified_area_candidate
+21214,Hughesdale,2025-07-01,2026-06-30,1.0,390.0,54.0,260.0,unverified_area_candidate
+21215,Humevale,2025-07-01,2026-06-30,1.0,6.0,1.0,3.0,unverified_area_candidate
+21218,Huntingdale (Vic.),2025-07-01,2026-06-30,1.0,196.0,24.0,134.0,unverified_area_candidate
+21223,Hurstbridge,2025-07-01,2026-06-30,1.0,64.0,7.0,39.0,unverified_area_candidate
+21238,Iona,2025-07-01,2026-06-30,1.0,3.0,,2.0,unverified_area_candidate
+21246,Ivanhoe (Vic.),2025-07-01,2026-06-30,1.0,1204.0,132.0,854.0,unverified_area_candidate
+21247,Ivanhoe East,2025-07-01,2026-06-30,2.0,150.0,8.0,111.0,unverified_area_candidate
+21248,Jacana,2025-07-01,2026-06-30,1.0,208.0,46.0,79.0,unverified_area_candidate
+21277,Junction Village,2025-07-01,2026-06-30,1.0,85.0,26.0,31.0,unverified_area_candidate
+21284,Kalkallo,2025-07-01,2026-06-30,1.0,673.0,162.0,408.0,unverified_area_candidate
+21286,Kallista,2025-07-01,2026-06-30,1.0,41.0,9.0,19.0,unverified_area_candidate
+21287,Kalorama,2025-07-01,2026-06-30,1.0,41.0,7.0,28.0,unverified_area_candidate
+21294,Kangaroo Ground,2025-07-01,2026-06-30,1.0,65.0,12.0,37.0,unverified_area_candidate
+21312,Kealba,2025-07-01,2026-06-30,1.0,300.0,49.0,167.0,unverified_area_candidate
+21314,Keilor,2025-07-01,2026-06-30,2.0,245.0,35.0,135.0,unverified_area_candidate
+21315,Keilor Downs,2025-07-01,2026-06-30,1.0,546.0,88.0,319.0,unverified_area_candidate
+21316,Keilor East,2025-07-01,2026-06-30,2.0,640.0,79.0,376.0,unverified_area_candidate
+21317,Keilor Lodge,2025-07-01,2026-06-30,1.0,36.0,7.0,17.0,unverified_area_candidate
+21318,Keilor North,2025-07-01,2026-06-30,1.0,55.0,1.0,49.0,unverified_area_candidate
+21319,Keilor Park,2025-07-01,2026-06-30,1.0,244.0,34.0,144.0,unverified_area_candidate
+21327,Kensington (Vic.),2025-07-01,2026-06-30,2.0,1376.0,139.0,995.0,unverified_area_candidate
+21333,Kerrie,2025-07-01,2026-06-30,1.0,2.0,,2.0,unverified_area_candidate
+21336,Kew (Vic.),2025-07-01,2026-06-30,1.0,1678.0,170.0,1248.0,unverified_area_candidate
+21337,Kew East,2025-07-01,2026-06-30,1.0,289.0,35.0,197.0,unverified_area_candidate
+21339,Keysborough,2025-07-01,2026-06-30,1.0,1809.0,235.0,1246.0,unverified_area_candidate
+21354,Kilsyth,2025-07-01,2026-06-30,2.0,665.0,146.0,311.0,unverified_area_candidate
+21355,Kilsyth South,2025-07-01,2026-06-30,1.0,132.0,20.0,73.0,unverified_area_candidate
+21358,Kinglake,2025-07-01,2026-06-30,2.0,87.0,23.0,43.0,unverified_area_candidate
+21359,Kinglake Central,2025-07-01,2026-06-30,1.0,32.0,3.0,14.0,unverified_area_candidate
+21360,Kinglake West,2025-07-01,2026-06-30,3.0,26.0,4.0,12.0,unverified_area_candidate
+21362,Kings Park (Vic.),2025-07-01,2026-06-30,1.0,407.0,75.0,197.0,unverified_area_candidate
+21363,Kingsbury,2025-07-01,2026-06-30,1.0,495.0,59.0,352.0,unverified_area_candidate
+21365,Kingsville,2025-07-01,2026-06-30,1.0,227.0,18.0,173.0,unverified_area_candidate
+21374,Knoxfield,2025-07-01,2026-06-30,1.0,397.0,49.0,246.0,unverified_area_candidate
+21380,Koo Wee Rup,2025-07-01,2026-06-30,1.0,344.0,49.0,197.0,unverified_area_candidate
+21381,Koo Wee Rup North,2025-07-01,2026-06-30,1.0,1.0,,,unverified_area_candidate
+21393,Kooyong,2025-07-01,2026-06-30,1.0,78.0,8.0,46.0,unverified_area_candidate
+21411,Kurunjang,2025-07-01,2026-06-30,1.0,590.0,134.0,267.0,unverified_area_candidate
+21452,Lalor,2025-07-01,2026-06-30,1.0,1661.0,237.0,959.0,unverified_area_candidate
+21456,Lancefield,2025-07-01,2026-06-30,1.0,100.0,20.0,58.0,unverified_area_candidate
+21459,Lang Lang,2025-07-01,2026-06-30,3.0,195.0,37.0,77.0,unverified_area_candidate
+21460,Lang Lang East,2025-07-01,2026-06-30,1.0,2.0,,2.0,unverified_area_candidate
+21467,Langwarrin,2025-07-01,2026-06-30,1.0,979.0,160.0,489.0,unverified_area_candidate
+21468,Langwarrin South,2025-07-01,2026-06-30,1.0,65.0,12.0,34.0,unverified_area_candidate
+21473,Launching Place,2025-07-01,2026-06-30,1.0,132.0,29.0,47.0,unverified_area_candidate
+21476,Laverton (Vic.),2025-07-01,2026-06-30,2.0,847.0,132.0,493.0,unverified_area_candidate
+21477,Laverton North,2025-07-01,2026-06-30,1.0,881.0,47.0,744.0,unverified_area_candidate
+21504,Lilydale (Vic.),2025-07-01,2026-06-30,1.0,1551.0,275.0,831.0,unverified_area_candidate
+21533,Long Forest,2025-07-01,2026-06-30,1.0,13.0,4.0,5.0,unverified_area_candidate
+21547,Lower Plenty,2025-07-01,2026-06-30,1.0,144.0,25.0,83.0,unverified_area_candidate
+21554,Lynbrook,2025-07-01,2026-06-30,1.0,719.0,139.0,439.0,unverified_area_candidate
+21555,Lyndhurst (Vic.),2025-07-01,2026-06-30,2.0,431.0,81.0,301.0,unverified_area_candidate
+21558,Lysterfield,2025-07-01,2026-06-30,2.0,186.0,33.0,119.0,unverified_area_candidate
+21559,Lysterfield South,2025-07-01,2026-06-30,1.0,42.0,13.0,16.0,unverified_area_candidate
+21561,Macclesfield (Vic.),2025-07-01,2026-06-30,1.0,8.0,4.0,2.0,unverified_area_candidate
+21562,Macedon,2025-07-01,2026-06-30,1.0,134.0,12.0,86.0,unverified_area_candidate
+21564,Macleod (Vic.),2025-07-01,2026-06-30,2.0,390.0,42.0,233.0,unverified_area_candidate
+21569,Maddingley,2025-07-01,2026-06-30,1.0,460.0,72.0,268.0,unverified_area_candidate
+21575,Maidstone,2025-07-01,2026-06-30,1.0,991.0,100.0,714.0,unverified_area_candidate
+21578,Main Ridge,2025-07-01,2026-06-30,1.0,14.0,,12.0,unverified_area_candidate
+21586,Malvern (Vic.),2025-07-01,2026-06-30,2.0,779.0,105.0,561.0,unverified_area_candidate
+21587,Malvern East,2025-07-01,2026-06-30,1.0,2803.0,230.0,2259.0,unverified_area_candidate
+21588,Mambourin,2025-07-01,2026-06-30,1.0,358.0,59.0,271.0,unverified_area_candidate
+21597,Manor Lakes,2025-07-01,2026-06-30,1.0,944.0,149.0,607.0,unverified_area_candidate
+21604,Maribyrnong,2025-07-01,2026-06-30,1.0,2434.0,244.0,1894.0,unverified_area_candidate
+21619,Maryknoll,2025-07-01,2026-06-30,1.0,13.0,5.0,2.0,unverified_area_candidate
+21625,McCrae,2025-07-01,2026-06-30,1.0,212.0,28.0,124.0,unverified_area_candidate
+21629,McKinnon,2025-07-01,2026-06-30,1.0,249.0,56.0,167.0,unverified_area_candidate
+21635,Meadow Heights,2025-07-01,2026-06-30,1.0,1041.0,232.0,438.0,unverified_area_candidate
+21640,Melbourne,2025-07-01,2026-06-30,5.0,25139.0,4210.0,14671.0,unverified_area_candidate
+21641,Melbourne Airport,2025-07-01,2026-06-30,1.0,1279.0,102.0,1005.0,unverified_area_candidate
+21642,Melton (Vic.),2025-07-01,2026-06-30,1.0,2082.0,299.0,1060.0,unverified_area_candidate
+21643,Melton South,2025-07-01,2026-06-30,1.0,1501.0,328.0,753.0,unverified_area_candidate
+21644,Melton West,2025-07-01,2026-06-30,1.0,1131.0,224.0,659.0,unverified_area_candidate
+21648,Mentone,2025-07-01,2026-06-30,1.0,982.0,114.0,653.0,unverified_area_candidate
+21649,Menzies Creek,2025-07-01,2026-06-30,2.0,25.0,12.0,10.0,unverified_area_candidate
+21659,Mernda,2025-07-01,2026-06-30,1.0,1480.0,272.0,781.0,unverified_area_candidate
+21662,Merricks,2025-07-01,2026-06-30,1.0,4.0,,4.0,unverified_area_candidate
+21663,Merricks Beach,2025-07-01,2026-06-30,1.0,12.0,1.0,10.0,unverified_area_candidate
+21664,Merricks North,2025-07-01,2026-06-30,1.0,29.0,8.0,14.0,unverified_area_candidate
+21668,Merrimu,2025-07-01,2026-06-30,1.0,29.0,9.0,15.0,unverified_area_candidate
+21675,Mickleham,2025-07-01,2026-06-30,1.0,1400.0,310.0,770.0,unverified_area_candidate
+21677,Middle Park (Vic.),2025-07-01,2026-06-30,1.0,304.0,16.0,259.0,unverified_area_candidate
+21683,Mill Park,2025-07-01,2026-06-30,1.0,1969.0,270.0,1103.0,unverified_area_candidate
+21685,Millgrove,2025-07-01,2026-06-30,1.0,271.0,19.0,246.0,unverified_area_candidate
+21706,Mitcham (Vic.),2025-07-01,2026-06-30,1.0,891.0,112.0,648.0,unverified_area_candidate
+21727,Monbulk,2025-07-01,2026-06-30,1.0,125.0,33.0,65.0,unverified_area_candidate
+21728,Monegeetta,2025-07-01,2026-06-30,1.0,20.0,4.0,7.0,unverified_area_candidate
+21731,Monomeith,2025-07-01,2026-06-30,1.0,6.0,,6.0,unverified_area_candidate
+21732,Mont Albert,2025-07-01,2026-06-30,2.0,402.0,37.0,288.0,unverified_area_candidate
+21733,Mont Albert North,2025-07-01,2026-06-30,1.0,197.0,29.0,121.0,unverified_area_candidate
+21735,Montmorency,2025-07-01,2026-06-30,1.0,190.0,51.0,94.0,unverified_area_candidate
+21736,Montrose (Vic.),2025-07-01,2026-06-30,1.0,297.0,53.0,123.0,unverified_area_candidate
+21742,Moonee Ponds,2025-07-01,2026-06-30,1.0,1601.0,164.0,1151.0,unverified_area_candidate
+21746,Moorabbin,2025-07-01,2026-06-30,1.0,1501.0,118.0,628.0,unverified_area_candidate
+21747,Moorabbin Airport,2025-07-01,2026-06-30,1.0,162.0,10.0,141.0,unverified_area_candidate
+21754,Moorooduc,2025-07-01,2026-06-30,1.0,114.0,15.0,51.0,unverified_area_candidate
+21755,Mooroolbark,2025-07-01,2026-06-30,1.0,1073.0,262.0,469.0,unverified_area_candidate
+21760,Mordialloc,2025-07-01,2026-06-30,1.0,679.0,98.0,345.0,unverified_area_candidate
+21763,Mornington (Vic.),2025-07-01,2026-06-30,1.0,1659.0,269.0,939.0,unverified_area_candidate
+21779,Mount Burnett,2025-07-01,2026-06-30,1.0,7.0,,7.0,unverified_area_candidate
+21786,Mount Cottrell,2025-07-01,2026-06-30,2.0,224.0,16.0,159.0,unverified_area_candidate
+21787,Mount Dandenong,2025-07-01,2026-06-30,1.0,46.0,6.0,23.0,unverified_area_candidate
+21793,Mount Eliza,2025-07-01,2026-06-30,1.0,504.0,85.0,329.0,unverified_area_candidate
+21795,Mount Evelyn,2025-07-01,2026-06-30,1.0,316.0,85.0,120.0,unverified_area_candidate
+21801,Mount Macedon,2025-07-01,2026-06-30,1.0,21.0,5.0,15.0,unverified_area_candidate
+21803,Mount Martha,2025-07-01,2026-06-30,1.0,424.0,53.0,229.0,unverified_area_candidate
+21814,Mount Toolebewong,2025-07-01,2026-06-30,1.0,2.0,1.0,1.0,unverified_area_candidate
+21816,Mount Waverley,2025-07-01,2026-06-30,1.0,1847.0,233.0,1264.0,unverified_area_candidate
+21827,Mulgrave (Vic.),2025-07-01,2026-06-30,1.0,1629.0,145.0,1237.0,unverified_area_candidate
+21849,Murrumbeena,2025-07-01,2026-06-30,1.0,537.0,66.0,377.0,unverified_area_candidate
+21872,Nangana,2025-07-01,2026-06-30,1.0,2.0,1.0,1.0,unverified_area_candidate
+21878,Nar Nar Goon,2025-07-01,2026-06-30,1.0,68.0,9.0,48.0,unverified_area_candidate
+21879,Nar Nar Goon North,2025-07-01,2026-06-30,1.0,78.0,13.0,38.0,unverified_area_candidate
+21893,Narre Warren,2025-07-01,2026-06-30,1.0,4037.0,555.0,2759.0,unverified_area_candidate
+21894,Narre Warren East,2025-07-01,2026-06-30,1.0,34.0,8.0,12.0,unverified_area_candidate
+21895,Narre Warren North,2025-07-01,2026-06-30,1.0,349.0,51.0,219.0,unverified_area_candidate
+21896,Narre Warren South,2025-07-01,2026-06-30,1.0,1230.0,287.0,664.0,unverified_area_candidate
+21921,New Gisborne,2025-07-01,2026-06-30,1.0,97.0,9.0,61.0,unverified_area_candidate
+21934,Newport (Vic.),2025-07-01,2026-06-30,1.0,820.0,117.0,538.0,unverified_area_candidate
+21942,Niddrie,2025-07-01,2026-06-30,1.0,260.0,47.0,165.0,unverified_area_candidate
+21952,Noble Park,2025-07-01,2026-06-30,1.0,2891.0,535.0,1452.0,unverified_area_candidate
+21953,Noble Park North,2025-07-01,2026-06-30,1.0,602.0,92.0,392.0,unverified_area_candidate
+21966,North Melbourne,2025-07-01,2026-06-30,1.0,2471.0,258.0,1728.0,unverified_area_candidate
+21969,North Warrandyte,2025-07-01,2026-06-30,1.0,45.0,11.0,24.0,unverified_area_candidate
+21971,Northcote,2025-07-01,2026-06-30,1.0,1798.0,160.0,1357.0,unverified_area_candidate
+21974,Notting Hill,2025-07-01,2026-06-30,1.0,285.0,40.0,201.0,unverified_area_candidate
+21985,Nunawading,2025-07-01,2026-06-30,2.0,1213.0,109.0,966.0,unverified_area_candidate
+21991,Nutfield,2025-07-01,2026-06-30,1.0,9.0,4.0,2.0,unverified_area_candidate
+21998,Oak Park,2025-07-01,2026-06-30,1.0,316.0,50.0,186.0,unverified_area_candidate
+21999,Oaklands Junction,2025-07-01,2026-06-30,1.0,52.0,7.0,44.0,unverified_area_candidate
+22000,Oakleigh,2025-07-01,2026-06-30,1.0,1971.0,195.0,1436.0,unverified_area_candidate
+22001,Oakleigh East,2025-07-01,2026-06-30,1.0,343.0,40.0,219.0,unverified_area_candidate
+22002,Oakleigh South,2025-07-01,2026-06-30,2.0,657.0,112.0,432.0,unverified_area_candidate
+22006,Officer,2025-07-01,2026-06-30,1.0,1502.0,252.0,913.0,unverified_area_candidate
+22007,Officer South,2025-07-01,2026-06-30,1.0,57.0,10.0,36.0,unverified_area_candidate
+22009,Olinda (Vic.),2025-07-01,2026-06-30,1.0,97.0,10.0,70.0,unverified_area_candidate
+22016,Ormond,2025-07-01,2026-06-30,1.0,304.0,57.0,185.0,unverified_area_candidate
+22027,Pakenham,2025-07-01,2026-06-30,1.0,4912.0,942.0,2465.0,unverified_area_candidate
+22028,Pakenham South,2025-07-01,2026-06-30,1.0,8.0,1.0,7.0,unverified_area_candidate
+22029,Pakenham Upper,2025-07-01,2026-06-30,1.0,36.0,4.0,26.0,unverified_area_candidate
+22032,Panton Hill,2025-07-01,2026-06-30,1.0,24.0,4.0,17.0,unverified_area_candidate
+22036,Park Orchards,2025-07-01,2026-06-30,1.0,84.0,10.0,50.0,unverified_area_candidate
+22037,Parkdale,2025-07-01,2026-06-30,1.0,406.0,60.0,256.0,unverified_area_candidate
+22038,Parkville (Vic.),2025-07-01,2026-06-30,1.0,1106.0,119.0,774.0,unverified_area_candidate
+22041,Pascoe Vale,2025-07-01,2026-06-30,1.0,1076.0,156.0,711.0,unverified_area_candidate
+22042,Pascoe Vale South,2025-07-01,2026-06-30,1.0,549.0,68.0,406.0,unverified_area_candidate
+22047,Patterson Lakes,2025-07-01,2026-06-30,1.0,443.0,71.0,282.0,unverified_area_candidate
+22050,Pearcedale,2025-07-01,2026-06-30,2.0,148.0,26.0,86.0,unverified_area_candidate
+22058,Pentland Hills,2025-07-01,2026-06-30,1.0,41.0,6.0,25.0,unverified_area_candidate
+22064,Pheasant Creek (Vic.),2025-07-01,2026-06-30,1.0,6.0,2.0,4.0,unverified_area_candidate
+22084,Plenty (Vic.),2025-07-01,2026-06-30,1.0,126.0,8.0,94.0,unverified_area_candidate
+22085,Plumpton (Vic.),2025-07-01,2026-06-30,1.0,17.0,3.0,7.0,unverified_area_candidate
+22086,Point Cook,2025-07-01,2026-06-30,1.0,2706.0,490.0,1763.0,unverified_area_candidate
+22087,Point Leo,2025-07-01,2026-06-30,1.0,6.0,3.0,3.0,unverified_area_candidate
+22107,Port Melbourne,2025-07-01,2026-06-30,2.0,2908.0,305.0,2033.0,unverified_area_candidate
+22113,Portsea,2025-07-01,2026-06-30,1.0,38.0,9.0,24.0,unverified_area_candidate
+22115,Powelltown,2025-07-01,2026-06-30,1.0,9.0,4.0,1.0,unverified_area_candidate
+22118,Prahran,2025-07-01,2026-06-30,1.0,2844.0,351.0,1923.0,unverified_area_candidate
+22121,Preston (Vic.),2025-07-01,2026-06-30,1.0,5954.0,600.0,4099.0,unverified_area_candidate
+22122,Princes Hill,2025-07-01,2026-06-30,1.0,252.0,37.0,177.0,unverified_area_candidate
+22132,Quandong,2025-07-01,2026-06-30,1.0,9.0,,9.0,unverified_area_candidate
+22141,Ravenhall,2025-07-01,2026-06-30,1.0,724.0,41.0,534.0,unverified_area_candidate
+22148,Red Hill (Vic.),2025-07-01,2026-06-30,1.0,29.0,7.0,15.0,unverified_area_candidate
+22149,Red Hill South,2025-07-01,2026-06-30,1.0,11.0,,11.0,unverified_area_candidate
+22160,Research,2025-07-01,2026-06-30,1.0,67.0,8.0,41.0,unverified_area_candidate
+22161,Reservoir (Vic.),2025-07-01,2026-06-30,1.0,5043.0,702.0,3056.0,unverified_area_candidate
+22170,Richmond (Vic.),2025-07-01,2026-06-30,1.0,5039.0,620.0,3531.0,unverified_area_candidate
+22172,Riddells Creek,2025-07-01,2026-06-30,1.0,196.0,27.0,104.0,unverified_area_candidate
+22174,Ringwood (Vic.),2025-07-01,2026-06-30,1.0,4061.0,447.0,1862.0,unverified_area_candidate
+22175,Ringwood East,2025-07-01,2026-06-30,1.0,636.0,136.0,342.0,unverified_area_candidate
+22176,Ringwood North,2025-07-01,2026-06-30,2.0,286.0,31.0,182.0,unverified_area_candidate
+22179,Ripponlea,2025-07-01,2026-06-30,1.0,97.0,11.0,71.0,unverified_area_candidate
+22185,Rochford,2025-07-01,2026-06-30,1.0,4.0,3.0,1.0,unverified_area_candidate
+22186,Rockbank,2025-07-01,2026-06-30,1.0,767.0,88.0,560.0,unverified_area_candidate
+22193,Romsey,2025-07-01,2026-06-30,1.0,228.0,42.0,111.0,unverified_area_candidate
+22194,Rosanna,2025-07-01,2026-06-30,1.0,434.0,56.0,256.0,unverified_area_candidate
+22198,Rosebud,2025-07-01,2026-06-30,1.0,2054.0,229.0,989.0,unverified_area_candidate
+22207,Rowville,2025-07-01,2026-06-30,1.0,1596.0,211.0,967.0,unverified_area_candidate
+22208,Roxburgh Park,2025-07-01,2026-06-30,1.0,1335.0,317.0,654.0,unverified_area_candidate
+22220,Rye,2025-07-01,2026-06-30,1.0,632.0,198.0,252.0,unverified_area_candidate
+22221,Rythdale,2025-07-01,2026-06-30,1.0,1.0,,1.0,unverified_area_candidate
+22222,Safety Beach (Vic.),2025-07-01,2026-06-30,1.0,361.0,55.0,176.0,unverified_area_candidate
+22232,Sandhurst,2025-07-01,2026-06-30,1.0,159.0,36.0,72.0,unverified_area_candidate
+22234,Sandringham (Vic.),2025-07-01,2026-06-30,1.0,544.0,70.0,343.0,unverified_area_candidate
+22239,Sassafras (Vic.),2025-07-01,2026-06-30,1.0,36.0,6.0,14.0,unverified_area_candidate
+22242,Scoresby,2025-07-01,2026-06-30,1.0,549.0,68.0,370.0,unverified_area_candidate
+22247,Seabrook,2025-07-01,2026-06-30,1.0,155.0,23.0,100.0,unverified_area_candidate
+22249,Seaford (Vic.),2025-07-01,2026-06-30,1.0,2346.0,294.0,1274.0,unverified_area_candidate
+22250,Seaholme,2025-07-01,2026-06-30,1.0,111.0,8.0,81.0,unverified_area_candidate
+22256,Seddon (Vic.),2025-07-01,2026-06-30,1.0,438.0,53.0,291.0,unverified_area_candidate
+22258,Selby,2025-07-01,2026-06-30,1.0,42.0,13.0,11.0,unverified_area_candidate
+22263,Seville,2025-07-01,2026-06-30,1.0,129.0,15.0,68.0,unverified_area_candidate
+22264,Seville East,2025-07-01,2026-06-30,1.0,17.0,5.0,9.0,unverified_area_candidate
+22278,Sherbrooke,2025-07-01,2026-06-30,1.0,21.0,4.0,12.0,unverified_area_candidate
+22279,Shoreham,2025-07-01,2026-06-30,1.0,15.0,2.0,11.0,unverified_area_candidate
+22281,Silvan,2025-07-01,2026-06-30,1.0,50.0,31.0,17.0,unverified_area_candidate
+22291,Skye (Vic.),2025-07-01,2026-06-30,1.0,549.0,95.0,258.0,unverified_area_candidate
+22295,Smiths Gully,2025-07-01,2026-06-30,1.0,6.0,2.0,4.0,unverified_area_candidate
+22303,Somers,2025-07-01,2026-06-30,1.0,69.0,4.0,52.0,unverified_area_candidate
+22304,Somerton (Vic.),2025-07-01,2026-06-30,1.0,345.0,23.0,279.0,unverified_area_candidate
+22305,Somerville (Vic.),2025-07-01,2026-06-30,1.0,594.0,95.0,340.0,unverified_area_candidate
+22306,Sorrento (Vic.),2025-07-01,2026-06-30,1.0,142.0,27.0,80.0,unverified_area_candidate
+22309,South Kingsville,2025-07-01,2026-06-30,1.0,106.0,10.0,70.0,unverified_area_candidate
+22310,South Melbourne,2025-07-01,2026-06-30,1.0,3577.0,407.0,2482.0,unverified_area_candidate
+22311,South Morang,2025-07-01,2026-06-30,1.0,1265.0,220.0,746.0,unverified_area_candidate
+22313,South Wharf,2025-07-01,2026-06-30,1.0,370.0,28.0,309.0,unverified_area_candidate
+22314,South Yarra,2025-07-01,2026-06-30,2.0,3312.0,392.0,2343.0,unverified_area_candidate
+22315,Southbank,2025-07-01,2026-06-30,2.0,4612.0,655.0,3219.0,unverified_area_candidate
+22319,Spotswood,2025-07-01,2026-06-30,1.0,568.0,24.0,450.0,unverified_area_candidate
+22325,Springfield (Macedon Ranges - Vic.),2025-07-01,2026-06-30,1.0,10.0,2.0,7.0,unverified_area_candidate
+22328,Springvale (Vic.),2025-07-01,2026-06-30,1.0,3122.0,387.0,1886.0,unverified_area_candidate
+22329,Springvale South,2025-07-01,2026-06-30,1.0,743.0,118.0,382.0,unverified_area_candidate
+22330,St Albans (Vic.),2025-07-01,2026-06-30,2.0,3935.0,637.0,2309.0,unverified_area_candidate
+22332,St Andrews (Vic.),2025-07-01,2026-06-30,1.0,16.0,4.0,10.0,unverified_area_candidate
+22333,St Andrews Beach,2025-07-01,2026-06-30,1.0,12.0,4.0,8.0,unverified_area_candidate
+22339,St Helena,2025-07-01,2026-06-30,1.0,107.0,19.0,79.0,unverified_area_candidate
+22343,St Kilda (Vic.),2025-07-01,2026-06-30,1.0,4638.0,680.0,2851.0,unverified_area_candidate
+22344,St Kilda East,2025-07-01,2026-06-30,2.0,724.0,109.0,474.0,unverified_area_candidate
+22345,St Kilda West,2025-07-01,2026-06-30,1.0,250.0,26.0,176.0,unverified_area_candidate
+22355,Steels Creek,2025-07-01,2026-06-30,1.0,6.0,,4.0,unverified_area_candidate
+22375,Strathewen,2025-07-01,2026-06-30,1.0,4.0,1.0,3.0,unverified_area_candidate
+22380,Strathmore (Vic.),2025-07-01,2026-06-30,1.0,374.0,56.0,232.0,unverified_area_candidate
+22381,Strathmore Heights,2025-07-01,2026-06-30,1.0,33.0,5.0,19.0,unverified_area_candidate
+22382,Strathtulloh,2025-07-01,2026-06-30,1.0,489.0,91.0,312.0,unverified_area_candidate
+22391,Sunbury,2025-07-01,2026-06-30,1.0,2860.0,554.0,1525.0,unverified_area_candidate
+22395,Sunshine (Vic.),2025-07-01,2026-06-30,1.0,3407.0,401.0,1500.0,unverified_area_candidate
+22396,Sunshine North,2025-07-01,2026-06-30,1.0,1385.0,125.0,928.0,unverified_area_candidate
+22397,Sunshine West,2025-07-01,2026-06-30,1.0,1235.0,164.0,814.0,unverified_area_candidate
+22399,Surrey Hills,2025-07-01,2026-06-30,2.0,586.0,59.0,442.0,unverified_area_candidate
+22414,Sydenham (Vic.),2025-07-01,2026-06-30,1.0,504.0,88.0,272.0,unverified_area_candidate
+22451,Tarneit,2025-07-01,2026-06-30,1.0,4707.0,750.0,3248.0,unverified_area_candidate
+22457,Tarrawarra,2025-07-01,2026-06-30,1.0,2.0,,1.0,unverified_area_candidate
+22473,Taylors Hill,2025-07-01,2026-06-30,1.0,505.0,123.0,231.0,unverified_area_candidate
+22474,Taylors Lakes,2025-07-01,2026-06-30,1.0,1465.0,127.0,1083.0,unverified_area_candidate
+22476,Tecoma,2025-07-01,2026-06-30,1.0,59.0,6.0,45.0,unverified_area_candidate
+22483,Templestowe,2025-07-01,2026-06-30,1.0,516.0,106.0,289.0,unverified_area_candidate
+22484,Templestowe Lower,2025-07-01,2026-06-30,1.0,421.0,82.0,267.0,unverified_area_candidate
+22496,The Basin (Vic.),2025-07-01,2026-06-30,1.0,219.0,38.0,117.0,unverified_area_candidate
+22501,The Patch,2025-07-01,2026-06-30,1.0,12.0,4.0,6.0,unverified_area_candidate
+22504,Thomastown,2025-07-01,2026-06-30,1.0,2361.0,278.0,1577.0,unverified_area_candidate
+22508,Thornbury,2025-07-01,2026-06-30,1.0,1368.0,130.0,1005.0,unverified_area_candidate
+22509,Thornhill Park,2025-07-01,2026-06-30,1.0,672.0,88.0,456.0,unverified_area_candidate
+22514,Three Bridges,2025-07-01,2026-06-30,1.0,14.0,4.0,5.0,unverified_area_candidate
+22536,Toolangi,2025-07-01,2026-06-30,2.0,16.0,2.0,12.0,unverified_area_candidate
+22537,Toolern Vale,2025-07-01,2026-06-30,1.0,98.0,8.0,59.0,unverified_area_candidate
+22546,Tooradin,2025-07-01,2026-06-30,1.0,159.0,17.0,64.0,unverified_area_candidate
+22547,Toorak,2025-07-01,2026-06-30,1.0,972.0,84.0,752.0,unverified_area_candidate
+22550,Tootgarook,2025-07-01,2026-06-30,1.0,228.0,34.0,106.0,unverified_area_candidate
+22556,Tottenham (Vic.),2025-07-01,2026-06-30,1.0,199.0,43.0,125.0,unverified_area_candidate
+22572,Travancore,2025-07-01,2026-06-30,1.0,162.0,12.0,134.0,unverified_area_candidate
+22576,Tremont,2025-07-01,2026-06-30,1.0,6.0,,5.0,unverified_area_candidate
+22582,Truganina,2025-07-01,2026-06-30,2.0,3196.0,431.0,2224.0,unverified_area_candidate
+22584,Tuerong,2025-07-01,2026-06-30,1.0,32.0,3.0,26.0,unverified_area_candidate
+22586,Tullamarine,2025-07-01,2026-06-30,3.0,1012.0,114.0,706.0,unverified_area_candidate
+22594,Tyabb,2025-07-01,2026-06-30,1.0,168.0,30.0,84.0,unverified_area_candidate
+22598,Tynong,2025-07-01,2026-06-30,1.0,37.0,6.0,16.0,unverified_area_candidate
+22599,Tynong North,2025-07-01,2026-06-30,1.0,48.0,3.0,36.0,unverified_area_candidate
+22614,Upper Ferntree Gully,2025-07-01,2026-06-30,2.0,248.0,34.0,151.0,unverified_area_candidate
+22617,Upper Plenty,2025-07-01,2026-06-30,1.0,27.0,8.0,13.0,unverified_area_candidate
+22620,Upwey,2025-07-01,2026-06-30,1.0,183.0,29.0,125.0,unverified_area_candidate
+22627,Vermont,2025-07-01,2026-06-30,2.0,381.0,44.0,251.0,unverified_area_candidate
+22628,Vermont South,2025-07-01,2026-06-30,1.0,693.0,91.0,471.0,unverified_area_candidate
+22629,Vervale,2025-07-01,2026-06-30,1.0,9.0,,2.0,unverified_area_candidate
+22633,Viewbank,2025-07-01,2026-06-30,1.0,200.0,33.0,102.0,unverified_area_candidate
+22661,Wallan,2025-07-01,2026-06-30,1.0,1763.0,327.0,799.0,unverified_area_candidate
+22672,Wandin East,2025-07-01,2026-06-30,1.0,9.0,,6.0,unverified_area_candidate
+22673,Wandin North,2025-07-01,2026-06-30,1.0,115.0,21.0,72.0,unverified_area_candidate
+22676,Wandong,2025-07-01,2026-06-30,1.0,137.0,22.0,69.0,unverified_area_candidate
+22685,Wantirna,2025-07-01,2026-06-30,1.0,798.0,109.0,451.0,unverified_area_candidate
+22686,Wantirna South,2025-07-01,2026-06-30,2.0,1797.0,202.0,1217.0,unverified_area_candidate
+22689,Warburton (Vic.),2025-07-01,2026-06-30,1.0,117.0,32.0,73.0,unverified_area_candidate
+22695,Warneet,2025-07-01,2026-06-30,1.0,34.0,5.0,13.0,unverified_area_candidate
+22702,Warrandyte,2025-07-01,2026-06-30,1.0,165.0,37.0,90.0,unverified_area_candidate
+22703,Warrandyte South,2025-07-01,2026-06-30,1.0,6.0,,5.0,unverified_area_candidate
+22704,Warranwood,2025-07-01,2026-06-30,1.0,74.0,23.0,30.0,unverified_area_candidate
+22717,Waterford Park,2025-07-01,2026-06-30,1.0,22.0,7.0,6.0,unverified_area_candidate
+22720,Waterways,2025-07-01,2026-06-30,1.0,71.0,18.0,34.0,unverified_area_candidate
+22721,Watsonia,2025-07-01,2026-06-30,1.0,431.0,43.0,254.0,unverified_area_candidate
+22722,Watsonia North,2025-07-01,2026-06-30,1.0,160.0,16.0,94.0,unverified_area_candidate
+22723,Watsons Creek (Vic.),2025-07-01,2026-06-30,1.0,12.0,2.0,9.0,unverified_area_candidate
+22727,Wattle Glen,2025-07-01,2026-06-30,1.0,26.0,4.0,10.0,unverified_area_candidate
+22740,Weir Views,2025-07-01,2026-06-30,1.0,508.0,104.0,287.0,unverified_area_candidate
+22750,Werribee,2025-07-01,2026-06-30,1.0,5348.0,856.0,2879.0,unverified_area_candidate
+22751,Werribee South,2025-07-01,2026-06-30,1.0,248.0,39.0,145.0,unverified_area_candidate
+22753,Wesburn,2025-07-01,2026-06-30,1.0,27.0,8.0,11.0,unverified_area_candidate
+22756,West Footscray,2025-07-01,2026-06-30,1.0,902.0,83.0,710.0,unverified_area_candidate
+22757,West Melbourne,2025-07-01,2026-06-30,1.0,1607.0,292.0,973.0,unverified_area_candidate
+22761,Westmeadows,2025-07-01,2026-06-30,1.0,425.0,86.0,250.0,unverified_area_candidate
+22766,Wheelers Hill,2025-07-01,2026-06-30,1.0,785.0,101.0,475.0,unverified_area_candidate
+22775,Whittlesea,2025-07-01,2026-06-30,1.0,399.0,81.0,151.0,unverified_area_candidate
+22784,Wildwood,2025-07-01,2026-06-30,1.0,83.0,3.0,66.0,unverified_area_candidate
+22791,Williams Landing,2025-07-01,2026-06-30,1.0,661.0,81.0,468.0,unverified_area_candidate
+22792,Williamstown (Vic.),2025-07-01,2026-06-30,1.0,1152.0,145.0,751.0,unverified_area_candidate
+22793,Williamstown North,2025-07-01,2026-06-30,1.0,251.0,24.0,191.0,unverified_area_candidate
+22805,Windsor (Vic.),2025-07-01,2026-06-30,2.0,1463.0,193.0,932.0,unverified_area_candidate
+22820,Wollert,2025-07-01,2026-06-30,1.0,1429.0,239.0,850.0,unverified_area_candidate
+22825,Wonga Park,2025-07-01,2026-06-30,1.0,39.0,13.0,24.0,unverified_area_candidate
+22843,Woodstock (Vic.),2025-07-01,2026-06-30,1.0,27.0,,14.0,unverified_area_candidate
+22857,Woori Yallock,2025-07-01,2026-06-30,1.0,112.0,25.0,50.0,unverified_area_candidate
+22883,Wyndham Vale,2025-07-01,2026-06-30,1.0,1751.0,336.0,929.0,unverified_area_candidate
+22892,Yallambie,2025-07-01,2026-06-30,1.0,87.0,19.0,46.0,unverified_area_candidate
+22898,Yan Yean,2025-07-01,2026-06-30,1.0,42.0,6.0,17.0,unverified_area_candidate
+22906,Yannathan,2025-07-01,2026-06-30,1.0,10.0,1.0,7.0,unverified_area_candidate
+22910,Yarra Glen,2025-07-01,2026-06-30,1.0,110.0,16.0,59.0,unverified_area_candidate
+22911,Yarra Junction,2025-07-01,2026-06-30,1.0,179.0,51.0,52.0,unverified_area_candidate
+22916,Yarrambat,2025-07-01,2026-06-30,1.0,101.0,9.0,33.0,unverified_area_candidate
+22917,Yarraville,2025-07-01,2026-06-30,1.0,1138.0,140.0,819.0,unverified_area_candidate
+22925,Yellingbo,2025-07-01,2026-06-30,1.0,14.0,2.0,11.0,unverified_area_candidate
+22930,Yering,2025-07-01,2026-06-30,1.0,10.0,2.0,3.0,unverified_area_candidate
+22941,Yuroke,2025-07-01,2026-06-30,1.0,26.0,4.0,18.0,unverified_area_candidate
+20207,Bend Of Islands,,2026-06-30,,,,,no_candidate_coverage
+22531,Tonimbuk,,2026-06-30,,,,,no_candidate_coverage
+20995,Gilderoy,,2026-06-30,,,,,no_candidate_coverage
